@@ -7,7 +7,7 @@ import namco
 import textwrap
 from pprint import pprint
 
-scenes_glob = ["scripts/namcohigh/scenes/*.xml",]
+scenes_glob = ["scripts/namcohigh/scenes/s_day0.xml",]
 
 def fixname(char):
     fixes = {
@@ -61,7 +61,7 @@ def convertFile(scene_file):
         # print(tag.name)
         if tag.name == "scene":
             scene = namco.Scene.fromTag(tag)
-            print(scene)
+            # print(scene)
             with open(f"game/rpy/{scene.id}.rpy", "w", encoding="utf-8") as rpyfile:
                 rpyfile.write(scene.toRpy())
         else:
