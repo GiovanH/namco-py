@@ -1,6 +1,8 @@
 # Ripped from js
 
-define t_ch_cousin = Character("[slot__playerName]")
+define t_ch_tutorial = Character()
+
+define t_ch_cousin = Character("[slot.playerName]")
 define t_ch_aki = Character("Aki")
 define t_ch_albatros = Character("Al. B. Tross")
 define t_ch_albatross = Character("Albatross")
@@ -68,3 +70,6 @@ define t_ch_announcer = Character("Announcer")
 define t_ch_narrator = Character("Narrator")
 
 # define scene = renpy.Store()
+
+image i_sw_black = "images/swatch_black.png"
+image i_sw_white = "images/swatch_white.png"

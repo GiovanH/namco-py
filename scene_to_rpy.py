@@ -7,7 +7,7 @@ import namco
 import textwrap
 from pprint import pprint
 
-scenes_glob = ["scripts/namcohigh/scenes/s_day0.xml",]
+scenes_glob = ["scripts/namcohigh/scenes/s_intro.xml", "scripts/namcohigh/scenes/s_day0.xml",]
 
 def fixname(char):
     fixes = {
@@ -33,7 +33,7 @@ def makeBackgrounds():
 
 def makeCharacters():
     os.makedirs("game/rpy/portrait", exist_ok=True)
-    for folder in glob.glob(f"images/namcohigh/portrait/*"):
+    for folder in glob.glob(f"images/game/portrait/*"):
         char_name = os.path.split(folder)[1]
         fixed_name = fixname(char_name)
         with open(f"game/rpy/portrait/{char_name}.rpy", "w") as rpy_file:
