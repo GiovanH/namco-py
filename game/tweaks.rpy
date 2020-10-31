@@ -2,7 +2,7 @@
 
 define t_ch_tutorial = Character()
 
-define t_ch_cousin = Character("[slot.playerName]")
+define t_ch_cousin = Character("[st_slot.playerName]")
 define t_ch_aki = Character("Aki")
 define t_ch_albatros = Character("Al. B. Tross")
 define t_ch_albatross = Character("Albatross")

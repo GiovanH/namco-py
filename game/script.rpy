@@ -2,16 +2,26 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
-define slot = renpy.python.StoreModule({})
+init python in st_slot:
+    pass
 
 # The game starts here.
 
 label start:
 
-    # Enter name.
+    # Enter name:
 
-    $ slot.playerName = renpy.input("prompt", default='Cousin')
+    $ st_slot.playerName = renpy.input("Enter name:", default='Cousin')
 
-    # You are enrolling as Name. Is that correct?
+    menu:
+        "You are enrolling as [st_slot.playerName]. Is that correct?"
+
+        "Yes":
+            jump s_intro
+
+        "No":
+            jump start
+
+    # todo yes/no
 
     jump s_intro

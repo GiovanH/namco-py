@@ -43,7 +43,8 @@ TextStore = {
     "@t_ui_nameError": "Your name must be between 2 and 18 letters long",
     "@t_ui_tryAgainSmartbutt": "Try again, smartbutt",
     "@t_com00.00": "Thank you students for saving me! I thought I was a goner!",
-    "@t_com01.00": "Thank: YOU: Pac-Man. We were only able to do it, because we were true to ourselves!"
+    "@t_com01.00": "Thank: YOU: Pac-Man. We were only able to do it, because we were true to ourselves!",
+    "t_cousin5_choice0": "Don't associate with anyone..."
 }
 
 # TODO: Two sets of character ids, here?

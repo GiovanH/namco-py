@@ -130,13 +130,13 @@ style namebox is default
 style namebox_label is say_label
 
 
-style window:
-    xalign 0.5
-    xfill True
-    yalign gui.textbox_yalign
-    ysize gui.textbox_height
+# style window:
+    # xalign 0.5
+    # xfill True
+    # yalign gui.textbox_yalign
+    # ysize gui.textbox_height
 
-    background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
+    # background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
     xpos gui.name_xpos
@@ -149,16 +149,22 @@ style namebox:
     padding gui.namebox_borders.padding
 
 style say_label:
-    properties gui.text_properties("name", accent=True)
-    xalign gui.name_xalign
+    properties gui.text_properties("name")
+    xsize 850
     yalign 0.5
+
+    color "#fff"
+    bold True
+    size 30
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
-
     xpos gui.dialogue_xpos
-    xsize gui.dialogue_width
+    xsize 850
+
     ypos gui.dialogue_ypos
+    color "#eee"
+    size 32
 
 
 ## Input screen ################################################################
@@ -352,31 +358,55 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
+
+style namcohigh_button:
+    background Frame("gui/buttonframe.png", 14, 14)
+    hover_background Frame("gui/buttonframeh.png", 14, 14)
+    padding (14, 14)
+
+style namcohigh_button_text:
+    color "#fff"
+    hover_color "#E11E28"
+    xalign 0.5
+    bold True
+
+style main_menu_column_window:
+    background Solid("#fff")
+    padding (10, 10)
+
+style main_menu_column_button is namcohigh_button:
+    xfill True
+style main_menu_column_button_text is namcohigh_button_text
+
+define config.main_menu_music = "bgm/namcotheme.ogg"
+
 screen main_menu():
+
+    # TODO Credits screens, search "TitleCard"
 
     ## This ensures that any other menu screen is replaced.
     tag menu
 
     style_prefix "main_menu"
 
-    add gui.main_menu_background
-
-    ## This empty frame darkens the main menu.
-    frame:
-        pass
-
-    ## The use statement includes another screen inside this one. The actual
-    ## contents of the main menu are in the navigation screen.
-    use navigation
-
-    if gui.show_name:
-
+    add "bg/school_front.jpg"
+    
+    window:
+        xsize 420
+        xalign 0.5
+        yalign 0.5
+        style_prefix "main_menu_column"
+        # vbox:
         vbox:
-            text "[config.name!t]":
-                style "main_menu_title"
+            spacing 15
+            add scaleBestFit("ui/logo_namcohigh.png", 400, 400)
+            null xsize 15
+            textbutton _("NEW GAME") action Start()
+            textbutton _("CONTINUE") action ShowMenu("load")
+            textbutton _("OPTIONS") action ShowMenu("preferences")
+            textbutton _("CREDITS") action ShowMenu("about")
 
-            text "[config.version]":
-                style "main_menu_version"
+
 
 
 style main_menu_frame is empty
@@ -1439,7 +1469,7 @@ screen quick_menu():
 
 style window:
     variant "small"
-    background "gui/phone/textbox.png"
+    # background "gui/phone/textbox.png"
 
 style radio_button:
     variant "small"
