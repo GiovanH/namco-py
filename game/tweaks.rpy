@@ -2,16 +2,22 @@
 
 define t_ch_tutorial = Character()
 
-define t_ch_cousin = Character("[st_slot.playerName]")
+define t_ch_cousin = Character("[st_slot.playerName]", who_color="#FFF865", what_color="#FFF865")
+define t_ch_davesprite = Character("Davesprite", who_color="#f2a400", what_color="#f2a400", screen="say_homestuck")
+define t_ch_terezi = Character("Terezi", who_color="#008282", what_color="#008282", screen="say_homestuck")
+define t_ch_jane = Character("Jane", who_color="#00d5f2", what_color="#00d5f2", screen="say_homestuck")
+
+
+
+
+
 define t_ch_aki = Character("Aki")
 define t_ch_albatros = Character("Al. B. Tross")
 define t_ch_albatross = Character("Albatross")
 define t_ch_antibravo = Character("Anti-Bravoman")
-define t_ch_davesprite = Character("Davesprite")
 define t_ch_donko = Character("Donko")
 define t_ch_galaga = Character("Galaga")
 define t_ch_hiromi = Character("Hiromi")
-define t_ch_jane = Character("Jane")
 define t_ch_lolo = Character("Lolo")
 define t_ch_max = Character("Blue Max")
 define t_ch_meowkie = Character("Meowkie")
@@ -19,7 +25,6 @@ define t_ch_mrdriller = Character("Mr. Driller")
 define t_ch_nidia = Character("Nidia")
 define t_ch_richard = Character("Richard Miller")
 define t_ch_taira = Character("Taira")
-define t_ch_terezi = Character("Terezi")
 define t_ch_toby = Character("Toby")
 define t_ch_tomari = Character("Tomari")
 define t_ch_valkyrie = Character("Valkyrie")

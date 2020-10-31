@@ -4,21 +4,37 @@ import collections
 import nc_hardcoded
 from bs4 import NavigableString
 from pprint import pprint
+from types import GeneratorType
+
+
+pathsep = "_"
+sceneid = ""
+
+
 
 TextStore = nc_hardcoded.TextStore.copy()
 ActorPrevStore = collections.defaultdict(default=None)
 JumpLabelStore = []
 unhandled_attrs = collections.defaultdict(set)
-from types import GeneratorType
-
+ActorIsFlipped = collections.defaultdict(default=False)
+last_image_for_tag = {}
 AllStores = set()
 
-pathsep = "_"
-sceneid = ""
+def init():
+    global ActorIsFlipped
+    global AllStores
+    global JumpLabelStore
+    global ActorPrevStore
+    global TextStore
+    global last_image_for_tag
 
-last_image_for_tag = {}
-
-ActorIsFlipped = collections.defaultdict(default=False)
+    TextStore = nc_hardcoded.TextStore.copy()
+    ActorPrevStore = collections.defaultdict(default=None)
+    JumpLabelStore = []
+    unhandled_attrs = collections.defaultdict(set)
+    ActorIsFlipped = collections.defaultdict(default=False)
+    last_image_for_tag = {}
+    AllStores = set()
 
 # First, nodes are made and initialized.
 # Then, Scene calls Preprocess, which assigns parents to nodes
@@ -72,11 +88,14 @@ def toPyValue(value):
     elif value == "true":
         return True
     else:
-        return value
+        try:
+            return int(value)
+        except:
+            return value
 
 def getStoreVarName(storeName, varName):
     AllStores.add(storeName)
-    return f"st_{storeName}.{varName}"
+    return f"st_{storeName}['{varName}']"
 
 def findNode(nodes, **kwargs):
     for n in nodes:
@@ -173,15 +192,15 @@ class NoScript(Node):
         return f"# Pass ({self.kind})\n"
 
 class NodeContainer(Node):
-    def toRpy(self):
+    def toRpy(self, prefix=""):
         if not self.label:
             return NodeBody.toRpy(self)
-        return f"# <{self.__class__.__name__} {self.attrs} {self.kind} '{self.text}'>\nlabel {self.label}:\n" + textwrap.indent(NodeBody.toRpy(self), "    ")
+        return f"# <{self.__class__.__name__} {self.attrs} {self.kind} '{self.text}'>\nlabel {self.label}:\n" + textwrap.indent(NodeBody.toRpy(self, prefix=prefix), "    ")
 
 
 def resolveAtl(atl):
     actor_id = atl['actor_id']
-    atl_statements = atl['lines']
+    atl_statements = atl.get('lines', [])
 
     if not last_image_for_tag.get(actor_id):
         atl['create'] = True
@@ -202,12 +221,18 @@ def resolveAtl(atl):
 
     if atl_statements:
         statement += ":\n" + textwrap.indent("\n".join(atl_statements), "    ")
+
+    if atl.get("with"):
+        statement += "\nwith " + atl.get("with")
+
     return statement
 
 
 class NodeBody(Node):
-    def toRpy(self):
+    def toRpy(self, prefix=""):
         lines = []
+        if prefix:
+            lines.append(prefix)
         if self.attrs or self.text:
             lines.append(f"# <{self.__class__.__name__} {self.attrs} {self.kind} '{self.text}'>)")
         
@@ -230,15 +255,21 @@ class NodeBody(Node):
                 for atl in atls:
                     if atl_buffer:
                         assert atl_buffer['actor_id'] == atl['actor_id']
-                        atl_buffer['lines'] += atl['lines']
+                        atl_buffer['lines'] += atl.get('lines', [])
 
                         if atl.get("image"):
-                            assert not atl_buffer.get("image")
+                            if atl_buffer.get("image"):
+                                lines.append(resolveAtl(atl_buffer))
+                                lines.append("$ renpy.pause()")
+                                atl_buffer = atl
+                                atl_buffer['lines'] = atl.get('lines', [])
+
                             target = slugify(atl.get("image"))
                             last_image_for_tag[actor_id] = target
                             atl_buffer['image'] = target
                     else:
                         atl_buffer = atl
+                        atl_buffer['lines'] = atl.get('lines', [])
                 # print(atl_buffer)
                 lines.append(resolveAtl(atl_buffer))
 
@@ -266,21 +297,24 @@ class ATLSource(Node):
 
 class Scene(NodeContainer, Node):
     def __init__(self, *args, **kwargs):
+        init()
         super().__init__(*args, **kwargs)
         self.preprocess()
         print("Scene", self.name, "processed!")
 
     def process(self):
-        self.label = self.attrs.pop("id").replace('.', '_')
+        self.label = slugify(self.attrs.pop("id"))
         self.name = self.label
         global sceneid
         sceneid = self.label
 
     def makeExtraLines(self):
         extra_lines = []
+        # extra_lines.append("init -1 python:\n    from types import SimpleNamespace\n")
         for store_name in AllStores:
             #extra_lines .append(f"define {store_name} =" + " renpy.python.StoreModule({})\n")
-            extra_lines.append(f"init python in st_{store_name}:\n    pass\n\n")
+            extra_lines.append(f"define st_{store_name} = " + "{}")
+        extra_lines.append("")
         return extra_lines
 
     def toRpy(self):
@@ -288,7 +322,7 @@ class Scene(NodeContainer, Node):
         if unhandled_attrs:
             print("Unhandled attributes:")
             pprint(unhandled_attrs)
-        return "\n".join(extra_lines) + NodeContainer.toRpy(self)
+        return "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix="scene\nstop music\n")
         
 class Assets(NoScript, Node):
     pass  # Assets are handled when parsed
@@ -406,18 +440,9 @@ class ActorCrossfade(ATLSource, Node):
         target = self.attrs.pop("target")
         image = slugify(self.attrs.pop("image"))
 
-        yield {
+        return {
             "actor_id": target,
-            "lines": ["# crossfade 1", f"alpha 0.0"],
-            "duration": fadedur,
-
-        }
-
-        yield {
-            "actor_id": target,
-            "image": image,
-            "lines": ["# crossfade 2", f"alpha 1.0"],
-            "duration": fadedur
+            "with": f"Dissolve({fadedur})"
         }
 
 
@@ -498,7 +523,7 @@ class ActorFlip(ATLSource, Node):
             "lines": [f"{flip_transform}({self.atlattrs})"]
         }
 
-class ActorImage(Node):
+class ActorImage(ATLSource, Node):
     # or "ImageShortcut"
     # I THINK this means 
     # Set actor <actor>'s image to <image>
@@ -510,14 +535,11 @@ class ActorImage(Node):
         self.auto = toPyValue(self.attrs.get('auto', False))
         self.delay = self.attrs.get('delay', 0)
 
-    def toRpy(self):
-        lines = []
-        if self.delay:
-            lines.append(f"$ renpy.pause({self.delay})")
-        last_image_for_tag[self.actor] = self.image
-        lines.append(f"show {self.image} as {self.actor}")
-        return "\n".join(lines)
-
+    def getAtl(self):
+        return {
+            "actor_id": self.actor,
+            "image": self.image,
+        }
 
 class ActorMove(ATLSource, Node):
     def getAtl(self):
@@ -632,24 +654,22 @@ class ExplorationMacro(NodeContainer, Node):
         lines.append(f'        jump {target}')
         return "\n".join(lines)
 
-class FadeEvent(Node):
-    def toRpy(self):
+class FadeEvent(ATLSource, Node):
+    def getAtl(self):
         actor_id = self.attrs.pop('target')
-        target = last_image_for_tag[actor_id]
-
-        statement = f"show {target}"
-        statement += f" as {actor_id}"
+        target_opacity = float(self.attrs.pop('to'))
 
         atl_statement = []
         if 'duration' in self.attrs:
             duration = float(self.attrs.pop('duration'))
             if duration > 0:
-                atl_statement.append(f"linear {float()}")
-        atl_statement.append(f"alpha {duration}")
-        if atl_statement:
-            statement += ":\n" + textwrap.indent(" ".join(atl_statement), "    ")
+                atl_statement.append(f"linear {float(duration)}")
+        atl_statement.append(f"alpha {target_opacity}")
 
-        return statement
+        return {
+            "actor_id": actor_id,
+            "lines": ["# FadeEvent", " ".join(atl_statement)]
+        }
 
 class GameOver(Node):
     def toRpy(self):
@@ -658,48 +678,48 @@ class GameOver(Node):
 class HardSwap(Node):
     pass
 
+def jsExprToPy(value):
+    value2 = textToRpyInterp(value)
+    value2 = re.sub(r"^\[(.+)\]$", r"\g<1>", value2)
+    value2 = re.sub(r"(st_[^.]+)\.([A-Za-z0-9_]+)", r"\g<1>['\g<2>']", value2)
+    assert "$" not in value2, (value, value2)
+    assert "." not in value2, (value, value2)
+    return value2
+
 class IfExpr(NodeContainer, Node):
     def toRpy(self):
         return f"if {self.expr}:\n" + textwrap.indent(NodeContainer.toRpy(self), "    ")
 
 class IfEqual(IfExpr, Node):
     def process(self):
-        lvalue = textToRpyInterp(self.attrs.pop('lvalue'))
-        lvalue = re.sub(r"^\[(.+)\]$", r"\g<1>", lvalue)
-        rvalue = textToRpyInterp(self.attrs.pop('rvalue'))
-        rvalue = re.sub(r"^\[(.+)\]$", r"\g<1>", rvalue)
+        lvalue = jsExprToPy(self.attrs.pop('lvalue'))
+        rvalue = jsExprToPy(self.attrs.pop('rvalue'))
         self.expr = f"{lvalue} == {rvalue}"
         self.label = self.getLabel() + pathsep + self.attrs.pop('name')
 
 class IfFalse(IfExpr, Node):
     def process(self):
-        value = textToRpyInterp(self.attrs.pop('value'))
-        value = re.sub(r"^\[(.+)\]$", r"\g<1>", value)
+        value = jsExprToPy(self.attrs.pop('value'))
         self.expr = f"not {value}"
         self.label = self.getLabel() + pathsep + self.attrs.pop('name')
 
 class IfGTE(IfExpr, Node):
     def process(self):
-        lvalue = textToRpyInterp(self.attrs.pop('lvalue'))
-        lvalue = re.sub(r"^\[(.+)\]$", r"\g<1>", lvalue)
-        rvalue = textToRpyInterp(self.attrs.pop('rvalue'))
-        rvalue = re.sub(r"^\[(.+)\]$", r"\g<1>", rvalue)
+        lvalue = jsExprToPy(self.attrs.pop('lvalue'))
+        rvalue = jsExprToPy(self.attrs.pop('rvalue'))
         self.expr = f"{lvalue} >= {rvalue}"
         self.label = self.getLabel() + pathsep + self.attrs.pop('name')
 
 class IfLTE(IfExpr, Node):
     def process(self):
-        lvalue = textToRpyInterp(self.attrs.pop('lvalue'))
-        lvalue = re.sub(r"^\[(.+)\]$", r"\g<1>", lvalue)
-        rvalue = textToRpyInterp(self.attrs.pop('rvalue'))
-        rvalue = re.sub(r"^\[(.+)\]$", r"\g<1>", rvalue)
+        lvalue = jsExprToPy(self.attrs.pop('lvalue'))
+        rvalue = jsExprToPy(self.attrs.pop('rvalue'))
         self.expr = f"{lvalue} <= {rvalue}"
         self.label = self.getLabel() + pathsep + self.attrs.pop('name')
 
 class IfTrue(IfExpr, Node):
     def process(self):
-        value = textToRpyInterp(self.attrs.pop('value'))
-        value = re.sub(r"^\[(.+)\]$", r"\g<1>", value)
+        value = jsExprToPy(self.attrs.pop('value'))
         self.expr = value
         self.label = self.getLabel() + pathsep + self.attrs.pop('name')
 
@@ -709,9 +729,6 @@ class JumpEvent(Node):
 
     def toRpy(self):
         return f"jump {self.jumplabel}"
-
-class LockoutChoice(Node):
-    pass
 
 class Macro(NodeContainer, Node):
     def process(self):
@@ -732,16 +749,18 @@ class ParallelEvent(NodeBody, Node):
     # Or "DiscreteEvent"
     # Seems to just be a bunch of logic for interrupts?
     def process(self):
+        if self.attrs.get("name", "").startswith("day0"):
+            print(self)
         if 'name' in self.attrs and not self.attrs['name'].startswith("_"):
-            self.label = self.getLabel() + pathsep + self.attrs.pop('name')
+            self.label = self.getLabel() + pathsep + slugify(self.attrs.pop('name'))
         else:
             self.label = None
 
     def toRpy(self):
         if self.label:
-            return NodeBody.toRpy(self)  #  + '\nextend ""'
-        else:
             return NodeContainer.toRpy(self)  #  + '\nextend ""'
+        else:
+            return NodeBody.toRpy(self)  #  + '\nextend ""'
 
 class Transitions(Node):
     pass
@@ -750,13 +769,19 @@ class Styles(Node):
     pass
 
 class SettingChange(Node):
-    pass
+    def toRpy(self):
+        lines = []
+
+        # TODO scene attributes
+
+        lines.append(NodeBody.toRpy(self))
+        return "\n".join(lines)
 
 class SilhouetteMacro(Node):
     def toRpy(self):
         lines = []
 
-        lines.append("# Start SilhouetteMacro")
+        lines.append("# Start SilhouetteMacro TODO CHECK ATL GROUPING!!!")
         # Fade out last actor
         lastActor = self.attrs.pop('lastActor', None)
         fadedur = self.attrs.pop('fadeTime', 0.5)
@@ -857,9 +882,9 @@ class TextAsset(NoScript, Node):
 
 class TextEvent(Node):
     def process(self):
-        self.text = self.attrs.pop('text', None)
-        if self.text:
-            self.text = re.sub(r"(\@[^ ]+)", lambda m: TextStore[m.group(1)], self.text)
+        self.textkey = self.attrs.pop('text', None)
+        if self.textkey:
+            self.text = re.sub(r"(\@[^ ]+)", lambda m: TextStore[m.group(1)], self.textkey)
         self.char = self.attrs.pop('char', None)  # re.sub(r"\@([^ ]+)", lambda m: TextStore[m.group(1)], self.attrs['char'])
 
         # todo
@@ -870,13 +895,20 @@ class TextEvent(Node):
         # self.letter_delay = self.attrs.pop('letterDelay', None)
 
     def toRpy(self):
-        if not self.char or self.text is None:
+        if not self.char or self.textkey is None:
             return "# Blank text event"
+        printtext = textToRpyInterp(self.text)
+
+        transform = self.attrs.pop('transform', None)
+        if transform == "terezi":
+            for pattern, repl in [(c, "413"[i]) for i, c in enumerate("AIE")]:
+                printtext = re.sub(pattern, repl, printtext)
+
         nw = "" # ""{nw}" if self.attrs.get('auto') else ""
         if self.extend:
-            return f'extend " {textToRpyInterp(self.text)}{nw}"'
+            return f'extend " {printtext}{nw}" # {self.textkey}'
         else:
-            return f'{fixname(self.char)} "{textToRpyInterp(self.text)}{nw}"'
+            return f'{fixname(self.char)} "{printtext}{nw}" # {self.textkey}'
 
 
 class VarEnsure(Node):
@@ -887,7 +919,7 @@ class VarEnsure(Node):
         AllStores.add(self.storeName)
 
     def toRpy(self):
-        return f'$ if not {self.storeName}.__dict__.get({self.varName!r}): {getStoreVarName(self.storeName, self.varName)} = {self.value!r}'
+        return f'$ if not st_{self.storeName}.get({self.varName!r}): {getStoreVarName(self.storeName, self.varName)} = {self.value!r}'
 
 
 class VarInc(Node):
@@ -931,6 +963,10 @@ class YesNoChoice(Node):
         lines.append(f'    "{no_text}":')
         lines.append(f'        $ st_{self.store_name}.{self.var_name} = False')
         return "\n".join(lines)
+
+
+class LockoutChoice(YesNoChoice):
+    pass
 
 class Value(Node):
     pass

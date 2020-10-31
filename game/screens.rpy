@@ -4,6 +4,25 @@
 
 init offset = -1
 
+style namcohigh_button:
+    background Frame("gui/buttonframeh.png", 14, 14)
+    hover_background Frame("gui/buttonframe.png", 14, 14)
+    padding (14, 14)
+
+style namcohigh_button_text:
+    hover_color "#fff"
+    color "#E11E28"
+    xalign 0.5
+    bold True
+
+style namcohigh_antibutton:
+    background Frame("gui/buttonframe.png", 14, 14)
+    hover_background Frame("gui/buttonframeh.png", 14, 14)
+    padding (14, 14)
+
+style namcohigh_antibutton_text is namcohigh_button_text:
+    hover_color "#E11E28"
+    color "#fff"
 
 ################################################################################
 ## Styles
@@ -100,22 +119,60 @@ screen say(who, what):
 
     window:
         id "window"
+        background "gui/textbox.png"
+        xsize 1000
+        xalign 0.5
+        yalign 1.0
 
-        if who is not None:
+        ysize 144
 
-            window:
-                id "namebox"
-                style "namebox"
-                text who id "who"
+        window:
+            xalign 0.5
+            xsize 880
+            top_padding 10
+            xpadding 5
 
-        text what id "what"
+            vbox:
+                if who is not None:
+                    $ whot = who.upper()
+                    text whot id "who" 
+                viewport id "sayvp":
+                #window:
+                    # TODO: 3+ Long lines at once can break this!
+                    ymaximum 80
+                    # scrollbars "vertical"
+                    yinitial 1.0
+                    text what id "what" yalign 1.0
 
+screen say_homestuck(who, what):
+    style_prefix "say"
 
-    ## If there's a side image, display it above the text. Do not display on the
-    ## phone variant - there's no room.
-    if not renpy.variant("small"):
-        add SideImage() xalign 0.0 yalign 1.0
+    window:
+        id "window"
+        background "gui/textboxhs.png"
+        xsize 1000
+        xalign 0.5
+        yalign 1.0
 
+        ysize 144
+
+        window:
+            xalign 0.5
+            xsize 880
+            top_padding 10
+            xpadding 5
+
+            vbox:
+                if who is not None:
+                    $ whot = who.upper()
+                    text whot id "who" font "courbd.ttf" bold False size 32
+                viewport id "sayvp":
+                #window:
+                    # TODO: 3+ Long lines at once can break this!
+                    ymaximum 80
+                    # scrollbars "vertical"
+                    yinitial 1.0
+                    text what id "what" yalign 1.0 font "courbd.ttf"
 
 ## Make the namebox available for styling through the Character object.
 init python:
@@ -129,42 +186,14 @@ style say_thought is say_dialogue
 style namebox is default
 style namebox_label is say_label
 
-
-# style window:
-    # xalign 0.5
-    # xfill True
-    # yalign gui.textbox_yalign
-    # ysize gui.textbox_height
-
-    # background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
-
-style namebox:
-    xpos gui.name_xpos
-    xanchor gui.name_xalign
-    xsize gui.namebox_width
-    ypos gui.name_ypos
-    ysize gui.namebox_height
-
-    background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
-    padding gui.namebox_borders.padding
-
 style say_label:
-    properties gui.text_properties("name")
-    xsize 850
-    yalign 0.5
-
     color "#fff"
     bold True
     size 30
 
 style say_dialogue:
-    properties gui.text_properties("dialogue")
-    xpos gui.dialogue_xpos
-    xsize 850
-
-    ypos gui.dialogue_ypos
     color "#eee"
-    size 32
+    size 30
 
 
 ## Input screen ################################################################
@@ -215,17 +244,33 @@ screen choice(items):
 
     vbox:
         for i in items:
-            textbutton i.caption action i.action
+            textbutton i.caption action i.action 
 
 
 ## When this is true, menu captions will be spoken by the narrator. When false,
 ## menu captions will be displayed as empty buttons.
 define config.narrator_menu = True
 
+screen ChoiceExploration(items):
+    style_prefix "choice"
+
+    vpgrid:
+        cols 2
+        xalign 0.5
+        yalign 0.5
+        spacing 4
+
+        for i in items:
+            textbutton i.caption:
+                action i.action
+                xminimum 400
 
 style choice_vbox is vbox
-style choice_button is button
-style choice_button_text is button_text
+style choice_button is namcohigh_button:
+    xminimum 400
+
+style choice_button_text is namcohigh_button_text:
+    xalign 0.5
 
 style choice_vbox:
     xalign 0.5
@@ -234,11 +279,11 @@ style choice_vbox:
 
     spacing gui.choice_spacing
 
-style choice_button is default:
-    properties gui.button_properties("choice_button")
+# style choice_button is default:
+#     properties gui.button_properties("choice_button")
 
-style choice_button_text is default:
-    properties gui.button_text_properties("choice_button")
+# style choice_button_text is default:
+#     properties gui.button_text_properties("choice_button")
 
 
 ## Quick Menu screen ###########################################################
@@ -359,24 +404,14 @@ style navigation_button_text:
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 
 
-style namcohigh_button:
-    background Frame("gui/buttonframe.png", 14, 14)
-    hover_background Frame("gui/buttonframeh.png", 14, 14)
-    padding (14, 14)
-
-style namcohigh_button_text:
-    color "#fff"
-    hover_color "#E11E28"
-    xalign 0.5
-    bold True
 
 style main_menu_column_window:
     background Solid("#fff")
     padding (10, 10)
 
-style main_menu_column_button is namcohigh_button:
+style main_menu_column_button is namcohigh_antibutton:
     xfill True
-style main_menu_column_button_text is namcohigh_button_text
+style main_menu_column_button_text is namcohigh_antibutton_text
 
 define config.main_menu_music = "bgm/namcotheme.ogg"
 

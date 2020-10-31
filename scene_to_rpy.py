@@ -3,11 +3,10 @@ import bs4
 import os
 import re
 import argparse
-import namco
 import textwrap
 from pprint import pprint
 
-scenes_glob = ["scripts/namcohigh/scenes/*.xml",]
+scenes_glob = ["scripts/namcohigh/scenes/s_intro*.xml", "scripts/namcohigh/scenes/s_*.xml",]
 
 def fixname(char):
     fixes = {
@@ -61,6 +60,7 @@ def convertFile(scene_file):
     for tag in xml.findAll(recursive=False):
         # print(tag.name)
         if tag.name == "scene":
+            import namco
             scene = namco.Scene.fromTag(tag)
             # print(scene)
             with open(f"game/rpy/{scene.id}.rpy", "w", encoding="utf-8") as rpyfile:
