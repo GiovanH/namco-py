@@ -11,7 +11,7 @@ init offset = -2
 init python:
     gui.init(1000, 750)
 
-
+$ preferences.text_cps = 80
 
 ################################################################################
 ## GUI Configuration Variables
