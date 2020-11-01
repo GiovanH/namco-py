@@ -193,7 +193,7 @@ style say_label:
 
 style say_dialogue:
     color "#eee"
-    size 30
+    size 24
 
 
 ## Input screen ################################################################
@@ -208,26 +208,33 @@ style say_dialogue:
 
 screen input(prompt):
     style_prefix "input"
+    default result = "Cousin"
 
     window:
+        align (0.5, 0.5)
+        background Frame("gui/buttonframeh.png", 14, 14)
+        padding (14, 14)
+        xsize 400
 
         vbox:
-            xalign gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
-            xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
-
+            xfill True
             text prompt style "input_prompt"
-            input id "input"
+            window:
+                align (0.5, 0.5)
+                background Frame("gui/buttonframeh.png", 14, 14)
+                padding (14, 14)
+                input value ScreenVariableInputValue("result") length 30
+            textbutton "OK" style "namcohigh_button" action Return(result) xalign 0.5
 
 style input_prompt is default
 
 style input_prompt:
-    xalign gui.dialogue_text_xalign
+    xalign 0.5
     properties gui.text_properties("input_prompt")
+    size 30
 
 style input:
-    xalign gui.dialogue_text_xalign
+    xalign 0.5
     xmaximum gui.dialogue_width
 
 
@@ -243,8 +250,10 @@ screen choice(items):
     style_prefix "choice"
 
     vbox:
+        xfill False
+        xalign 0.5
         for i in items:
-            textbutton i.caption action i.action 
+            textbutton i.caption action i.action xsize 400
 
 
 ## When this is true, menu captions will be spoken by the narrator. When false,
@@ -298,10 +307,10 @@ screen quick_menu():
 
     if quick_menu:
 
-        hbox:
+        vbox:
             style_prefix "quick"
 
-            xalign 0.5
+            xalign 1.0
             yalign 1.0
 
             textbutton _("Back") action Rollback()
@@ -309,8 +318,8 @@ screen quick_menu():
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
+            # textbutton _("Q.Save") action QuickSave()
+            # textbutton _("Q.Load") action QuickLoad()
             textbutton _("Prefs") action ShowMenu('preferences')
 
 

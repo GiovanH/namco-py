@@ -27,4 +27,10 @@ init -1 python:
         mw, mh, tw, th = map(float, [mw, mh, tw, th])
         factor = min(tw / mw, th / mh)
         print(image, th, mh, th/mh, tw, mw, tw/mw,  factor, mw*factor, mh*factor)
-        return im.FactorScale(image, width=factor, height=factor)
+        return im.FactorScale(image, width=factor, height=factor)init python:
+    
+
+    class NamcoChar(Character):
+        def __call__(self, what, *args, **kwargs):
+            print(Character, what, kwargs)
+            super(Character, self).__call__(what, *args, **kwargs)

@@ -6,11 +6,8 @@ from bs4 import NavigableString
 from pprint import pprint
 from types import GeneratorType
 
-
 pathsep = "_"
 sceneid = ""
-
-
 
 TextStore = nc_hardcoded.TextStore.copy()
 ActorPrevStore = collections.defaultdict(default=None)
@@ -19,6 +16,7 @@ unhandled_attrs = collections.defaultdict(set)
 ActorIsFlipped = collections.defaultdict(default=False)
 last_image_for_tag = {}
 AllStores = set()
+DefaultVars = []
 
 def init():
     global ActorIsFlipped
@@ -27,6 +25,8 @@ def init():
     global ActorPrevStore
     global TextStore
     global last_image_for_tag
+    global unhandled_attrs
+    global DefaultVars
 
     TextStore = nc_hardcoded.TextStore.copy()
     ActorPrevStore = collections.defaultdict(default=None)
@@ -35,6 +35,7 @@ def init():
     ActorIsFlipped = collections.defaultdict(default=False)
     last_image_for_tag = {}
     AllStores = set()
+    DefaultVars = []
 
 # First, nodes are made and initialized.
 # Then, Scene calls Preprocess, which assigns parents to nodes
@@ -72,7 +73,7 @@ def init():
 
 def textToRpyInterp(text):
     text = re.sub(r"([\\\"])", r"\\\g<1>", text)
-    text = re.sub(r"\${(.+?):(.+?)}", r"[st_\g<1>.\g<2>]", text)
+    text = re.sub(r"\${(.+?):(.+?)}", lambda m: f"[{getStoreVarName(m.group(1), m.group(2))}]", text)
     return text
 
 def fixname(char):
@@ -95,7 +96,10 @@ def toPyValue(value):
 
 def getStoreVarName(storeName, varName):
     AllStores.add(storeName)
-    return f"st_{storeName}['{varName}']"
+    if storeName == "game":
+        # DefaultVars.append(("persistent", varName, None))
+        return f"persistent.{varName}"
+    return f"{storeName}_{varName}"
 
 def findNode(nodes, **kwargs):
     for n in nodes:
@@ -109,7 +113,7 @@ def findNodes(nodes, **kwargs):
             yield n
 
 def p2f(x):
-    return float(x.strip('%'))/100
+    return float(x.strip('%')) / 100
 
 def getPrevLevel(node):
     named_parent = None
@@ -120,6 +124,102 @@ def getPrevLevel(node):
 def slugify(string):
     assert "/" not in string, string
     return string.replace("@", "").replace(".", "p")
+
+def jsExprToPy(value):
+    value2 = textToRpyInterp(value)
+    value2 = re.sub(r"^\[(.+)\]$", r"\g<1>", value2)
+    value2 = re.sub(r"(st_[^.]+)\.([A-Za-z0-9_]+)", r"\g<1>['\g<2>']", value2)
+    assert "$" not in value2, (value, value2)
+    # assert "." not in value2, (value, value2)
+    return value2
+
+def transformScaleX(factor, actor):
+    fl = float(factor)
+    if (fl == -1.0):
+        ActorIsFlipped[actor] = True
+    elif (fl == 1.0):
+        ActorIsFlipped[actor] = False
+    return f"xzoom {fl} # {factor} flipped={ActorIsFlipped.get(actor)}"
+
+
+transformation = {
+    "opacity": lambda a, i: f"alpha {float(a)} # {a}",
+    "delay": lambda a, i: f"pause {float(a)} # {a}",
+    "x": lambda a, i: f"xpos {0.5 + p2f(a)} # {a}",
+    "y": lambda a, i: f"ypos {0.5 + p2f(a)} # {a}",
+    "scaleX": transformScaleX,
+    "scaleY": lambda a, i: f"yzoom {float(a)} # {a}",
+}
+
+def resolveAtl(atl):
+    actor_id = atl['actor_id']
+    atl_statements = atl.get('lines', [])
+
+    if not last_image_for_tag.get(actor_id):
+        atl['create'] = True
+
+    if atl.get("image"):
+        target = slugify(atl.get("image"))
+        last_image_for_tag[actor_id] = target
+    else:
+        target = last_image_for_tag[actor_id]
+
+    statement = f"show {target}"
+    statement += f" as {actor_id}"
+
+    if atl.get("zorder"):
+        statement += f" zorder {atl['zorder']}"
+    if atl.get("create"):
+        statement += f" at default"
+
+    if atl_statements:
+        statement += ":\n" + textwrap.indent("\n".join(atl_statements), "    ")
+
+    if atl.get("with"):
+        statement += "\nwith " + atl.get("with")
+
+    return statement
+
+def toRpyInterp(interpolation):
+    return {
+        "linear": "linear",
+        "ease": "ease",
+        "ease-out": "easeout",
+        "ease-in": "easein",
+        "ease-in-out": "ease_expo"
+    }[interpolation]
+
+
+def showActorWithAtl(node, fields):
+    interpolation = toRpyInterp(node.attrs.get("ease", "linear"))  # ease-out
+    duration = node.attrs.pop("duration", 0.5)
+
+    atl_statements = ["# ShowWith"]
+    pause = 0
+
+    delay = node.attrs.pop("delay", 0)
+
+    target = node.attrs.pop('target')
+
+    if delay:
+        atl_statements.append(f"time {float(delay)} ")
+        pause += float(delay)
+
+    for style, value in list(node.attrs.items()):
+        if style in fields:
+            statement = f"{interpolation} {duration} " if duration and float(duration) > 0 else ""
+            statement += transformation[style](value, target)
+            atl_statements.append(statement)
+            pause += float(duration)
+            node.attrs.pop(style)
+
+    return {
+        "actor_id": target,
+        "lines": atl_statements,
+        "duration": pause,
+        "create": False
+    }
+
 
 # Abstract tree handlers
 
@@ -196,36 +296,6 @@ class NodeContainer(Node):
         if not self.label:
             return NodeBody.toRpy(self)
         return f"# <{self.__class__.__name__} {self.attrs} {self.kind} '{self.text}'>\nlabel {self.label}:\n" + textwrap.indent(NodeBody.toRpy(self, prefix=prefix), "    ")
-
-
-def resolveAtl(atl):
-    actor_id = atl['actor_id']
-    atl_statements = atl.get('lines', [])
-
-    if not last_image_for_tag.get(actor_id):
-        atl['create'] = True
-
-    if atl.get("image"):
-        target = slugify(atl.get("image"))
-        last_image_for_tag[actor_id] = target
-    else:
-        target = last_image_for_tag[actor_id]
-
-    statement = f"show {target}"
-    statement += f" as {actor_id}"
-
-    if atl.get("zorder"):
-        statement += f" zorder {atl['zorder']}"
-    if atl.get("create"):
-        statement += f" at default"
-
-    if atl_statements:
-        statement += ":\n" + textwrap.indent("\n".join(atl_statements), "    ")
-
-    if atl.get("with"):
-        statement += "\nwith " + atl.get("with")
-
-    return statement
 
 
 class NodeBody(Node):
@@ -312,17 +382,22 @@ class Scene(NodeContainer, Node):
         extra_lines = []
         # extra_lines.append("init -1 python:\n    from types import SimpleNamespace\n")
         for store_name in AllStores:
-            #extra_lines .append(f"define {store_name} =" + " renpy.python.StoreModule({})\n")
-            extra_lines.append(f"define st_{store_name} = " + "{}")
+            # extra_lines .append(f"define {store_name} =" + " renpy.python.StoreModule({})\n")
+            # extra_lines.append(f"define st_{store_name} = " + "{}")
+            pass
+        for (store_name, var_name, value) in DefaultVars:
+            extra_lines.append(f"define {getStoreVarName(store_name, var_name)} = {value}")
+
         extra_lines.append("")
         return extra_lines
 
     def toRpy(self):
         extra_lines = self.makeExtraLines()
+        ret = "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix="scene i_sw_black\nstop music\n")
         if unhandled_attrs:
             print("Unhandled attributes:")
             pprint(unhandled_attrs)
-        return "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix="scene\nstop music\n")
+        return ret
         
 class Assets(NoScript, Node):
     pass  # Assets are handled when parsed
@@ -330,24 +405,6 @@ class Assets(NoScript, Node):
 class Events(NodeBody, Node):
     pass  # Events is a plain container, doesn't have attrs.
     # TODO: Events can have strings in it?
-
-def transformScaleX(factor, actor):
-    fl = float(factor)
-    if (fl == -1.0):
-        ActorIsFlipped[actor] = True
-    elif (fl == 1.0):
-        ActorIsFlipped[actor] = False
-    return f"xzoom {fl} # {factor} flipped={ActorIsFlipped.get(actor)}"
-
-
-transformation = {
-    "opacity": lambda a, i: f"alpha {float(a)} # {a}",
-    "delay": lambda a, i: f"pause {float(a)} # {a}",
-    "x": lambda a, i: f"xpos 0.5 + {p2f(a)} # {a}",
-    "y": lambda a, i: f"ypos 0.5 + {p2f(a)} # {a}",
-    "scaleX": transformScaleX,
-    "scaleY": lambda a, i: f"yzoom {float(a)} # {a}",
-}
 
 
 class ActorEvent(ATLSource, Node):
@@ -403,15 +460,6 @@ class ActorEvent(ATLSource, Node):
                 "create": False
             }
 
-def toRpyInterp(interpolation):
-    return {
-        "linear": "linear",
-        "ease": "ease",
-        "ease-out": "easeout",
-        "ease-in": "easein",
-        "ease-in-out": "ease_expo"
-    }[interpolation]
-
 class ActorCreate(ATLSource, Node):
     # or "DOMImageCreate"
     # can contain <transition>s and <style>s
@@ -442,6 +490,7 @@ class ActorCrossfade(ATLSource, Node):
 
         return {
             "actor_id": target,
+            "image": image,
             "with": f"Dissolve({fadedur})"
         }
 
@@ -460,37 +509,6 @@ class ActorDestroy(Node):
     def toRpy(self):
         target = last_image_for_tag[self.attrs.pop('target')]
         return f"hide {target}"
-
-def showActorWithAtl(node, fields):
-    interpolation = toRpyInterp(node.attrs.get("ease", "linear"))  # ease-out
-    duration = node.attrs.pop("duration", 0.5)
-
-    atl_statements = ["# ShowWith"]
-    pause = 0
-
-    delay = node.attrs.pop("delay", 0)
-
-    target = node.attrs.pop('target')
-
-    if delay:
-        atl_statements.append(f"time {float(delay)} ")
-        pause += float(delay)
-
-    for style, value in list(node.attrs.items()):
-        if style in fields:
-            statement = f"{interpolation} {duration} " if duration and float(duration) > 0 else ""
-            statement += transformation[style](value, target)
-            atl_statements.append(statement)
-            pause += float(duration)
-            node.attrs.pop(style)
-
-    return {
-        "actor_id": target,
-        "lines": atl_statements,
-        "duration": pause,
-        "create": False
-    }
-
 
 
 class ActorFade(ATLSource, Node):
@@ -678,14 +696,6 @@ class GameOver(Node):
 class HardSwap(Node):
     pass
 
-def jsExprToPy(value):
-    value2 = textToRpyInterp(value)
-    value2 = re.sub(r"^\[(.+)\]$", r"\g<1>", value2)
-    value2 = re.sub(r"(st_[^.]+)\.([A-Za-z0-9_]+)", r"\g<1>['\g<2>']", value2)
-    assert "$" not in value2, (value, value2)
-    assert "." not in value2, (value, value2)
-    return value2
-
 class IfExpr(NodeContainer, Node):
     def toRpy(self):
         return f"if {self.expr}:\n" + textwrap.indent(NodeContainer.toRpy(self), "    ")
@@ -749,8 +759,6 @@ class ParallelEvent(NodeBody, Node):
     # Or "DiscreteEvent"
     # Seems to just be a bunch of logic for interrupts?
     def process(self):
-        if self.attrs.get("name", "").startswith("day0"):
-            print(self)
         if 'name' in self.attrs and not self.attrs['name'].startswith("_"):
             self.label = self.getLabel() + pathsep + slugify(self.attrs.pop('name'))
         else:
@@ -830,7 +838,7 @@ class SilhouetteMacro(Node):
 
         # Cousin move
 
-        scalex = (1.0 if p2f(cousinx) < 0 else -1.0)
+        scalex = self.attrs.pop('cousinScaleX')
 
         cousin_id = self.attrs.pop('cousinActor')
         lines.append(f"show {last_image_for_tag[cousin_id]} as {cousin_id}:  # SM1.5")
@@ -899,27 +907,28 @@ class TextEvent(Node):
             return "# Blank text event"
         printtext = textToRpyInterp(self.text)
 
-        transform = self.attrs.pop('transform', None)
-        if transform == "terezi":
-            for pattern, repl in [(c, "413"[i]) for i, c in enumerate("AIE")]:
-                printtext = re.sub(pattern, repl, printtext)
+        lines = []
+        for chunk in [printtext]:
+            transform = self.attrs.pop('transform', None)
+            if transform == "terezi":
+                for pattern, repl in [(c, "413"[i]) for i, c in enumerate("AIE")]:
+                    chunk = re.sub(pattern, repl, chunk)
 
-        nw = "" # ""{nw}" if self.attrs.get('auto') else ""
-        if self.extend:
-            return f'extend " {printtext}{nw}" # {self.textkey}'
-        else:
-            return f'{fixname(self.char)} "{printtext}{nw}" # {self.textkey}'
+            nw = "" # ""{nw}" if self.attrs.get('auto') else ""
+            if self.extend:
+                return f'extend " {chunk}{nw}" # {self.textkey}'
+            else:
+                return f'{fixname(self.char)} "{chunk}{nw}" # {self.textkey}'
+        return "\n".join(lines)
 
 
-class VarEnsure(Node):
+class VarEnsure(NoScript, Node):
     def process(self):
         self.storeName = self.attrs.pop('storeName')
         self.varName = self.attrs.pop('varName')
         self.value = toPyValue(self.attrs.pop('value'))
         AllStores.add(self.storeName)
-
-    def toRpy(self):
-        return f'$ if not st_{self.storeName}.get({self.varName!r}): {getStoreVarName(self.storeName, self.varName)} = {self.value!r}'
+        DefaultVars.append((self.storeName, self.varName, self.value))
 
 
 class VarInc(Node):
@@ -958,10 +967,13 @@ class YesNoChoice(Node):
         no_text = TextStore.get(self.no_text) or TextStore["@" + self.no_text]
 
         lines = ["menu:"]
+        if self.promptText:
+            promptText = TextStore.get(self.promptText) or TextStore["@" + self.promptText]
+            lines.append(f'    "{promptText}"\n')
         lines.append(f'    "{yes_text}":')
-        lines.append(f'        $ st_{self.store_name}.{self.var_name} = True')
+        lines.append(f'        $ {getStoreVarName(self.storeName, self.varName)} = True')
         lines.append(f'    "{no_text}":')
-        lines.append(f'        $ st_{self.store_name}.{self.var_name} = False')
+        lines.append(f'        $ {getStoreVarName(self.storeName, self.varName)} = False')
         return "\n".join(lines)
 
 
