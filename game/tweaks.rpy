@@ -1,6 +1,6 @@
 # Ripped from js
 
-define t_ch_tutorial = NamcoChar()
+define t_ch_tutorial = NamcoChar(what_xalign=0.5, what_bold=True)
 
 define t_ch_cousin = NamcoChar("[slot_playerName]", who_color="#FFF865", what_color="#FFF865")
 define t_ch_davesprite = NamcoChar("Davesprite", who_color="#f2a400", what_color="#f2a400", screen="say_homestuck")

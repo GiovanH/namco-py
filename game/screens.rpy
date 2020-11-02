@@ -119,30 +119,30 @@ screen say(who, what):
 
     window:
         id "window"
-        background "gui/textbox.png"
         xsize 1000
         xalign 0.5
         yalign 1.0
 
-        ysize 144
+        background Frame("gui/textbox.png", 0, 25)
+        yminimum 144
 
         window:
             xalign 0.5
             xsize 880
-            top_padding 10
-            xpadding 5
+            ypadding 10
+            xpadding 10
 
             vbox:
                 if who is not None:
                     $ whot = who.upper()
                     text whot id "who" 
-                viewport id "sayvp":
+                text what id "what" yalign 1.0
+               #  viewport id "sayvp":
                 #window:
                     # TODO: 3+ Long lines at once can break this!
-                    ymaximum 80
+                    # ymaximum 80
                     # scrollbars "vertical"
-                    yinitial 1.0
-                    text what id "what" yalign 1.0
+                 #    yinitial 1.0
 
 screen say_homestuck(who, what):
     style_prefix "say"
@@ -703,10 +703,11 @@ screen file_slots(title):
             grid gui.file_slot_cols gui.file_slot_rows:
                 style_prefix "slot"
 
-                xalign 0.5
-                yalign 0.5
+                xalign 0.45
+                yalign 0.35
 
                 spacing gui.slot_spacing
+
 
                 for i in range(gui.file_slot_cols * gui.file_slot_rows):
 
