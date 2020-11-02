@@ -12,10 +12,10 @@ sceneid = ""
 SHOW_UNHANDLED_ATTRS = False
 
 TextStore = nc_hardcoded.TextStore.copy()
-ActorPrevStore = collections.defaultdict(default=None)
+ActorPrevStore = collections.defaultdict(lambda: None)
 JumpLabelStore = []
 unhandled_attrs = collections.defaultdict(set)
-ActorIsFlipped = collections.defaultdict(default=False)
+ActorIsFlipped = collections.defaultdict(lambda: 1.0)
 last_image_for_tag = {}
 AllStores = set()
 DefaultVars = []
@@ -33,10 +33,10 @@ def init():
     global cps_mult
 
     TextStore = nc_hardcoded.TextStore.copy()
-    ActorPrevStore = collections.defaultdict(default=None)
+    ActorPrevStore = collections.defaultdict(lambda: None)
     JumpLabelStore = []
     unhandled_attrs = collections.defaultdict(set)
-    ActorIsFlipped = collections.defaultdict(default=False)
+    ActorIsFlipped = collections.defaultdict(lambda: 1.0)
     last_image_for_tag = {}
     AllStores = set()
     DefaultVars = []
@@ -48,6 +48,22 @@ def init():
 # Finally, you can call getRpy on Scene
 
 # Conversion
+
+# ParallelEvents execute their contents(?) in parallel
+# Need to time inner events (.duration prop?) and pause
+
+# Renpy executes everything in parallel
+# except for interactions
+# and with statements
+
+# Ideally we would make each interaction last a max time
+# separately from the interaction logic
+# Might be able to simulate this with renpy.pause?
+# If not we should pause when there's a block and no interact
+
+# Maybe look into how renpy interactions hook?
+# Maybe move text to the end of the block so
+# the interaction doesn't block animation?
 
 # ATL: Need to group statements so 
 
@@ -82,11 +98,7 @@ def textToRpyInterp(text):
     return text
 
 def fixname(char):
-    fixes = {
-        "t_ch_tutorial": "narrator",
-        # "max": "bluemax",
-    }
-    return fixes.get(char, char).replace("@", "")
+    return char.replace("@", "")
 
 def toPyValue(value):
     if value == "false":
@@ -140,11 +152,16 @@ def jsExprToPy(value):
 
 def transformScaleX(factor, actor):
     fl = float(factor)
-    if (fl == -1.0):
-        ActorIsFlipped[actor] = True
-    elif (fl == 1.0):
-        ActorIsFlipped[actor] = False
-    return f"xzoom {fl} # {factor} flipped={ActorIsFlipped.get(actor)}"
+    prev = ActorIsFlipped.get(actor, None)
+    ActorIsFlipped[actor] = fl
+
+    return f"xzoom {fl} # {factor} flipped {prev} -> {ActorIsFlipped.get(actor)}"
+
+
+def allChildrenR(node):
+    for c in node.children:
+        yield c
+        yield from allChildrenR(c)
 
 
 transformation = {
@@ -176,7 +193,10 @@ def resolveAtl(atl):
     if atl.get("zorder"):
         statement += f" zorder {atl['zorder']}"
     if atl.get("create"):
-        statement += f" at default"
+        if atl_statements:
+            atl_statements.insert(0, "default")
+        else:
+            statement += f" at default"
 
     if atl_statements:
         if not all(a.startswith("#") for a in atl_statements):
@@ -186,8 +206,8 @@ def resolveAtl(atl):
     if atl.get("with"):
         statement += "\nwith " + atl.get("with")
 
-    if duration > 0:
-        statement += f"\n# $ renpy.pause({duration})"
+    # if duration > 0:
+    #     statement += f"\n# $ renpy.pause({duration})"
 
     return statement
 
@@ -213,7 +233,7 @@ def showActorWithAtl(node, fields):
     target = node.attrs.pop('target')
 
     if delay:
-        atl_statements.append(f"time {float(delay)} ")
+        atl_statements.append(f"pause {float(delay)} ")
         pause += float(delay)
 
     for style, value in list(node.attrs.items()):
@@ -274,13 +294,16 @@ class Node():
                 children.append(Node.fromTag(child))
         return node_cls(tag.name, tag.attrs, children, text)
 
-    def __repr__(self):
+    def __repr__(self, short=True):
         selfr = f"<{self.__class__.__name__} {self.attrs} {self.kind} '{self.text}'>"
-        if self.children and False:
+        if self.children and not short:
             childrenstr = "\n".join(str(c) for c in self.children)
             return f"{selfr}\n  {textwrap.indent(childrenstr, '    ')}\n>"
         else:
             return selfr
+
+    def __str__(self):
+        return self.__repr__(short=False)
 
     def toRpy(self):
         print(self.__class__.__name__, "Unhandled")
@@ -322,8 +345,7 @@ class NodeBody(Node):
         lines = []
         if prefix:
             lines.append(prefix)
-        if not isinstance(self, (ParallelEvent, Events)):
-            lines.append(textwrap.indent(repr(self), '# '))
+        lines.append(textwrap.indent(repr(self), '# '))
         
         # Flatten macros
 
@@ -423,7 +445,7 @@ class Scene(NodeContainer, Node):
 
     def toRpy(self):
         extra_lines = self.makeExtraLines()
-        ret = "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix="scene i_sw_black\nstop music\n")
+        ret = "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix="scene i_sw_black with dissolve\nstop music fadeout\n")
         if unhandled_attrs and SHOW_UNHANDLED_ATTRS:
             print("Unhandled attributes:")
             pprint(unhandled_attrs)
@@ -433,8 +455,29 @@ class Assets(NoScript, Node):
     pass  # Assets are handled when parsed
 
 class Events(NodeBody, Node):
-    pass  # Events is a plain container, doesn't have attrs.
-    # TODO: Events can have strings in it?
+    def block(self, should_block):
+        # If we have a textevent, move it to the end of the list.
+        if any(isinstance(c, TextEvent) for c in self.children):
+            # if len(self.children) == 1:
+            #     return
+            i = 0
+            TextEvents = []
+            while i < len(self.children):
+                if isinstance(self.children[i], TextEvent):
+                    self.children[i].block = False
+                    TextEvents.append(self.children.pop(i))
+                else:
+                    i += 1
+            self.children += TextEvents
+            if should_block:
+                assert isinstance(self.children[-1], TextEvent)
+                self.children[-1].block = "LastEvent"
+            return
+        else:
+            # TODO: Pause for duration of inner animation.
+            # Extend w=x for better visuals?
+            if should_block:
+                self.children.append(Interaction("Interaction"))
 
 
 class ActorEvent(ATLSource, Node):
@@ -447,6 +490,7 @@ class ActorEvent(ATLSource, Node):
 
     def getAtl(self):
         transitiondur = self.attrs.pop("duration", 0)
+        delay = self.attrs.pop("delay", 0)
 
         for style in self.styles:
             
@@ -460,7 +504,8 @@ class ActorEvent(ATLSource, Node):
                 for prop, value in t.attrs.items():
                     if prop in ['kind']:
                         continue
-                    statement = f"{self.interpolation} {transitiondur} " if transitiondur else ""
+                    statement = f"pause {delay}\n" if delay else ""
+                    statement += f"{self.interpolation} {transitiondur} " if transitiondur else ""
                     statement += transformation[prop](value, self.actor_id)
                     atl_statements.append(statement)
 
@@ -479,13 +524,15 @@ class ActorEvent(ATLSource, Node):
             for prop, value in t.attrs.items():
                 if prop in ['kind']:
                     continue
-                statement = f"{self.interpolation} {transitiondur} " if transitiondur else ""
+                statement = f"pause {delay}\n" if delay else ""
+                statement += f"{self.interpolation} {transitiondur} " if transitiondur else ""
                 statement += transformation[prop](value, self.actor_id)
                 atl_statements.append(statement)
 
             return {
                 "actor_id": t.attrs.get("id", self.actor_id),
                 "zorder": t.attrs.get("depth"),
+                "delay": delay,
                 "lines": atl_statements,
                 "create": False
             }
@@ -537,7 +584,8 @@ class ActorDepth(ATLSource, Node):
 
 class ActorDestroy(Node):
     def toRpy(self):
-        target = last_image_for_tag[self.attrs.pop('target')]
+        target = self.attrs.pop('target')
+        # target#= last_image_for_tag[self.attrs.pop('target')]
         return f"hide {target}"
 
 
@@ -548,27 +596,28 @@ class ActorFade(ATLSource, Node):
 class ActorFlip(ATLSource, Node):
     def process(self):
         self.actor = self.attrs.pop('target')
-        self.atlattrs = {}
-        
-        for atr in ['duration', 'ease', 'delay']:
-            if self.attrs.get(atr):
-                val = self.attrs.pop(atr)
-                if atr == 'ease':
-                    self.atlattrs[atr] = toRpyInterp(val)
-                    continue
-                try:
-                    self.atlattrs[atr] = float(val)
-                except:
-                    self.atlattrs[atr] = val
-                
-        self.atlattrs = ", ".join(f"{k}={v}" for k, v in self.atlattrs.items())
+
+        self.interp = toRpyInterp(self.attrs.pop('ease', 'linear'))
+        self.duration = self.attrs.pop('duration', 0)
+        self.delay = self.attrs.pop('delay', 0)
 
     def getAtl(self):
-        flip_transform = "unflip" if ActorIsFlipped.get(self.actor) else "flip"
-        ActorIsFlipped[self.actor] = not ActorIsFlipped.get(self.actor)
+        prev = ActorIsFlipped[self.actor]
+        xzoom = prev * -1
+
+        lines = [f"# ActorFlip (from {prev})"]
+
+        if self.delay:
+            lines.append(f"pause {self.delay}")
+
+        statement = f"{self.interp} {self.duration} " if self.duration else ""
+        statement += transformScaleX(xzoom, self.actor)
+
+        lines.append(statement)
+
         return {
             "actor_id": self.actor,
-            "lines": [f"{flip_transform}({self.atlattrs})"]
+            "lines": lines
         }
 
 class ActorImage(ATLSource, Node):
@@ -694,7 +743,7 @@ class BadEndMacro(Node):
 
 class BattleMacro(NodeBody, Node):
     def toRpy(self):
-        return f"call BattleMacro({self.attrs.pop('partnerActor', None)})\n" + NodeBody.toRpy(self)
+        return f"call BattleMacro('{self.attrs.pop('partnerActor', None)}')\n" + NodeBody.toRpy(self)
     # def process(self):
 
 
@@ -861,6 +910,10 @@ class NHSceneChange(Node):
     def toRpy(self):
         return f"jump {self.jumplabel}"
 
+class Interaction(Node):
+    def toRpy(self):
+        return "extend ''"
+
 class ParallelEvent(NodeBody, Node):
     # Or "DiscreteEvent"
     # Seems to just be a bunch of logic for interrupts?
@@ -870,18 +923,22 @@ class ParallelEvent(NodeBody, Node):
         else:
             self.label = None
 
+        self.auto = self.attrs.pop("auto", False)
+
     def toRpy(self):
+        findNode(self.children, kind="events").block(not self.auto)
+
         if self.label:
-            return NodeContainer.toRpy(self)  #  + '\nextend ""'
+            return NodeContainer.toRpy(self)  # + '\nextend ""'
         else:
-            return NodeBody.toRpy(self)  #  + '\nextend ""'
+            return NodeBody.toRpy(self)  # + '\nextend ""'
 
 class Transitions(Node):
     pass
 
 class Styles(Node):
     def process(self):
-        assert self.kind == "styles" # capitalization...
+        assert self.kind == "styles"  # capitalization...
 
 class SettingChange(Node):
     def toRpy(self):
@@ -917,6 +974,9 @@ class SettingChange(Node):
 
 class SilhouetteMacro(NodeBody, Macro, Node):
     def process(self):
+        # Overlapping transparency doesn't look quite right
+        # but that's a renpy limitation :c
+
         # Fade out last actor
         lastActor = self.attrs.pop('lastActor', None)
         fadedur = self.attrs.pop('fadeTime', 0.5)
@@ -975,7 +1035,7 @@ class SilhouetteMacro(NodeBody, Macro, Node):
 
         self.children.append(ActorEvent("ActorEvent", attrs={
             "target": cousin_id,
-            "duration": 0.5,
+            "duration": 0.2,
         }, children=[
             Styles("styles", attrs={"scaleX": scalex}),
             Transitions("transitions", attrs={"x": cousinx})
@@ -989,6 +1049,7 @@ class SilhouetteMacro(NodeBody, Macro, Node):
         self.children.append(ActorEvent("ActorEvent", attrs={
             "target": silactor_id,
             "duration": fadedur,
+            "delay": fadedur if not secondtext else 0
         }, children=[
             Transitions("transitions", attrs={"opacity": 0.0})
         ]))
@@ -996,7 +1057,8 @@ class SilhouetteMacro(NodeBody, Macro, Node):
         self.children.append(ActorCreate("ActorCreate", attrs={
             "actorId": realActor,
             "actorType": "character",
-            "duration": fadedur
+            "duration": fadedur,
+            "delay": fadedur if not secondtext else 0
         }, children=[
             Styles("styles", attrs={"image": realImage, "opacity": 0.0, **styles}),
             Transitions("transitions", attrs={"opacity": 1.0})
@@ -1043,42 +1105,66 @@ class TextEvent(Node):
         self.textkey = self.attrs.pop('text', None)
         if self.textkey:
             self.text = re.sub(r"(\@[^ ]+)", lambda m: TextStore[m.group(1)], self.textkey)
-        self.char = self.attrs.pop('char', None)  # re.sub(r"\@([^ ]+)", lambda m: TextStore[m.group(1)], self.attrs['char'])
+        self.char = self.attrs.pop('char', "narrator")  # re.sub(r"\@([^ ]+)", lambda m: TextStore[m.group(1)], self.attrs['char'])
+
+        if self.char == '':
+            self.char = "narrator"
 
         # todo
         # self.transform = self.attrs.pop('transform', None)
         self.extend = toPyValue(self.attrs.pop('append', False))
 
+        self.block = False if self.attrs.pop('auto', False) else "NoAuto" # (self.extend)
+
         # self.letter_class = self.attrs.pop('letterClass', None)
         self.letter_delay = self.attrs.pop('letterDelay', None)
+        self.delay = self.attrs.pop('delay', 0)
 
         # Default letter delay is .0125 . which is 80 CPS
         # 0.0125 second pause before each character?
 
     def toRpy(self):
-        if not self.char or self.textkey is None:
-            return "# Blank text event"
-        printtext = textToRpyInterp(self.text)
 
         lines = []
-        for chunk in [printtext]:
-            transform = self.attrs.pop('transform', None)
-            if transform == "terezi":
-                for pattern, repl in [(c, "413"[i]) for i, c in enumerate("AIE")]:
-                    chunk = re.sub(pattern, repl, chunk)
+        did_wait = False
 
-            global cps_mult
-            if self.letter_delay:
-                cps_mult = round(0.0125 / float(self.letter_delay), 2)
+        # Wait happens first (question mark?)
+        if self.delay and not did_wait:
+            lines.append('extend "{w=%s}"' % self.delay)
+            did_wait = True
 
-            if cps_mult != 1.0:
-                chunk = "{cps=*" + str(cps_mult) + "}" + chunk
+        if not self.textkey:
+            lines.append("# Blank text event " + repr(self))
+        else:
+            printtext = textToRpyInterp(self.text)
+            for chunk in [printtext]:
+                is_last_chunk = True
+                transform = self.attrs.pop('transform', None)
+                if transform == "terezi":
+                    for pattern, repl in [(c, "413"[i]) for i, c in enumerate("AIE")]:
+                        chunk = re.sub(pattern, repl, chunk)
 
-            nw = "" # ""{nw}" if self.attrs.get('auto') else ""
-            if self.extend:
-                return f'extend " {chunk}{nw}" # {self.textkey}'
-            else:
-                return f'{fixname(self.char)} "{chunk}{nw}" # {self.textkey}'
+                global cps_mult
+                if self.letter_delay:
+                    cps_mult = round(0.0125 / float(self.letter_delay), 2)
+
+                if cps_mult != 1.0:
+                    chunk = "{cps=*" + str(cps_mult) + "}" + chunk
+
+                nw = "{nw}"
+                if is_last_chunk:
+                    if self.delay and not did_wait:
+                        nw = "{w=%s}" % self.delay
+                        did_wait = True
+                    elif self.block:
+                        nw = ""
+
+                if self.extend:
+                    lines.append(f'extend " {chunk}{nw}" # {self.textkey} {self.block=}')
+                else:
+                    lines.append(f'{fixname(self.char)} "{chunk}{nw}" # {self.textkey} {self.block=}')
+        
+
         return "\n".join(lines)
 
 

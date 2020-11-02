@@ -6,7 +6,7 @@ import argparse
 import textwrap
 from pprint import pprint
 
-scenes_glob = ["scripts/namcohigh/scenes/s_intro*.xml", "scripts/namcohigh/scenes/s_*.xml",]
+scenes_glob = ["scripts/namcohigh/scenes/s_introd*.xml", "scripts/namcohigh/scenes/s_*.xml",]
 
 def fixname(char):
     fixes = {
@@ -42,8 +42,11 @@ def makeCharacters():
                 image_name_plain, image_ext = os.path.splitext(image_name)
 
                 image_identifier = f"i_{fixed_name}_{image_name_plain}"
-                # rpy_line = f'image {image_identifier} = scaleBestFit("portrait/{char_name}/{image_name}", 1000, 780)\n'
-                rpy_line = f'image {image_identifier} = "portrait/{char_name}/{image_name}"\n'
+                if char_name == "digdug":  
+                    # hate this
+                    rpy_line = f'image {image_identifier} = "portrait/{char_name}/{image_name}"\n'
+                else:
+                    rpy_line = f'image {image_identifier} = scaleBestFit("portrait/{char_name}/{image_name}", 1000, 780)\n'
                 rpy_file.write(rpy_line)
             # rpy_file.write(makeSayer(fixed_name))
 

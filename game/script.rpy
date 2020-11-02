@@ -29,14 +29,72 @@ label credits:
     "CREDITS"
     return
 
+define char_name_to_id = {
+    "Aki Matsuo": "amazona",
+    "Albatross": "albatros",
+    "Anti-Bravoman": "antibravo",
+    "Blue Max": "bluemax",
+    "Davesprite": "davesprite",
+    "Donko": "donko",
+    "Galaga": "galaga",
+    "Hiromi": "hiromi",
+    # "Kame Crocker": "jane",
+    "Jane Crocker": "jane",
+    "Lolo": "lolo",
+    "Meowkie": "meowkie",
+    "Mr. Driller": "mrdriller",
+    "Nidia": "nidia",
+    "Richard Miller": "richard",
+    "Taira": "taira",
+    "Terezi Pyrope": "terezi",
+    "Tomari": "tomari",
+    "Valkyrie": "valk"
+}
+
 label SuperSecretMacro:
-    $ throw NotImplementedError()
+    $ renpy.pause()
     # if you have the true ending for all characters:
-    jump s_supersecret
+    if not persistent.got_trueend_amazona:
+        return
+    if not persistent.got_trueend_albatros:
+        return
+    if not persistent.got_trueend_antibravo:
+        return
+    if not persistent.got_trueend_bluemax:
+        return
+    if not persistent.got_trueend_davesprite:
+        return
+    if not persistent.got_trueend_donko:
+        return
+    if not persistent.got_trueend_galaga:
+        return
+    if not persistent.got_trueend_hiromi:
+        return
+    if not persistent.got_trueend_jane:
+        return
+    if not persistent.got_trueend_lolo:
+        return
+    if not persistent.got_trueend_meowkie:
+        return
+    if not persistent.got_trueend_mrdriller:
+        return
+    if not persistent.got_trueend_nidia:
+        return
+    if not persistent.got_trueend_richard:
+        return
+    if not persistent.got_trueend_taira:
+        return
+    if not persistent.got_trueend_terezi:
+        return
+    if not persistent.got_trueend_tomari:
+        return
+    if not persistent.got_trueend_valk:
+        return
+    call s_supersecret
     return
     
 label BadEndMacro:
-    $ throw NotImplementedError()
+    $ raise NotImplementedError
         # curtainactor == curtain (???)
         # imageevent actor badEnd with image i_event_badend 1sec fadein
         # imageevent actor badEndText with image i_event_badend_gameover 1sec fadein
@@ -44,8 +102,8 @@ label BadEndMacro:
         # bgm a_bgm_namcotheme then fadeout .5 secs
     return
 
-label BattleMacro:
-    $ throw NotImplementedError()
+label BattleMacro(partnerActor):
+    $ raise NotImplementedError
 
 
 
