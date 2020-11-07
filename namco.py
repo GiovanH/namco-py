@@ -9,7 +9,7 @@ from types import GeneratorType
 pathsep = "_"
 sceneid = ""
 
-SHOW_UNHANDLED_ATTRS = False
+SHOW_UNHANDLED_ATTRS = True
 
 TextStore = nc_hardcoded.TextStore.copy()
 ActorPrevStore = collections.defaultdict(lambda: None)
@@ -20,6 +20,7 @@ last_image_for_tag = {}
 AllStores = set()
 DefaultVars = []
 cps_mult = 1.0
+last_say_what = None
 
 def init():
     global ActorIsFlipped
@@ -31,6 +32,7 @@ def init():
     global unhandled_attrs
     global DefaultVars
     global cps_mult
+    global last_say_what
 
     TextStore = nc_hardcoded.TextStore.copy()
     ActorPrevStore = collections.defaultdict(lambda: None)
@@ -41,6 +43,7 @@ def init():
     AllStores = set()
     DefaultVars = []
     cps_mult = 1.0
+    last_say_what = None
 
 # First, nodes are made and initialized.
 # Then, Scene calls Preprocess, which assigns parents to nodes
@@ -155,7 +158,7 @@ def transformScaleX(factor, actor):
     prev = ActorIsFlipped.get(actor, None)
     ActorIsFlipped[actor] = fl
 
-    return f"xzoom {fl} # {factor} flipped {prev} -> {ActorIsFlipped.get(actor)}"
+    return f"xzoom {fl} "
 
 
 def allChildrenR(node):
@@ -165,12 +168,12 @@ def allChildrenR(node):
 
 
 transformation = {
-    "opacity": lambda a, i: f"alpha {round(float(a), 2)} # {a}",
-    "delay": lambda a, i: f"pause {round(float(a), 2)} # {a}",
-    "x": lambda a, i: f"xpos {round(0.5 + p2f(a), 2)} # {a}",
-    "y": lambda a, i: f"ypos {round(0.5 + p2f(a), 2)} # {a}",
+    "opacity": lambda a, i: f"alpha {round(float(a), 2)}" ,
+    "delay": lambda a, i: f"pause {round(float(a), 2)} ",
+    "x": lambda a, i: f"xpos {round(0.5 + p2f(a), 2)} ",
+    "y": lambda a, i: f"ypos {round(0.5 + p2f(a), 2)} ",
     "scaleX": transformScaleX,
-    "scaleY": lambda a, i: f"yzoom {float(a)} # {a}",
+    "scaleY": lambda a, i: f"yzoom {float(a)} ",
 }
 
 def resolveAtl(atl):
@@ -225,7 +228,7 @@ def showActorWithAtl(node, fields):
     interpolation = toRpyInterp(node.attrs.get("ease", "linear"))  # ease-out
     duration = node.attrs.pop("duration", 0.5)
 
-    atl_statements = ["# ShowWith"]
+    atl_statements = ["# ShowWithAtl"]
     pause = 0
 
     delay = node.attrs.pop("delay", 0)
@@ -255,24 +258,31 @@ def showActorWithAtl(node, fields):
 # Abstract tree handlers
 
 class Node():
-    def __init__(self, tag_name, attrs={}, children=[], text=""):
+    def __init__(self, tag_name=None, attrs={}, children=[], text=""):
         super().__init__()
         self.__dict__.update(attrs)  # helper
         self.attrs = self.__dict__
 
         self.label = None
         self.parent = None
+        if tag_name is None:
+            tag_name = self.__class__.__name__
         self.kind = tag_name
         self.attrs = attrs
         self.children = children
         self.text = text
 
         self.attrs['kind'] = tag_name
+        self.pausetime = 0
 
     def preprocess(self):
         self.process()
         for child in self.children:
-            child.parent = self
+            try:
+                child.parent = self
+            except TypeError:
+                print(child)
+                raise
             child.preprocess()
 
     def process(self):
@@ -337,6 +347,10 @@ class Macro():
 
 
 class Annotation(Node):
+    def process(self):
+        print(self)
+        print(self.toRpy())
+
     def toRpy(self):
         return textwrap.indent(self.text, '# ')
 
@@ -349,11 +363,21 @@ class NodeBody(Node):
         
         # Flatten macros
 
-        i = 0
-        while i < len(self.children):
-            if isinstance(self.children[i], Events):
-                self.children = self.children[:i] + [Annotation("Splice", text=repr(self.children[i]))] + self.children[i].children + self.children[i + 1:]
-            i += 1
+        #TODO when is this ever needed?
+        # i = 0
+        # while i < len(self.children):
+        #     if isinstance(self.children[i], Events):
+        #         new_children = [
+        #             *self.children[:i],
+        #             Annotation(tag_name="Splice", text=repr(self.children[i])),
+        #             *self.children[i].children,
+        #             *self.children[i + 1:]
+        #         ]
+        #         print("Splice")
+        #         print(str(self))
+        #         print(new_children)
+        #         self.children = new_children
+        #     i += 1
 
         i = 0
 
@@ -380,7 +404,8 @@ class NodeBody(Node):
                         if atl.get("image"):
                             if atl_buffer.get("image"):
                                 lines.append(resolveAtl(atl_buffer))
-                                lines.append("$ renpy.pause()")
+                                lines.append(f"$ renpy.pause({atl_buffer['duration']}) # Image change")
+                                last_say_what = None
                                 atl_buffer = atl
                                 atl_buffer['lines'] = atl.get('lines', [])
                                 atl_buffer['duration'] = atl.get('duration', 0)
@@ -445,7 +470,7 @@ class Scene(NodeContainer, Node):
 
     def toRpy(self):
         extra_lines = self.makeExtraLines()
-        ret = "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix="scene i_sw_black with dissolve\nstop music fadeout\n")
+        ret = "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix="scene i_sw_black with dissolve\nstop music fadeout 1.0\n")
         if unhandled_attrs and SHOW_UNHANDLED_ATTRS:
             print("Unhandled attributes:")
             pprint(unhandled_attrs)
@@ -454,8 +479,28 @@ class Scene(NodeContainer, Node):
 class Assets(NoScript, Node):
     pass  # Assets are handled when parsed
 
+class TimedPause(Node):
+    def toRpy(self):
+        if self.attrs['duration']:
+            return f"$ renpy.pause({self.attrs['duration']})"
+        else: 
+            return f"# TimedPause ({self.attrs['duration']})"
+
 class Events(NodeBody, Node):
+    def process(self):
+        self.kind = "events"
+        # assert self.attrs.get("kind", "events") == "events"
+
     def block(self, should_block):
+
+        # self.attrs['should_block'] = should_block
+
+        # Technically this is incorrect
+        # What we need is the total ATL time, 
+        # but we can't sum them together because ATL events from
+        # different characters run in parallel.
+        pausetime = max(c.pausetime for c in self.children)
+
         # If we have a textevent, move it to the end of the list.
         if any(isinstance(c, TextEvent) for c in self.children):
             # if len(self.children) == 1:
@@ -471,30 +516,42 @@ class Events(NodeBody, Node):
             self.children += TextEvents
             if should_block:
                 assert isinstance(self.children[-1], TextEvent)
-                self.children[-1].block = "LastEvent"
+                self.children[-1].block = "Last"
+                self.children[-1].delay += pausetime
             return
         else:
             # TODO: Pause for duration of inner animation.
             # Extend w=x for better visuals?
             if should_block:
-                self.children.append(Interaction("Interaction"))
+                # assert pausetime != 0, str(self)
+                self.children.append(
+                    TimedPause("TimedPause", attrs={
+                        "duration": pausetime
+                    })
+                )
 
 
 class ActorEvent(ATLSource, Node):
     def process(self):
-        self.actor_id = self.attrs.pop('target')  # albatros
+        self.actor_id = self.attrs.get('target')  # albatros
 
-        self.styles = list(findNodes(self.children, kind="styles"))  # todo
+        self.styles = list(findNodes(self.children, kind="styles"))
         self.transitions = list(findNodes(self.children, kind="transitions"))
         self.interpolation = toRpyInterp(self.attrs.get("ease", "linear"))  # ease-out
 
-    def getAtl(self):
-        transitiondur = self.attrs.pop("duration", 0)
-        delay = self.attrs.pop("delay", 0)
+        self.atl = self._getAtl()
 
+    def getAtl(self, source="ActorEvent"):
+        self.atl['lines'] = [f"# {source}"] + self.atl.get("lines", [])
+        return self.atl
+
+    def _getAtl(self, source="ActorEvent"):
+        transitiondur = self.attrs.get("duration", 0)
+        delay = self.attrs.get("delay", 0)
+
+        atl_statements = []
         for style in self.styles:
             
-            atl_statements = ["# ActorEvent"]
             for pre_style, value in style.attrs.items():
                 if pre_style in ['image', 'depth', 'kind', 'id']:
                     continue
@@ -505,7 +562,11 @@ class ActorEvent(ATLSource, Node):
                     if prop in ['kind']:
                         continue
                     statement = f"pause {delay}\n" if delay else ""
+                    self.pausetime += float(delay)
+
                     statement += f"{self.interpolation} {transitiondur} " if transitiondur else ""
+                    self.pausetime += float(transitiondur)
+                    
                     statement += transformation[prop](value, self.actor_id)
                     atl_statements.append(statement)
 
@@ -513,6 +574,7 @@ class ActorEvent(ATLSource, Node):
                 "actor_id": style.attrs.get("id", self.actor_id),
                 "image": style.attrs.get('image'),
                 "zorder": style.attrs.get("depth"),
+                "duration": self.pausetime,
                 "lines": atl_statements,
                 "create": False
             }
@@ -521,21 +583,39 @@ class ActorEvent(ATLSource, Node):
 
         atl_statements = ["# ActorEvent (Transition only)"]
         for t in self.transitions:
+            statement = f"pause {delay}\n" if delay else ""
+            self.pausetime += float(delay)
+            statement += f"{self.interpolation} {transitiondur} " if transitiondur else ""
+            self.pausetime += float(transitiondur)
             for prop, value in t.attrs.items():
                 if prop in ['kind']:
                     continue
-                statement = f"pause {delay}\n" if delay else ""
-                statement += f"{self.interpolation} {transitiondur} " if transitiondur else ""
                 statement += transformation[prop](value, self.actor_id)
-                atl_statements.append(statement)
+            atl_statements.append(statement)
 
             return {
                 "actor_id": t.attrs.get("id", self.actor_id),
                 "zorder": t.attrs.get("depth"),
                 "delay": delay,
                 "lines": atl_statements,
+                "duration": self.pausetime,
                 "create": False
             }
+
+        # Animation Only
+
+        atl_statements = ["# ActorEvent (Transition only)"]
+        atl = {
+            "actor_id": self.actor_id,
+            "duration": self.attrs.get("duration"),
+            "create": False
+        }
+        
+        self.pausetime = self.attrs.get("duration", 0)
+        animation = self.attrs.pop("animation", None)
+        if animation:
+            atl['with'] = animation
+        return atl
 
 class ActorCreate(ATLSource, Node):
     # or "DOMImageCreate"
@@ -544,7 +624,7 @@ class ActorCreate(ATLSource, Node):
         self.actor_id = self.attrs.pop('actorId')  # albatros
         self.actor_type = self.attrs.pop('actorType')  # character
 
-        self.styles = list(findNodes(self.children, kind="styles"))  # todo
+        self.styles = list(findNodes(self.children, kind="styles")) 
         self.transitions = list(findNodes(self.children, kind="transitions")) or [Transitions("Transitions")]
 
         # self.transitions[0].attrs['duration'] = self.attrs.pop("duration", 0)
@@ -553,10 +633,11 @@ class ActorCreate(ATLSource, Node):
         self.auto = self.attrs.get("auto", False)  # bool
         self.interpolation = toRpyInterp(self.attrs.get("ease", "linear"))  # ease-out
 
+        self.atl = ActorEvent._getAtl(self, source="ActorCreate")
+        self.atl['create'] = True
+
     def getAtl(self):
-        atl = ActorEvent.getAtl(self)
-        atl['create'] = True
-        return atl
+        return self.atl
 
 class ActorCrossfade(ATLSource, Node):
     def getAtl(self):
@@ -568,7 +649,8 @@ class ActorCrossfade(ATLSource, Node):
         return {
             "actor_id": target,
             "image": image,
-            "with": f"Dissolve({fadedur})"
+            "with": f"Dissolve({fadedur})",
+            "source": "ActorCrossfade"
         }
 
 
@@ -590,8 +672,12 @@ class ActorDestroy(Node):
 
 
 class ActorFade(ATLSource, Node):
+    def process(self):
+        self.atl = showActorWithAtl(self, ['opacity'])
+        self.pausetime += self.atl['duration']
+
     def getAtl(self):
-        return showActorWithAtl(self, ['opacity'])
+        return self.atl
 
 class ActorFlip(ATLSource, Node):
     def process(self):
@@ -601,11 +687,13 @@ class ActorFlip(ATLSource, Node):
         self.duration = self.attrs.pop('duration', 0)
         self.delay = self.attrs.pop('delay', 0)
 
+        self.pausetime = float(self.delay)
+
     def getAtl(self):
         prev = ActorIsFlipped[self.actor]
         xzoom = prev * -1
 
-        lines = [f"# ActorFlip (from {prev})"]
+        lines = []
 
         if self.delay:
             lines.append(f"pause {self.delay}")
@@ -617,7 +705,8 @@ class ActorFlip(ATLSource, Node):
 
         return {
             "actor_id": self.actor,
-            "lines": lines
+            "lines": lines,
+            "duration": self.pausetime,
         }
 
 class ActorImage(ATLSource, Node):
@@ -630,17 +719,26 @@ class ActorImage(ATLSource, Node):
 
         self.name = self.attrs.get('name', None)
         self.auto = toPyValue(self.attrs.get('auto', False))
-        self.delay = self.attrs.get('delay', 0)
+        self.delay = float(self.attrs.get('delay', 0))
+        # TODO delay not implemented
+
+        self.pausetime += float(self.delay)
 
     def getAtl(self):
         return {
             "actor_id": self.actor,
             "image": self.image,
+            "duration": self.delay,
+            "source": "ActorImage"
         }
 
 class ActorMove(ATLSource, Node):
+    def process(self):
+        self.atl = showActorWithAtl(self, ['x', 'y'])
+        self.pausetime += self.atl['duration']
+        
     def getAtl(self):
-        return showActorWithAtl(self, ['x', 'y'])
+        return self.atl
 
 class ActorReset(NoScript, Node):
     pass
@@ -652,12 +750,20 @@ class ActorScale(ATLSource, Node):
         if 'y' in self.attrs:
             self.attrs['scaleY'] = self.attrs.pop('y')
 
+        self.atl = showActorWithAtl(self, ['scaleX', 'scaleY'])
+        self.pausetime += self.atl['duration']
+        
     def getAtl(self):
-        return showActorWithAtl(self, ['scaleX', 'scaleY'])
+        return self.atl
+
 
 class ActorTransform(Node):
+    def process(self):
+        self.atl = showActorWithAtl(self, ['scaleX', 'scaleY', 'x', 'y'])
+        self.pausetime += self.atl['duration']
+        
     def getAtl(self):
-        return showActorWithAtl(self, ['scaleX', 'scaleY', 'x', 'y'])
+        return self.atl
 
 AudioLayer = {}
 
@@ -667,7 +773,7 @@ class AudioCreate(Node):
         self.loop = toPyValue(self.attrs.pop('loop'))
         # self.play = toPyValue(self.attrs.pop('play'))
         self.path = toPyValue(self.attrs.pop('sound'))
-        self.delay = toPyValue(self.attrs.pop('delay',  None))
+        self.delay = toPyValue(self.attrs.pop('delay', None))
 
         if self.layer == "bgm":
             self.layer = "music"
@@ -678,7 +784,7 @@ class AudioCreate(Node):
 
         AudioLayer[self.attrs.pop('audioId')] = self.layer
 
-        # TODO: Unused attrs audioId, play, volume, delay, allowInterrupt
+        # TODO: Unused attrs play, volume, allowInterrupt
 
     def toRpy(self):
         real_path = re.sub(r"@a_([a-z]+)_(.*)", r"\g<1>/\g<2>.ogg", self.path)
@@ -732,46 +838,229 @@ class NormalEndMacro(Node):
 class BadEndMacro(Node):
     def process(self):
         self.expr = jsExprToPy(self.attrs.pop('varName'))
-        # TODO I DON'T KNOW HOW THIS WORKS?
-        # lvalue = varname
-        # rvalue = 1
-
-
 
     def toRpy(self):
-        return f"$ {self.expr} = 1\ncall BadEndMacro"
+        lines = [
+            f"if {self.expr} <= 1:",
+            f"    call BadEndMacro"
+
+        ]
+        return "\n".join(lines)
 
 class BattleMacro(NodeBody, Node):
-    def toRpy(self):
-        return f"call BattleMacro('{self.attrs.pop('partnerActor', None)}')\n" + NodeBody.toRpy(self)
-    # def process(self):
+    def process(self):
 
+        partnerActor = self.attrs.pop('partnerActor', None)
 
-    #     # Zoom in on evil namco
-    #     self.children.append(ActorEvent("ActorEvent", attrs={
-    #         "target": cousin_id,
-    #         "duration": 0.5,
-    #     }, children=[
-    #         Styles("styles", attrs={"scaleX": scalex}),
-    #         Transitions("transitions", attrs={"x": cousinx})
-    #     ]))
+        m = "thunderclap"
 
-    # pass
+        whiteSwatchActor = "white_swatch"  # i
+        robotArmyActor = "robotarmy"  # p
+        curtainActor = "curtain"  # q
+        cousinActor = "cousin"  # r
+        bgActor = "bg"  # s
+        whiteHoldTime = 2  # t
+        whiteFadeOutTime = 2  # u
+        whiteFadeOutTime = 2  # v
+        bgZoomTime = .75  # w
+        bgZoomEase = "ease-out"  # x
+        robotArmyStartingX = "0%"  # y
+        robotArmyDstX = "-40%"  # z
+        robotArmyHoldTime = .75  # A
+        robotArmyMoveTime = 1  # B
+        bgmFadeTime = "bgm"  # C
 
-    # Thunderclap!
-    # ease out
+        def n(a, b):
+            return ParallelEvent("ParallelEvent", attrs={"auto": True}, children=[
+                Events("events", children=[
+                    ActorEvent("ActorEvent", attrs={
+                        "target": a,
+                        "duration": 0.4,
+                        "animation": "flash"
+                    }),
+                    ActorEvent("ActorEvent", attrs={
+                        "target": b,
+                        "duration": 0.75,
+                        "animation": "flash"
+                    }, children=[
+                        Transitions("transitions", attrs={"opacity": 1.0})
+                    ])
+                ])
+            ])
 
-    # Fade in evil namco robots
-    # evil linear move left
+        def o(a, b):
+            return ActorEvent("ActorEvent", attrs={
+                "ease": "ease",
+                "duration": 1.0,
+                "target": a,
+            }, children=[
+                Transitions("transitions", attrs={"x": b})
+            ])
 
-    # on thunderclaps:
-    # Fade in partner, right top
-    # Fade in cousin, right bottom
+        D = [
+            ParallelEvent(
+                attrs={"auto": True},
+                children=[
+                    Events(children=[
+                        ActorEvent(attrs={
+                            "target": bgActor,
+                        }, children=[
+                            Styles("styles", attrs={
+                                "x": "0%",
+                                "y": "15%",
+                                "scaleX": "2",
+                                "scaleY": "2"
+                            })
+                        ]),
+                        ActorEvent("ActorEvent", attrs={
+                            "target": robotArmyActor,
+                        }, children=[
+                            Styles("styles", attrs={"x": robotArmyStartingX})
+                        ])
+                    ])
+                ]
+            ),
+            ParallelEvent(
+                "ParallelEvent", 
+                attrs={"delay": 0.5, "auto": True},
+                children=[
+                    Events("events", children=[
+                        AudioCreate("AudioCreate", attrs={
+                            "audioId": m,
+                            "sound": "@a_sfx_thunderclap",
+                            "layer": "sfx",
+                            "loop": False,
+                            "play": True
+                        }),
+                        ActorEvent("ActorEvent", attrs={
+                            "target": whiteSwatchActor,
+                            "duration": 0.4,
+                            "animation": "flash"
+                        }),
+                        ParallelEvent(
+                            "ParallelEvent", 
+                            attrs={"delay": 0.5},
+                            children=[Events("events", children=[
+                                ActorEvent("ActorEvent", attrs={
+                                    "target": whiteSwatchActor,
+                                    "duration": 0.4,
+                                    "animation": "flash"
+                                })
+                            ])]
+                        )
+                    ])
+                ]
+            ),
+            ParallelEvent(
+                "ParallelEvent", 
+                attrs={"delay": whiteFadeOutTime, "auto": True},
+                children=[
+                    Events("events", children=[
+                        ActorEvent("ActorEvent", attrs={
+                            "target": bgActor,
+                            "duration": bgZoomTime,
+                            "ease": bgZoomEase,
+                        }, children=[
+                            Transitions("transitions", attrs={
+                                "x": "0%",
+                                "y": "0%",
+                                "scaleX": "1",
+                                "scaleY": "1"
+                            })
+                        ])
+                    ])
+                ]
+            ),
+            ActorEvent("ActorEvent", attrs={
+                "target": robotArmyActor,
+                "duration": 0.75,
+            }, children=[
+                Transitions("transitions", attrs={"opacity": 1})
+            ]),
+            TimedPause(attrs={"duration": 0.75}),
+            ParallelEvent(
+                "ParallelEvent", 
+                attrs={"delay": robotArmyHoldTime, "auto": True},
+                children=[
+                    Events("events", children=[
+                        ActorEvent("ActorEvent", attrs={
+                            "target": robotArmyActor,
+                            "duration": robotArmyMoveTime,
+                        }, children=[
+                            Transitions("transitions", attrs={"x": robotArmyDstX})
+                        ])
+                    ])
+                ]
+            )
+        ]
 
-    # Move together, fade to white
-    # Fade to black
+        E = [
+            o(robotArmyActor, "-20%"),
+            o(cousinActor, "27.5%")
+        ]
 
-    # Roll credits (handled by other)
+        if partnerActor:
+            D.append(n(whiteSwatchActor, partnerActor))
+            E.append(o(partnerActor, "20%"))
+
+        D.append(n(whiteSwatchActor, cousinActor))
+        D.append(
+            ParallelEvent("ParallelEvent", children=[
+                Events("events", children=E)
+            ])
+        )
+        D.append(
+            ActorEvent("ActorEvent", attrs={
+                "target": whiteSwatchActor,
+                "duration": 0.5,
+            }, children=[
+                Transitions("transitions", attrs={"opacity": 1})
+            ])
+        )
+        TimedPause(attrs={"duration": 0.5}),
+
+        if self.children:
+            D.append(
+                ParallelEvent("ParallelEvent", children=[
+                    Events("events", children=self.children)
+                ])
+            )
+
+        D.append(ParallelEvent(
+            "ParallelEvent", 
+            attrs={"delay": whiteHoldTime},
+            children=[
+                Events("events", children=[
+                    AudioDestroy("AudioDestroy", attrs={
+                        "target": m,
+                        "duration": robotArmyMoveTime,
+                    }),
+                    TextEvent("TextEvent", attrs={
+                        "char": "",
+                        "text": "",
+                    }),
+                    ActorEvent("ActorEvent", attrs={
+                        "target": curtainActor
+                    }, children=[
+                        Styles("styles", attrs={"opacity": 1})
+                    ]),
+                    ActorEvent("ActorEvent", attrs={
+                        "target": whiteSwatchActor,
+                        "duration": whiteFadeOutTime
+                    }, children=[
+                        Transitions("transitions", attrs={"opacity": 0})
+                    ]),
+                    AudioEvent("AudioEvent", attrs={
+                        "target": bgmFadeTime,
+                        "volume": 0,
+                        "fadeDuration": whiteFadeOutTime,
+                    })
+                ])
+            ]
+        ))
+
+        self.children = D
+
 
 
 class BranchMacro(Node):
@@ -807,24 +1096,24 @@ class ExplorationMacro(NodeContainer, Node):
         self.var_name = "explore" + self.attrs.pop('sceneName')
 
     def toRpy(self):
-        lines = ['menu (screen="ChoiceExploration"):']
+        lines = [f'$ {sceneid}_has_picked_any = False if not "{sceneid}_has_picked_any" in store.__dict__ else {sceneid}_has_picked_any', 'menu (screen="ChoiceExploration"):']
         for name, id in nc_hardcoded.char_name_to_id.items():
-            # target = getPrevLevel(self) + pathsep + id
             target = sceneid + pathsep + id
             lines.append(f'    "{name}":')
+            lines.append(f'        $ {sceneid}_has_picked_any = True')
             lines.append(f'        jump {target}')
-        # TODO: Only pass if you've talked to somebody!
-        # target = getPrevLevel(self) + pathsep + "cousin"
+
         target = sceneid + pathsep + "cousin"
+        any = f"{sceneid}_has_picked_any"
         try:
-            lines.append(f'    "{TextStore[self.pass_text]}":')
-        except KeyError: # i have no idea
-            lines.append(f'    "{TextStore["@" + self.pass_text]}":')
+            lines.append(f'    "{TextStore[self.pass_text]}" if {any}:')
+        except KeyError:  # i have no idea
+            lines.append(f'    "{TextStore["@" + self.pass_text]}" if {any}:')
         lines.append(f'        jump {target}')
         return "\n".join(lines)
 
 class FadeEvent(ATLSource, Node):
-    def getAtl(self):
+    def process(self):
         actor_id = self.attrs.pop('target')
         target_opacity = float(self.attrs.pop('to'))
 
@@ -833,12 +1122,16 @@ class FadeEvent(ATLSource, Node):
             duration = float(self.attrs.pop('duration'))
             if duration > 0:
                 atl_statement.append(f"linear {float(duration)}")
+                self.pausetime += duration
         atl_statement.append(f"alpha {target_opacity}")
 
-        return {
+        self.atl = {
             "actor_id": actor_id,
             "lines": ["# FadeEvent", " ".join(atl_statement)]
         }
+
+    def getAtl(self):
+        return self.atl
 
 class GameOver(Node):
     def toRpy(self):
@@ -923,10 +1216,16 @@ class ParallelEvent(NodeBody, Node):
         else:
             self.label = None
 
-        self.auto = self.attrs.pop("auto", False)
+        self.auto = self.attrs.get("auto", False)
 
     def toRpy(self):
-        findNode(self.children, kind="events").block(not self.auto)
+        events = findNode(self.children, kind="events")
+        if not events:
+            print("Can't find events child")
+            raise IndexError(self)
+        # When to pause:
+        # Definitely need to pause even for auto events as seen in battlemacro
+        events.block(True)
 
         if self.label:
             return NodeContainer.toRpy(self)  # + '\nextend ""'
@@ -938,7 +1237,7 @@ class Transitions(Node):
 
 class Styles(Node):
     def process(self):
-        assert self.kind == "styles"  # capitalization...
+        self.kind = "styles"  # capitalization...
 
 class SettingChange(Node):
     def toRpy(self):
@@ -1084,13 +1383,6 @@ class SilhouetteMacro(NodeBody, Macro, Node):
 
 
 class SuperSecretMacro(Node):
-    # TODO:
-    # var a = !0,
-    #     b = c.scenes;
-    # for (var d in b) {
-    #     var e = "got_trueend_" + b[d];
-    #     a = a && f.get(e, "game")
-    # }
     def toRpy(self):
         return "call SuperSecretMacro"
 
@@ -1110,33 +1402,46 @@ class TextEvent(Node):
         if self.char == '':
             self.char = "narrator"
 
-        # todo
+        if self.char == "@t_ch_galaga":
+            self.text = "{smallcaps}" + self.text + "{/smallcaps}"
+
         # self.transform = self.attrs.pop('transform', None)
         self.extend = toPyValue(self.attrs.pop('append', False))
 
-        self.block = False if self.attrs.pop('auto', False) else "NoAuto" # (self.extend)
+        self.block = 0 if self.attrs.pop('auto', False) else "NoAuto" # (self.extend)
 
         # self.letter_class = self.attrs.pop('letterClass', None)
         self.letter_delay = self.attrs.pop('letterDelay', None)
-        self.delay = self.attrs.pop('delay', 0)
+        self.delay = float(self.attrs.pop('delay', 0))
 
         # Default letter delay is .0125 . which is 80 CPS
         # 0.0125 second pause before each character?
 
     def toRpy(self):
+        global last_say_what
 
         lines = []
         did_wait = False
 
+        # ???
+        # if self.block and isinstance(self.block, float):
+        #     self.delay += self.block
+
         # Wait happens first (question mark?)
         if self.delay and not did_wait:
-            lines.append('extend "{w=%s}"' % self.delay)
+            if last_say_what and False:
+                # lines.append('$ renpy.pause(%s) # Text delay' % self.delay)
+                lines.append('extend "{w=%s}{nw}"' % self.delay)
+            else:
+                lines.append('$ renpy.pause(%s) # Text delay' % self.delay)
             did_wait = True
 
         if not self.textkey:
-            lines.append("# Blank text event " + repr(self))
+            lines.append(f"# Blank text event " + repr(self))
         else:
+
             printtext = textToRpyInterp(self.text)
+            last_say_what = printtext
             for chunk in [printtext]:
                 is_last_chunk = True
                 transform = self.attrs.pop('transform', None)
@@ -1149,7 +1454,7 @@ class TextEvent(Node):
                     cps_mult = round(0.0125 / float(self.letter_delay), 2)
 
                 if cps_mult != 1.0:
-                    chunk = "{cps=*" + str(cps_mult) + "}" + chunk
+                    chunk = "{cps=*" + str(cps_mult) + "}" + chunk + "{/cps}"
 
                 nw = "{nw}"
                 if is_last_chunk:
@@ -1163,7 +1468,6 @@ class TextEvent(Node):
                     lines.append(f'extend " {chunk}{nw}" # {self.textkey} {self.block=}')
                 else:
                     lines.append(f'{fixname(self.char)} "{chunk}{nw}" # {self.textkey} {self.block=}')
-        
 
         return "\n".join(lines)
 

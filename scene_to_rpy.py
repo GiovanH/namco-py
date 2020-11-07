@@ -1,10 +1,6 @@
 import glob
 import bs4
 import os
-import re
-import argparse
-import textwrap
-from pprint import pprint
 
 scenes_glob = ["scripts/namcohigh/scenes/s_introd*.xml", "scripts/namcohigh/scenes/s_*.xml",]
 

@@ -8,6 +8,7 @@ define slot_playerName = "Cousin"
 
 label start:
 
+    window show
     # Enter name:
 
     $ slot_playerName = renpy.input("Enter name:", default='Cousin')
@@ -26,6 +27,9 @@ label start:
     jump s_intro
 
 label credits:
+    show i_sw_black as curtain zorder 15:
+        alpha 0.0
+        linear 1.0 alpha 1.0
     "CREDITS"
     return
 
@@ -93,41 +97,28 @@ label SuperSecretMacro:
     call s_supersecret
     return
     
+
+
 label BadEndMacro:
-    $ raise NotImplementedError
+    $ renpy.pause()
+    # $ raise NotImplementedError
         # curtainactor == curtain (???)
+    show i_sw_black as curtain zorder 15:
+        alpha 0.0
+        linear 1.0 alpha 1.0
+
+    show i_event_badend zorder 16:
+        alpha 0.0
+        time 1.0
+        linear 1.0 alpha 1.0
+    show i_event_badend_gameover zorder 17:
+        alpha 0.0
+        time 2.0
+        linear 1.0 alpha 1.0
+    $ renpy.pause(5)
+    $ renpy.pause()
         # imageevent actor badEnd with image i_event_badend 1sec fadein
         # imageevent actor badEndText with image i_event_badend_gameover 1sec fadein
 
         # bgm a_bgm_namcotheme then fadeout .5 secs
-    return
-
-label BattleMacro(partnerActor):
-    $ raise NotImplementedError
-
-
-
-    #     # Zoom in on evil namco
-    #     self.children.append(ActorEvent("ActorEvent", attrs={
-    #         "target": cousin_id,
-    #         "duration": 0.5,
-    #     }, children=[
-    #         Styles("styles", attrs={"scaleX": scalex}),
-    #         Transitions("transitions", attrs={"x": cousinx})
-    #     ]))
-
-    # pass
-
-    # Thunderclap!
-    # ease out
-
-    # Fade in evil namco robots
-    # evil linear move left
-
-    # on thunderclaps:
-    # Fade in partner, right top
-    # Fade in cousin, right bottom
-
-    # Move together, fade to white
-    # Fade to black
     return

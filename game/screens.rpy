@@ -253,7 +253,7 @@ screen choice(items):
         xfill False
         xalign 0.5
         for i in items:
-            textbutton i.caption action i.action xsize 400
+            textbutton i.caption action i.action xsize 650
 
 
 ## When this is true, menu captions will be spoken by the narrator. When false,
@@ -263,16 +263,27 @@ define config.narrator_menu = True
 screen ChoiceExploration(items):
     style_prefix "choice"
 
+    $ last = None
+
+    if len(items) > 18:
+        $ last = items[-1]
+
     vpgrid:
         cols 2
         xalign 0.5
         yalign 0.5
         spacing 4
 
-        for i in items:
+        for i in items[:18]:
             textbutton i.caption:
                 action i.action
                 xminimum 400
+        if last:
+            textbutton last.caption:
+                style "choice_button"
+                action last.action
+                xminimum 400
+                xoffset 200
 
 style choice_vbox is vbox
 style choice_button is namcohigh_button:
@@ -381,7 +392,7 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("About") action ShowMenu("about")
+        textbutton _("credits") action ShowMenu("credits")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
@@ -448,7 +459,7 @@ screen main_menu():
             textbutton _("NEW GAME") action Start()
             textbutton _("CONTINUE") action ShowMenu("load")
             textbutton _("OPTIONS") action ShowMenu("preferences")
-            textbutton _("CREDITS") action ShowMenu("about")
+            textbutton _("CREDITS") action ShowMenu("credits")
 
 
 
@@ -616,41 +627,6 @@ style return_button:
 ##
 ## There's nothing special about this screen, and hence it also serves as an
 ## example of how to make a custom screen.
-
-screen about():
-
-    tag menu
-
-    ## This use statement includes the game_menu screen inside this one. The
-    ## vbox child is then included inside the viewport inside the game_menu
-    ## screen.
-    use game_menu(_("About"), scroll="viewport"):
-
-        style_prefix "about"
-
-        vbox:
-
-            label "[config.name!t]"
-            text _("Version [config.version!t]\n")
-
-            ## gui.about is usually set in options.rpy.
-            if gui.about:
-                text "[gui.about!t]\n"
-
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
-
-
-## This is redefined in options.rpy to add text to the about screen.
-define gui.about = ""
-
-
-style about_label is gui_label
-style about_label_text is gui_label_text
-style about_text is gui_text
-
-style about_label_text:
-    size gui.label_text_size
-
 
 ## Load and Save screens #######################################################
 ##
