@@ -30,7 +30,8 @@ init -1 python:
         mw, mh = im.image(image).load().get_size()
         mw, mh, tw, th = map(float, [mw, mh, tw, th])
         factor = min(tw / mw, th / mh)
-        print(image, th, mh, th/mh, tw, mw, tw/mw,  factor, mw*factor, mh*factor)
+        if factor != 1.0:
+            print(image, th, mh, tw, mw, factor, mw*factor, mh*factor)
         return im.FactorScale(image, width=factor, height=factor)
     
     def AudioEvent(layer, volume, duration):

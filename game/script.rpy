@@ -4,6 +4,40 @@
 # name of the character.
 define slot_playerName = "Cousin"
 
+image titlecard nbgi = "credits/titlecard_nbgi_half.png"
+image titlecard whatpumpkin = "credits/titlecard_whatpumpkin.png"
+image titlecard shiftylook = "credits/titlecard_shiftylook.png"
+image titlecard datenighto = "credits/titlecard_datenighto.png"
+
+define titledissolve = Dissolve(0.9)
+
+label splashscreen:
+
+    # $ titlepause = 0.2
+    $ titlepause = 1.2
+
+    scene i_sw_white
+
+    show titlecard datenighto  # with titledissolve
+    $ renpy.pause(titlepause)
+    hide titlecard datenighto  # with titledissolve
+
+    show titlecard nbgi  # with titledissolve
+    $ renpy.pause(titlepause)
+    hide titlecard nbgi  # with titledissolve
+
+    show titlecard shiftylook  # with titledissolve
+    play sound "sfx/pacman.ogg" noloop
+    $ renpy.pause(titlepause)
+    hide titlecard shiftylook  # with titledissolve
+
+    show titlecard whatpumpkin  # with titledissolve
+    $ renpy.pause(titlepause)
+    hide titlecard whatpumpkin  # with titledissolve
+
+    return
+
+
 # The game starts here.
 
 label start:
@@ -26,11 +60,16 @@ label start:
 
     jump s_intro
 
-label credits:
+label CreditsEvent:
+    window hide
     show i_sw_black as curtain zorder 15:
         alpha 0.0
         linear 1.0 alpha 1.0
-    "CREDITS"
+    $ renpy.pause(1.0)
+
+    call screen credits
+
+    window show
     return
 
 define char_name_to_id = {
@@ -115,6 +154,7 @@ label BadEndMacro:
         alpha 0.0
         time 2.0
         linear 1.0 alpha 1.0
+    $ persistent.got_truend_badend = True
     $ renpy.pause(5)
     $ renpy.pause()
         # imageevent actor badEnd with image i_event_badend 1sec fadein

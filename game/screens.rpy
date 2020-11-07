@@ -7,11 +7,14 @@ init offset = -1
 style namcohigh_button:
     background Frame("gui/buttonframeh.png", 14, 14)
     hover_background Frame("gui/buttonframe.png", 14, 14)
+    insensitive_background Frame("gui/buttonlocked.png", 14, 14)
     padding (14, 14)
+    xminimum 300
 
 style namcohigh_button_text:
     hover_color "#fff"
     color "#E11E28"
+    insensitive_color "#eee"
     xalign 0.5
     bold True
 
@@ -426,7 +429,7 @@ style navigation_button_text:
 
 
 style main_menu_column_window:
-    background Solid("#fff")
+    # background Solid("#fff")
     padding (10, 10)
 
 style main_menu_column_button is namcohigh_antibutton:
@@ -434,6 +437,8 @@ style main_menu_column_button is namcohigh_antibutton:
 style main_menu_column_button_text is namcohigh_antibutton_text
 
 define config.main_menu_music = "bgm/namcotheme.ogg"
+
+define logo_namcohigh = scaleBestFit("ui/logo_namcohigh.png", 400, 400)
 
 screen main_menu():
 
@@ -454,12 +459,13 @@ screen main_menu():
         # vbox:
         vbox:
             spacing 15
-            add scaleBestFit("ui/logo_namcohigh.png", 400, 400)
+            add logo_namcohigh
             null xsize 15
             textbutton _("NEW GAME") action Start()
             textbutton _("CONTINUE") action ShowMenu("load")
             textbutton _("OPTIONS") action ShowMenu("preferences")
-            textbutton _("CREDITS") action ShowMenu("credits")
+            textbutton _("CREDITS") action ShowMenu("credits") alternate ShowMenu("credits_manual")
+            textbutton _("GALLERY") action ShowMenu("gallery")
 
 
 

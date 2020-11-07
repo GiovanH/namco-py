@@ -1085,7 +1085,7 @@ class ConsoleEvent(Node):
 
 class CreditsEvent(Node):
     def toRpy(self):
-        return "call credits"
+        return "call CreditsEvent"
 
 class ExplorationMacro(NodeContainer, Node):
     def process(self):
