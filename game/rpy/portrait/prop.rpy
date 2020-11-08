@@ -1,0 +1,5 @@
+image i_prop_hiromi_bike = "portrait/prop/hiromi_bike.png"
+image i_prop_parents = "portrait/prop/parents.png"
+image i_prop_picnic = "portrait/prop/picnic.png"
+image i_prop_sword_good = "portrait/prop/sword_good.png"
+image i_prop_sword_wood = "portrait/prop/sword_wood.png"

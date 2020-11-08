@@ -1,0 +1,5 @@
+image i_galaga_blush = "portrait/galaga/blush.png"
+image i_galaga_default = "portrait/galaga/default.png"
+image i_galaga_default_sil = "portrait/galaga/default_sil.png"
+image i_galaga_script = "portrait/galaga/script.png"
+image i_galaga_wig = "portrait/galaga/wig.png"
