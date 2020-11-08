@@ -9,6 +9,8 @@ image titlecard whatpumpkin = "credits/titlecard_whatpumpkin.png"
 image titlecard shiftylook = "credits/titlecard_shiftylook.png"
 image titlecard datenighto = "credits/titlecard_datenighto.png"
 
+define slot_day_name = "Intro"
+
 define titledissolve = Dissolve(0.9)
 
 label splashscreen:
@@ -62,9 +64,6 @@ label start:
 
 label CreditsEvent:
     window hide
-    show i_sw_black as curtain zorder 15:
-        alpha 0.0
-        linear 1.0 alpha 1.0
     $ renpy.pause(1.0)
 
     call screen credits
@@ -97,41 +96,7 @@ define char_name_to_id = {
 label SuperSecretMacro:
     $ renpy.pause()
     # if you have the true ending for all characters:
-    if not persistent.got_trueend_amazona:
-        return
-    if not persistent.got_trueend_albatros:
-        return
-    if not persistent.got_trueend_antibravo:
-        return
-    if not persistent.got_trueend_bluemax:
-        return
-    if not persistent.got_trueend_davesprite:
-        return
-    if not persistent.got_trueend_donko:
-        return
-    if not persistent.got_trueend_galaga:
-        return
-    if not persistent.got_trueend_hiromi:
-        return
-    if not persistent.got_trueend_jane:
-        return
-    if not persistent.got_trueend_lolo:
-        return
-    if not persistent.got_trueend_meowkie:
-        return
-    if not persistent.got_trueend_mrdriller:
-        return
-    if not persistent.got_trueend_nidia:
-        return
-    if not persistent.got_trueend_richard:
-        return
-    if not persistent.got_trueend_taira:
-        return
-    if not persistent.got_trueend_terezi:
-        return
-    if not persistent.got_trueend_tomari:
-        return
-    if not persistent.got_trueend_valk:
+    if not unlockedAll():
         return
     call s_supersecret
     return

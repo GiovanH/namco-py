@@ -9,6 +9,10 @@ from types import GeneratorType
 pathsep = "_"
 sceneid = ""
 
+
+# TODO maybe add a finalizing opacity statement after ATLs to 
+# workaround the half-faded bug
+
 SHOW_UNHANDLED_ATTRS = True
 
 TextStore = nc_hardcoded.TextStore.copy()
@@ -44,56 +48,6 @@ def init():
     DefaultVars = []
     cps_mult = 1.0
     last_say_what = None
-
-# First, nodes are made and initialized.
-# Then, Scene calls Preprocess, which assigns parents to nodes
-# (we can't do this when we create them because they aren't built yet!)
-# Finally, you can call getRpy on Scene
-
-# Conversion
-
-# ParallelEvents execute their contents(?) in parallel
-# Need to time inner events (.duration prop?) and pause
-
-# Renpy executes everything in parallel
-# except for interactions
-# and with statements
-
-# Ideally we would make each interaction last a max time
-# separately from the interaction logic
-# Might be able to simulate this with renpy.pause?
-# If not we should pause when there's a block and no interact
-
-# Maybe look into how renpy interactions hook?
-# Maybe move text to the end of the block so
-# the interaction doesn't block animation?
-
-# ATL: Need to group statements so 
-
-    # show i_digdug_right as digdug:
-    #     time 0.25 
-    #     linear 0.0 ypos 0.75
-    # # $ renpy.pause(0.25)
-    # show i_digdug_right as digdug:
-    #     time 0.5 
-    #     linear 0.25 xpos 0.2
-    # # $ renpy.pause(0.75)
-    # show i_digdug_right as digdug:
-    #     unflip(delay=0.75)
-    # show i_digdug_right as digdug:
-    #     time 1.0 
-    #     linear 0.0 ypos 1.0
-
-    #     becomes 
-
-    # show i_digdug_right as digdug:
-    #     time 0.25 
-    #     linear 0.0 ypos 0.75
-    #     time 0.5 
-    #     linear 0.25 xpos 0.2
-    #     unflip(delay=0.75)
-    #     time 1.0 
-    #     linear 0.0 ypos 1.0
 
 def textToRpyInterp(text):
     text = re.sub(r"([\\\"])", r"\\\g<1>", text)
@@ -155,7 +109,6 @@ def jsExprToPy(value):
 
 def transformScaleX(factor, actor):
     fl = float(factor)
-    prev = ActorIsFlipped.get(actor, None)
     ActorIsFlipped[actor] = fl
 
     return f"xzoom {fl} "
@@ -168,7 +121,7 @@ def allChildrenR(node):
 
 
 transformation = {
-    "opacity": lambda a, i: f"alpha {round(float(a), 2)}" ,
+    "opacity": lambda a, i: f"alpha {round(float(a), 2)}",
     "delay": lambda a, i: f"pause {round(float(a), 2)} ",
     "x": lambda a, i: f"xpos {round(0.5 + p2f(a), 2)} ",
     "y": lambda a, i: f"ypos {round(0.5 + p2f(a), 2)} ",
@@ -272,6 +225,7 @@ class Node():
         self.children = children
         self.text = text
 
+        self.attrs_copy = self.attrs.copy()
         self.attrs['kind'] = tag_name
         self.pausetime = 0
 
@@ -305,7 +259,7 @@ class Node():
         return node_cls(tag.name, tag.attrs, children, text)
 
     def __repr__(self, short=True):
-        selfr = f"<{self.__class__.__name__} {self.attrs} {self.kind} '{self.text}'>"
+        selfr = f"<{self.__class__.__name__} {self.attrs_copy} {self.kind} '{self.text}'>"
         if self.children and not short:
             childrenstr = "\n".join(str(c) for c in self.children)
             return f"{selfr}\n  {textwrap.indent(childrenstr, '    ')}\n>"
@@ -347,12 +301,12 @@ class Macro():
 
 
 class Annotation(Node):
-    def process(self):
-        print(self)
-        print(self.toRpy())
-
     def toRpy(self):
         return textwrap.indent(self.text, '# ')
+
+class RawRpy(Node):
+    def toRpy(self):
+        return self.text
 
 class NodeBody(Node):
     def toRpy(self, prefix=""):
@@ -470,7 +424,13 @@ class Scene(NodeContainer, Node):
 
     def toRpy(self):
         extra_lines = self.makeExtraLines()
-        ret = "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix="scene i_sw_black with dissolve\nstop music fadeout 1.0\n")
+        prefix = "\n".join([
+            "scene i_sw_black with dissolve",
+            "stop music fadeout 1.0",
+            f"$ slot_day_name = \"{self.label}\"",
+            "$ renpy.pause(1) # buffer"  # fake loading
+        ])
+        ret = "\n".join(extra_lines) + NodeContainer.toRpy(self, prefix=prefix)
         if unhandled_attrs and SHOW_UNHANDLED_ATTRS:
             print("Unhandled attributes:")
             pprint(unhandled_attrs)
@@ -481,14 +441,15 @@ class Assets(NoScript, Node):
 
 class TimedPause(Node):
     def toRpy(self):
-        if self.attrs['duration']:
-            return f"$ renpy.pause({self.attrs['duration']})"
-        else: 
-            return f"# TimedPause ({self.attrs['duration']})"
+        duration = self.attrs.pop('duration')
+        if float(duration) > 0:
+            return f"$ renpy.pause({duration}) # TimedPause"
+        return ""
 
 class Events(NodeBody, Node):
     def process(self):
         self.kind = "events"
+        self.attrs['kind'] = self.kind
         # assert self.attrs.get("kind", "events") == "events"
 
     def block(self, should_block):
@@ -533,11 +494,11 @@ class Events(NodeBody, Node):
 
 class ActorEvent(ATLSource, Node):
     def process(self):
-        self.actor_id = self.attrs.get('target')  # albatros
+        self.actor_id = self.attrs.pop('target')  # albatros
 
         self.styles = list(findNodes(self.children, kind="styles"))
         self.transitions = list(findNodes(self.children, kind="transitions"))
-        self.interpolation = toRpyInterp(self.attrs.get("ease", "linear"))  # ease-out
+        self.interpolation = toRpyInterp(self.attrs.pop("ease", "linear"))  # ease-out
 
         self.atl = self._getAtl()
 
@@ -546,8 +507,8 @@ class ActorEvent(ATLSource, Node):
         return self.atl
 
     def _getAtl(self, source="ActorEvent"):
-        transitiondur = self.attrs.get("duration", 0)
-        delay = self.attrs.get("delay", 0)
+        transitiondur = self.attrs.pop("duration", 0)
+        delay = self.attrs.pop("delay", 0)
 
         atl_statements = []
         for style in self.styles:
@@ -571,9 +532,9 @@ class ActorEvent(ATLSource, Node):
                     atl_statements.append(statement)
 
             return {
-                "actor_id": style.attrs.get("id", self.actor_id),
-                "image": style.attrs.get('image'),
-                "zorder": style.attrs.get("depth"),
+                "actor_id": style.attrs.pop("id", self.actor_id),
+                "image": style.attrs.pop('image', None),
+                "zorder": style.attrs.pop("depth", None),
                 "duration": self.pausetime,
                 "lines": atl_statements,
                 "create": False
@@ -594,8 +555,8 @@ class ActorEvent(ATLSource, Node):
             atl_statements.append(statement)
 
             return {
-                "actor_id": t.attrs.get("id", self.actor_id),
-                "zorder": t.attrs.get("depth"),
+                "actor_id": t.attrs.pop("id", self.actor_id),
+                "zorder": t.attrs.pop("depth", None),
                 "delay": delay,
                 "lines": atl_statements,
                 "duration": self.pausetime,
@@ -604,14 +565,14 @@ class ActorEvent(ATLSource, Node):
 
         # Animation Only
 
-        atl_statements = ["# ActorEvent (Transition only)"]
+        atl_statements = ["# ActorEvent (Animation only)"]
         atl = {
             "actor_id": self.actor_id,
             "duration": self.attrs.get("duration"),
             "create": False
         }
         
-        self.pausetime = self.attrs.get("duration", 0)
+        self.pausetime = self.attrs.pop("duration", 0)
         animation = self.attrs.pop("animation", None)
         if animation:
             atl['with'] = animation
@@ -719,7 +680,7 @@ class ActorImage(ATLSource, Node):
 
         self.name = self.attrs.get('name', None)
         self.auto = toPyValue(self.attrs.get('auto', False))
-        self.delay = float(self.attrs.get('delay', 0))
+        self.delay = float(self.attrs.pop('delay', 0))
         # TODO delay not implemented
 
         self.pausetime += float(self.delay)
@@ -728,7 +689,7 @@ class ActorImage(ATLSource, Node):
         return {
             "actor_id": self.actor,
             "image": self.image,
-            "duration": self.delay,
+            "delay": self.delay,
             "source": "ActorImage"
         }
 
@@ -788,6 +749,10 @@ class AudioCreate(Node):
 
     def toRpy(self):
         real_path = re.sub(r"@a_([a-z]+)_(.*)", r"\g<1>/\g<2>.ogg", self.path)
+
+        if real_path == "bgm/credits.ogg":
+            return "# Credits music -- NOT PLAYING (in screen)"
+
         if self.delay:
             return f'play {self.layer} ["<silence {self.delay}>", "{real_path}"] {"loop" if self.loop else "noloop"}'
         else:
@@ -811,7 +776,7 @@ class AudioEvent(Node):
 
     def toRpy(self):
         volume = float(self.attrs.pop("volume"))
-        fadeduration = float(self.attrs.pop("fadeDuration"))
+        fadeduration = float(self.attrs.pop("fadeDuration", 0))
         if volume == 0:
             return f"stop {self.layer} fadeout {fadeduration}"
         return f"$ AudioEvent('{self.layer}', {volume}, {fadeduration})"
@@ -830,9 +795,101 @@ class AudioOneShot(Node):
             return f'play {self.channel} "{sound_path}"'
 
 
-class NormalEndMacro(Node):
-    # todo too complicated for renpy
-    pass
+class NormalEndMacro(NodeBody, Node):
+    def process(self):
+        g = self.attrs.pop("partnerActor")
+        t = partnerImage = self.attrs.pop("partnerImage")
+
+        o = cousinX = self.attrs.pop("cousinX", "-15%")
+        p = partnerX = self.attrs.pop("partnerX", "-35%")
+        u = runCredits= self.attrs.pop("runCredits", False)
+
+        c = curtainActor = "curtain"
+        d = cousinActor = "cousin"
+        h = pacmanActor = "pacman"
+        digdugActor = "digdug"
+        i = firstLine = "@t_com00.00"
+        n = secondLine = "@t_com01.00"
+        q = curtainFadeOutTime = .5
+        r = curtainFadeInTime = .5
+        s = cousinImage = "@i_cousin_energetic_grin"
+        m = "@a_bgm_credits"
+
+        self.children = [
+            ParallelEvent("ParallelEvent", attrs={"auto": True}, children=[
+                Events("events", children=[
+                    ActorEvent("ActorEvent", attrs={
+                        "target": d
+                    }, children=[
+                        Styles("styles", attrs={
+                            "x": o,
+                            "image": s,
+                            "depth": 3
+                        })
+                    ]),
+                    ActorEvent("ActorEvent", attrs={
+                        "target": g
+                    }, children=[
+                        Styles("styles", attrs={
+                            "x": p,
+                            "image": t,
+                            "depth": 2
+                        })
+                    ]),
+                    ActorEvent("ActorEvent", attrs={
+                        "target": h
+                    }, children=[
+                        Styles("styles", attrs={
+                            "x": "30%",
+                            "opacity": 1,
+                            "depth": 2
+                        })
+                    ]),
+                    TextEvent(attrs={
+                        "char": "@t_ch_pacman",
+                        "text": i
+                    })
+                ])
+            ]),
+            ActorEvent("ActorEvent", attrs={
+                "target": c,
+                "duration": q
+            }, children=[
+                Transitions(attrs={
+                    "opacity": 0
+                })
+            ]),
+            TextEvent(attrs={
+                "char": "@t_ch_cousin",
+                "text": n
+            }),
+
+            ActorEvent("ActorEvent", attrs={
+                "target": c,
+                "duration": r,
+                "auto": False
+            }, children=[
+                Transitions(attrs={
+                    "opacity": 1
+                })
+            ]),
+            TextEvent(attrs={
+                "char": "",
+                "text": "",
+                "auto": False
+            })
+        ]
+
+        if u:
+            self.children.append(AudioEvent(attrs={
+                "target": "bgm",
+                "volume": 1,
+                "sound": m,
+                "auto": True,
+                "loop": False,
+                "play": True
+            }))
+            self.children.append(CreditsEvent())
 
 
 class BadEndMacro(Node):
@@ -898,6 +955,7 @@ class BattleMacro(NodeBody, Node):
             ])
 
         D = [
+            RawRpy(text="window hide None"),
             ParallelEvent(
                 attrs={"auto": True},
                 children=[
@@ -1004,27 +1062,38 @@ class BattleMacro(NodeBody, Node):
             E.append(o(partnerActor, "20%"))
 
         D.append(n(whiteSwatchActor, cousinActor))
+
         D.append(
             ParallelEvent("ParallelEvent", children=[
                 Events("events", children=E)
             ])
         )
-        D.append(
-            ActorEvent("ActorEvent", attrs={
-                "target": whiteSwatchActor,
-                "duration": 0.5,
-            }, children=[
-                Transitions("transitions", attrs={"opacity": 1})
-            ])
-        )
-        TimedPause(attrs={"duration": 0.5}),
 
+        # Fade to white
+        # Fade to black
+        # Inner stuff (setup)
+        
+        # HACK: Wrap in parallelevent to force it to block
+        D.append(
+            ParallelEvent("ParallelEvent", children=[Events(children=[
+                ActorEvent("ActorEvent", attrs={
+                    "target": whiteSwatchActor,
+                    "duration": 0.5,
+                }, children=[
+                    Transitions("transitions", attrs={"opacity": 1})
+                ])
+            ])])
+        )
+
+        # This pushes "hide robotarmy" and such. ???
         if self.children:
+            D.append(Annotation(text="= Battlemacro contents"))
             D.append(
                 ParallelEvent("ParallelEvent", children=[
                     Events("events", children=self.children)
                 ])
             )
+            D.append(Annotation(text="- end battlemacro contents"))
 
         D.append(ParallelEvent(
             "ParallelEvent", 
@@ -1058,6 +1127,7 @@ class BattleMacro(NodeBody, Node):
                 ])
             ]
         ))
+        D.append(Annotation(text="End battlemacro"))
 
         self.children = D
 
@@ -1073,9 +1143,8 @@ class BranchMacro(Node):
         self.comparison = comparison
         self.jumplabel = sceneid + pathsep + slugify(self.attrs.pop('path').replace("/", pathsep))
 
-
     def toRpy(self):
-        return f"if {self.comparison}:\n    jump {self.jumplabel}"
+        return textwrap.indent(f"{self}", "# ") + f"\nif {self.comparison}:\n    jump {self.jumplabel}"
 
 
 class ConsoleEvent(Node):
@@ -1096,11 +1165,12 @@ class ExplorationMacro(NodeContainer, Node):
         self.var_name = "explore" + self.attrs.pop('sceneName')
 
     def toRpy(self):
-        lines = [f'$ {sceneid}_has_picked_any = False if not "{sceneid}_has_picked_any" in store.__dict__ else {sceneid}_has_picked_any', 'menu (screen="ChoiceExploration"):']
+        lines = [f'$ {sceneid}_has_picked_any = False if not "{sceneid}_has_picked_any" in store.__dict__ else {sceneid}_has_picked_any', "window hide", 'menu (screen="ChoiceExploration"):']
         for name, id in nc_hardcoded.char_name_to_id.items():
             target = sceneid + pathsep + id
             lines.append(f'    "{name}":')
             lines.append(f'        $ {sceneid}_has_picked_any = True')
+            lines.append(f'        window show')
             lines.append(f'        jump {target}')
 
         target = sceneid + pathsep + "cousin"
@@ -1109,6 +1179,7 @@ class ExplorationMacro(NodeContainer, Node):
             lines.append(f'    "{TextStore[self.pass_text]}" if {any}:')
         except KeyError:  # i have no idea
             lines.append(f'    "{TextStore["@" + self.pass_text]}" if {any}:')
+        lines.append(f'        window show')
         lines.append(f'        jump {target}')
         return "\n".join(lines)
 
@@ -1146,6 +1217,7 @@ class HardSwap(Node):
 
         # TODO: Probably a kind of between-actor fade?
         # see s_taira3
+        # this is a macro actually
 
 class IfExpr(NodeContainer, Node):
     def toRpy(self):
@@ -1186,7 +1258,10 @@ class IfTrue(IfExpr, Node):
 
 class JumpEvent(Node):
     def process(self):
-        self.jumplabel = sceneid + pathsep + slugify(self.attrs.pop('path').replace("/", pathsep))
+        if self.attrs.pop('scenechange', False):  # i made this up
+            self.jumplabel = self.attrs.pop('path')
+        else:
+            self.jumplabel = sceneid + pathsep + slugify(self.attrs.pop('path').replace("/", pathsep))
 
     def toRpy(self):
         return f"jump {self.jumplabel}"
@@ -1196,12 +1271,17 @@ class Macro(NodeContainer, Node):
         self.name = self.attrs.pop('name')
         self.label = self.getLabel() + pathsep + self.name
 
-class NHSceneChange(Node):
+class NHSceneChange(NodeContainer, Node):
     def process(self):
-        self.jumplabel = slugify(self.attrs.pop('scene'))
+        self.name = self.attrs.pop('name')
+        self.label = self.getLabel() + pathsep + self.name
 
-    def toRpy(self):
-        return f"jump {self.jumplabel}"
+        jumplabel = slugify(self.attrs.pop('scene'))
+
+        self.children.append(JumpEvent(attrs={
+            "path": jumplabel,
+            "scenechange": True
+        }))
 
 class Interaction(Node):
     def toRpy(self):
@@ -1227,10 +1307,18 @@ class ParallelEvent(NodeBody, Node):
         # Definitely need to pause even for auto events as seen in battlemacro
         events.block(True)
 
+        text = ""
+        delay = self.attrs.pop("delay", 0)
+        if delay:
+            text += f"$ renpy.pause({delay}) # ParallelEvent Delay\n"
+
+
         if self.label:
-            return NodeContainer.toRpy(self)  # + '\nextend ""'
+            text += NodeContainer.toRpy(self)  # + '\nextend ""'
         else:
-            return NodeBody.toRpy(self)  # + '\nextend ""'
+            text += NodeBody.toRpy(self)  # + '\nextend ""'
+
+        return text
 
 class Transitions(Node):
     pass
@@ -1257,7 +1345,7 @@ class SettingChange(Node):
         lines.append(f"show i_sw_black as {curtain_actor}:")
         lines.append(f"    alpha 0.0")
         lines.append(f"    linear {curtain_fadetime} alpha 1.0")
-        lines.append(f"$ renpy.pause({curtain_fadetime})")
+        lines.append(f"$ renpy.pause({curtain_fadetime}) # Curtain fade")
 
         lines.append(f"show {bg_image} as {bg_actor} # behind {curtain_actor}")
 
@@ -1265,7 +1353,7 @@ class SettingChange(Node):
         lines.append(f"show i_sw_black as {curtain_actor}:")
         lines.append(f"    alpha 1.0")
         lines.append(f"    linear {curtain_fadetime} alpha 0.0")
-        lines.append(f"$ renpy.pause({curtain_fadetime})")
+        lines.append(f"$ renpy.pause({curtain_fadetime}) # Curtain fade")
 
         # TODO scene attributes
 
@@ -1429,7 +1517,9 @@ class TextEvent(Node):
 
         # Wait happens first (question mark?)
         if self.delay and not did_wait:
-            if last_say_what and False:
+            if last_say_what:
+                # You need to extend text, as seen with "The Next Day":
+
                 # lines.append('$ renpy.pause(%s) # Text delay' % self.delay)
                 lines.append('extend "{w=%s}{nw}"' % self.delay)
             else:

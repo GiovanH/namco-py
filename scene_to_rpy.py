@@ -38,7 +38,7 @@ def makeCharacters():
                 image_name_plain, image_ext = os.path.splitext(image_name)
 
                 image_identifier = f"i_{fixed_name}_{image_name_plain}"
-                if char_name == "digdug":  
+                if char_name == "digdug" or True:  
                     # hate this
                     rpy_line = f'image {image_identifier} = "portrait/{char_name}/{image_name}"\n'
                 else:

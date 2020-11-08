@@ -117,6 +117,9 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+define textbox_bg = AlphaMask("gui/textbox.png", "gui/textbox_mask.png")
+define textboxhs_bg = AlphaMask("gui/textboxhs.png", "gui/textbox_mask.png")
+
 screen say(who, what):
     style_prefix "say"
 
@@ -126,7 +129,7 @@ screen say(who, what):
         xalign 0.5
         yalign 1.0
 
-        background Frame("gui/textbox.png", 0, 25)
+        background textbox_bg
         yminimum 144
 
         window:
@@ -152,7 +155,7 @@ screen say_homestuck(who, what):
 
     window:
         id "window"
-        background "gui/textboxhs.png"
+        background textboxhs_bg
         xsize 1000
         xalign 0.5
         yalign 1.0
@@ -395,7 +398,7 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("credits") action ShowMenu("credits")
+        textbutton _("Credits") action ShowMenu("credits_manual")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
@@ -434,11 +437,18 @@ style main_menu_column_window:
 
 style main_menu_column_button is namcohigh_antibutton:
     xfill True
+
 style main_menu_column_button_text is namcohigh_antibutton_text
+
+style main_menu_lilcolumn_button is namcohigh_antibutton:
+    xsize 190
+
+style main_menu_lilcolumn_button_text is namcohigh_antibutton_text
+
 
 define config.main_menu_music = "bgm/namcotheme.ogg"
 
-define logo_namcohigh = scaleBestFit("ui/logo_namcohigh.png", 400, 400)
+define logo_namcohigh = "ui/logo_namcohigh.png"
 
 screen main_menu():
 
@@ -464,9 +474,23 @@ screen main_menu():
             textbutton _("NEW GAME") action Start()
             textbutton _("CONTINUE") action ShowMenu("load")
             textbutton _("OPTIONS") action ShowMenu("preferences")
-            textbutton _("CREDITS") action ShowMenu("credits") alternate ShowMenu("credits_manual")
-            textbutton _("GALLERY") action ShowMenu("gallery")
+            textbutton _("CREDITS") action ShowMenu("credits_manual") alternate ShowMenu("credits")
+            
+            hbox:
+                xalign 0.5
+                xfill True
+                spacing 20
+                style_prefix "main_menu_lilcolumn"
+                textbutton _("GALLERY") action ShowMenu("gallery")
+                textbutton _("MUSIC") action ShowMenu("fj_music_room")
 
+            hbox:
+                xalign 0.5
+                xfill True
+                spacing 20
+                style_prefix "main_menu_lilcolumn"
+                textbutton _("STUDENTS") action ShowMenu("students")
+                textbutton _("THE TEAM") action ShowMenu("the_team")
 
 
 
@@ -589,8 +613,9 @@ style return_button is navigation_button
 style return_button_text is navigation_button_text
 
 style game_menu_outer_frame:
-    bottom_padding 24
-    top_padding 94
+    xpadding 40
+    bottom_padding 64
+    top_padding 134
 
     background "gui/overlay/game_menu.png"
 
@@ -599,8 +624,8 @@ style game_menu_navigation_frame:
     yfill True
 
 style game_menu_content_frame:
-    left_margin 32
-    right_margin 16
+    left_margin 0
+    right_margin 32
     top_margin 8
 
 style game_menu_viewport:
@@ -702,7 +727,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        text FileJson(slot, "save_label", empty="Empty", missing="???"):
                             style "slot_time_text"
 
                         text FileSaveName(slot):

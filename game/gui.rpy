@@ -23,7 +23,7 @@ $ preferences.text_cps = 80
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = '#990000'
+define gui.accent_color = '#E11E28'
 
 ## The color used for a text button when it is neither selected nor hovered.
 define gui.idle_color = '#aaaaaa'
@@ -33,7 +33,7 @@ define gui.idle_color = '#aaaaaa'
 define gui.idle_small_color = '#888888'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = '#990000'
+define gui.hover_color = '#E11E28'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
@@ -44,8 +44,8 @@ define gui.insensitive_color = '#aaaaaa7f'
 
 ## Colors used for the portions of bars that are not filled in. These are not
 ## used directly, but are used when re-generating bar image files.
-define gui.muted_color = '#c16666'
-define gui.hover_muted_color = '#d69999'
+define gui.muted_color = '#aaaaaa'
+define gui.hover_muted_color = '#fff'
 
 ## The colors used for dialogue and menu choice text.
 define gui.text_color = '#404040'
@@ -85,8 +85,8 @@ define gui.title_text_size = 40
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = "bg/school_front.jpg"
+define gui.game_menu_background = "bg/school_front.jpg"
 
 
 ## Dialogue ####################################################################
