@@ -1,0 +1,2479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_lolo3" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_slolo3_prompt1">
+            <value key="en">(School...is pointless?)</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3_choice2">
+            <value key="en">School is not pointless!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3_choice3">
+            <value key="en">Stay in school, kids.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo39.00">
+            <value key="en">Lolo! Wait!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo310.00">
+            <value key="en">Oh, so you came after all.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo311.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo312.00">
+            <value key="en">(Why’s she acting all aloof?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo312.01">
+            <value key="en">Did she actually want me to come along or what?)</value>
+        </TextAsset>
+        <TextAsset key="t_slolo313.00">
+            <value key="en">I go to the nurse’s office sometimes, so King won’t be too suspicious right away.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo313.01">
+            <value key="en">Let’s go.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo314.00">
+            <value key="en">The nurse’s office…?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo314.01">
+            <value key="en">Lolo, what’s wrong?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo315.00">
+            <value key="en">Oh ${slot:playerName}…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo315.01">
+            <value key="en">I should’ve told you…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo316.00">
+            <value key="en">I’m really sick.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo317.00">
+            <value key="en">!!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo318.00">
+            <value key="en">Lolo-!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo319.00">
+            <value key="en">...Really sick…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo320.00">
+            <value key="en">Of sitting in detention.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo320.01">
+            <value key="en">So we’re skipping it today.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo320.02">
+            <value key="en">And now I’m cured! It’s a miracle.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo321.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo322.00">
+            <value key="en">What? Don’t just stare like that.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo322.01">
+            <value key="en">Don’t tell me you got fooled by such an obvious joke.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo323.00">
+            <value key="en">No, it’s just…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo324.00">
+            <value key="en">You’re smiling a little.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo325.00">
+            <value key="en">So?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo326.00">
+            <value key="en">You have a sense of humor…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo326.01">
+            <value key="en">It really is a miracle.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo327.00">
+            <value key="en">Well, I’m definitely not smiling anymore.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo327.01">
+            <value key="en">Congrats on ruining it.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo328.00">
+            <value key="en">So why do you go to the nurse’s office?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo329.00">
+            <value key="en">It’s just an easy way to get out of stuff.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo329.01">
+            <value key="en">Even if they suspect you’re faking, nobody really argues.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo330.00">
+            <value key="en">Sometimes sitting in class just gets so overwhelming, you know?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo331.00">
+            <value key="en">What…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo332.00">
+            <value key="en">You mean like the homework and stuff?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo333.00">
+            <value key="en">No… I mean…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo334.00">
+            <value key="en">Of everyone looking at you…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo335.00">
+            <value key="en">Thinking you’re stupid…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo335.01">
+            <value key="en">Seeing you in that gross classroom fluorescent light…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo336.00">
+            <value key="en">As if you didn’t look ugly enough already.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo337.00">
+            <value key="en">I don’t think anyone’s looking at you.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo337.01">
+            <value key="en">Or thinking about you that much.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo338.00">
+            <value key="en">I mean, no offense, but isn’t that kinda self-centered?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo338.01">
+            <value key="en">Why would anyone care, even if you were ugly?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo339.00">
+            <value key="en">I guess you’re right. Nobody really cares.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo339.01">
+            <value key="en">About anything else…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo340.00">
+            <value key="en">They’re all just trying to pass the time.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo340.01">
+            <value key="en">That’s all anyone does.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo340.02">
+            <value key="en">What good is time anyway, if people are always just looking for ways to kill it?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo341.00">
+            <value key="en">(I’m starting to get annoyed at all her talking like this…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo342.00">
+            <value key="en">I mean, even she’s gotta see it’s overkill, right?)</value>
+        </TextAsset>
+        <TextAsset key="t_slolo343.00">
+            <value key="en">Anyway… let’s get going.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo344.00">
+            <value key="en">Why’d you even ask me to come along?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo344.01">
+            <value key="en">I mean… I don’t even know what we’re doing yet…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo345.00">
+            <value key="en">You ask so many questions all the time…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo346.00">
+            <value key="en">I just thought you would come because I thought you were cool.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo347.00">
+            <value key="en">Y-you…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo347.01">
+            <value key="en">You thought I was…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo348.00">
+            <value key="en">Cool?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo349.00">
+            <value key="en">Not cool-cool.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo349.01">
+            <value key="en">Just…. chill.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo349.02">
+            <value key="en">You know, cool.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo350.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo351.00">
+            <value key="en">I totally understand what you’re talking about!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo352.00">
+            <value key="en">Heh.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo352.01">
+            <value key="en">Don’t hurt yourself, cupcake.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo353.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo354.00">
+            <value key="en">Oh, come on.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo355.00">
+            <value key="en">Anyway… my friend should be meeting us here soon to give me some stuff.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo355.01">
+            <value key="en">But you have to promise not to tell anyone.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo355.02">
+            <value key="en">Okay?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo356.00">
+            <value key="en">Uh…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo356.01">
+            <value key="en">Do you really trust me that much?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo357.00">
+            <value key="en">...</value>
+        </TextAsset>
+        <TextAsset key="t_slolo358.00">
+            <value key="en">(I’m not gonna get a real answer from her, am I.)</value>
+        </TextAsset>
+        <TextAsset key="t_slolo359.00">
+            <value key="en">...Okay, Lolo.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo359.01">
+            <value key="en">Tell me.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo359.02">
+            <value key="en">I can keep a secret.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo360.00">
+            <value key="en">Well…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo361.00">
+            <value key="en">You know how school is totally pointless?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo362.00">
+            <value key="en">And how everything we’re supposed to learn here is just stupid propaganda?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo362.01">
+            <value key="en">And how it only rewards nerds who can memorize endless trivial details…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo362.02">
+            <value key="en">That don’t actually have anything to do with anything?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo363.00">
+            <value key="en">(School… is it pointless?)</value>
+        </TextAsset>
+        <TextAsset key="t_slolo364.00">
+            <value key="en">I dunno…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo364.01">
+            <value key="en">I kinda like school.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo365.00">
+            <value key="en">I even enjoy math, sometimes!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo365.01">
+            <value key="en">It’s like rolling up numbers,</value>
+        </TextAsset>
+        <TextAsset key="t_slolo365.02">
+            <value key="en">but with your mind instead of a ball.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo366.00">
+            <value key="en">Why am I not surprised.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo367.00">
+            <value key="en">Eh heh.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo368.00">
+            <value key="en">Even you have to get bored in class sometimes though, right?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo369.00">
+            <value key="en">...Please tell me you do.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo370.00">
+            <value key="en">Well…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo370.01">
+            <value key="en">Sure, but that doesn’t mean-</value>
+        </TextAsset>
+        <TextAsset key="t_slolo371.00">
+            <value key="en">What if you could skip through your classes easily…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo371.01">
+            <value key="en">With no effort at all?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo372.00">
+            <value key="en">Perfect grades without having done any homework…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo372.01">
+            <value key="en">Perfect attendance without ever going to class.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo373.00">
+            <value key="en">Wouldn’t you want to do that?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo374.00">
+            <value key="en">Uh, I dunno.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo374.01">
+            <value key="en">The only way to do that, I think…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo375.00">
+            <value key="en">Would be to enter a cheat code.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo376.00">
+            <value key="en">Haha.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo376.01">
+            <value key="en">You even whispered the word “cheat code”.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo376.02">
+            <value key="en">${slot:playerName}, are you seriously even real?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo377.00">
+            <value key="en">So that is what you’re talking about?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo378.00">
+            <value key="en">Lolo, you wouldn’t actually do that, right?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo379.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo380.00">
+            <value key="en">Why do you think I was in detention in the first place?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo381.00">
+            <value key="en">Cheat codes?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo381.01">
+            <value key="en">Lolo!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo381.02">
+            <value key="en">You could really mess yourself up that way!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo382.00">
+            <value key="en">Hey, calm down.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo382.01">
+            <value key="en">I didn’t actually get a chance to enter the code.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo382.02">
+            <value key="en">I got caught in the act.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo383.00">
+            <value key="en">But…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo383.01">
+            <value key="en">But I heard the other detention kids talking about some guy who used cheat codes last year!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo384.00">
+            <value key="en">He got unlimited recess…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo384.01">
+            <value key="en">But when Principal DigDug found out, the guy got expelled from Namco High!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo385.00">
+            <value key="en">For good!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo386.00">
+            <value key="en">So what?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo386.01">
+            <value key="en">I know a guy who can get me a way better cheat code than that.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo387.00">
+            <value key="en">And that kid was so dumb!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo387.01">
+            <value key="en">Of course somebody’s gonna notice if you’re in recess all the time.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo388.00">
+            <value key="en">But if I can godmode my way through class…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo389.00">
+            <value key="en">I dunno.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo389.01">
+            <value key="en">The teachers will just think I’m studying harder.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo390.00">
+            <value key="en">Just because you think everyone is stupid doesn’t mean they actually are!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo391.00">
+            <value key="en">People are gonna notice you’re using cheat codes.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo391.01">
+            <value key="en">You’d be expelled for sure!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo392.00">
+            <value key="en">What do you care?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo393.00">
+            <value key="en">Maybe that’d at least be interesting.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo394.00">
+            <value key="en">Lolo! Shut up!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo395.00">
+            <value key="en">… !!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo396.00">
+            <value key="en">Sorry- I just-</value>
+        </TextAsset>
+        <TextAsset key="t_slolo397.00">
+            <value key="en">How can you talk about yourself that way?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo397.01">
+            <value key="en">Don’t you care about yourself at all?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo398.00">
+            <value key="en">I dunno.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo398.01">
+            <value key="en">Do I?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo399.00">
+            <value key="en">...What?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo399.01">
+            <value key="en">Why are you asking me that...</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3100.00">
+            <value key="en">Do I care about myself?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3100.01">
+            <value key="en">I really can’t tell anymore.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3101.00">
+            <value key="en">Sometimes it feels more like…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3101.01">
+            <value key="en">I’m only watching myself.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3101.02">
+            <value key="en">Waiting to see if I ever do anything cool.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3102.00">
+            <value key="en">...Is that why you invited me along?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3102.01">
+            <value key="en">To be an audience?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3102.02">
+            <value key="en">To see you do something “cool”?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3103.00">
+            <value key="en">Yeah, right.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3103.01">
+            <value key="en">C’mon, ${slot:playerName}. Give me some credit.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3104.00">
+            <value key="en">I really don’t care about seeming cool.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3104.01">
+            <value key="en">I really did just want some cheat codes for easy A’s.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3105.00">
+            <value key="en">It just doesn’t seem like you…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3106.00">
+            <value key="en">Oh, no?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3107.00">
+            <value key="en">You’re a sweet girl, Lolo…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3107.01">
+            <value key="en">I can tell.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3108.00">
+            <value key="en">I think you wanted me here…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3109.00">
+            <value key="en">Because you think of me as a nice person…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3110.00">
+            <value key="en">And you knew I would stop you.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3111.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3112.00">
+            <value key="en">You don’t really want to use cheat codes.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3112.01">
+            <value key="en">But you’re stuck playing this stupid “I don’t care” game.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3113.00">
+            <value key="en">But you figured I’m such a do-gooder,</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3113.01">
+            <value key="en">you could count on me to stop you instead.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3114.00">
+            <value key="en">Is that it?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3115.00">
+            <value key="en">You…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3116.00">
+            <value key="en">You’re just like Klonoa.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3117.00">
+            <value key="en">You keep talking about Klonoa…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3117.01">
+            <value key="en">Who is he?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3117.02">
+            <value key="en">Did he do something bad?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3118.00">
+            <value key="en">No!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3118.01">
+            <value key="en">He didn’t do anything.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3119.00">
+            <value key="en">But he was like you… always nice to me.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3119.01">
+            <value key="en">Totally just taking pity because of how dumb I was.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3120.00">
+            <value key="en">But he had no idea, and neither do you…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3121.00">
+            <value key="en">How much worse all that nice stuff made me feel.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3122.00">
+            <value key="en">Whatever he did to you…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3122.01">
+            <value key="en">You didn’t deserve it!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3123.00">
+            <value key="en">It wasn’t his fault!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3123.01">
+            <value key="en">He just made me realize…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3124.00">
+            <value key="en">That sometimes people try their hardest,</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3124.01">
+            <value key="en">but it never matters, because it never works out.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3125.00">
+            <value key="en">Just like me, working so hard to be a priestess.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3125.01">
+            <value key="en">But I never got any better.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3125.02">
+            <value key="en">I was always so hopeless at it, but…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3126.00">
+            <value key="en">I actually believed I could do it…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3127.00">
+            <value key="en">Just like all the other dumb students in this school.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3128.00">
+            <value key="en">Working so hard to learn!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3128.01">
+            <value key="en">Not knowing it’ll never take them anywhere.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3129.00">
+            <value key="en">It just makes me so sad, okay?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3130.00">
+            <value key="en">And maybe I wanted to skip over that with a cheat code.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3130.01">
+            <value key="en">Is that so bad?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3131.00">
+            <value key="en">Well…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3131.01">
+            <value key="en">Maybe this isn’t what Klonoa would’ve done, but...</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3132.00">
+            <value key="en">I’m not going to try to stop you.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3133.00">
+            <value key="en">I believe you can do that yourself.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3134.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3135.00">
+            <value key="en">ROAR!!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3136.00">
+            <value key="en">WHAT’S GOING ON HERE?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3137.00">
+            <value key="en">GAH!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3137.01">
+            <value key="en">How long have you been standing behind me!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3138.00">
+            <value key="en">Long enough to know you two are SKIPPING DETENTION!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3138.01">
+            <value key="en">And for that…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3138.02">
+            <value key="en">You will have…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3139.00">
+            <value key="en">DOUBLE DETENTION!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3140.00">
+            <value key="en">(Sigh).</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3141.00">
+            <value key="en">ROAR!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3142.00">
+            <value key="en">You two shall face DETENTION LEVEL SEVEN:</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3142.01">
+            <value key="en">ABSTRACT CONCEPT OF DETENTION!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3143.00">
+            <value key="en">AUGH!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3144.00">
+            <value key="en">Wait, I mean-</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3145.00">
+            <value key="en">What?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3146.00">
+            <value key="en">You two…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3147.00">
+            <value key="en">Will spend 20 minutes…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3148.00">
+            <value key="en">DOING WHATEVER YOU WANT!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3149.00">
+            <value key="en">Um…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3150.00">
+            <value key="en">How is that detention, exactly?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3151.00">
+            <value key="en">AHA! THAT’S WHY ITS SO BRILLIANT!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3151.01">
+            <value key="en">Anything you do in the next 20 minutes…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3152.00">
+            <value key="en">BECOMES detention…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3153.00">
+            <value key="en">Simply because I said it was!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3154.00">
+            <value key="en">Pushing the boundaries of what society calls “detention”!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3155.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3156.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3157.00">
+            <value key="en">ROAarrr….</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3158.00">
+            <value key="en">I know, right?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3159.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3160.00">
+            <value key="en">...Okay…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3161.00">
+            <value key="en">(And so, we had some time to ourselves to talk.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3162.00">
+            <value key="en">Lolo suggested we do our detention on the roof.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3162.01">
+            <value key="en">It seemed as good a place as any.)</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3163.00">
+            <value key="en">This spot is pretty, isn’t it.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3164.00">
+            <value key="en">Oh!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3164.01">
+            <value key="en">Is it a place you actually like?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3165.00">
+            <value key="en">Not exactly…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3165.01">
+            <value key="en">It just feels like the kinda place that I should like.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3166.00">
+            <value key="en">So…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3167.00">
+            <value key="en">If King and Principal Dig Dug hadn’t stopped us…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3167.01">
+            <value key="en">Would you have still tried to get the cheat code?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3168.00">
+            <value key="en">...Think whatever you want.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3168.01">
+            <value key="en">Whatever makes you feel better.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3169.00">
+            <value key="en">Or not, I guess.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3170.00">
+            <value key="en">Lolo…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3171.00">
+            <value key="en">Were you always like this?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3172.00">
+            <value key="en">...Well…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3173.00">
+            <value key="en">No. But I didn’t change exactly, either. It’s hard to explain.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3174.00">
+            <value key="en">Was it because of… that person?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3175.00">
+            <value key="en">Heh. What, are you jealous? He wasn’t my boyfriend or anything.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3176.00">
+            <value key="en">N-no!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3177.00">
+            <value key="en">I just…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3177.01">
+            <value key="en">Want to understand.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3178.00">
+            <value key="en">...Yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3178.01">
+            <value key="en">Because of Klonoa.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3179.00">
+            <value key="en">But…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3179.01">
+            <value key="en">Not really in the way you’re thinking.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3180.00">
+            <value key="en">In what way, then?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3181.00">
+            <value key="en">Why are you asking so many stupid questions?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3182.00">
+            <value key="en">I’m sorry.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3183.00">
+            <value key="en">I just want to understand you.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3184.00">
+            <value key="en">Well, join the club.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3185.00">
+            <value key="en">Do you have a picture of Klonoa?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3186.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3187.00">
+            <value key="en">Yeah…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3188.00">
+            <value key="en">It’s here in the pocket of my dress actually.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3189.00">
+            <value key="en">...This looks like… It was cut out of a yearbook.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3190.00">
+            <value key="en">Yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3191.00">
+            <value key="en">From when I was studying magic at the priestess school.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3192.00">
+            <value key="en">I thought you…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3192.01">
+            <value key="en">Didn’t like yearbooks…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3193.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3194.00">
+            <value key="en">I wish you’d just give me a straight answer.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3195.00">
+            <value key="en">I bet you’re really regretting following me out to the hall right now.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3196.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3197.00">
+            <value key="en">Actually…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3197.01">
+            <value key="en">Not really.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3198.00">
+            <value key="en">Heh.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3199.00">
+            <value key="en">You’re…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo3200.00">
+            <value key="en">Pretty stupid, ${slot:playerName}.</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_school" />
+                <TextEvent char="@t_ch_cousin" text="@t_slolo39.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_hallway_a</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_energetic_surprise</image>
+                        <depth>3</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="lolo" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_lolo_default_grin</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="king" actorType="character">
+                    <styles>
+                        <x>100%</x>
+                        <image>@i_king_screaming</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                        <scaleX>-1</scaleX>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="digdug" actorType="character">
+                    <styles>
+                        <x>100%</x>
+                        <image>@i_digdug_left</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo310.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo311.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo312.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo312.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo313.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo313.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo314.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo314.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo315.00" />
+                <ActorImage image="@i_lolo_crossed_melancholy" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo315.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo316.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo317.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo318.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo319.00" />
+                <ActorImage image="@i_lolo_slumped_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo320.00" />
+                <ActorImage image="@i_lolo_shrug_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo320.01" />
+            </events>
+        </ParallelEvent>
+        <ActorFlip auto="true" duration="0.5" name="_H" target="lolo" />
+        <ActorFlip auto="true" duration="0.5" name="_I" target="lolo" />
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo320.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo321.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo322.00" />
+                <ActorImage image="@i_lolo_crossed_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo322.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo323.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo324.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo325.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated_blush" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo326.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo326.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo327.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo327.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo328.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo329.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo329.01" />
+                <ActorImage image="@i_lolo_crossed_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo330.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo331.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo332.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo333.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo334.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo335.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo335.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo336.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated_blush" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo337.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo337.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo338.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo338.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo339.00" />
+                <ActorImage image="@i_lolo_shrug_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo339.01" />
+                <ActorImage image="@i_lolo_shrug_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo340.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo340.01" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo340.02" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo341.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo342.00" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo343.00" />
+                <ActorImage image="@i_lolo_shrug_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo344.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo344.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo345.00" />
+                <ActorImage image="@i_lolo_default_melancholy" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo346.00" />
+                <ActorCrossfade duration="0.5" image="@i_lolo_default_melancholy_blush" opacity="1" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo347.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo347.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo348.00" />
+                <ActorImage image="@i_cousin_default_grin_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo349.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo349.01" />
+                <ActorImage image="@i_lolo_crossed_melancholy" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo349.02" />
+                <ActorImage image="@i_lolo_crossed_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo350.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo351.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo352.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo352.01" />
+                <ActorImage image="@i_lolo_shrug_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo353.00" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo354.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo355.00" />
+                <ActorImage image="@i_lolo_default_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo355.01" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo355.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo356.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo356.01" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo357.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo358.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo359.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo359.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo359.02" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo360.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo361.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo362.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo362.01" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo362.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo363.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo364.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo364.01" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo365.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo365.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo365.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo366.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo367.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo368.00" />
+                <ActorImage image="@i_lolo_shrug_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo369.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo370.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo370.01" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo371.00" />
+                <ActorImage image="@i_lolo_crossed_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo371.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo372.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo372.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo373.00" />
+                <ActorImage image="@i_lolo_crossed_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo374.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo374.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo375.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo376.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo376.01" />
+                <ActorImage image="@i_lolo_shrug_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo376.02" />
+                <ActorImage image="@i_lolo_default_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo377.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo378.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo379.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo380.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo381.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo381.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo381.02" />
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo382.00" />
+                <ActorImage image="@i_lolo_shrug_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo382.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo382.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo383.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo383.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo384.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo384.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo385.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo386.00" />
+                <ActorImage image="@i_lolo_shrug_raisedbrow" target="lolo" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo386.01" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo387.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo387.01" />
+                <ActorImage image="@i_lolo_shrug_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo388.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo389.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo389.01" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo390.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo391.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo391.01" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo392.00" />
+                <ActorImage image="@i_lolo_slumped_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo393.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo394.00" />
+                <ActorImage image="@i_cousin_energetic_angry" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo395.00" />
+                <ActorImage image="@i_lolo_default_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo396.00" />
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo397.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo397.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo398.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo398.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo399.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo399.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3100.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3100.01" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3101.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3101.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3102.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3102.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3102.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3103.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3103.01" />
+                <ActorImage image="@i_lolo_shrug_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3104.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3105.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3106.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3107.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3107.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3109.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3111.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated_blush" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3112.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3112.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3113.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3114.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3116.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3117.00" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3117.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3117.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3118.00" />
+                <ActorImage image="@i_lolo_default_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3118.01" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3119.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3119.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3120.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3122.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3122.01" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3123.00" />
+                <ActorImage image="@i_lolo_default_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3123.01" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3124.01" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_30">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3125.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_31">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3125.02" />
+                <ActorImage image="@i_lolo_slumped_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_32">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_33">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_34">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3128.00" />
+                <ActorImage image="@i_lolo_shrug_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_35">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3128.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_36">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3129.00" />
+                <ActorImage image="@i_lolo_default_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_37">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3130.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_38">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3130.01" />
+                <ActorImage image="@i_lolo_default_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_39">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3A">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3131.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3132.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3D">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3134.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3E">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+                <ActorFade opacity="1" target="king" />
+                <ActorFade opacity="1" target="digdug" />
+                <ActorFlip target="lolo" />
+                <AudioOneShot sound="@a_sfx_kingroar1" />
+                <ActorMove duration="0.333" target="cousin" x="-35%" />
+                <ActorMove duration="0.333" target="lolo" x="-20%" />
+                <ActorMove duration="0.333" target="king" x="35%" />
+                <ActorMove duration="0.333" target="digdug" x="20%" />
+                <TextEvent char="@t_ch_king" text="@t_slolo3135.00" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3F">
+            <events>
+                <ActorImage image="@i_king_confident" target="king" />
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3137.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3H">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3137.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3I">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3J">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_slolo3138.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3K">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_slolo3138.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3L">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3139.00" />
+                <ActorImage image="@i_king_screaming" target="king" />
+                <AudioOneShot sound="@a_sfx_kingroar3" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3M">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3140.00" />
+                <ActorImage image="@i_king_confident" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3N">
+            <events>
+                <TextEvent char="@t_ch_king" text="@t_slolo3141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3O">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3P">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_slolo3142.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3143.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3144.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3T">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3U">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3V">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3149.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3X">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Y">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_slolo3151.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3a">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3b">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3c">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3d">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3156.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3f">
+            <events>
+                <TextEvent char="@t_ch_king" text="@t_slolo3157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3g">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_slolo3158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3h">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3160.00" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_rooftop_sunset" curtainActor="curtain" curtainFadeTime="0.5" name="_3j">
+            <events>
+                <AudioEvent fadeDuration="1" name="_0" play="true" sound="@a_bgm_privatetimes" target="bgm" volume="1" />
+                <ActorImage image="@i_lolo_default_grin" name="_1" target="lolo" />
+                <ActorDestroy name="_2" target="digdug" />
+                <ActorDestroy name="_3" target="king" />
+                <ActorScale name="_4" target="lolo" x="1" />
+                <ActorMove name="_5" target="lolo" x="20%" />
+                <ActorMove name="_6" target="cousin" x="-20%" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_3k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3162.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3n">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3163.00" />
+                <ActorImage image="@i_lolo_crossed_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3164.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3164.01" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3q">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3165.00" />
+                <ActorImage image="@i_lolo_crossed_melancholy" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3r">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3165.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3166.00" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3167.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3v">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3168.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated_blush" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3w">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3168.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3x">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3169.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_40">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3172.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_41">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3173.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_42">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_43">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3175.00" />
+                <ActorImage image="@i_lolo_crossed_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_44">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3176.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_45">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3177.00" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_46">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3177.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_47">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3178.00" />
+                <ActorImage image="@i_lolo_crossed_melancholy_blush" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_48">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3178.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_49">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3179.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4A">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo3179.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3180.00" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4C">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3181.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3182.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3183.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4F">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3184.00" />
+                <ActorImage image="@i_lolo_crossed_raisedbrow" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3185.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4H">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3186.00" />
+                <ActorImage image="@i_lolo_crossed_frustrated" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4I">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3187.00" />
+                <ActorImage image="@i_lolo_default_grin" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4J">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3188.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3189.00" />
+                <ActorCreate actorId="curtain2" actorType="background" duration="0.333">
+                    <styles>
+                        <depth>8</depth>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <ActorCreate actorId="yearbook" actorType="event" duration="0.333">
+                    <styles>
+                        <depth>9</depth>
+                        <opacity>0</opacity>
+                        <image>@i_event_lolo_yearbook</image>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4L">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3190.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4M">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3192.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4O">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3192.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4P">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3193.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3194.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4R">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3195.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3196.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo3197.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo3197.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4V">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3198.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4W">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3199.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4X">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo3200.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_4Y" scene="s_day4" />
+    </events>
+</scene>

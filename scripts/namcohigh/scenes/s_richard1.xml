@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_richard1" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_srichard121.00">
+            <value key="en">(Okay, so Richard’s first impression was…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard122.00">
+            <value key="en">(Uh…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard123.00">
+            <value key="en">(Well, it was certainly an impression.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard123.01">
+            <value key="en">(But the Culinary Club sounds like it’d be a fun way to reduce my detention.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard124.00">
+            <value key="en">(Maybe we’ll get to make cakes!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard125.00">
+            <value key="en">(Eh, probably start us on something simpler like cookies.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard126.00">
+            <value key="en">(But that’s okay too!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard127.00">
+            <value key="en">(Wow, there’s so much food! It’s like a banquet. Is it like that in here EVERY DAY???)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard128.00">
+            <value key="en">And now for my finale!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard129.00">
+            <value key="en">(Did Richard make all that food?)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard130.00">
+            <value key="en">Ta-da!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard131.00">
+            <value key="en">(He…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard131.01">
+            <value key="en">(He threw all of it in the trash?!?)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard132.00">
+            <value key="en">(What’s going on in here?!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard133.00">
+            <value key="en">Ah, ${slot:playerName}. Glad you could make it.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard134.00">
+            <value key="en">You seem awfully busy. I’ll come by later, okay?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard135.00">
+            <value key="en">No, no. This is a great opportunity to discern your strengths and weaknesses for my dossiers.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard136.00">
+            <value key="en">Well, right now my weakness is for cake.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard137.00">
+            <value key="en">Cake, you say? Excellent timing. You can start on dessert while I complete the main course!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard138.00">
+            <value key="en">You want me to bake a cake on my first day?!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard139.00">
+            <value key="en">Oh! Haha, I’m sorry, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard140.00">
+            <value key="en">Sometimes I forget everyone else isn’t up to my speed.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard141.00">
+            <value key="en">Even so! You can make us some cupcakes instead.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard142.00">
+            <value key="en">Are those easier because they’re smaller?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard143.00">
+            <value key="en">No. Furthermore, that’s an absurd conclusion to come to. You’re really new to this cooking stuff aren’t you!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard144.00">
+            <value key="en">Hey! You don’t have to make fun of me for it. Everyone has to learn sometime, y’know…</value>
+        </TextAsset>
+        <TextAsset key="t_srichard145.00">
+            <value key="en">Ah, too true. There’s a box of cupcake mix somewhere over there.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard146.00">
+            <value key="en">Got it.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard147.00">
+            <value key="en">That’ll get you started. Just follow the directions. It’s completely idiot proof, so you’ll do fine.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard148.00">
+            <value key="en">Tha--HEY!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard149.00">
+            <value key="en">Oh, no. You’re not an idiot.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard150.00">
+            <value key="en">Just sayin’! You’ve got nothing to worry about because even an idiot, which you are not, couldn’t screw it up.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard151.00">
+            <value key="en">Okay, then.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard151.01">
+            <value key="en">(Uh-oh. But what if I DO screw it up?)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard152.00">
+            <value key="en">(He’ll think I’m an idiot!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard153.00">
+            <value key="en">(Hmm, maybe I’ll say the instructions were misprinted. Yeah! That’s the ticket.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard154.00">
+            <value key="en">(Hold up though. Maybe first I should try to make the darn things before I worry about a cover story.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard155.00">
+            <value key="en">(Okay, first up. Add some stuff to other stuff. That’s easy enough.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard156.00">
+            <value key="en">Looks like you’re doing pretty good so far, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard157.00">
+            <value key="en">Yup, nothing’s on fire.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard158.00">
+            <value key="en">Always a good sign in the kitchen!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard159.00">
+            <value key="en">Oh, hand me that, will you?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard160.00">
+            <value key="en">Okay.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard161.00">
+            <value key="en">(Uh, which that? There’s like a dozen utensils and pots and pans and stuff over here!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard162.00">
+            <value key="en">The spatula?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard163.00">
+            <value key="en">No, but I haven’t time to correct you!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard164.00">
+            <value key="en">(Wouldn’t it have taken just as long to say that as to correct me???)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard165.00">
+            <value key="en">Uh, okay, here!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard166.00">
+            <value key="en">Now I must prepare the duck confit with nothing but a spatula and a piece of string. It’s daring. Possibly never so much as attempted before.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard167.00">
+            <value key="en">But that’s what we’ve got and there’s no time to change course now!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard168.00">
+            <value key="en">I don’t know anything about how to cook stuff other than what this box of cupcake mix is telling me, but you might want to use some cookware?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard169.00">
+            <value key="en">And some heat? Like from an oven?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard170.00">
+            <value key="en">No time!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard171.00">
+            <value key="en">I think I’d make the time if it was me!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard172.00">
+            <value key="en">There’s no time to make time! Because I’m making five other dishes.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard173.00">
+            <value key="en">AT THE SAME TIME!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard174.00">
+            <value key="en">Wh-what?!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard175.00">
+            <value key="en">No one can cook at these speeds!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard176.00">
+            <value key="en">(At least, I think you can’t…?)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard177.00">
+            <value key="en">Ordinarily, no.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard178.00">
+            <value key="en">But everything is connected, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard179.00">
+            <value key="en">Literally, or figuratively, or directly, or indirectly, or sympathetically, or spatially.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard180.00">
+            <value key="en">BUT ALWAYS CHRONOLOGICALLY.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard181.00">
+            <value key="en">Uh, okay then…</value>
+        </TextAsset>
+        <TextAsset key="t_srichard181.01">
+            <value key="en">(I guess the question of whether or not the fact that everything must exist in time means that everything is ALSO connected THROUGH the medium of time is beyond the scope of this conversation…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard182.00">
+            <value key="en">(I think I hurt myself thinking about that…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard183.00">
+            <value key="en">(But it basically it sounds right?)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard184.00">
+            <value key="en">Therefore, with precision timing, ANYTHING IS POSSIBLE!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard185.00">
+            <value key="en">I’m not sure that conclusion follows from your premise.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard185.01">
+            <value key="en">(Wow, I sound like a college professor!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard186.00">
+            <value key="en">Maybe it does and maybe it doesn’t.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard187.00">
+            <value key="en">But you can’t argue with these results!!!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard188.00">
+            <value key="en">What the--?!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard188.01">
+            <value key="en">(How did he cook a whole meal right in front of me without an oven WHILE WE WERE TALKING?!?!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard189.00">
+            <value key="en">(Oh, speaking of which! I need to put my cupcakes in the oven…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard190.00">
+            <value key="en">(Like so!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard190.01">
+            <value key="en">Wow, Richard.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard191.00">
+            <value key="en">Your duck-whatever-it-was smells delicious too!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard192.00">
+            <value key="en">Does it? How irrelevant.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard193.00">
+            <value key="en">Hm?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard194.00">
+            <value key="en">But good smelling food is GREAT!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard195.00">
+            <value key="en">It makes you anticipate getting to eat it and that makes it taste that much better when you do!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard196.00">
+            <value key="en">That’s a weird way to look at it, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard197.00">
+            <value key="en">ACK! We’ve wasted precious seconds talking about food!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard198.00">
+            <value key="en">(What’s he talking about?)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard199.00">
+            <value key="en">(And why did he put that duck thing in the trash?!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard199.01">
+            <value key="en">Hey! What’re you doing?!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1100.00">
+            <value key="en">What do you mean? I’m making room for the next dish.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1101.00">
+            <value key="en">It’s not like we have time to sit around ENJOYING the food.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1102.00">
+            <value key="en">Much less eating it!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1103.00">
+            <value key="en">Uh. Then what’s the point of making it?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1104.00">
+            <value key="en">Why, to get the best time, of course!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1105.00">
+            <value key="en">Best time?!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1106.00">
+            <value key="en">What does that even mean?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1107.00">
+            <value key="en">It’s not like you can can bake a cake faster than the time it takes to bake that cake!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1107.01">
+            <value key="en">(I sure am thinking about cake a lot.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1108.00">
+            <value key="en">(Dangit, why did he have to throw away all that food! Now I’m hungry and still thinking about cakes!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1108.01">
+            <value key="en">If you throw away all the food you make, then what do you eat?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1109.00">
+            <value key="en">Why, fast food, of course.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1110.00">
+            <value key="en">(Ugh, I should’ve seen that one coming from a mile away…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1111.00">
+            <value key="en">But drive-thru only. No one has time to park, walk inside, wait in line, order, wait for it, walk to a table, sit down, eat, and then throw away the trash, and walk ALL THE WAY BACK to the car, AND THEN leave.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1112.00">
+            <value key="en">That’d be crazy!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1113.00">
+            <value key="en">No, you do the drive-thru.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1114.00">
+            <value key="en">And the food can only be eaten while driving to wherever it is you’re going, and you can only drive at maximum speed because what’s the point of going any slower UNLESS you’re on your way to going as fast as you possibly can.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1115.00">
+            <value key="en">Isn’t that dangerous?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1116.00">
+            <value key="en">Heh, not with my reflexes!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1117.00">
+            <value key="en">What about the food though?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1118.00">
+            <value key="en">Fast food’s not as bad for us with fast metabolism. We can eat anything, really. Who’s stoppin’ us!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1119.00">
+            <value key="en">(That’s an... interesting point…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1119.01">
+            <value key="en">But, no, I mean DRIVING and EATING at the same time?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1120.00">
+            <value key="en">Oh, that.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1121.00">
+            <value key="en">Yeah, it’s big time dangerous.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1122.00">
+            <value key="en">But that’s what CONTINUES are for.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1123.00">
+            <value key="en">(I feel like that can’t be the right answer…)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1124.00">
+            <value key="en">(And yet I don’t have an argument against it!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1125.00">
+            <value key="en">DING!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1126.00">
+            <value key="en">Ack! What’s that mean? Did I do it wrong?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1127.00">
+            <value key="en">That’s the oven. Your cupcakes are done.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1128.00">
+            <value key="en">PERFECTLY TIMED to happen after my duck confit was finished.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1129.00">
+            <value key="en">Anyway, time to throw them in the trash!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1130.00">
+            <value key="en">Hey, wait! I didn’t make those to NOT have one!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1130.01">
+            <value key="en">(Man, I want some kinda cake before I leave here or I’ll go nuts.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1130.02">
+            <value key="en">Anyway, they’re not done. They need icing.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1131.00">
+            <value key="en">A fair point.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1132.00">
+            <value key="en">But do it quickly!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1133.00">
+            <value key="en">There. That’s the first one done.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1134.00">
+            <value key="en">And into the trash it goes.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1135.00">
+            <value key="en">WAAAIIIIIIIIT!!!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1136.00">
+            <value key="en">ARGH!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1137.00">
+            <value key="en">Make it fast! I can’t wait for long!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1138.00">
+            <value key="en">Try EATING that one.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1139.00">
+            <value key="en">I just told you there isn’t time for that sort of thing!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1140.00">
+            <value key="en">But look at it.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1141.00">
+            <value key="en">It’s BITE-SIZED.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1142.00">
+            <value key="en">If it helps, just think of it as throwing it into the trashcan of your own organs.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1143.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1144.00">
+            <value key="en">…………………….</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1145.00">
+            <value key="en">Whoa, it does help!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1146.00">
+            <value key="en">GULP.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1147.00">
+            <value key="en">(Uh-oh! His face is all...uh...weird.)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1148.00">
+            <value key="en">(HE SAID IT WAS IDIOT PROOF THOUGH C’MON!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1149.00">
+            <value key="en">This is…</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1150.00">
+            <value key="en">(C’MON C’MON C’MON!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1151.00">
+            <value key="en">It’s like…</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1152.00">
+            <value key="en">There’s a happiness in my mouth.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1153.00">
+            <value key="en">(?!?!?)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1153.01">
+            <value key="en">Uh. Happiness?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1154.00">
+            <value key="en">Do you mean, like, a flavor?</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1155.00">
+            <value key="en">So.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1156.00">
+            <value key="en">“Food” can have “flavor.”</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1157.00">
+            <value key="en">Huh. I didn’t know that was possible.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1158.00">
+            <value key="en">(And I didn’t know it was possible not to know that!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1158.01">
+            <value key="en">Yeah. Pretty much all food has a flavor, Richard.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1159.00">
+            <value key="en">Not true! I eat all kinds of fast food and when you’re lucky there’s no real taste at all.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1160.00">
+            <value key="en">(Probably swallows it whole because chewing would take too long!)</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1160.01">
+            <value key="en">Well, yeah, that stuff’s not the best tasting. Or good for you in any way.</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1161.00">
+            <value key="en">Why am I still waiting for the second cupcake!</value>
+        </TextAsset>
+        <TextAsset key="t_srichard1162.00">
+            <value key="en">(Darn it, I want some of these too!)</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_upbeat_half" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_hallway_a</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="miller" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_miller_aliens_halfgrin</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard123.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard126.00" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_classroom_b" curtainActor="curtain" curtainFadeTime="1" name="_7">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" name="_0" target="cousin" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_8">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <FadeEvent duration=".33" target="miller" to="1" />
+                <ActorImage image="@i_miller_standing_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard128.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <ActorImage image="@i_miller_akimbo_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard131.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <ActorImage image="@i_miller_standing_laugh" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorImage image="@i_miller_standing_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <ActorImage image="@i_miller_akimbo_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard137.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <ActorImage image="@i_miller_akimbo_laugh" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <ActorImage image="@i_miller_akimbo_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <ActorImage image="@i_miller_akimbo_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <ActorImage image="@i_cousin_default_angry" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard151.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <ActorImage image="@i_miller_pondering_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard156.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard160.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <ActorImage image="@i_miller_pondering_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorImage image="@i_miller_pondering_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard169.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <ActorImage image="@i_miller_pondering_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <ActorImage image="@i_miller_pondering_shocked" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard173.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard175.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard176.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <ActorImage image="@i_miller_pondering_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard177.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard178.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard179.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <ActorImage image="@i_miller_akimbo_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard180.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard181.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard181.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard182.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard183.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <ActorImage image="@i_miller_akimbo_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard184.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard185.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard185.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard186.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <ActorImage image="@i_miller_akimbo_laugh" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard187.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard188.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard188.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard189.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard190.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard190.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <ActorImage image="@i_miller_pondering_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard192.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard193.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard194.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard195.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard196.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorImage image="@i_miller_aliens_shocked" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard197.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard198.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard199.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard199.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <ActorImage image="@i_miller_aliens_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <ActorImage image="@i_miller_aliens_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard1107.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard1108.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <ActorImage image="@i_miller_aliens_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1109.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <ActorImage image="@i_miller_standing_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <ActorImage image="@i_miller_standing_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1116.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1117.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard1119.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <ActorImage image="@i_miller_standing_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <ActorImage image="@i_miller_standing_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_oven" text="@t_srichard1125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <ActorImage image="@i_miller_standing_halfgrin" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1128.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <ActorImage image="@i_miller_standing_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard1130.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard1130.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <ActorImage image="@i_miller_standing_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <ActorImage image="@i_miller_akimbo_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <ActorImage image="@i_miller_akimbo_shocked" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1137.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <ActorImage image="@i_miller_pondering_shocked" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <ActorImage image="@i_miller_pondering_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <ActorImage image="@i_miller_pondering_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <ActorImage image="@i_miller_pondering_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard1153.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1156.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_srichard1157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard1158.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <ActorImage image="@i_miller_pondering_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1160.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_srichard1160.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <ActorImage image="@i_miller_pondering_serious" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_srichard1161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_srichard1162.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_2Z" scene="s_day2" />
+    </events>
+</scene>

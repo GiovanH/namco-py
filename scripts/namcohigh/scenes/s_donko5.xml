@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_donko5" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_sdonko520.00">
+            <value key="en">...People give me presents and stuff like that, like, all the time.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko521.00">
+            <value key="en">It’s all because they want me to like them.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko521.01">
+            <value key="en">Maybe this sounds silly, but… It gets to be, like, kinda depressing, yknow?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko522.00">
+            <value key="en">But this time, this gift…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko523.00">
+            <value key="en">I can like… totally feel it’s real.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko523.01">
+            <value key="en">...Thank you, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko524.00">
+            <value key="en">Donko… you really do understand!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko525.00">
+            <value key="en">Besides, going to a cool concert with ME…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko525.01">
+            <value key="en">I can only imagine what that’ll do for YOUR popularity!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko526.00">
+            <value key="en">Very clever, honey!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko526.01">
+            <value key="en">I think you’re finally starting to learn!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko527.00">
+            <value key="en">You’re gonna be more popular than EVER!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko528.00">
+            <value key="en">Huh?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko528.01">
+            <value key="en">Wait!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko528.02">
+            <value key="en">But that’s not why I-</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko529.00">
+            <value key="en">I better go get ready. Thanks again!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko530.00">
+            <value key="en">(...</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko531.00">
+            <value key="en">Does Donko even… understand why I did that?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko532.00">
+            <value key="en">Does she understand that I’m doing it so we can…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko533.00">
+            <value key="en">Oh, well.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko533.01">
+            <value key="en">There’s no way to miss the signals I’m giving her, right?)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko534.00">
+            <value key="en">Be true to yourself!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko535.00">
+            <value key="en">Huh?! Pac-Man?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko536.00">
+            <value key="en">I said, be true to yourself! It’s the only way to understand your feelings for Donko!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko537.00">
+            <value key="en">Huh…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko537.01">
+            <value key="en">Well, I don’t know how you knew what I was thinking about…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko538.00">
+            <value key="en">I have my ways.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko539.00">
+            <value key="en">...Right…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko539.01">
+            <value key="en">Anyway…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko540.00">
+            <value key="en">I don’t really know what you mean.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko540.01">
+            <value key="en">How am I not being true to myself?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko541.00">
+            <value key="en">You know in your heart how you feel about Donko.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko542.00">
+            <value key="en">And I think you know deep down, Donko feels the same!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko543.00">
+            <value key="en">So why do you keep doubting her and ignoring how you feel?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko544.00">
+            <value key="en">It’s… kinda weird that you know so much about this…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko545.00">
+            <value key="en">Well, whatever.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko545.01">
+            <value key="en">It’s not MY fault I’m doubting how I feel! It’s her’s!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko545.02">
+            <value key="en">She straight-up admitted how manipulative she is.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko546.00">
+            <value key="en">And lately it seems like whenever I try to confront her, she pretends not to get it.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko546.01">
+            <value key="en">It’s so annoying!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko547.00">
+            <value key="en">Please remember that growing up as a young drum can be very difficult, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko548.00">
+            <value key="en">I was young once, and I may not be a drum…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko549.00">
+            <value key="en">But I am vaguely circle-shaped.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko549.01">
+            <value key="en">So it’s basically the same thing.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko550.00">
+            <value key="en">Donko may seem to have an easy life, but do you think that’s completely true?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko551.00">
+            <value key="en">I don’t know!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko551.01">
+            <value key="en">It seems pretty easy to me.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko551.02">
+            <value key="en">Everyone likes her and she always gets whatever she wants.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko552.00">
+            <value key="en">You’re being awfully hard on her.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko552.01">
+            <value key="en">Be true to what you really feel, ${slot:playerName}…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko553.00">
+            <value key="en">It’s hard to be her. If you like her, trust her to open up to you eventually.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko554.00">
+            <value key="en">Pac-Man, it’s not that I don’t appreciate your advice, it just seems...</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko555.00">
+            <value key="en">Well you’re not the one who actually has to deal with her, you know?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko555.01">
+            <value key="en">So this is all pretty rich, coming from you!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko556.00">
+            <value key="en">You mean… BUDDY Rich?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko557.00">
+            <value key="en">Huh?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko558.00">
+            <value key="en">He’s… a famous… drummer…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko558.01">
+            <value key="en">See, because, Donko is… you know...</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko559.00">
+            <value key="en">It’s one of those… drum.. puns…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko560.00">
+            <value key="en">You might be… too young… to get it…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko561.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko562.00">
+            <value key="en">I’ll see myself out.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko563.00">
+            <value key="en">(I don’t really get what Pac-Man was trying to tell me…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko564.00">
+            <value key="en">I’ll have to ask him about it later. I’m sure nothing tragic and surprising will happen to prevent me from doing that.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko565.00">
+            <value key="en">...</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko566.00">
+            <value key="en">The rest of the school day passes uneventfully.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko566.01">
+            <value key="en">All I can think about is my date with Donko tonight.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko567.00">
+            <value key="en">...I hope it’s a date, anyway…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko567.01">
+            <value key="en">Finally, it comes time to head to the cafe for the concert.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko568.00">
+            <value key="en">There, ready to meet me, is Donko…)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko569.00">
+            <value key="en">Hi ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko570.00">
+            <value key="en">Wow, what’d you do?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko571.00">
+            <value key="en">Come here straight from school without even like, getting changed?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko571.01">
+            <value key="en">Haha! Maybe I don’t have to get dressed up…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko571.02">
+            <value key="en">To look</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko571.03">
+            <value key="en">good.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko572.00">
+            <value key="en">Tee-hee!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko572.01">
+            <value key="en">You’ve got to work on your flirting, honey…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko573.00">
+            <value key="en">But don’t worry, you’re not TOTALLY hopeless.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko574.00">
+            <value key="en">(She knows I’m flirting?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko575.00">
+            <value key="en">Maybe she does understand, after all!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko575.01">
+            <value key="en">I’m too excited by that to point out that Donko didn’t change anything she’s wearing, either.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko576.00">
+            <value key="en">At least… Not as far as I can tell…)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko577.00">
+            <value key="en">Let’s go, honey!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko578.00">
+            <value key="en">(After that, we have a great time at the concert together.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko579.00">
+            <value key="en">Donko loves music, and loves to dance…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko580.00">
+            <value key="en">I have fun dancing with her, even though I’m terrible at it!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko581.00">
+            <value key="en">I’m starting to forget why I was feeling so crummy about this.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko581.01">
+            <value key="en">And after the music is done…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko582.00">
+            <value key="en">I’ll ask Donko on a romantic walk.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko583.00">
+            <value key="en">Then we can figure out what exactly we’re doing here.)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko583.01">
+            <value key="en">Phew! This is so great!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko584.00">
+            <value key="en">I’ve like, NEVER had so much fun in my LIFE!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko585.00">
+            <value key="en">...Thank you, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko586.00">
+            <value key="en">I’m glad we did this, Donko.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko586.01">
+            <value key="en">I know things have been weird, but I just wanted to say-</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko586.02">
+            <value key="en">Oh, it looks like the band is done with the encore…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko587.00">
+            <value key="en">What a totally AMAZING show!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko588.00">
+            <value key="en">Uh, yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko588.01">
+            <value key="en">I mean, now that the concert is over…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko589.00">
+            <value key="en">Well, what I mean to say is, I was thinking we could-</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko590.00">
+            <value key="en">Hi, Donko!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko590.01">
+            <value key="en">Great show, wasn’t it?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko591.00">
+            <value key="en">(Where’d she come from? I was right in the middle of a sentence!)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko592.00">
+            <value key="en">Aki! Hiii!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko592.01">
+            <value key="en">I’m surprised to see you here, girl!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko593.00">
+            <value key="en">Aren’t you, like, the Reigning Queen of being too busy for fun?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko593.01">
+            <value key="en">I’m 100% passionate about music!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko594.00">
+            <value key="en">Actually, I’m 100% passionate about every one of my pursuits.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko595.00">
+            <value key="en">Including partying…  but only for a regulated few seconds, of course.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko595.01">
+            <value key="en">So I’ll see you at the afterparty, you two!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko595.02">
+            <value key="en">Afterparty?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko596.00">
+            <value key="en">O. M. G.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko597.00">
+            <value key="en">I didn’t even know there was going to be one!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko598.00">
+            <value key="en">We have to go!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko599.00">
+            <value key="en">Er, I don’t know-</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5100.00">
+            <value key="en">I was sorta hoping we could-</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5100.01">
+            <value key="en">Yo, Donko! Yo, Cuz!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5101.00">
+            <value key="en">How RAD was this concert?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5102.00">
+            <value key="en">I’m SO PUMPED!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5103.00">
+            <value key="en">MUSIC RULES!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5104.00">
+            <value key="en">(Another interruption?? Can’t anyone see we’re having a private conversation?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5104.01">
+            <value key="en">It was totally rad, yo!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5105.00">
+            <value key="en">PLEASE tell me you two are going to the afterparty.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5106.00">
+            <value key="en">It’s gonna be off the chain!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5106.01">
+            <value key="en">Afterparties are like getting REVENGE on the first party… with FUN!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5107.00">
+            <value key="en">Oh yeah! ${slot:playerName} and me will be there FOR SURE!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5107.01">
+            <value key="en">But…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5108.00">
+            <value key="en">${slot:playerName}...</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5109.00">
+            <value key="en">I’m starting to think you had an ulterior motive for inviting me here!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5110.00">
+            <value key="en">O-Oh! Actually, yeah, I-</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5111.00">
+            <value key="en">HELLO MORTALS.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5112.00">
+            <value key="en">GALAGA ASSUMES YOU ARE GOING TO THE AFTERPARTY?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5112.01">
+            <value key="en">IT IS GOING TO BE OUT OF THIS WORLD.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5112.02">
+            <value key="en">Teehee… of course we are!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5113.01">
+            <value key="en">(Should I be jealous?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5114.00">
+            <value key="en">Anyway, ${slot:playerName}… you can’t hide your true intentions from me!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5115.00">
+            <value key="en">Nice try, though! Tee hee!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5116.00">
+            <value key="en">You do?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5116.01">
+            <value key="en">Sure! This wasn’t just about the concert...</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5117.00">
+            <value key="en">It was about the AMAZING afterparty!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5118.00">
+            <value key="en">The top student is going, the captain of the Wrestleball team, the hottest student in class…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5118.01">
+            <value key="en">(...Yeah, I’m jealous.)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5118.02">
+            <value key="en">...And ME!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5119.00">
+            <value key="en">What’s more, all those SUPER IMPORTANT people will see you at the party WITH me!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5119.01">
+            <value key="en">I’m so proud…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5120.00">
+            <value key="en">You came up with this all on your own, and it’s gonna make you SUPER popular.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5121.00">
+            <value key="en">The student… has become the master!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5122.00">
+            <value key="en">A-actually… I was hoping we could go on a little walk instead?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5122.01">
+            <value key="en">Tee-hee! Good joke, honey.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5123.00">
+            <value key="en">Go on a walk with you in the middle of nowhere, or go to the hottest party of the year?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5124.00">
+            <value key="en">DUH! Let’s go, already! I’m too excited to be fashionably late.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5125.00">
+            <value key="en">Donko…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5125.01">
+            <value key="en">You don’t really think that’s all I care about, do you?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5126.00">
+            <value key="en">Come on, please come with me?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5127.00">
+            <value key="en">Like, why do you want to take a dumb WALK so badly?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5128.00">
+            <value key="en">You’re gonna blow your newfound popularity with weirdness again!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5129.00">
+            <value key="en">I thought we could…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5130.00">
+            <value key="en">You know…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5131.00">
+            <value key="en">Talk about our…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5132.00">
+            <value key="en">...feelings.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5133.00">
+            <value key="en">Fine! My feelings are, you’re being really, like, annoying about this!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5133.01">
+            <value key="en">Come on!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5134.00">
+            <value key="en">Don’t you want to be popular?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5135.00">
+            <value key="en">NO!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5136.00">
+            <value key="en">What?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5137.00">
+            <value key="en">Donko…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5138.00">
+            <value key="en">I don’t care about being popular!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5138.01">
+            <value key="en">That was just something you decided for me!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5139.00">
+            <value key="en">But don’t you want to have, like, tons of friends and stuff?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5140.00">
+            <value key="en">Not really… I mean, it’d be nice, but…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5141.00">
+            <value key="en">I don’t want to change who I am to get that.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5142.00">
+            <value key="en">I’d rather, you know…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5142.01">
+            <value key="en">March to the beat of my own drum.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5142.02">
+            <value key="en">...Huh? Is that a reference to something?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5143.00">
+            <value key="en">I’m not familiar with that phrase.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5143.01">
+            <value key="en">SERIOUSLY?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5144.00">
+            <value key="en">Are you saying you…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5144.01">
+            <value key="en">don’t want my help anymore?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5145.00">
+            <value key="en">Well, yeah!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5146.00">
+            <value key="en">...I see…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5146.01">
+            <value key="en">If that’s how it is, then…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5146.02">
+            <value key="en">I don’t want to waste my time on a loser like you, either.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5147.00">
+            <value key="en">What?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5148.00">
+            <value key="en">No, that’s not what I meant.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5148.01">
+            <value key="en">I still want to spend time with you!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5149.00">
+            <value key="en">I mean, of course I do, that’s the whole point…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5150.00">
+            <value key="en">Then why are you being so, like, MEAN to me?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5150.01">
+            <value key="en">WAAAAH!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5151.00">
+            <value key="en">Oh, jeez…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5152.00">
+            <value key="en">Donko, please don’t cry…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5152.01">
+            <value key="en">Sniff.. Hic…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5153.00">
+            <value key="en">All I wanted to do was take you to a cool afterparty…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5154.00">
+            <value key="en">So you could be… sniff… popular…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5155.00">
+            <value key="en">And now you won’t even… sniff… do that!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5155.01">
+            <value key="en">C’mon, I-</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5156.00">
+            <value key="en">...Wait a minute.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5157.00">
+            <value key="en">You’re still talking about the afterparty…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5157.01">
+            <value key="en">You’re… You’re…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5158.00">
+            <value key="en">Sniff… Huh?</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5159.00">
+            <value key="en">I can’t believe it!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5160.00">
+            <value key="en">You’re STILL just trying to get me to do what you want!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5160.01">
+            <value key="en">You think you can just turn on the water works and I’ll fall in line, like your own personal marching band!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5161.00">
+            <value key="en">I thought you cared about me…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5161.01">
+            <value key="en">${slot:playerName}… I do care!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5162.00">
+            <value key="en">W-Waaaaaaahhhh!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5163.00">
+            <value key="en">Yeah, right! I’m leaving!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5164.00">
+            <value key="en">Well, like… sniff… FINE!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5164.01">
+            <value key="en">You’re… you’re just some LOSER who nobody cares about ANYWAY!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5165.00">
+            <value key="en">You can’t even play the TUBA!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5166.00">
+            <value key="en">WAAAHHH!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5167.00">
+            <value key="en">G-good luck snaring a better friend than me!</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5167.01">
+            <value key="en">(Wow…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5168.00">
+            <value key="en">I know Donko’s feelings are hurt… I know that’s probably why she saying this stuff.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5168.01">
+            <value key="en">But still… it stings.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5168.02">
+            <value key="en">I’m really good at the tuba!)</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5168.03">
+            <value key="en">Sniff… Sniff…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5169.00">
+            <value key="en">W-well…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5170.00">
+            <value key="en">If you just think of me as some loser you took pity on…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5171.00">
+            <value key="en">Then… I guess that’s it.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5171.01">
+            <value key="en">Good night, Donko.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5172.00">
+            <value key="en">(I didn’t wait to hear her reply. I turned and walked away as fast as I could.</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5173.00">
+            <value key="en">I don’t know if you’ve ever turned your back on a crying drum…</value>
+        </TextAsset>
+        <TextAsset key="t_sdonko5174.00">
+            <value key="en">But believe me, it’s harder than it sounds.)</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_school" />
+                <TextEvent char="@t_ch_donko" text="@t_sdonko520.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_classroom_a</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-25%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>4</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="donko" actorType="character">
+                    <styles>
+                        <x>25%</x>
+                        <image>@i_donko_default_crying</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="taira" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>25%</x>
+                        <image>@i_taira_steveholt_happy</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="galaga" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>25%</x>
+                        <image>@i_galaga_default</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <x>88%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="aki" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>25%</x>
+                        <image>@i_aki_default_smile</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko521.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko521.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko522.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko523.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko523.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko524.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko525.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko525.01" />
+                <ActorImage image="@i_donko_default_grin" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko526.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <ActorImage image="@i_donko_default_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko526.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko527.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko528.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko528.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko528.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko529.00" />
+                <ActorImage image="@i_donko_ygg_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ActorFade auto="true" duration=".33" name="_G" opacity="0" target="donko" />
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko530.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko531.00" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko532.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko533.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko533.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko534.00" />
+            </events>
+        </ParallelEvent>
+        <AudioCreate audioId="pacman" auto="true" layer="sfx" loop="true" name="_N" play="true" sound="@a_sfx_pacman" />
+        <ActorMove allowInterrupt="false" auto="true" duration="3" name="_O" target="pacman" x="33%" />
+        <AudioDestroy name="_P" target="pacman" />
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko535.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko536.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko537.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko537.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko538.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko539.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko539.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko540.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko540.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko541.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko542.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko543.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko544.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko545.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko545.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko545.02" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko546.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko546.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko547.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko548.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko549.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent append="true" char="@t_ch_pacman" text="@t_sdonko549.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko550.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko551.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko551.01" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko551.02" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko552.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent append="true" char="@t_ch_pacman" text="@t_sdonko552.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko553.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko554.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko555.00" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko555.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko556.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko557.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko558.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent append="true" char="@t_ch_pacman" text="@t_sdonko558.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko559.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko560.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko561.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_13">
+            <events>
+                <ActorMove auto="true" delay=".7" duration="3" target="pacman" x="88%" />
+                <TextEvent char="@t_ch_pacman" text="@t_sdonko562.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko563.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko564.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko565.00" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <ActorCreate actorId="curtain2" actorType="background" auto="true" name="_17">
+            <styles>
+                <depth>9</depth>
+                <image>@i_sw_black</image>
+                <opacity>0</opacity>
+            </styles>
+        </ActorCreate>
+        <FadeEvent auto="true" duration="1" name="_18" target="curtain2" to="1" />
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko566.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko566.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko567.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko567.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko568.00" />
+                <ActorImage image="@i_cousin_default_neutral_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_cafe" curtainActor="curtain" curtainFadeTime="1" name="_1E">
+            <events>
+                <ActorFade name="_0" opacity="0" target="curtain2" />
+                <ActorFade name="_1" opacity="1" target="donko" />
+                <ActorImage image="@i_donko_default_grin" name="_2" target="donko" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_1F">
+            <events>
+                <AudioEvent fadeDuration="1" play="true" sound="@a_bgm_upbeat_half" target="bgm" volume="1" />
+                <TextEvent char="@t_ch_donko" text="@t_sdonko569.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko570.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko571.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko571.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko571.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko571.03" />
+                <ActorImage image="@i_cousin_default_grin_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko572.00" />
+                <ActorImage image="@i_donko_default_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko572.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko573.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko574.00" />
+                <ActorImage image="@i_cousin_default_neutral_scarf_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko575.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko575.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko576.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko577.00" />
+                <ActorImage image="@i_donko_ygg_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ActorFade duration="1.5" ease="ease-in-out" name="_1T" opacity=".70" target="curtain2" />
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko578.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko579.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko580.00" />
+                <ActorImage image="@i_cousin_default_grin_scarf" target="cousin" />
+                <ActorImage image="@i_donko_akimbo_grin" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko581.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko581.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko582.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko583.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko583.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko584.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko585.00" />
+                <ActorImage image="@i_donko_akimbo_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko586.00" />
+                <ActorImage image="@i_cousin_default_laugh_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko586.01" />
+                <ActorImage image="@i_cousin_default_neutral_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko586.02" />
+                <ActorImage image="@i_donko_ygg_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ActorFade auto="true" duration="1.5" ease="ease-in-out" name="_1h" opacity="0" target="curtain2" />
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko587.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko588.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko588.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko589.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" auto="true" name="_1m">
+            <events>
+                <FadeEvent auto="true" duration=".33" target="aki" to="1" />
+                <ActorMove auto="true" delay=".33" duration=".33 " ease="ease-in-out" target="donko" x="-15%" />
+                <ActorMove auto="true" delay=".33" duration=".33 " ease="ease-in-out" target="cousin" x="-38%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_sdonko590.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent append="true" char="@t_ch_aki" text="@t_sdonko590.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko591.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko592.00" />
+                <ActorImage image="@i_donko_ygg_grin" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko592.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko593.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_sdonko593.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent append="true" char="@t_ch_aki" text="@t_sdonko594.00" />
+                <ActorImage image="@i_aki_default_focus" target="aki" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_sdonko595.00" />
+                <ActorImage image="@i_aki_default_nervouslaughter" target="aki" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_sdonko595.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko595.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <FadeEvent duration=".33" target="aki" to="0" />
+                <ActorMove delay=".33" duration=".33" ease="ease-in-out" target="donko" x="25%" />
+                <ActorMove delay=".33" duration=".33" ease="ease-in-out" target="cousin" x="-25%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko596.00" />
+                <ActorImage image="@i_donko_ygg_grin_blush" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko597.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko598.00" />
+                <ActorImage image="@i_donko_akimbo_grin_blush" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko599.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5100.00" />
+                <ActorImage image="@i_cousin_default_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" auto="true" name="_24">
+            <events>
+                <FadeEvent auto="true" duration=".33" target="taira" to="1" />
+                <ActorMove auto="true" delay=".33" duration=".33 " ease="ease-in-out" target="donko" x="-15%" />
+                <ActorMove auto="true" delay=".33" duration=".33 " ease="ease-in-out" target="cousin" x="-38%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sdonko5100.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_sdonko5101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_sdonko5102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_sdonko5103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5104.00" />
+                <ActorImage image="@i_cousin_default_neutral_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5104.01" />
+                <ActorImage image="@i_donko_ygg_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sdonko5105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_sdonko5106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sdonko5106.01" />
+                <ActorImage image="@i_taira_revenge_happy" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5107.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_2G">
+            <events>
+                <FadeEvent duration=".33" target="taira" to="0" />
+                <ActorMove delay=".33" duration=".33" ease="ease-in-out" target="donko" x="25%" />
+                <ActorMove delay=".33" duration=".33" ease="ease-in-out" target="cousin" x="-25%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5109.00" />
+                <ActorImage image="@i_donko_akimbo_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5110.00" />
+                <ActorImage image="@i_cousin_default_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <FadeEvent auto="true" duration=".33" target="galaga" to="1" />
+                <ActorMove auto="true" delay=".33" duration=".33 " ease="ease-in-out" target="donko" x="-15%" />
+                <ActorMove auto="true" delay=".33" duration=".33 " ease="ease-in-out" target="cousin" x="-38%" />
+                <ActorImage delay=".80" image="@i_donko_ygg_grin_blush" target="donko" />
+                <TextEvent char="@t_ch_galaga" text="@t_sdonko5111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent append="true" char="@t_ch_galaga" text="@t_sdonko5112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <TextEvent append="true" char="@t_ch_galaga" text="@t_sdonko5112.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5112.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" auto="true" name="_2O">
+            <events>
+                <ActorMove duration="1" ease="ease-in-out" target="galaga" y="-99%" />
+                <ActorMove delay=".5" duration=".33" ease="ease-in-out" target="donko" x="25%" />
+                <ActorMove delay=".75" duration=".33" ease="ease-in-out" target="cousin" x="-25%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5113.01" />
+                <ActorImage image="@i_cousin_default_sad_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5114.00" />
+                <ActorImage image="@i_donko_default_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5116.00" />
+                <ActorImage image="@i_cousin_default_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5116.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5117.00" />
+                <ActorImage image="@i_donko_ygg_grin" target="donko" />
+                <ActorImage delay=".6" image="@i_cousin_default_sad_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5118.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5118.02" />
+                <ActorImage image="@i_donko_ygg_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5119.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5121.00" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <AudioEvent fadeDuration="1" play="true" sound="@a_bgm_privatetimes" target="bgm" volume="1" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5122.00" />
+                <ActorImage image="@i_cousin_default_neutral_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5122.01" />
+                <ActorImage image="@i_donko_default_grin" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5124.00" />
+                <ActorImage image="@i_donko_default_wink" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5125.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5127.00" />
+                <ActorImage image="@i_donko_default_meloncholic" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5128.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5129.00" />
+                <ActorImage image="@i_cousin_default_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5132.00" />
+                <ActorImage image="@i_cousin_default_neutral_scarf_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5133.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5135.00" />
+                <ActorImage image="@i_cousin_energetic_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5137.00" />
+                <ActorImage image="@i_cousin_energetic_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5138.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5139.00" />
+                <ActorImage image="@i_donko_akimbo_meloncholic" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5140.00" />
+                <ActorImage image="@i_cousin_default_sad_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_30">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_31">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5142.01" />
+                <ActorImage image="@i_cousin_default_grin_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_32">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5142.02" />
+                <ActorImage image="@i_donko_default_meloncholic" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_33">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_34">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5143.01" />
+                <ActorImage image="@i_cousin_default_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_35">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_36">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5144.01" />
+                <ActorImage image="@i_donko_default_crying" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_37">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_38">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5146.00" />
+                <ActorImage image="@i_donko_ygg_crying" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_39">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5146.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3A">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5146.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5147.00" />
+                <ActorImage image="@i_cousin_energetic_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3C">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5148.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3E">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3F">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3G">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5150.01" />
+                <ActorImage image="@i_donko_ygg_crying_comic" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5151.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3J">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5152.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3K">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5153.00" />
+                <ActorImage image="@i_donko_default_crying_comic" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3L">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3M">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5155.01" />
+                <ActorImage image="@i_cousin_exhausted_surprised_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5156.00" />
+                <ActorImage image="@i_cousin_default_neutral_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3P">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5157.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3R">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5159.00" />
+                <ActorImage image="@i_cousin_default_surprise_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5160.00" />
+                <ActorImage image="@i_cousin_default_angry_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5160.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5161.00" />
+                <ActorImage image="@i_cousin_default_sad_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3W">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5161.01" />
+                <ActorImage image="@i_donko_akimbo_crying" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3X">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5162.00" />
+                <ActorImage image="@i_donko_akimbo_crying_comic" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Z">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3a">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5164.01" />
+                <ActorImage image="@i_donko_ygg_crying_comic" target="donko" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3b">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3c">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3d">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sdonko5167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5167.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5168.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5168.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3i">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_sdonko5168.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5169.00" />
+                <ActorImage image="@i_cousin_default_neutral_scarf" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3k">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdonko5171.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3n">
+            <events>
+                <ActorFade auto="true" duration=".75" opacity="0" target="cousin" />
+                <ActorImage auto="true" delay=".5" image="@i_donko_default_crying_comic" target="donko" />
+                <ActorDepth auto="true" depth="9" target="curtain2" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3p">
+            <events>
+                <ActorFade duration="1" opacity="1" target="curtain2" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5173.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdonko5174.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_3r" scene="s_day5.5" />
+    </events>
+</scene>

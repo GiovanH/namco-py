@@ -1,0 +1,1872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_galaga1" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_sgalaga128.00">
+            <value key="en">Wow, look at all these people!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga129.00">
+            <value key="en">Do I really have to audition in front of them?!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga130.00">
+            <value key="en">I was kinda hoping for a more one on one thing.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga131.00">
+            <value key="en">What if I embarrass myself?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga132.00">
+            <value key="en">What if Galaga Ship sees me!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga133.00">
+            <value key="en">What if Galaga Ship doesn’t notice me…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga134.00">
+            <value key="en">If I can have everyone’s attention please!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga135.00">
+            <value key="en">I’ve eliminated the need for auditions via scientific process.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga136.00">
+            <value key="en">In place of auditions, each of you will simply fill out a short form.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga137.00">
+            <value key="en">(Whew, dodged a bullet there!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga138.00">
+            <value key="en">The form has six hundred and ninety-two questions.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga139.00">
+            <value key="en">(WHAT?!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga140.00">
+            <value key="en">I’ll also need to scan your brains.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga141.00">
+            <value key="en">It might not even hurt.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga142.00">
+            <value key="en">(Wait, why would it hurt…?)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga143.00">
+            <value key="en">And I’ll need to take a blood sample.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga144.00">
+            <value key="en">(MY BLOOD?!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga145.00">
+            <value key="en">Oh, and that will definitely hurt.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga145.01">
+            <value key="en">A LOT.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga146.00">
+            <value key="en">Tomari, do you have to be such a weird egghead about everything?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga147.00">
+            <value key="en">So, suddenly I’m a weird egghead just because I want to direct the most scientifically precise reproduction of Romeo and Juliet ever conceived?!?!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga148.00">
+            <value key="en">Yes, Tomari.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga149.00">
+            <value key="en">Oh.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga149.01">
+            <value key="en">Fine, whatever.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga150.00">
+            <value key="en">We’ll do auditions instead.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga151.00">
+            <value key="en">Like cavemen.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga152.00">
+            <value key="en">Whew. I guess?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga153.00">
+            <value key="en">Okay, everyone auditioning for Juliet, please line up on stage.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga153.01">
+            <value key="en">Yes, good.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga154.00">
+            <value key="en">Now, if you are not Galaga Ship, then you did not get the part.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga155.00">
+            <value key="en">Better luck next time.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga156.00">
+            <value key="en">Whatever. I’m gone.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga157.00">
+            <value key="en">Told you!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga158.00">
+            <value key="en">That’s not fair! None of us read a single line!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga159.00">
+            <value key="en">I don’t need to rigorously apply the scientific method to realize the most beautiful spaceship in school has to play Juliet.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga160.00">
+            <value key="en">But shouldn’t the role go to the best actor for part?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga161.00">
+            <value key="en">Okay, where are our Romeos!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga162.00">
+            <value key="en">Gulp!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga162.01">
+            <value key="en">(Here goes nothing.)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga162.02">
+            <value key="en">Uh, I-I’d, uh.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga163.00">
+            <value key="en">Anyone?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga164.00">
+            <value key="en">Ah, I, uh um.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga165.00">
+            <value key="en">We need a Romeo, people.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga166.00">
+            <value key="en">I, uh, um.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga167.00">
+            <value key="en">Seriously. Anyone. Anyone at all.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga168.00">
+            <value key="en">I’LL ROMEO THE PART!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga169.00">
+            <value key="en">…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga170.00">
+            <value key="en">…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga171.00">
+            <value key="en">(Oh, man. Guess I’m kinda nervous.)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga172.00">
+            <value key="en">(Everyone’s looking!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga173.00">
+            <value key="en">(Ahh, what do I say!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga174.00">
+            <value key="en">Uh. If that’s okay.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga174.01">
+            <value key="en">(Bravo, ${slot:playerName}.)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga174.02">
+            <value key="en">(Bravo.)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga175.00">
+            <value key="en">Okay, new kid. Give us your Romeo.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga176.00">
+            <value key="en">We’ll start with his first soliloquy.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga177.00">
+            <value key="en">Yeah, that’s what we’ll do.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga178.00">
+            <value key="en">Page Five in your script.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga179.00">
+            <value key="en">Sounds good, sure.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga180.00">
+            <value key="en">Whenever you’re ready.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga181.00">
+            <value key="en">Ready?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga182.00">
+            <value key="en">To read. Your lines.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga183.00">
+            <value key="en">OUT LOUD?!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga184.00">
+            <value key="en">That’s usually how we read scripts.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga185.00">
+            <value key="en">Y-yeah. Of course. Yeah.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga185.01">
+            <value key="en">(Here goes nothing…)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga185.02">
+            <value key="en">A-ahem.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga185.03">
+            <value key="en">“ALAS!”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga186.00">
+            <value key="en">“THAT LOVE!”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga187.00">
+            <value key="en">“WHOSE VIEW?”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga187.01">
+            <value key="en">Uh…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga187.02">
+            <value key="en">(Oh man, lost my place!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga188.00">
+            <value key="en">Yawn.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga189.00">
+            <value key="en">!!!!!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga189.01">
+            <value key="en">(Where was I?)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga190.00">
+            <value key="en">(Ah! This part’s close enough I bet)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga190.01">
+            <value key="en">“WHERE SHALL WE!”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga191.00">
+            <value key="en">uh</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga192.00">
+            <value key="en">“DINE?!?!?!”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga193.00">
+            <value key="en">I think you skipped a line and—</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga194.00">
+            <value key="en">“OH ME!”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga195.00">
+            <value key="en">“WHAT FRAY!!! WAS HERE???”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga196.00">
+            <value key="en">Okay, that’s enou—</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga197.00">
+            <value key="en">“YET TELL ME!!! NOT?”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga198.00">
+            <value key="en">OKAY, ${slot:playerName}! YOU’RE DONE.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga199.00">
+            <value key="en">(Wow, so soon?)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1100.00">
+            <value key="en">(I MUST’VE NAILED IT!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1101.00">
+            <value key="en">We’ve got our Romeo.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1102.00">
+            <value key="en">And it’s Aki!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1103.00">
+            <value key="en">Even though she didn’t make it to the auditions and is a girl.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1104.00">
+            <value key="en">!!!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1104.01">
+            <value key="en">(I lost the part to empty air?!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1105.00">
+            <value key="en">(After my rousing performance?!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1106.00">
+            <value key="en">Okay, people. That’s enough for now.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1107.00">
+            <value key="en">Hey! What about me!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1108.00">
+            <value key="en">Oh, yes.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1109.00">
+            <value key="en">You’re still here.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1110.00">
+            <value key="en">And want to be in the play.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1111.00">
+            <value key="en">That’s…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1112.00">
+            <value key="en">That’s great.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1113.00">
+            <value key="en">(He thinks I’m great! Maybe I’ll get a nice meaty part after all!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1114.00">
+            <value key="en">${slot:playerName}, you can be Aki's understudy.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1115.00">
+            <value key="en">!!!!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1116.00">
+            <value key="en">Un…understudy?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1117.00">
+            <value key="en">You’ll be a heartbeat away from the action!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1117.01">
+            <value key="en">Aki is the most accomplished and dependable student at Namco High based on fourteen metrics ranging from school spirit to grade point average.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1117.02">
+            <value key="en">Therefore, making ${slot:playerName} her understudy is the best shot I’ve got to make sure ${slot:playerName} NEVER GETS ON STAGE.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1118.00">
+            <value key="en">I didn’t catch what you said there. It sounded like conspiratorial whispering.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1119.00">
+            <value key="en">Oh, uh. I didn’t say anything.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1120.00">
+            <value key="en">I, um, coughed.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1121.00">
+            <value key="en">(Hm, that was some cough then!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1121.01">
+            <value key="en">Well, understudy’s…pretty okay.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1121.02">
+            <value key="en">I guess?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1122.00">
+            <value key="en">Great. Well, see ya.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1123.00">
+            <value key="en">I guess they just wanted a different take on the character.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1124.00">
+            <value key="en">Ha! That’s one way to put it, sure.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1125.00">
+            <value key="en">I…I…uh…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1125.01">
+            <value key="en">(AAAAAAAAAAAAA)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1126.00">
+            <value key="en">I don’t think I’ve ever seen an audition quite like yours.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1127.00">
+            <value key="en">(HHHHHHHHHHHHHHHHH!!!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1128.00">
+            <value key="en">But at least they let you do an audition…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1129.00">
+            <value key="en">I-I-uh-yuh. Audition.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1129.01">
+            <value key="en">(Hang on!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1130.00">
+            <value key="en">(Galaga Ship’s upset about something.)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1130.01">
+            <value key="en">Ahem. Yeah. Audition!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1131.00">
+            <value key="en">But you didn’t even have to audition, right? You must be really good!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1132.00">
+            <value key="en">Who knows? Everyone else gets to earn or lose parts on their own merits.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1133.00">
+            <value key="en">Or their lack of them. Ahem.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1134.00">
+            <value key="en">(Or just wanting a different take!!!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1135.00">
+            <value key="en">I’m the only one who didn’t have to earn a part. I only got Juliet because of…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1136.00">
+            <value key="en">You know.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1137.00">
+            <value key="en">Who I am.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1138.00">
+            <value key="en">(Gosh. That must be some villa!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1139.00">
+            <value key="en">I don’t know. Maybe I should just be thankful? Other people have hard lives and here I am complaining that everything in mine is too easy.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1140.00">
+            <value key="en">Well, no, I don’t think so.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1140.01">
+            <value key="en">I mean, sure, it sounds super selfish…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1141.00">
+            <value key="en">!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1142.00">
+            <value key="en">…but no one likes to feel like they cheated their way through stuff.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1142.01">
+            <value key="en">Except for cheaters, I guess.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1143.00">
+            <value key="en">But when they do it, it’s on purpose!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1144.00">
+            <value key="en">It’s not your fault you live in that villa!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1145.00">
+            <value key="en">Haha! Oh, ${slot:playerName}. You know that’s not what I meant.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1146.00">
+            <value key="en">But, thanks.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1147.00">
+            <value key="en">(I know the what now?)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1147.01">
+            <value key="en">Hey. Yeah.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1148.00">
+            <value key="en">I sure did know that thing.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1149.00">
+            <value key="en">That you said and meant.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1150.00">
+            <value key="en">Hey, if it’d make you feel any better, you could do your audition now.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1151.00">
+            <value key="en">Yeah? You don’t think that’s stupid, do you?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1152.00">
+            <value key="en">No way. It’s what you’re here for!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1153.00">
+            <value key="en">Really?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1154.00">
+            <value key="en">Well. Okay.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1155.00">
+            <value key="en">I know it’s cliché, but I love the part at the balcony just after Juliet does the “Wherefore art thou.”</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1156.00">
+            <value key="en">And she’s telling Romeo that she doesn’t care about--</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1156.01">
+            <value key="en">Oh, I’ll just do it.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1156.02">
+            <value key="en">Ahem.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1157.00">
+            <value key="en">‘Tis but thy name that is my enemy;</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1158.00">
+            <value key="en">Thou art thyself, though not a Montague.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1159.00">
+            <value key="en">What’s Montague? It is nor hand, nor foot,</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1160.00">
+            <value key="en">Nor arm, nor face, nor any other part</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1161.00">
+            <value key="en">Belonging to a man. O, be some other name.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1162.00">
+            <value key="en">What’s in a name? That which we call a rose</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1163.00">
+            <value key="en">By any other name would smell as sweet;</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1164.00">
+            <value key="en">So Romeo would, were he not Romeo call’d,</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1165.00">
+            <value key="en">Retain that dear perfection which he owes</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1166.00">
+            <value key="en">Without that title. Romeo, doff thy name,</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1167.00">
+            <value key="en">And for that name, which is no part of thee,</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1168.00">
+            <value key="en">Take all myself.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1168.01">
+            <value key="en">Was that, y’know, okay?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1169.00">
+            <value key="en">(Hm? What happened? I was totally captivated!!!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1169.01">
+            <value key="en">Y-yeah. That was…</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1170.00">
+            <value key="en">That was great!</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1171.00">
+            <value key="en">You’re just saying that.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1172.00">
+            <value key="en">No way. If you stunk, you’d be stinking up the play I’m almost in! No way I’d put up with that, lemme tell ya.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1173.00">
+            <value key="en">Yeah?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1174.00">
+            <value key="en">Hm, yeah.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1175.00">
+            <value key="en">Thanks, ${slot:playerName}.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1176.00">
+            <value key="en">Y’know. For a second there? I felt like I really earned the part.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1177.00">
+            <value key="en">Oh, gosh. Look at the time! Hey, I’ll see you around, okay?</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1178.00">
+            <value key="en">Y-yeah, sure.</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1178.01">
+            <value key="en">(I never suspected Galaga Ship might feel like an imposter.)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1179.00">
+            <value key="en">(That’s a pretty sad way to go through life!)</value>
+            <value key="jp" />
+        </TextAsset>
+        <TextAsset key="t_sgalaga1180.00">
+            <value key="en">(Maybe I can do something to help out…?)</value>
+            <value key="jp" />
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_romance" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga128.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_stage_cardboard</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="donko" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_donko_default_grin</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-30%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>5</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="valkyrie" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <scaleX>-1</scaleX>
+                        <image>@i_valkyrie_armscrossed_grin</image>
+                        <depth>5</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="galaga" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_galaga_script</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="tomari" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_tomari_notebook_thinking</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <FadeEvent duration="0.5" target="tomari" to="1" />
+                <ActorImage image="@i_tomari_notebook_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga137.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <ActorImage image="@i_tomari_notebook_smile" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <ActorImage image="@i_tomari_pondering_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <ActorImage image="@i_tomari_standing_thinking" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorImage image="@i_tomari_standing_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorImage image="@i_tomari_standing_mortified" target="tomari" />
+                <TextEvent append="true" char="@t_ch_dirtomari" text="@t_sgalaga145.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <FadeEvent duration="0.5" target="valkyrie" to="1" />
+                <FadeEvent duration="0.5" target="cousin" to="0" />
+                <ActorImage image="@i_valkyrie_armscrossed_grin" target="valkyrie" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_sgalaga146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <ActorImage image="@i_tomari_standing_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <FadeEvent duration="0.5" target="galaga" to="1" />
+                <FadeEvent duration="0" target="valkyrie" to="0" />
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <ActorImage image="@i_tomari_defeated_mortified" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <ActorImage image="@i_tomari_defeated_frustrated" target="tomari" />
+                <TextEvent append="true" char="@t_ch_dirtomari" text="@t_sgalaga149.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <ActorImage image="@i_tomari_defeated_mortified" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <FadeEvent duration="0.5" target="cousin" to="1" />
+                <FadeEvent duration="0" target="galaga" to="0" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <FadeEvent duration="0.5" target="cousin" to="0" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent append="true" char="@t_ch_dirtomari" text="@t_sgalaga153.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thinking" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <FadeEvent duration="0.5" target="valkyrie" to="1" />
+                <ActorImage image="@i_valkyrie_akimbo_bored" target="valkyrie" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_sgalaga156.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <FadeEvent duration="0" target="valkyrie" to="0" />
+                <FadeEvent duration="0" target="tomari" to="0" />
+                <ActorFlip target="donko" />
+                <FadeEvent duration="0.5" target="donko" to="1" />
+                <FadeEvent duration="0.5" target="galaga" to="1" />
+                <ActorImage image="@i_donko_ygg_wink" target="donko" />
+                <TextEvent char="@t_ch_donko" text="@t_sgalaga157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <FadeEvent duration="0" target="donko" to="0" />
+                <FadeEvent duration="0.5" target="tomari" to="1" />
+                <ActorImage image="@i_tomari_alive_smile" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga160.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <ActorImage image="@i_tomari_alive_mortified" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <FadeEvent duration="0" target="galaga" to="0" />
+                <FadeEvent duration="0.5" target="cousin" to="1" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga162.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga162.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <ActorImage image="@i_tomari_defeated_mortified" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <ActorImage image="@i_tomari_alive_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <ActorImage image="@i_tomari_alive_mortified" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga169.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <FadeEvent duration="0" target="tomari" to="0" />
+                <ActorMove target="galaga" x="20%" />
+                <FadeEvent duration="0.5" target="galaga" to="1" />
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga173.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_laugh_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga174.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga174.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <FadeEvent duration="0.5" target="tomari" to="1" />
+                <FadeEvent duration="0" target="galaga" to="0" />
+                <ActorImage image="@i_tomari_notebook_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga175.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga176.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga177.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga178.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga179.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga180.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga181.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga182.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga183.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <FadeEvent duration="0" target="tomari" to="0" />
+                <FadeEvent duration="0.5" target="galaga" to="1" />
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga184.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga185.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga185.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga185.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <ActorMove duration="0.5" target="cousin" x="0%" />
+                <ActorMove duration="0.5" target="galaga" x="40%" />
+                <ActorMove duration="0.25" target="tomari" x="-40%" />
+                <ActorMove duration="0.25" target="donko" x="45%" />
+                <ActorFlip target="tomari" />
+                <ActorFlip target="donko" />
+                <FadeEvent duration="0.25" target="tomari" to="1" />
+                <FadeEvent duration="0.25" target="donko" to="1" />
+                <ActorImage image="@i_cousin_energetic_neutral_blush" target="cousin" />
+                <ActorImage image="@i_donko_default_grin" target="donko" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga185.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <ActorFlip target="cousin" />
+                <ActorImage image="@i_cousin_energetic_grin_blush" target="cousin" />
+                <ActorImage image="@i_tomari_notebook_mortified" target="tomari" />
+                <ActorImage image="@i_donko_default_meloncholic" target="donko" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga186.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <ActorFlip target="cousin" />
+                <ActorImage image="@i_tomari_defeated_mortified" target="tomari" />
+                <ActorImage image="@i_donko_akimbo_meloncholic" target="donko" />
+                <ActorImage image="@i_cousin_energetic_laugh_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga187.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga187.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga187.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga188.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga189.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga189.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga190.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <ActorFlip target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga190.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <ActorFlip target="cousin" />
+                <ActorImage image="@i_tomari_defeated_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga192.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga193.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <ActorFlip target="cousin" />
+                <ActorImage image="@i_tomari_alive_mortified" target="tomari" />
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga194.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <ActorFlip target="cousin" />
+                <ActorFlip target="donko" />
+                <ActorImage image="@i_donko_phone_meloncholic" target="donko" />
+                <ActorImage image="@i_cousin_exhausted_surprised_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga195.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <ActorImage image="@i_tomari_alive_thinking" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga196.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <ActorFlip target="cousin" />
+                <ActorImage image="@i_cousin_energetic_sad_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga197.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorImage image="@i_tomari_alive_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga198.00" transform="uppercase" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga199.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <ActorImage image="@i_cousin_default_grin_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <ActorImage image="@i_tomari_alive_smile" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <ActorImage image="@i_tomari_alive_thinking" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1104.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <FadeEvent duration="0.25" target="galaga" to="0" />
+                <FadeEvent duration="0.25" target="donko" to="0" />
+                <ActorMove duration="0.40" target="cousin" x="25%" />
+                <ActorMove duration="0.5" target="tomari" x="-20%" />
+                <ActorImage image="@i_tomari_defeated_smile" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thinking" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <ActorImage image="@i_tomari_pondering_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1109.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <ActorImage image="@i_tomari_pondering_mortified" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <ActorImage image="@i_tomari_standing_mortified" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <ActorImage image="@i_tomari_standing_thinking" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1116.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <ActorImage image="@i_tomari_standing_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1117.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <ActorImage image="@i_tomari_pondering_smile" target="tomari" />
+                <TextEvent append="true" char="@t_ch_dirtomari" text="@t_sgalaga1117.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent append="true" char="@t_ch_dirtomari" text="@t_sgalaga1117.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <ActorImage image="@i_tomari_standing_smile" target="tomari" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1121.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1121.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <ActorFlip target="tomari" />
+                <ActorMove duration="0.65" target="tomari" x="-100%" />
+                <TextEvent char="@t_ch_dirtomari" text="@t_sgalaga1122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <ActorFlip duration="0.25" target="cousin" />
+                <ActorMove duration="0.5" target="cousin" x="-25%" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <ActorMove duration="0" target="galaga" x="20%" />
+                <FadeEvent duration="0.5" target="galaga" to="1" />
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1125.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1128.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_grin_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1129.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1130.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1137.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <ActorImage image="@i_cousin_default_grin_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1140.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1142.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1147.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <ActorImage image="@i_cousin_default_grin_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1156.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <TextEvent append="true" char="@t_ch_galaga" text="@t_sgalaga1156.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent append="true" char="@t_ch_galaga" text="@t_sgalaga1156.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1160.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent append="true" char="@t_ch_galaga" text="@t_sgalaga1168.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1169.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <ActorImage image="@i_cousin_default_laugh_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1169.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1173.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1175.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1176.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_sgalaga1177.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <ActorMove duration="0.5" target="galaga" x="75%" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1178.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sgalaga1178.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1179.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sgalaga1180.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_2x" scene="s_day2" />
+    </events>
+</scene>

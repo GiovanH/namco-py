@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_jane6" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_sjane679.00">
+            <value key="en">We did it, Jane!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane679.01">
+            <value key="en">We saved Pacman! We saved all of Namco High!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane679.02">
+            <value key="en">Your “Maid of Life” powers are just incredible!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane680.00">
+            <value key="en">...</value>
+        </TextAsset>
+        <TextAsset key="t_sjane681.00">
+            <value key="en">${slot:playerName}, this may sound a little bonkers, but…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane682.00">
+            <value key="en">After witnessing our own death and revival with my own two eyes…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane683.00">
+            <value key="en">I’m starting to have the sneaking suspicion that maybe…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane684.00">
+            <value key="en">Maybe…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane685.00">
+            <value key="en">There might be something just the teensiest bit strange going on at this school.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane686.00">
+            <value key="en">Hmmm…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane687.00">
+            <value key="en">You might be onto something there.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane688.00">
+            <value key="en">Well, I am the lead journalist for the school paper.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane689.00">
+            <value key="en">As soon as things start to get back to normal around here…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane690.00">
+            <value key="en">What do you say we start investigating?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane691.00">
+            <value key="en">Hoo hoo! :B</value>
+        </TextAsset>
+        <TextAsset key="t_sjane692.00">
+            <value key="en">...Well, it sounds pretty far-fetched to me, but…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane692.01">
+            <value key="en">I trust you.</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <VarEnsure storeName="slot" value="0" varName="pick_count_jane" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_evil_namco_high</image>
+                        <depth>11</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="white_swatch" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_white</image>
+                        <depth>16</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="robotarmy" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_robotarmy</image>
+                        <x>-40%</x>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_cousin_normal</image>
+                        <x>40%</x>
+                        <y>25%</y>
+                        <opacity>0</opacity>
+                        <scaleX>.75</scaleX>
+                        <scaleY>.75</scaleY>
+                        <depth>13</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="jane" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_jane</image>
+                        <x>40%</x>
+                        <y>-12.5%</y>
+                        <scaleX>-.75</scaleX>
+                        <scaleY>.75</scaleY>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <IfLTE auto="true" lvalue="${slot:pick_count_jane}" name="_1" rvalue="1">
+            <events>
+                <ActorImage auto="true" image="@i_battlepose_jane_regular" name="_0" target="jane" />
+            </events>
+        </IfLTE>
+        <BattleMacro name="_2" partnerActor="jane">
+            <events>
+                <ActorDestroy name="_0" target="robotarmy" />
+                <ActorEvent name="_1" target="bg">
+                    <styles>
+                        <image>@i_bg_school_front</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_2" target="jane">
+                    <styles>
+                        <image>@i_jane_godtier_smile</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>20%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_3" target="cousin">
+                    <styles>
+                        <image>@i_cousin_energetic_grin</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>-20%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+            </events>
+        </BattleMacro>
+        <BadEndMacro auto="true" name="_3" varName="${slot:pick_count_jane}" />
+        <ActorFade auto="true" duration="0.5" name="_4" opacity="0" target="curtain" />
+        <ParallelEvent name="_5">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <ActorImage image="@i_jane_godtier_smile" target="jane" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane679.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane679.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane679.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane680.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane681.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane682.00" />
+                <ActorImage image="@i_jane_godtier_frustrated" target="jane" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane683.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane684.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane685.00" />
+                <ActorImage image="@i_jane_godtier_embarrassed" target="jane" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane686.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane687.00" />
+                <ActorImage image="@i_cousin_default_laugh" target="cousin" />
+                <ActorImage image="@i_jane_godtier_laugh" target="jane" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane688.00" />
+                <ActorCrossfade duration="0.5" image="@i_jane_godtier_laugh_blush" opacity="1" target="jane" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane689.00" />
+                <ActorImage image="@i_jane_godtier_grin_blush" target="jane" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane690.00" />
+                <ActorCrossfade duration="0.5" image="@i_jane_godtier_grin" opacity="1" target="jane" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane691.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane692.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane692.01" />
+            </events>
+        </ParallelEvent>
+        <ActorFade allowInterrupt="false" auto="true" duration="1" name="_M" opacity="1" target="curtain" />
+        <AudioCreate audioId="bgm" auto="true" layer="bgm" loop="false" name="_N" play="true" sound="@a_bgm_credits" />
+        <CreditsEvent allowInterrupt="false" name="_O" />
+        <IfGTE auto="true" lvalue="${slot:pick_count_jane}" name="_P" rvalue="3">
+            <events>
+                <VarSet name="_0" storeName="game" value="true" varName="got_trueend_jane" />
+                <ActorCreate actorId="trueEnd" actorType="event" allowInterrupt="false" duration="1" name="_1">
+                    <styles>
+                        <image>@i_event_jane_ending</image>
+                        <depth>23</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <ActorFade allowInterrupt="false" auto="true" duration="1" name="_2" opacity="0" target="trueEnd" />
+            </events>
+        </IfGTE>
+        <GameOver name="_Q" />
+    </events>
+</scene>

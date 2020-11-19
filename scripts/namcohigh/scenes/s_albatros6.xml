@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_albatros6" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_salbatros639.00">
+            <value key="en">(Albatross took the greatest risk of all by equipping the most powerful cheat code of them all. The infamous 30 Lives Code.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros640.00">
+            <value key="en">(The extra manpower helped us overcome the robotic horde of Evil Namco High.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros641.00">
+            <value key="en">...we hereby commend upon you the rank of World Crime Police Organization junior agent for gallantry in the line of duty…</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros642.00">
+            <value key="en">And for helping me to learn that the world isn’t so black and white…</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros643.00">
+            <value key="en">And for, maybe, going out for that coffee later…?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros644.00">
+            <value key="en">It’s a date!</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <VarEnsure storeName="slot" value="0" varName="pick_count_albatros" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_evil_namco_high</image>
+                        <depth>11</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="white_swatch" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_white</image>
+                        <depth>16</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="robotarmy" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_robotarmy</image>
+                        <x>-40%</x>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_cousin_normal</image>
+                        <x>40%</x>
+                        <y>25%</y>
+                        <opacity>0</opacity>
+                        <scaleX>0.75</scaleX>
+                        <scaleY>0.75</scaleY>
+                        <depth>13</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="albatros" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_albatross_multi</image>
+                        <x>40%</x>
+                        <y>-12.5%</y>
+                        <scaleX>0.75</scaleX>
+                        <scaleY>0.75</scaleY>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <IfLTE auto="true" lvalue="${slot:pick_count_albatros}" name="_1" rvalue="1">
+            <events>
+                <ActorImage auto="true" image="@i_battlepose_albatross_glitch" name="_0" target="albatros" />
+            </events>
+        </IfLTE>
+        <BattleMacro name="_2" partnerActor="albatros">
+            <events>
+                <ActorDestroy name="_0" target="robotarmy" />
+                <ActorEvent name="_1" target="bg">
+                    <styles>
+                        <image>@i_bg_school_front</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_2" target="albatros">
+                    <styles>
+                        <image>@i_albatross_toocool_smirk</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>20%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_3" target="cousin">
+                    <styles>
+                        <image>@i_cousin_default_neutral</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>-20%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+            </events>
+        </BattleMacro>
+        <BadEndMacro auto="true" name="_3" varName="${slot:pick_count_albatros}" />
+        <ActorFade auto="true" duration="0.5" name="_4" opacity="0" target="curtain" />
+        <IfEqual lvalue="${slot:pick_count_albatros}" name="_5" rvalue="2">
+            <events>
+                <ParallelEvent name="_0">
+                    <events>
+                        <TextEvent char="@t_ch_cousin" text="@t_salbatros639.00" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_1">
+                    <events>
+                        <TextEvent char="@t_ch_cousin" text="@t_salbatros640.00" />
+                    </events>
+                </ParallelEvent>
+                <ActorFade allowInterrupt="false" auto="true" duration="1" name="_2" opacity="1" target="curtain" />
+                <AudioCreate audioId="bgm" auto="true" layer="bgm" loop="false" name="_3" play="true" sound="@a_bgm_credits" />
+                <CreditsEvent allowInterrupt="false" name="_4" />
+                <GameOver name="_5" />
+            </events>
+        </IfEqual>
+        <IfGTE lvalue="${slot:pick_count_albatros}" name="_6" rvalue="3">
+            <events>
+                <VarSet name="_0" storeName="game" value="true" varName="got_trueend_albatros" />
+                <ParallelEvent name="_1">
+                    <events>
+                        <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                        <ActorImage image="@i_albatross_welcome_smirk" target="albatros" />
+                        <TextEvent char="@t_ch_albatross" text="@t_salbatros641.00" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_2">
+                    <events>
+                        <TextEvent char="@t_ch_albatross" text="@t_salbatros642.00" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_3">
+                    <events>
+                        <ActorImage image="@i_albatross_welcome_smirk_wink" target="albatros" />
+                        <TextEvent char="@t_ch_albatross" text="@t_salbatros643.00" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_4">
+                    <events>
+                        <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                        <TextEvent char="@t_ch_cousin" text="@t_salbatros644.00" />
+                    </events>
+                </ParallelEvent>
+                <ActorFade allowInterrupt="false" auto="true" duration="1" name="_5" opacity="1" target="curtain" />
+                <AudioCreate audioId="bgm" auto="true" layer="bgm" loop="false" name="_6" play="true" sound="@a_bgm_credits" />
+                <CreditsEvent allowInterrupt="false" name="_7" />
+                <ActorCreate actorId="trueEnd" actorType="event" allowInterrupt="false" duration="1" name="_8">
+                    <styles>
+                        <image>@i_event_albatross_ending</image>
+                        <depth>23</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <ActorFade allowInterrupt="false" auto="true" duration="1" name="_9" opacity="0" target="trueEnd" />
+                <GameOver name="_A" />
+            </events>
+        </IfGTE>
+    </events>
+</scene>

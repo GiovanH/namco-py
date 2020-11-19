@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_hiromi5" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_shiromi511.00">
+            <value key="en">(This is it! Hiromi's big day.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi512.00">
+            <value key="en">Oh... Hey, kid.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi513.00">
+            <value key="en">I'm going to be in the stands, cheering for you!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi514.00">
+            <value key="en">Uh-huh.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi515.00">
+            <value key="en">(She's so cool under pressure... )</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi516.00">
+            <value key="en">I have to the last tune-ups with Tomari, now.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi517.00">
+            <value key="en">Okay! I believe in you!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi518.00">
+            <value key="en">Kid...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi519.00">
+            <value key="en">I was going to dedicate my race to ...........</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi520.00">
+            <value key="en">..... To Kissy?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi521.00">
+            <value key="en">Y-yeah. But I was thinking.......</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi522.00">
+            <value key="en">..... Maybe I'll dedicate one of my laps to you.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi523.00">
+            <value key="en">(Wow... That was really sweet, in its own icy, aloof... Extremely distant way.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi523.01">
+            <value key="en">I guess she likes me?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi523.02">
+            <value key="en">I'd like to think we're friends.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi524.00">
+            <value key="en">(I suppose I'll head down to the track now so I can get a good seat.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi524.01">
+            <value key="en">I wouldn't want to get stuck all the way in the back!)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi525.00">
+            <value key="en">(It looks like the race has already started!)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi526.00">
+            <value key="en">(I'm so small, it's easy to squeeze through the crowd... I got front row seats!)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi527.00">
+            <value key="en">(The bikes are all moving so fast... It's hard to tell which one is Hiromi's.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi528.00">
+            <value key="en">(Maybe if I squint-- )</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi529.00">
+            <value key="en">WHOOOOOOOOOOO!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi529.01">
+            <value key="en">GO GO GOOOOOOOOOOOO!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi530.00">
+            <value key="en">FASTER!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi530.01">
+            <value key="en">BEAT THOSE LOSERS!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi531.00">
+            <value key="en">THEY CAN EAT YOUR DUST!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi532.00">
+            <value key="en">HEY... HEY YOU!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi532.01">
+            <value key="en">YEAH, THAT DUMB RED MOTORCYCLE!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi532.02">
+            <value key="en">GET OUT OF THE WAY!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi533.00">
+            <value key="en">(What a boisterous, enthusiastic fan... )</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi534.00">
+            <value key="en">Phew! Yelling is hard work!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi535.00">
+            <value key="en">It looks like it!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi536.00">
+            <value key="en">Are you a racing fan too?!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi537.00">
+            <value key="en">I guess you could say I'm becoming one. I'm here to cheer a friend.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi538.00">
+            <value key="en">Me too! What a coincidence!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi539.00">
+            <value key="en">My name's Toby, by the way!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi540.00">
+            <value key="en">Hi Toby! I'm ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi541.00">
+            <value key="en">You know, I'm cheering really hard... But honestly, I can't really tell which one she is.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi542.00">
+            <value key="en">They're all kind of blurry huh?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi543.00">
+            <value key="en">Yeah.....</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi544.00">
+            <value key="en">To tell you the truth, I always cheer for the prettiest lights.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi545.00">
+            <value key="en">They really dazzle me.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi546.00">
+            <value key="en">${slot:playerName}... Let's cheer together!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi546.01">
+            <value key="en">Ready?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi547.00">
+            <value key="en">GO GO GO!!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi547.01">
+            <value key="en">WHOOOOOO!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi548.00">
+            <value key="en">TWO, FOUR, SIX, EIGHT</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi548.01">
+            <value key="en">WHO DO WE APPRECIATE?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi549.00">
+            <value key="en">UMMM.... WHOEVER INVENTED THE MOTORCYCLE FOR INVENTING THE MOTORCYLE!!!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi550.00">
+            <value key="en">Y-YEAH, WHOOO! THAT ONE BIKE.... BEAT THAT OTHER BIKE!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi551.00">
+            <value key="en">YOU'RE DOING IT!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi551.01">
+            <value key="en">YOU'RE GOING REAL FAST!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi551.02">
+            <value key="en">WOW!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi551.03">
+            <value key="en">LOOK AT YOU GO!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi552.00">
+            <value key="en">Those are pretty good ${slot:playerName}...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi553.00">
+            <value key="en">Thanks... I'm sort of a novice at this...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi554.00">
+            <value key="en">It's okay. You're doing great!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi555.00">
+            <value key="en">So ${slot:playerName}... What do you do?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi556.00">
+            <value key="en">Me? I'm a student at Namco High.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi557.00">
+            <value key="en">I see... Do you like it?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi558.00">
+            <value key="en">It's not bad. I'm stuck in detention, though.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi559.00">
+            <value key="en">Ohoho, I'm hanging out with a delinquent!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi560.00">
+            <value key="en">I'm not that bad!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi561.00">
+            <value key="en">It's okay... My friend is a delinquent too.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi562.00">
+            <value key="en">Enough of a delinquent to have been held back a few times.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi563.00">
+            <value key="en">(Her friend? It couldn't be... )</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi564.00">
+            <value key="en">What about you, Miss Toby?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi565.00">
+            <value key="en">Haha... Toby's fine. I was in the United Galaxy Space Force.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi566.00">
+            <value key="en">O-oh...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi567.00">
+            <value key="en">(I guess if Galaga is a spaceship... This isn't much of a stretch.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi567.01">
+            <value key="en">I was in the Battle of Baraduke, ‘85… I’m a space fighter.  It’s nice, though… things are pretty calm recently. I’ve been catching up on my stories.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi568.00">
+            <value key="en">(Wow... There are all kinds of people in this crazy world.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi569.00">
+            <value key="en">You know...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi569.01">
+            <value key="en">This race is very important to me.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi570.00">
+            <value key="en">Oh?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi571.00">
+            <value key="en">I've promised to go on a trip... But only if SHE wins this race.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi572.00">
+            <value key="en">(Whoa whoa... Hold on.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi573.00">
+            <value key="en">But I'm a little nervous about it... I'm not used to just... Doing something.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi574.00">
+            <value key="en">I prefer to have a plan. It’s important to always have a battle plan!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi575.00">
+            <value key="en">You're talking about … like… space battle?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi576.00">
+            <value key="en">Yeah! Well, not just space battles.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi577.00">
+            <value key="en">It’s good to have an idea of what you’re going to do, but sometimes… There’s more to life than that, right? It's more than just preparing for every possible contingency.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi578.00">
+            <value key="en">True... But I don’t know! I’m still nervous about it. Maybe I watch too much TV! But aliens are real, so anything could be! I just don’t know if SHE would understand my concerns… she’s somewhere between confident and impetuous, y’know?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi579.00">
+            <value key="en">.... We are talking about Hiromi, right?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi580.00">
+            <value key="en">Yup!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi581.00">
+            <value key="en">WAIT, how do you know her name?!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi582.00">
+            <value key="en">I've been hanging out with her at Auto Shop. Although she called you Kissy…</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi583.00">
+            <value key="en">She’s the only one who does.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi584.00">
+            <value key="en">OH! You must be the new pal she was talking about!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi585.00">
+            <value key="en">(Did she call me that?! Gosh... I'm flattered.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi586.00">
+            <value key="en">She's been really happy lately. Usually it's just me and her, and she doesn't complain, but still... I'm so glad she's made a friend!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi587.00">
+            <value key="en">I used to think Hiromi was a little morose, but that's not her at all. She's just...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi587.01">
+            <value key="en">very uncomplicated.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi587.02">
+            <value key="en">I was always overthinking, trying to decipher what angle she's coming from...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi587.03">
+            <value key="en">but the truth is, she always takes the shortest path between two points.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi587.04">
+            <value key="en">I bet the neurons in her brain are all like little roads, going the shortest distance from point A to point B.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi588.00">
+            <value key="en">I've been trying to pick it up from her... It helps me keep focused too... to simplify my thinking and concentrate on the important things.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi589.00">
+            <value key="en">And the most important thing right now is this trip we’re planning!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi590.00">
+            <value key="en">Toby... You should just tell her how you feel. Tell her exactly what's on your mind. If you're nervous... It doesn't hurt to let her know. And likewise… tell her to be clear about her expectations as well.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi591.00">
+            <value key="en">I know... But she's so cool. Like a lone wolf! Or a pterodactyl!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi592.00">
+            <value key="en">Sometimes it's hard to tell if she cares. I mean, I know she does... But we're not very similar that way.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi593.00">
+            <value key="en">I can't stop telling people what I'm thinking. Even complete strangers!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi594.00">
+            <value key="en">(Tell me about it...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi594.01">
+            <value key="en">I've known you for 10 minutes and I already know more about you than Hiromi!)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi595.00">
+            <value key="en">I think it's just how she is. She's very content with the few things she has... You, her motorcyle, and her dream.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi596.00">
+            <value key="en">If she didn't care, she probably wouldn't even hang around... Y'know?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi597.00">
+            <value key="en">You... You think so?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi598.00">
+            <value key="en">I do.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi599.00">
+            <value key="en">Hmmmm....</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi599.01">
+            <value key="en">......OH!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5100.00">
+            <value key="en">They're on their final approach! But I can't see who's up front.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5101.00">
+            <value key="en">(It's a pink and blue streak...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5101.01">
+            <value key="en">Only ONE racer could possibly be that pink.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5102.00">
+            <value key="en">And the winner is... HIROMI TENGENJI!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5103.00">
+            <value key="en">${slot:playerName}... SHE WON! SHE WON!!!!!!!!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5104.00">
+            <value key="en">AHHHHHHHHH!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5105.00">
+            <value key="en">AHHHHHHHHHHHH!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5106.00">
+            <value key="en">(After that... We headed back to the garage.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5107.00">
+            <value key="en">(I can't believe I ran into Hiromi's partner.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5107.01">
+            <value key="en">What a small world.)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5108.00">
+            <value key="en">Hiromi!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5109.00">
+            <value key="en">Oh, hey Kissy. Did you see?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5110.00">
+            <value key="en">I saw!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5111.00">
+            <value key="en">And look who I found!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5112.00">
+            <value key="en">........ ?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5113.00">
+            <value key="en">Whoa. Hey kid.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5113.01">
+            <value key="en">Do you guys know each other?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5114.00">
+            <value key="en">We do now!</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5115.00">
+            <value key="en">Actually... I'll catch up with you in a minute. I think Toby has some things to say to you.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5116.00">
+            <value key="en">........................</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5117.00">
+            <value key="en">........... Toby? What's up?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5118.00">
+            <value key="en">Hiromi..........</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5119.00">
+            <value key="en">BE TRUE TO YOURSELF....</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5120.00">
+            <value key="en">He's right Toby. Tell Hiromi how you feel.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5121.00">
+            <value key="en">Kissy...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5122.00">
+            <value key="en">Hiromi... I believed in you today, and I'll totally believe in you...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5122.01">
+            <value key="en">Forever.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5123.00">
+            <value key="en">But... I want to be honest with you. I'm a little nervous about this trip.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5124.00">
+            <value key="en">......................</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5125.00">
+            <value key="en">Hiromi?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5126.00">
+            <value key="en">........ I know. I got the prize money... But we should wait a little longer. Let's save up some more money, lay down some plans.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5127.00">
+            <value key="en">!! Really?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5128.00">
+            <value key="en">Yeah. You're right. I should consider your feelings. We can't wait around forever, but this feels like the right thing to do.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5129.00">
+            <value key="en">Hiromi...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5130.00">
+            <value key="en">I wouldn't leave you hangin'.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5131.00">
+            <value key="en">Thanks.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5132.00">
+            <value key="en">Phew... I'm gonna head home. It's been a long day, and all that cheering tuckered me out.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5133.00">
+            <value key="en">${slot:playerName}...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5134.00">
+            <value key="en">(AH! She kissed me on the cheek!)</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5135.00">
+            <value key="en">Thanks for the talk.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5136.00">
+            <value key="en">.........</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5137.00">
+            <value key="en">Sorry if I intruded...</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5138.00">
+            <value key="en">...............</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5139.00">
+            <value key="en">What? Spit it out.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5140.00">
+            <value key="en">It can't be fun to be between two people like that.</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5141.00">
+            <value key="en">Eh... What're friends for?</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5142.00">
+            <value key="en">.................</value>
+        </TextAsset>
+        <TextAsset key="t_shiromi5143.00">
+            <value key="en">Thanks, kiddo.</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_upbeat_half" />
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi511.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_quad_bleachers</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="toby" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_tobi_stand_grin</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <!-- <x>20%</x> -->
+                        <image>@i_cousin_energetic_grin</image>
+                        <depth>2</depth>
+                        <x>-20%</x>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="hiromi" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_hiromi_crossed_serious</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <opacity>0</opacity>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi512.00" />
+                <ActorImage image="@i_hiromi_stand_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi513.00" />
+                <ActorImage image="@i_cousin_energetic_laugh" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi514.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi515.00" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi516.00" />
+                <ActorImage image="@i_hiromi_tool_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi517.00" />
+                <ActorImage image="@i_cousin_energetic_laugh" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi518.00" />
+                <ActorImage image="@i_hiromi_akimbo_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi519.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi520.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi521.00" />
+                <ActorImage image="@i_hiromi_crossed_straight_blush" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi522.00" />
+                <ActorImage image="@i_hiromi_crossed_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <ActorFade duration="1" opacity="0" target="hiromi" />
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi523.00" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <ActorMove duration=".75" target="cousin" x="0" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi523.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi523.02" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi524.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi524.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorFade duration=".3" opacity="1" target="curtain" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorFade duration=".3" opacity="0" target="curtain" />
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi525.00" />
+                <ActorImage image="@i_bg_cliff_night" target="bg" />
+                <ActorMove target="cousin" x="-20%" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi526.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi527.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi528.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_questionmarks" text="@t_shiromi529.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent append="true" char="@t_ch_questionmarks" text="@t_shiromi529.01" />
+                <ActorImage image="@i_tobi_stand_cheering" target="toby" />
+                <ActorMove target="toby" x="20%" />
+                <ActorFade duration=".75" opacity="1" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent char="@t_ch_questionmarks" text="@t_shiromi530.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent append="true" char="@t_ch_questionmarks" text="@t_shiromi530.01" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_questionmarks" text="@t_shiromi531.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent char="@t_ch_questionmarks" text="@t_shiromi532.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent append="true" char="@t_ch_questionmarks" text="@t_shiromi532.01" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent append="true" char="@t_ch_questionmarks" text="@t_shiromi532.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi533.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_questionmarks" text="@t_shiromi534.00" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi535.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_questionmarks" text="@t_shiromi536.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi537.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_questionmarks" text="@t_shiromi538.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_questionmarks" text="@t_shiromi539.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi540.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi541.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi542.00" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi543.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi544.00" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi545.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi546.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi546.01" />
+                <ActorImage image="@i_cousin_energetic_laugh" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi547.00" />
+                <ActorImage image="@i_tobi_stand_cheering" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi547.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi548.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi548.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi549.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi550.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi551.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi551.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi551.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi551.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi552.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi553.00" />
+                <ActorImage image="@i_cousin_energetic_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi554.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi555.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi556.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi557.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi558.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi559.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi560.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi561.00" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi562.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi563.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi564.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi565.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi566.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi567.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi567.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi568.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi569.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi569.01" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi570.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi571.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi572.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi573.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi574.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi575.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi576.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi577.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi578.00" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi579.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi580.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi581.00" />
+                <ActorImage image="@i_tobi_stand_cheering" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi582.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi583.00" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi584.00" />
+                <ActorImage image="@i_tobi_stand_cheering" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi585.00" />
+                <ActorImage image="@i_cousin_energetic_grin_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi586.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi587.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi587.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi587.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi587.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi587.04" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi588.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi589.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi590.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi591.00" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi592.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi593.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi594.00" />
+                <ActorImage image="@i_cousin_energetic_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi594.01" />
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi595.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi596.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi597.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi598.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi599.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi599.01" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi5101.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent char="@t_ch_announcer" text="@t_shiromi5102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5103.00" transform="uppercase" />
+                <ActorImage image="@i_tobi_stand_cheering" target="toby" />
+                <ActorImage image="@i_cousin_energetic_laugh" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5105.00" />
+                <ActorImage image="@i_cousin_energetic_laugh" target="cousin" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <ActorFade duration="1" name="_1u" opacity="1" target="curtain" />
+        <ActorFade name="_1v" opacity="0" target="toby" />
+        <ActorFade name="_1w" opacity="0" target="cousin" />
+        <ParallelEvent name="_1x">
+            <events>
+                <AudioEvent fadeDuration="1" play="true" sound="@a_bgm_privatetimes" target="bgm" volume="1" />
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5106.00" />
+                <ActorDepth depth="9" target="curtain" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_shiromi5107.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5108.00" />
+                <ActorFade duration="1" opacity="0" target="curtain" />
+                <ActorImage image="@i_bg_shopclass" target="bg" />
+                <ActorFade opacity="0" target="cousin" />
+                <ActorMove target="cousin" x="-80%" />
+                <ActorMove target="toby" x="-20%" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+                <ActorImage image="@i_hiromi_crossed_serious" target="hiromi" />
+                <ActorMove target="hiromi" x="20%" />
+                <ActorFade opacity="1" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5109.00" />
+                <ActorFade duration=".75" opacity="1" target="toby" />
+                <ActorImage image="@i_hiromi_stand_smile_blush" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5111.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5112.00" />
+                <ActorMove duration=".5" target="toby" x="10%" />
+                <ActorImage image="@i_hiromi_crossed_serious" target="hiromi" />
+                <ActorMove duration=".5" target="hiromi" x="30%" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <ActorFade opacity="1" target="cousin" />
+                <ActorMove duration=".3" target="cousin" x="-25%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5113.00" />
+                <ActorImage image="@i_hiromi_akimbo_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent append="true" char="@t_ch_hiromi" text="@t_shiromi5113.01" />
+                <ActorImage image="@i_hiromi_stand_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5115.00" />
+                <ActorMove duration=".3" target="cousin" x="-35%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5116.00" />
+                <ActorMove duration=".5" target="toby" x="0" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5117.00" />
+                <ActorImage image="@i_hiromi_akimbo_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5118.00" />
+                <ActorMove target="pacman" x="-88%" />
+            </events>
+        </ParallelEvent>
+        <AudioCreate audioId="pacman" auto="true" layer="sfx" loop="true" name="_2C" play="true" sound="@a_sfx_pacman" />
+        <ParallelEvent allowInterrupt="false" auto="true" name="_2D">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_shiromi5119.00" />
+                <ActorFade opacity="1" target="pacman" />
+                <ActorScale target="pacman" x="-1" />
+                <ActorMove duration="3" target="pacman" x="-30%" />
+                <ActorImage image="@i_hiromi_crossed_serious" target="hiromi" />
+                <ActorMove duration=".5" target="hiromi" x="40%" />
+                <ActorMove duration=".5" target="toby" x="30%" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorMove duration=".5" target="cousin" x="20%" />
+                <ActorScale target="cousin" x="-1" />
+            </events>
+        </ParallelEvent>
+        <AudioDestroy name="_2E" target="pacman" />
+        <ParallelEvent name="_2F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5120.00" />
+                <ActorMove duration="3" target="pacman" x="-88%" />
+                <ActorImage image="@i_hiromi_crossed_serious" target="hiromi" />
+                <ActorMove duration=".5" target="hiromi" x="35%" />
+                <ActorMove duration=".5" target="toby" x="5%" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <ActorMove duration=".5" target="cousin" x="-27%" />
+                <ActorScale target="cousin" x="1" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5121.00" />
+                <ActorImage image="@i_hiromi_crossed_straight_blush" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent append="true" char="@t_ch_toby" text="@t_shiromi5122.01" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5124.00" />
+                <ActorImage image="@i_hiromi_stand_straight_blush" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5125.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5126.00" />
+                <ActorImage image="@i_hiromi_crossed_smile_blush" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5127.00" />
+                <ActorImage image="@i_tobi_stand_sweetsmile" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5128.00" />
+                <ActorImage image="@i_hiromi_stand_smile_blush" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5130.00" />
+                <ActorImage image="@i_hiromi_crossed_smile_blush" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5131.00" />
+                <ActorDepth depth="3" target="toby" />
+                <ActorMove duration=".3" target="toby" x="12%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5132.00" />
+                <ActorImage image="@i_hiromi_crossed_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5133.00" />
+                <ActorImage image="@i_tobi_stand_grin" target="toby" />
+                <ActorMove duration=".5" target="toby" x="-7%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5134.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent char="@t_ch_toby" text="@t_shiromi5135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <ActorFade duration=".5" opacity="0" target="toby" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5136.00" />
+                <ActorMove duration=".5" target="cousin" x="-20%" />
+                <ActorMove duration=".5" target="hiromi" x="20%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5137.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5139.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5140.00" />
+                <ActorImage image="@i_hiromi_crossed_smile" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_shiromi5141.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_shiromi5143.00" />
+                <ActorImage image="@i_hiromi_akimbo_smile" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_2f" scene="s_day5.5" />
+    </events>
+</scene>

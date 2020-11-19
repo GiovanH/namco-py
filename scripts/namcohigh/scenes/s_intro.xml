@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<scene id="s_intro" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_tut00.00">
+            <value key="en">Welcome to Namco High, ${slot:playerName}! Please click here or press Enter to progress through the game.</value>
+        </TextAsset>
+        <TextAsset key="t_tut01.00">
+            <value key="en">Volume may be adjusted and the store may be accessed via the Options Menu in the bottom right.</value>
+        </TextAsset>
+        <TextAsset key="t_tut02.00">
+            <value key="en">You can skip read text by pressing the Fast Forward button above that. It will light up when you can use it.</value>
+        </TextAsset>
+        <TextAsset key="t_tut03.00">
+            <value key="en">Thanks for playing, and have fun!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro0.00">
+            <value key="en">Here's the first thing you need to know.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro0.01">
+            <value key="en">I'm just like you.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro0.02">
+            <value key="en">One hundred percent.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro1.00">
+            <value key="en">My Uncle is the King of all Cosmos...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro1.01">
+            <value key="en">Literally.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro2.00">
+            <value key="en">My cousin is the Prince. He's really good at rolling stuff up.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro2.01">
+            <value key="en">Big stuff...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro2.02">
+            <value key="en">Little stuff...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro3.00">
+            <value key="en">Just...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro3.01">
+            <value key="en">Everything.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro4.00">
+            <value key="en">If there's something you can think of, he's rolled it.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro4.01">
+            <value key="en">He's kind of a big deal.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro5.00">
+            <value key="en">...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro6.00">
+            <value key="en">I really look up to him...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro6.01">
+            <value key="en">But I also kinda think of him as a rival.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro7.00">
+            <value key="en">It's a weird relationship.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro8.00">
+            <value key="en">Anyway, I got to thinking... Maybe rolling runs in the family, if you know what I mean.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro9.00">
+            <value key="en">So I tried it out. Took a roll around school grounds.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro9.01">
+            <value key="en">I even waited until lunch hour so I wasn't bothering anyone.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.00">
+            <value key="en">I picked up a lot of stuff! Textbooks...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.01">
+            <value key="en">Some mix CDS (who has CDs anymore?!)...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.02">
+            <value key="en">Some games...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.03">
+            <value key="en">Lots of tasty food (our school is pretty international, y'know? Actually it's pretty intergalactic)...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.04">
+            <value key="en">A Namco High varsity jacket (It was too big for me)...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.05">
+            <value key="en">Sports equipment, like wrestleballs and stuff…</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.06">
+            <value key="en">Desks...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.07">
+            <value key="en">Drums...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.08">
+            <value key="en">Drummers...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.09">
+            <value key="en">Really it was the whole marching band...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.10">
+            <value key="en">Everyone watching the marching band...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.11">
+            <value key="en">Some cars in the parking lot...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.12">
+            <value key="en">Principal Dig Dug's car...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro10.13">
+            <value key="en">Principal Dig Dug …</value>
+        </TextAsset>
+        <TextAsset key="t_sintro11.00">
+            <value key="en">I wasn't trying to cause a problem...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro11.01">
+            <value key="en">But maybe I got a little carried away.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro12.00">
+            <value key="en">ANYWAY, I'm exactly like you...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro12.01">
+            <value key="en">Minus all those incredibly specific details.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro13.00">
+            <value key="en">My point is: I just want to make it out of high school alive.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro14.00">
+            <value key="en">But instead, I ended up here...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro15.00">
+            <value key="en">...In detention.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro16.00">
+            <value key="en">This is where Namco High's most notorious...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro16.01">
+            <value key="en">Strangest...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro16.02">
+            <value key="en">Most dangerous...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro16.03">
+            <value key="en">Bizarre...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro16.04">
+            <value key="en">Bloodthirsty....</value>
+        </TextAsset>
+        <TextAsset key="t_sintro16.05">
+            <value key="en">Delinquent students gather.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro17.00">
+            <value key="en">Or so the legends say.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro18.00">
+            <value key="en">I try not to look anyone in the eye. Who knows what these troublemakers will do?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro19.00">
+            <value key="en">............</value>
+        </TextAsset>
+        <TextAsset key="t_sintro20.00">
+            <value key="en">I just hope no one talks to me...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro21.00">
+            <value key="en">WoooOOOOW! Check out THIS weirdo!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro21.01">
+            <value key="en">You have your own special weirdness, don't you?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro22.00">
+            <value key="en">Um ...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro23.00">
+            <value key="en">Hey!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro24.00">
+            <value key="en">Don't be so rude! To, uh, this weirdo ...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro25.00">
+            <value key="en">Oooh, you better not make the goody two-drills mad ...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro26.00">
+            <value key="en">he'll sic his pops on you!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro27.00">
+            <value key="en">And just what, exactly, is wrong with being a goody two-shoes?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro27.01">
+            <value key="en">A goody two-shoes has the makings of an exemplary student!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro28.00">
+            <value key="en">Y-yeah... ! D-don't be so mean! There’s nothing wrong with it!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro29.00">
+            <value key="en">What's wrong is that it's super BO-riiiiing! YAWN!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro30.00">
+            <value key="en">HEY! I think it's brave to try to stick to the straight and narrow... Know what I mean, boss?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro31.00">
+            <value key="en">The straight and narrow? Heh. Look around you. We're in detention. It's already too late. Too late for all of us...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro32.00">
+            <value key="en">I don't think it's ever too late... But maybe it's a mistake to battle destiny...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro33.00">
+            <value key="en">Yeah ... Like maybe we're all destined to be LOSERS.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro34.00">
+            <value key="en">Given enough data, I COULD construct a mathematical model with a high level of predictive accuracy ... But the criteria for getting out of detention are unclear at best.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro35.00">
+            <value key="en">Tch. No thanks. I'd rather figure it out as I go.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro36.00">
+            <value key="en">Yes I agree, classmate! Let's all go on an unpredictable adventure likely to end in criminal activity!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro37.00">
+            <value key="en">Did someone say ... Vast global conspiracy all around us every waking moment of every day?!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro38.00">
+            <value key="en">GALAGA DOES NOT THINK ANYBODY SAID THAT</value>
+        </TextAsset>
+        <TextAsset key="t_sintro39.00">
+            <value key="en">(What an energetic group… !)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro40.00">
+            <value key="en">Um...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro40.01">
+            <value key="en">Guys...!!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro41.00">
+            <value key="en">(They're all arguing with each other. They've totally forgotten about me.)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro42.00">
+            <value key="en">(I've gotta admit, they're not at all what I expected. Well ... Some of them.)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro43.00">
+            <value key="en">(You know ... Now that I think about it ... )</value>
+        </TextAsset>
+        <TextAsset key="t_sintro44.00">
+            <value key="en">(It must take someone really scary to keep these students in line ... )</value>
+        </TextAsset>
+        <TextAsset key="t_sintro45.00">
+            <value key="en">(REALLY scary ...)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro46.00">
+            <value key="en">!!! Was that a ...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro46.01">
+            <value key="en">Roar?!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro47.00">
+            <value key="en">Oh no ... He's here!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro48.00">
+            <value key="en">(What could possibly scare this scary guy?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro49.00">
+            <value key="en">Everyone sit down! Quickly!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro50.00">
+            <value key="en">Y-yeah! What she said!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro51.00">
+            <value key="en">(Weren't they just yelling at each other?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro52.00">
+            <value key="en">Hello... students.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro52.01">
+            <value key="en">So nice to see you.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro53.00">
+            <value key="en">I recognize some of you.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro54.00">
+            <value key="en">And I see some new faces.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro55.00">
+            <value key="en">Rest assured… I’m memorizing all of them.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro56.00">
+            <value key="en">Allow me to introduce myself.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro57.00">
+            <value key="en">I’m Dig Dug…. your principal.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro58.00">
+            <value key="en">My fellow faculty member here is King… called such because he is King of the ring.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro59.00">
+            <value key="en">But here...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro60.00">
+            <value key="en">Here…</value>
+        </TextAsset>
+        <TextAsset key="t_sintro61.00">
+            <value key="en">Here he is the King of DETENTION!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro62.00">
+            <value key="en">Ahem. King has prepared a statement, which I am to read to you.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro63.00">
+            <value key="en">&quot;I became a wrestler because I wanted to raise money for the children. Good children. Not like you miscreants.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro64.00">
+            <value key="en">&quot;It's the reason I've become a part-time teacher here at Namco High.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro65.00">
+            <value key="en">&quot;This place is like the orphanage where I grew up, only back home we were abandoned by our families.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro66.00">
+            <value key="en">&quot;This room is an orphanage for people abandoned by their better judgement!!&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro67.00">
+            <value key="en">(What is Dig Dug even saying... This man, King... Is he even a man?)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro68.00">
+            <value key="en">&quot;There was a time when I was forbidden from fighting students…&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro69.00">
+            <value key="en">&quot;So I defeated the principal.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro70.00">
+            <value key="en">*cough*</value>
+        </TextAsset>
+        <TextAsset key="t_sintro71.00">
+            <value key="en">(Wait… is principal Dig Dug ALSO scared of this man?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro72.00">
+            <value key="en">&quot;Now I can do whatever I want!!&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro73.00">
+            <value key="en">&quot;So let me know if you want to have a go. I'm ready!&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro74.00">
+            <value key="en">(This man... Is crazy...!!)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro75.00">
+            <value key="en">&quot;Lucky for you, I'm not a tyrant! We will work TOGETHER to mold you into better students. Students of TOMORROW.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro76.00">
+            <value key="en">&quot;You will be like clay in my formidable paws.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro76.01">
+            <value key="en">&quot;... Er, hands.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro77.00">
+            <value key="en">&quot;Some of you seem to think that you have reached rock-bottom...&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro77.01">
+            <value key="en">&quot;But I assure you... It could be much worse.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro78.00">
+            <value key="en">&quot;I grew up on the STREETS. I fought everyone... and everything. I was undisciplined... Raw... Angry... I ate RATS …&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro79.00">
+            <value key="en">&quot;One time I fought a kangaroo...&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro80.00">
+            <value key="en">&quot;And a panda...&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro80.01">
+            <value key="en">&quot;And a dinosaur...&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro81.00">
+            <value key="en">&quot;You have it easy. Or you would, if you weren't in here with me.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro82.00">
+            <value key="en">...hmm.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro83.00">
+            <value key="en">I don't know where he’s going with this. Let's take roll!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro84.00">
+            <value key="en">(I'M GONNA DIE HERE...)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro85.00">
+            <value key="en">Mr. Driller!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro86.00">
+            <value key="en">Here!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro86.01">
+            <value key="en">When do we start our morning drills?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro87.00">
+            <value key="en">Aki Matsuo!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro88.00">
+            <value key="en">Here.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro88.01">
+            <value key="en">But I may have to leave soon ... I have responsibilities to attend to.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro89.00">
+            <value key="en">ALFONSO B. TROSS</value>
+        </TextAsset>
+        <TextAsset key="t_sintro90.00">
+            <value key="en">THIS COMPLETELY NORMAL STUDENT IS HERE</value>
+        </TextAsset>
+        <TextAsset key="t_sintro90.01">
+            <value key="en">AND READY TO MAKE SOME TROUBLED FRIENDS</value>
+        </TextAsset>
+        <TextAsset key="t_sintro91.00">
+            <value key="en">Yuichiro Tomari!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro92.00">
+            <value key="en">Present, sir.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro92.01">
+            <value key="en">I've been collecting some very interesting data...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro93.00">
+            <value key="en">Nidia!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro94.00">
+            <value key="en">I was destined to be here...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro94.01">
+            <value key="en">And so I am.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro95.00">
+            <value key="en">Richard Miller.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro96.00">
+            <value key="en">SHHHH!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro96.01">
+            <value key="en">THEY will know I’m here!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro97.00">
+            <value key="en">Hiromi Tengenji.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro98.00">
+            <value key="en">.............</value>
+        </TextAsset>
+        <TextAsset key="t_sintro98.01">
+            <value key="en">......here in record time.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro99.00">
+            <value key="en">Blue Max!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro100.00">
+            <value key="en">Squadron Leader Blue Max,</value>
+        </TextAsset>
+        <TextAsset key="t_sintro100.01">
+            <value key="en">reporting for duty sir!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro101.00">
+            <value key="en">Donko!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro102.00">
+            <value key="en">I'm, like, totally here, y'know?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro102.01">
+            <value key="en">Don!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro103.00">
+            <value key="en">Meowkie.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro104.00">
+            <value key="en">Yep.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro104.01">
+            <value key="en">Right here, boss!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro105.00">
+            <value key="en">Valkyrie.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro106.00">
+            <value key="en">Heeeeere!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro106.01">
+            <value key="en">Have I ever told you I'm a cat person?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro107.00">
+            <value key="en">G-Galaga!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro108.00">
+            <value key="en">GALAGA</value>
+        </TextAsset>
+        <TextAsset key="t_sintro108.01">
+            <value key="en">IS PRESENT.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro109.00">
+            <value key="en">Taira no Kagekiyo.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro110.00">
+            <value key="en">Yeah yeah ... I'm here.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro110.01">
+            <value key="en">WRESTLEBALL RULES!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro111.00">
+            <value key="en">Lolo.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro112.00">
+            <value key="en">Uh-huh ... Yeah. Here.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro112.01">
+            <value key="en">For now, I guess.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro113.00">
+            <value key="en">Anti-Bravoman!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro114.00">
+            <value key="en">Here...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro114.01">
+            <value key="en">and so is my darkness...</value>
+        </TextAsset>
+        <TextAsset key="t_sintro115.00">
+            <value key="en">Ah… and those weird transfer students…</value>
+        </TextAsset>
+        <TextAsset key="t_sintro116.00">
+            <value key="en">Jane Crocker.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro117.00">
+            <value key="en">HIIIIIII! :)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro117.01">
+            <value key="en">Let’s all have fun, now.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro118.00">
+            <value key="en">Terezi.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro119.00">
+            <value key="en">H3H3H3… I’M H3RE, P41NC1P4L.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro119.01">
+            <value key="en">4ND 1’V3 GOT MY 3Y3 ON YOU! ;]</value>
+        </TextAsset>
+        <TextAsset key="t_sintro120.00">
+            <value key="en">Er… okay… where was I. Oh… Davesprite!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro121.00">
+            <value key="en">sup</value>
+        </TextAsset>
+        <TextAsset key="t_sintro122.00">
+            <value key="en">And our newest face... ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro123.00">
+            <value key="en">Y-yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro123.01">
+            <value key="en">I'm here..........</value>
+        </TextAsset>
+        <TextAsset key="t_sintro124.00">
+            <value key="en">....</value>
+        </TextAsset>
+        <TextAsset key="t_sintro125.00">
+            <value key="en">I ... I can't believe it.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro125.01">
+            <value key="en">Everyone's here!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro125.02">
+            <value key="en">There's hope for you lowlifes yet!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro126.00">
+            <value key="en">Since we have a new inmate ... Er, student ... I'm obligated to explain how detention works.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro127.00">
+            <value key="en">You did your crime, now you serve the time!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro128.00">
+            <value key="en">BUT:</value>
+        </TextAsset>
+        <TextAsset key="t_sintro128.01">
+            <value key="en">You can shorten your sentence in one of two ways.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro129.00">
+            <value key="en">The first is to join a club to show your school spirit.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro130.00">
+            <value key="en">If we can see that you care and we are impressed by the amount of effort you put forth, your afternoons will be set free next week.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro131.00">
+            <value key="en">It's a lot of hard work, but you're sure to learn something about yourself!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro132.00">
+            <value key="en">The second is to let King try his new wrestling move on you.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro132.01">
+            <value key="en">He calls it the &quot;Student Body Reformer&quot;.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro132.02">
+            <value key="en">One time on the receiving end of it and you'll never want to cause trouble again!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro133.00">
+            <value key="en">Any takers?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro134.00">
+            <value key="en">(OF COURSE NOT! We all… want to live… !!)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro135.00">
+            <value key="en">H-haha ... How about that old school spirit! Go Namco High ... !</value>
+        </TextAsset>
+        <TextAsset key="t_sintro136.00">
+            <value key="en">Even in your youth, you have wisdom… don’t wrestle him. Not even for funsies.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro137.00">
+            <value key="en">I wouldn’t dream of it…</value>
+        </TextAsset>
+        <TextAsset key="t_sintro138.00">
+            <value key="en">(Because it absolutely constitutes some kind of harassment!)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro139.00">
+            <value key="en">Eh? King? Oh, you think our new student has something to share? Do you have something to say, ${slot:playerName}?</value>
+        </TextAsset>
+        <TextAsset key="t_sintro140.00">
+            <value key="en">Nothing sir!!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro141.00">
+            <value key="en">(Is he psychic?! Is it some kind of ... teacher power?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sintro142.00">
+            <value key="en">Hmmm. I think he likes you.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro143.00">
+            <value key="en">Orrrrr he hates you. Hard to tell.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro144.00">
+            <value key="en">Stoicism does not suit you.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro145.00">
+            <value key="en">I encourage you to make friends, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sintro146.00">
+            <value key="en">Speak to your fellow students.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro146.01">
+            <value key="en">They’re all enrolled in at least one of the school clubs..</value>
+        </TextAsset>
+        <TextAsset key="t_sintro147.00">
+            <value key="en">What’s that? Oh…</value>
+        </TextAsset>
+        <TextAsset key="t_sintro148.00">
+            <value key="en">King says: &quot;Friendship is very important! Sometimes the man you are about to kill in cold blood can become your greatest friend.&quot;</value>
+        </TextAsset>
+        <TextAsset key="t_sintro149.00">
+            <value key="en">You must look deep into their eyes to know this.</value>
+        </TextAsset>
+        <TextAsset key="t_sintro150.00">
+            <value key="en">I see friendship in your eyes, ${slot:playerName}. Good luck!</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_school_front</image>
+                        <depth>0</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>0%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="alt1" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="alt1_sil" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="alt2" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="alt2_sil" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <ActorFade duration="1" opacity="1" target="bg" />
+                <TextEvent char="@t_ch_tutorial" text="@t_tut00.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_tutorial" text="@t_tut01.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_tutorial" text="@t_tut02.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_tutorial" text="@t_tut03.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_5">
+            <events>
+                <ActorFade duration="1" opacity="0" target="bg" />
+                <TextEvent char="" text="" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <ActorImage image="@i_bg_classroom_a" target="bg" />
+                <TextEvent char="@t_ch_cousin" text="@t_sintro0.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro0.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <FadeEvent duration="1" target="cousin" to="1" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro0.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro1.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro1.01" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro2.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro2.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro2.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro3.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro3.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro4.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro4.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro5.00" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro6.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro6.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro7.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro8.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro9.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro9.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro10.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_Q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_S">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_T">
+            <events>
+                <TextEvent append="true" auto="true" char="@t_ch_cousin" text="@t_sintro10.04" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.05" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_V">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" letterDelay="0.0075" text="@t_sintro10.06" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_W">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.07" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_X">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.08" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.09" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.10" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_a">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.11" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_b">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro10.12" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" letterDelay="0.0125" text="@t_sintro10.13" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro11.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro11.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro12.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro12.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro13.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <FadeEvent duration="0.5" target="bg" to="1" />
+                <TextEvent char="@t_ch_cousin" text="@t_sintro14.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro15.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro16.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro16.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro16.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro16.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro16.04" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro16.05" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro17.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro18.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro19.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro20.00" />
+            </events>
+        </ParallelEvent>
+        <SilhouetteMacro actorName="@t_ch_donko" actorScaleX="0.75" actorScaleY="0.75" actorY="12.5%" appendSecond="true" cousinActor="cousin" cousinScaleX="1" cousinX="-20%" firstText="@t_sintro21.00" name="_u" realActor="alt1" realImage="@i_donko_akimbo_wink"
+        secondText="@t_sintro21.01" silActor="alt1_sil" silImage="@i_donko_akimbo_sil" />
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro22.00" />
+            </events>
+        </ParallelEvent>
+        <SilhouetteMacro actorName="@t_ch_mrdriller" appendSecond="false" cousinActor="cousin" cousinScaleX="-1" cousinX="20%" firstText="@t_sintro23.00" lastActor="alt1" name="_w" realActor="alt2" realImage="@i_mrdriller_slumped_happy" secondText="@t_sintro24.00"
+        silActor="alt2_sil" silImage="@i_mrdriller_slumped_smug_sil" />
+        <SilhouetteMacro actorName="@t_ch_taira" appendSecond="false" cousinActor="cousin" cousinScaleX="1" cousinX="-20%" firstText="@t_sintro25.00" lastActor="alt2" name="_x" realActor="alt1" realImage="@i_taira_steveholt_happy" secondText="@t_sintro26.00"
+        silActor="alt1_sil" silImage="@i_taira_steveholt_sil" />
+        <SilhouetteMacro actorName="@t_ch_aki" appendSecond="true" cousinActor="cousin" cousinScaleX="-1" cousinX="20%" firstText="@t_sintro27.00" lastActor="alt1" name="_y" realActor="alt2" realImage="@i_aki_akimbo_focus" secondText="@t_sintro27.01"
+        silActor="alt2_sil" silImage="@i_aki_akimbo_sil" />
+        <SilhouetteMacro actorName="@t_ch_max" cousinActor="cousin" cousinScaleX="1" cousinX="-20%" firstText="@t_sintro28.00" lastActor="alt2" name="_z" realActor="alt1" realImage="@i_bluemax_cower_smile" silActor="alt1_sil" silImage="@i_bluemax_cower_sil"
+        />
+        <SilhouetteMacro actorName="@t_ch_valkyrie" cousinActor="cousin" cousinScaleX="-1" cousinX="20%" firstText="@t_sintro29.00" lastActor="alt1" name="_10" realActor="alt2" realImage="@i_valkyrie_akimbo_bored" silActor="alt2_sil" silImage="@i_valkyrie_akimbo_sil"
+        />
+        <SilhouetteMacro actorName="@t_ch_meowkie" cousinActor="cousin" cousinScaleX="1" cousinX="-20%" firstText="@t_sintro30.00" lastActor="alt2" name="_11" realActor="alt1" realImage="@i_meowkie_normal_forcedsmile_badge" silActor="alt1_sil" silImage="@i_meowkie_normal_sil"
+        />
+        <SilhouetteMacro actorName="@t_ch_antibravo" actorScaleX="0.95" actorScaleY="0.95" actorY="2.5%" cousinActor="cousin" cousinScaleX="-1" cousinX="20%" firstText="@t_sintro31.00" lastActor="alt1" name="_12" realActor="alt2" realImage="@i_abm_backturned_broody"
+        silActor="alt2_sil" silImage="@i_abm_backturned_sil" />
+        <SilhouetteMacro actorName="@t_ch_nidia" cousinActor="cousin" cousinScaleX="1" cousinX="-20%" firstText="@t_sintro32.00" lastActor="alt2" name="_13" realActor="alt1" realImage="@i_nidia_akimbo_angry" silActor="alt1_sil" silImage="@i_nidia_akimbo_sil"
+        />
+        <SilhouetteMacro actorName="@t_ch_lolo" actorScaleX="0.9" actorScaleY="0.9" actorY="5%" cousinActor="cousin" cousinScaleX="-1" cousinX="20%" firstText="@t_sintro33.00" lastActor="alt1" name="_14" realActor="alt2" realImage="@i_lolo_crossed_frustrated"
+        silActor="alt2_sil" silImage="@i_lolo_crossed_sil" />
+        <SilhouetteMacro actorName="@t_ch_tomari" actorScaleX="0.95" actorScaleY="0.95" actorY="2.5%" cousinActor="cousin" cousinScaleX="1" cousinX="-20%" firstText="@t_sintro34.00" lastActor="alt2" name="_15" realActor="alt1" realImage="@i_tomari_pondering_thinking"
+        silActor="alt1_sil" silImage="@i_tomari_pondering_sil" />
+        <SilhouetteMacro actorName="@t_ch_hiromi" cousinActor="cousin" cousinScaleX="-1" cousinX="20%" firstText="@t_sintro35.00" lastActor="alt1" name="_16" realActor="alt2" realImage="@i_hiromi_akimbo_serious" silActor="alt2_sil" silImage="@i_hiromi_akimbo_sil"
+        />
+        <SilhouetteMacro actorName="@t_ch_albatros" cousinActor="cousin" cousinScaleX="1" cousinX="-20%" firstText="@t_sintro36.00" lastActor="alt2" name="_17" realActor="alt1" realImage="@i_albatross_welcome_smirk_wink" silActor="alt1_sil" silImage="@i_albatross_welcome_sil"
+        />
+        <ParallelEvent name="_18">
+            <events>
+                <ActorMove duration="0" target="alt2" y="100%" />
+                <ActorFade duration="0" opacity="1" target="alt2" />
+                <ActorFade duration="0.5" opacity="0" target="alt1" />
+                <ActorMove duration="0.25" target="alt2" y="0%" />
+                <ActorImage image="@i_miller_aliens_sil" target="alt2" />
+                <ActorCrossfade duration=".75" image="@i_miller_aliens_serious" opacity="1" target="alt2" />
+                <TextEvent char="@t_ch_miller" text="@t_sintro37.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorFlip duration="0" target="cousin" />
+                <ActorMove duration="0.25" target="cousin" x="20%" />
+            </events>
+        </ParallelEvent>
+        <SilhouetteMacro actorName="@t_ch_galaga" cousinActor="cousin" cousinScaleX="1" cousinX="-20%" firstText="@t_sintro38.00" lastActor="alt2" name="_19" realActor="alt1" realImage="@i_galaga_default" silActor="alt1_sil" silImage="@i_galaga_default_sil"
+        />
+        <ParallelEvent name="_1A">
+            <events>
+                <ActorDestroy target="alt1_sil" />
+                <ActorDestroy target="alt2_sil" />
+                <FadeEvent duration="0.333" target="alt1" to="0" />
+                <ActorMove duration="0.333" target="cousin" x="0%" />
+                <TextEvent char="@t_ch_cousin" text="@t_sintro39.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro40.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro40.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro41.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro42.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro43.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro44.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro45.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_1I">
+            <events>
+                <AudioOneShot sound="@a_sfx_kingroar1" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sintro46.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro46.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <ActorEvent duration="0.333" target="alt1">
+                    <styles>
+                        <x>-80%</x>
+                        <image>@i_taira_akimbo_angry</image>
+                        <opacity>1</opacity>
+                    </styles>
+                    <transitions>
+                        <x>-30%</x>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_taira" text="@t_sintro47.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sintro48.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <ActorEvent duration="0.333" target="alt2">
+                    <styles>
+                        <x>80%</x>
+                        <scaleX>-1</scaleX>
+                        <image>@i_aki_default_shocked</image>
+                        <opacity>1</opacity>
+                    </styles>
+                    <transitions>
+                        <x>30%</x>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_aki" text="@t_sintro49.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sintro50.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro51.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <FadeEvent duration="0.333" target="alt1" to="0" />
+                <FadeEvent duration="0.333" target="alt2" to="0" />
+                <FadeEvent duration="0.333" target="cousin" to="0" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro52.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <ActorCreate actorId="digdug" actorType="character" duration="1">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_digdug_right</image>
+                        <depth>3</depth>
+                        <x>-10%</x>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <ActorCreate actorId="king" actorType="character" duration="1">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_king_confident</image>
+                        <depth>2</depth>
+                        <x>-20%</x>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro52.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro53.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro54.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro55.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro56.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro57.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro58.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro59.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro60.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro61.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro62.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro63.00" />
+                <ActorMove duration=".333" target="king" x="-10%" />
+                <ActorMove duration=".20" target="digdug" x="5%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro64.00" />
+                <ActorMove duration=".333" target="king" x="0%" />
+                <ActorMove duration=".20" target="digdug" x="15%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro65.00" />
+                <ActorMove duration=".333" target="king" x="15%" />
+                <ActorMove duration=".20" target="digdug" x="22.75%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro66.00" />
+                <ActorImage image="@i_king_screaming" target="king" />
+                <AudioOneShot sound="@a_sfx_kingroar2" />
+                <ActorFlip target="king" />
+                <ActorFlip target="digdug" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro67.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro68.00" />
+                <ActorMove duration=".333" target="king" x="0%" />
+                <ActorMove duration=".20" target="digdug" x="-5%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro69.00" />
+                <ActorFlip target="king" />
+                <ActorImage image="@i_king_confident" target="king" />
+                <ActorMove duration=".5" target="digdug" x="-15%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro70.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <AudioOneShot sound="@a_sfx_kingroar3" />
+                <ActorImage image="@i_king_screaming" target="king" />
+                <ActorMove delay="0.25" target="digdug" y="-25%" />
+                <ActorMove delay="0.5" duration=".25" target="digdug" x="-30%" />
+                <ActorFlip delay="0.75" target="digdug" />
+                <ActorMove delay="1" target="digdug" y="0%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro71.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro72.00" />
+                <ActorImage image="@i_king_confident" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro73.00" />
+                <ActorMove duration="1" target="digdug" x="-15%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sintro74.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro75.00" />
+                <ActorMove duration="0.25" target="digdug" x="30%" />
+                <ActorFlip delay="0.30" target="digdug" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro76.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro76.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro77.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro77.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro78.00" />
+                <ActorMove duration="0.5" target="king" x="-15%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro79.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro80.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro80.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro81.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro82.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro83.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro84.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <FadeEvent duration="0.333" target="king" to="0" />
+                <FadeEvent duration="0.333" target="digdug" to="0" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro85.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <ActorFade opacity="0" target="cousin" />
+                <ActorEvent duration="0.333" target="alt1">
+                    <styles>
+                        <image>@i_mrdriller_slumped_smug</image>
+                        <x>0%</x>
+                        <id>mrdriller</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_mrdriller" text="@t_sintro86.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_sintro86.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="mrdriller" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro87.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <ActorEvent duration="0.333" target="mrdriller">
+                    <styles>
+                        <image>@i_aki_akimbo_smile</image>
+                        <id>aki</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_aki" text="@t_sintro88.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <ActorImage image="@i_aki_akimbo_distracted" target="aki" />
+                <TextEvent append="true" char="@t_ch_aki" text="@t_sintro88.01" />
+                <AudioOneShot sound="@a_sfx_sentaisignal" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="aki" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro89.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <ActorEvent duration="0.333" target="aki">
+                    <styles>
+                        <image>@i_albatross_welcome_smirk</image>
+                        <id>albatros</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_albatros" text="@t_sintro90.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <ActorImage image="@i_albatross_welcome_smirk_wink" target="albatros" />
+                <TextEvent append="true" char="@t_ch_albatros" text="@t_sintro90.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="albatros" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro91.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <ActorEvent duration="0.333" target="albatros">
+                    <styles>
+                        <image>@i_tomari_pondering_thinking</image>
+                        <id>tomari</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_tomari" text="@t_sintro92.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent append="true" char="@t_ch_tomari" text="@t_sintro92.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="tomari" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro93.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <ActorEvent duration="0.333" target="tomari">
+                    <styles>
+                        <image>@i_nidia_akimbo_angry</image>
+                        <id>nidia</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_nidia" text="@t_sintro94.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_sintro94.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="nidia" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro95.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <ActorEvent duration="0.333" target="nidia">
+                    <styles>
+                        <image>@i_miller_aliens_serious</image>
+                        <id>miller</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_miller" text="@t_sintro96.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <ActorImage image="@i_miller_aliens_shocked" target="miller" />
+                <TextEvent append="true" char="@t_ch_miller" text="@t_sintro96.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="miller" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro97.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <ActorEvent duration="0.333" target="miller">
+                    <styles>
+                        <image>@i_hiromi_akimbo_serious</image>
+                        <id>hiromi</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_hiromi" text="@t_sintro98.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <TextEvent append="true" char="@t_ch_hiromi" text="@t_sintro98.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="hiromi" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro99.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <ActorEvent duration="0.333" target="hiromi">
+                    <styles>
+                        <image>@i_bluemax_cower_worried</image>
+                        <id>bluemax</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_max" text="@t_sintro100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent append="true" char="@t_ch_max" text="@t_sintro100.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="bluemax" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <ActorEvent duration="0.333" target="bluemax">
+                    <styles>
+                        <image>@i_donko_ygg_meloncholic</image>
+                        <id>donko</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_donko" text="@t_sintro102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <ActorImage image="@i_donko_ygg_wink" target="donko" />
+                <TextEvent append="true" char="@t_ch_donko" text="@t_sintro102.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="donko" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <ActorEvent duration="0.333" target="donko">
+                    <styles>
+                        <image>@i_meowkie_akimbo_forcedsmile_badge</image>
+                        <id>meowkie</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_meowkie" text="@t_sintro104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_sintro104.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="meowkie" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <ActorEvent duration="0.333" target="meowkie">
+                    <styles>
+                        <image>@i_valkyrie_akimbo_bored</image>
+                        <id>valkyrie</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_valkyrie" text="@t_sintro106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <ActorImage image="@i_valkyrie_akimbo_wink" target="valkyrie" />
+                <TextEvent append="true" char="@t_ch_valkyrie" text="@t_sintro106.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="valkyrie" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <ActorEvent duration="0.333" target="valkyrie">
+                    <styles>
+                        <image>@i_galaga_default</image>
+                        <id>galaga</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_galaga" text="@t_sintro108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent append="true" char="@t_ch_galaga" text="@t_sintro108.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="galaga" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro109.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <ActorEvent duration="0.333" target="galaga">
+                    <styles>
+                        <image>@i_taira_default_confused</image>
+                        <id>taira</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_taira" text="@t_sintro110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <ActorImage image="@i_taira_steveholt_serious" target="taira" />
+                <TextEvent append="true" char="@t_ch_taira" text="@t_sintro110.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="taira" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <ActorEvent duration="0.333" target="taira">
+                    <styles>
+                        <image>@i_lolo_crossed_frustrated</image>
+                        <id>lolo</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_lolo" text="@t_sintro112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_sintro112.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="lolo" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <ActorEvent duration="0.333" target="lolo">
+                    <styles>
+                        <image>@i_abm_backturned_broody</image>
+                        <id>antibravo</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_antibravo" text="@t_sintro114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <TextEvent append="true" char="@t_ch_antibravo" text="@t_sintro114.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="antibravo" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro116.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <ActorEvent duration="0.333" target="antibravo">
+                    <styles>
+                        <image>@i_jane_armscrossed_grin</image>
+                        <id>jane</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_jane" text="@t_sintro117.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_smile" target="jane" />
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sintro117.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="jane" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <ActorEvent duration="0.333" target="jane">
+                    <styles>
+                        <image>@i_terezi_default_grin</image>
+                        <id>terezi</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_terezi" text="@t_sintro119.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <ActorImage image="@i_terezi_default_laugh" target="terezi" />
+                <TextEvent append="true" char="@t_ch_terezi" text="@t_sintro119.01" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="terezi" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <ActorEvent duration="0.333" target="terezi">
+                    <styles>
+                        <image>@i_davesprite_standing_disinterest</image>
+                        <id>davesprite</id>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_davesprite" text="@t_sintro121.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="davesprite" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <ActorEvent duration="0.333" target="cousin">
+                    <styles>
+                        <x>0%</x>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorEvent>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sintro123.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="cousin" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <ActorFade duration="0.333" opacity="1" target="king" />
+                <ActorFade duration="0.333" opacity="1" target="digdug" />
+                <TextEvent char="@t_ch_digdug" text="@t_sintro125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro125.01" />
+                <ActorImage image="@i_king_screaming" target="king" />
+                <AudioOneShot sound="@a_sfx_kingroar2" />
+                <ActorMove target="digdug" y="-25%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_30">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro125.02" />
+                <ActorMove target="digdug" y="0%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_31">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_32">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_33">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro128.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_34">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro128.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_35">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro129.00" />
+                <ActorImage image="@i_king_confident" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_36">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_37">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_38">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_39">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro132.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3A">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro132.02" />
+                <ActorImage image="@i_king_screaming" target="king" />
+                <AudioOneShot sound="@a_sfx_kingroar1" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3B">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3E">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro136.00" />
+                <ActorImage image="@i_king_confident" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro137.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3H">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro139.00" />
+                <ActorMove target="digdug" y="-25%" />
+                <ActorImage image="@i_king_screaming" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sintro141.00" />
+                <ActorMove target="digdug" y="0%" />
+                <ActorImage image="@i_king_confident" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3K">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3L">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro143.00" />
+                <ActorImage image="@i_king_screaming" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3M">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3N">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3O">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro146.00" />
+                <ActorImage image="@i_king_confident" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3P">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sintro146.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Q">
+            <events>
+                <AudioOneShot sound="@a_sfx_kingroar3" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3R">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3S">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3T">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3U">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sintro150.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_3V" scene="@s_day0" />
+    </events>
+</scene>

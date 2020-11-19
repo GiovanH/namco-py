@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_amazona5" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_samazona523.00">
+            <value key="en">Thanks for carrying my notebook, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona524.00">
+            <value key="en">It's no problem! That's what an assistant is for!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona525.00">
+            <value key="en">Hahaha... You want to be my assistant?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona526.00">
+            <value key="en">I do.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona527.00">
+            <value key="en">What's wrong, Aki?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona528.00">
+            <value key="en">Well ${slot:playerName}... I just wanted to apologize. I know I've been acting weird for a while now...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona528.01">
+            <value key="en">And you've been really patient with me.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona529.00">
+            <value key="en">Well, I did ask a bunch of questions that were maybe a little out of line...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona530.00">
+            <value key="en">It's okay.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona531.00">
+            <value key="en">........................</value>
+        </TextAsset>
+        <TextAsset key="t_samazona532.00">
+            <value key="en">${slot:playerName}, can you keep a secret?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona533.00">
+            <value key="en">Of course.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona534.00">
+            <value key="en">We didn't come out here to get soil samples.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona535.00">
+            <value key="en">We didn't?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona536.00">
+            <value key="en">No... Actually, I wanted to talk to you.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona537.00">
+            <value key="en">Can you keep another, bigger secret?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona538.00">
+            <value key="en">Um... For sure.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona539.00">
+            <value key="en">Like... REALLY BIG. Like HUGE. Like we can't even talk about it over the phone because the NSA will totally get up in my business.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona540.00">
+            <value key="en">NSA?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona541.00">
+            <value key="en">Namco Security Agency.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona542.00">
+            <value key="en">Right.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona543.00">
+            <value key="en">Anyway, It's A HUGE HUGE DEAL.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona544.00">
+            <value key="en">AKI! Just tell me!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona545.00">
+            <value key="en">..................</value>
+        </TextAsset>
+        <TextAsset key="t_samazona546.00">
+            <value key="en">(She just took a really deep breath.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona546.01">
+            <value key="en">Now she's fiddling with something....)</value>
+        </TextAsset>
+        <TextAsset key="t_samazona547.00">
+            <value key="en">!!!!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona548.00">
+            <value key="en">Aki... Is that YOU?!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona549.00">
+            <value key="en">It's me, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona550.00">
+            <value key="en">I'm Amazona... a superhero who protects the earth from interdimensional aliens.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona551.00">
+            <value key="en">THERE ARE ALIENS?!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona552.00">
+            <value key="en">ALIENS ARE REAL???</value>
+        </TextAsset>
+        <TextAsset key="t_samazona553.00">
+            <value key="en">(Besides me, I mean.)</value>
+        </TextAsset>
+        <TextAsset key="t_samazona554.00">
+            <value key="en">You're real?!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona555.00">
+            <value key="en">This is all... Real?!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona556.00">
+            <value key="en">It is.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona557.00">
+            <value key="en">But... But how?!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona558.00">
+            <value key="en">I'm not the first... I inherited my power from the previous Amazona. With this power comes responsibility.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona559.00">
+            <value key="en">${slot:playerName}...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona560.00">
+            <value key="en">Intergalactic aliens known as the Waru are invading the earth, even as we speak.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona561.00">
+            <value key="en">They must be stopped.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona562.00">
+            <value key="en">So every time your theme song plays... You're leaving to go defend the earth from alien invaders?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona563.00">
+            <value key="en">Yeah... Sorry.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona564.00">
+            <value key="en">NO DON'T APOLOGIZE</value>
+        </TextAsset>
+        <TextAsset key="t_samazona565.00">
+            <value key="en">THAT'S A REALLY GOOD REASON</value>
+        </TextAsset>
+        <TextAsset key="t_samazona566.00">
+            <value key="en">Don't stop on my account!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona567.00">
+            <value key="en">Haha!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona568.00">
+            <value key="en">(That's the first genuine laugh I've heard from her... It's nice.)</value>
+        </TextAsset>
+        <TextAsset key="t_samazona569.00">
+            <value key="en">I brought you up here to tell you the truth. This city... And Namco High... Are my responsibility. I have to protect them.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona570.00">
+            <value key="en">But the Waru attacks have been growing... Between that and trying to maintain a 4.0 and perfect club attendance, my relationships with the people around me suffer.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona571.00">
+            <value key="en">Aki... Aren't you lonely?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona572.00">
+            <value key="en">I guess I am... But I can't slow down now.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona573.00">
+            <value key="en">But Aki... You don't have to be perfect at everything. You can relax sometimes...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona574.00">
+            <value key="en">And it's okay to rely on others! Sometimes two can do more than one ever could!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona575.00">
+            <value key="en">But... All that being said... I want you to know I truly admire how hard you work.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona576.00">
+            <value key="en">Thanks ${slot:playerName}... I wish the others could understand.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona577.00">
+            <value key="en">If I can help shoulder the burden in any way... I mean, my shoulders are very small, but I'm strong.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona578.00">
+            <value key="en">Super strong!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona578.01">
+            <value key="en">Don't forget, I rolled Dig Dug's car up just last week!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona579.00">
+            <value key="en">Haha...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona580.00">
+            <value key="en">Aki...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona581.00">
+            <value key="en">I've been wondering... If defending the earth is a priority... Why all the classes? Why all the clubs? What's the point? You could defend the earth... And also have time for friends.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona582.00">
+            <value key="en">To tell you the truth... Sometimes I DO wonder if I'm doing too much.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona583.00">
+            <value key="en">I could be like all the other students... Leading happy, fulfilling lives in this school.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona584.00">
+            <value key="en">Instead of living the never-ending life of a perfectionist...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona585.00">
+            <value key="en">?!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona586.00">
+            <value key="en">?!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona587.00">
+            <value key="en">BE TRUE TO YOURSELF.......</value>
+        </TextAsset>
+        <TextAsset key="t_samazona588.00">
+            <value key="en">What does that mean, Pac-man? What should I do...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona589.00">
+            <value key="en">BE TRUE... TO YOURSELVES...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona590.00">
+            <value key="en">${slot:playerName}...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona591.00">
+            <value key="en">I was ready to go it alone, but...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona592.00">
+            <value key="en">Will you help me?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona593.00">
+            <value key="en">YES!</value>
+        </TextAsset>
+        <TextAsset key="t_samazona594.00">
+            <value key="en">Of course! I'll be the best assistant you've ever had. AND I'll keep your secret, too.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona595.00">
+            <value key="en">${slot:playerName}... Do you know the number one mistake most superheroes make?</value>
+        </TextAsset>
+        <TextAsset key="t_samazona596.00">
+            <value key="en">No infrastructure. Fighting aliens doesn't pay the bills.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona596.01">
+            <value key="en">It doesn't get you the equipment you need to defend the earth...</value>
+        </TextAsset>
+        <TextAsset key="t_samazona596.02">
+            <value key="en">It doesn't get you the upgrades you need as those threats become bigger.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona597.00">
+            <value key="en">You're forever barely scraping by, battle after battle, wearing down till you finally lose.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona598.00">
+            <value key="en">I'll never lose.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona599.00">
+            <value key="en">I want to build something for all the Amazonas who come after me. So they'll be more prepared than I am.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona5100.00">
+            <value key="en">I'm still young... I want to use my time wisely.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona5101.00">
+            <value key="en">I'm going to build an empire, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_samazona5102.00">
+            <value key="en">(Looking back... Those are still the most amazing words I've ever heard.)</value>
+        </TextAsset>
+        <TextAsset key="t_samazona5103.00">
+            <value key="en">(The memory of that day has never faded.)</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_romance" />
+                <TextEvent char="@t_ch_aki" text="@t_samazona523.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_cliff_day</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="white_swatch" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_white</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-25%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="aki" actorType="character">
+                    <styles>
+                        <x>25%</x>
+                        <image>@i_aki_default_smile</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <opacity>1</opacity>
+                        <x>99%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="amazona" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>20%</x>
+                        <image>@i_amazona_default_smile</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona524.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <ActorImage image="@i_aki_default_nervouslaughter" target="aki" />
+                <TextEvent char="@t_ch_aki" text="@t_samazona525.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona526.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona527.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <ActorImage image="@i_aki_default_distracted" target="aki" />
+                <TextEvent char="@t_ch_aki" text="@t_samazona528.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent append="true" char="@t_ch_aki" text="@t_samazona528.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona529.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_samazona530.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_samazona531.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_samazona532.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona533.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_samazona534.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona535.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_aki" text="@t_samazona536.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <ActorImage image="@i_aki_justice_overwhelmed" target="aki" />
+                <TextEvent char="@t_ch_aki" text="@t_samazona537.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona538.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorImage image="@i_aki_justice_shocked" target="aki" />
+                <TextEvent char="@t_ch_aki" text="@t_samazona539.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona540.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <ActorImage image="@i_aki_justice_laughter_nervous" target="aki" />
+                <TextEvent char="@t_ch_aki" text="@t_samazona541.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona542.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <ActorImage image="@i_aki_default_focus" target="aki" />
+                <TextEvent char="@t_ch_aki" text="@t_samazona543.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona544.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona545.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona546.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <ActorImage image="@i_aki_akimbo_focus" target="aki" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_samazona546.01" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgImage="@i_bg_cliff_day" curtainActor="white_swatch" curtainFadeTime=".5" name="_Q">
+            <events>
+                <ActorImage image="@i_amazona_akimbo_distracted" name="_0" target="amazona" />
+                <AudioOneShot name="_1" sound="@a_sfx_transform2" />
+                <ActorFade duration="1" name="_2" opacity="0" target="aki" />
+                <ActorFade name="_3" opacity="1" target="amazona" />
+                <AudioEvent fadeDuration="1" name="_4" target="bgm" volume="0" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona547.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona548.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona549.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <ActorImage image="@i_amazona_default_nervouslaugh" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona550.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona551.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona552.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona553.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona554.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona555.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <ActorImage image="@i_amazona_default_distracted" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona556.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona557.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <ActorImage image="@i_amazona_default_focus" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona558.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona559.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona560.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona561.00" />
+                <AudioEvent fadeDuration="1" play="true" sound="@a_bgm_privatetimes" target="bgm" volume="1" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona562.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <ActorImage image="@i_amazona_akimbo_distracted" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona563.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona564.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona565.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona566.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <ActorImage image="@i_amazona_akimbo_laugh" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona567.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona568.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorImage image="@i_amazona_default_focus" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona569.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona570.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona571.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <ActorImage image="@i_amazona_default_distracted" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona572.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona573.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona574.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona575.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <ActorImage image="@i_amazona_default_smile" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona576.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona577.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona578.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_samazona578.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <ActorImage image="@i_amazona_akimbo_laugh" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona579.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona580.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona581.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <ActorImage image="@i_amazona_akimbo_distracted" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona582.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona583.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <ActorImage image="@i_amazona_default_distracted" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona584.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona585.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona586.00" />
+            </events>
+        </ParallelEvent>
+        <AudioCreate audioId="pacman" auto="true" layer="sfx" loop="true" name="_16" play="true" sound="@a_sfx_pacman" />
+        <ParallelEvent allowInterrupt="false" auto="true" name="_17">
+            <events>
+                <ActorImage image="@i_amazona_default_shocked" target="amazona" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorMove duration=".33" ease="ease-in-out" target="cousin" x="-39%" />
+                <ActorMove duration=".33" ease="ease-in-out" target="amazona" x="-11%" />
+                <ActorMove delay=".33" duration="3" target="pacman" x="38%" />
+            </events>
+        </ParallelEvent>
+        <AudioDestroy name="_18" target="pacman" />
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_samazona587.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona588.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_samazona589.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" auto="true" name="_1C">
+            <events>
+                <ActorMove delay="2" duration=".33" ease="ease-in-out" target="cousin" x="-25%" />
+                <ActorMove delay="2" duration=".33" ease="ease-in-out" target="amazona" x="25%" />
+                <ActorMove duration="3" target="pacman" x="100%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <ActorImage image="@i_amazona_default_distracted" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona590.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona591.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <ActorImage image="@i_amazona_default_smile" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona592.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona593.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona594.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona595.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <ActorImage image="@i_amazona_akimbo_focus" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona596.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent append="true" char="@t_ch_amazona" text="@t_samazona596.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <ActorImage image="@i_amazona_akimbo_distracted" target="amazona" />
+                <TextEvent append="true" char="@t_ch_amazona" text="@t_samazona596.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorImage image="@i_amazona_akimbo_focus" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona597.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_1N">
+            <events>
+                <ActorDepth auto="true" depth="1" target="curtain" />
+                <FadeEvent auto="true" duration="1.5" target="curtain" to="1" />
+                <TextEvent char="@t_ch_amazona" text="@t_samazona598.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona599.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona5100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_samazona5101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_1R">
+            <events>
+                <FadeEvent delay=".75" duration=".85" target="amazona" to="0" />
+                <TextEvent char="@t_ch_cousin" text="@t_samazona5102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_samazona5103.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent allowInterrupt="false" auto="true" duration="1" name="_1T" target="cousin" to="0" />
+        <NHSceneChange name="_1U" scene="s_day5.5" />
+    </events>
+</scene>

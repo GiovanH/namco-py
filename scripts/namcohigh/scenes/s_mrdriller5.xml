@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_mrdriller5" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_smrdriller522.00">
+            <value key="en">(So I agreed to meet with Mr. Driller on…)</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller523.00">
+            <value key="en">The rooftop?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller524.00">
+            <value key="en">Why did you want to meet up here?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller525.00">
+            <value key="en">I guess I just wanted to go somewhere that was as far away from the ground as possible.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller526.00">
+            <value key="en">The ground…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller526.01">
+            <value key="en">It has too many bad memories.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller527.00">
+            <value key="en">Yeah…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller527.01">
+            <value key="en">I guess the roof would be the place to go, then.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller528.00">
+            <value key="en">I wish I could remember the good stuff about digging too…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller528.01">
+            <value key="en">But now when I look at dirt… all I can remember is how crazy I got.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller529.00">
+            <value key="en">I never thought digging could be so…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller529.01">
+            <value key="en">destructive.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller530.00">
+            <value key="en">I miss it, but… it’s better this way.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller531.00">
+            <value key="en">Yeah, but… you didn’t know the pipe was there.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller531.01">
+            <value key="en">If you’d known, I bet you would’ve stopped and gone around it.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller532.00">
+            <value key="en">If it hadn’t been there…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller533.00">
+            <value key="en">Your digging wouldn’t have hurt anything, and we wouldn’t be having this conversation.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller534.00">
+            <value key="en">But it was there, and what happened DID happen.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller535.00">
+            <value key="en">And a part of me was happy that Dad’s statue got destroyed, even if it was an accident…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller535.01">
+            <value key="en">I can’t deal with that!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller536.00">
+            <value key="en">There’s no point in wondering about it…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller536.01">
+            <value key="en">Just like Dad’s digging…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller537.00">
+            <value key="en">It really did break up our family.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller537.01">
+            <value key="en">Mom left because Dad wouldn’t stop digging long enough to pay her any attention.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller537.02">
+            <value key="en">There’s no use trying to cover that up.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller537.03">
+            <value key="en">That’s just what it is.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller538.00">
+            <value key="en">Wow… I’m so sorry…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller539.00">
+            <value key="en">I’ve got a big family, but…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller539.01">
+            <value key="en">If any of them left, I’d be devastated.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller540.00">
+            <value key="en">You know, after all the time we spent together, I never told you my real, main reason for digging.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller541.00">
+            <value key="en">I don’t even know why I kept it a secret...</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller541.01">
+            <value key="en">I guess because it has to do with Dad, and…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller541.02">
+            <value key="en">I was feeling too bad about stuff to want to think about him.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller542.00">
+            <value key="en">I’m glad you can at least admit that, now…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller543.00">
+            <value key="en">(It’s a little less disturbing this way.)</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller544.00">
+            <value key="en">It’s kind of silly, actually.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller544.01">
+            <value key="en">The main reason I like digging is just because I have such good memories of digging with my dad when I was a little kid.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller545.00">
+            <value key="en">He’d bury things like little toys and coins for me to find and dig up with my plastic shovel.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller545.01">
+            <value key="en">It was just so fun running around the yard like that…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller546.00">
+            <value key="en">I know it’s not anything big or inspirational, like a famous archaeology dig or anything…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller546.01">
+            <value key="en">But that’s really the reason why digging is so important to me.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller547.00">
+            <value key="en">I’ll remember it for the rest of my life, even if I never dig again.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller548.00">
+            <value key="en">I don’t think that’s silly at all.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller548.01">
+            <value key="en">That’s a great reason to love digging.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller548.02">
+            <value key="en">And if something makes you feel that way, you shouldn’t give it up.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller549.00">
+            <value key="en">Are you sure?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller550.00">
+            <value key="en">Maybe it’s better to give something up if it causes destruction.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller551.00">
+            <value key="en">That’s what I thought too…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller552.00">
+            <value key="en">About rolling my katamari.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller553.00">
+            <value key="en">I tried to pretend I didn’t have a passion for it, like you do for digging, but...</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller553.01">
+            <value key="en">When I rolled that katamari for the first time, I loved it more than anything.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller554.00">
+            <value key="en">I thought it was better to put it away, since I caused so much trouble with it.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller555.00">
+            <value key="en">But now I think…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller555.01">
+            <value key="en">It’s better to keep trying, and I’ll do a better job next time with practice.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller555.02">
+            <value key="en">And maybe you can do that too…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller555.03">
+            <value key="en">Maybe you just need more practice.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller556.00">
+            <value key="en">But… what about my dad?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller557.00">
+            <value key="en">He’d be so disappointed if I picked up my drills again…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller557.01">
+            <value key="en">Even if it was just for practice.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller558.00">
+            <value key="en">Your dad is jerk! Who cares what he thinks!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller559.00">
+            <value key="en">H-how can you say that?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller559.01">
+            <value key="en">How can you sit there and tell me my dad is a jerk?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller560.00">
+            <value key="en">Come on!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller560.01">
+            <value key="en">He tries to stifle your passion, he tells you you’re wrong and bad…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller561.00">
+            <value key="en">I know you love him… But you kinda hate him a little bit too, right?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller562.00">
+            <value key="en">I just got done telling you about how the reason digging means so much to me…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller563.00">
+            <value key="en">Is because of how much I love my dad.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller564.00">
+            <value key="en">How can you be so insensitive?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller565.00">
+            <value key="en">C’mon, man.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller565.01">
+            <value key="en">Don’t bury it down like he does!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller566.00">
+            <value key="en">… You’re right…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller567.00">
+            <value key="en">I do kind of hate my dad.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller567.01">
+            <value key="en">I must, since I destroyed the statue of him…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller568.00">
+            <value key="en">I’m… I’m a terrible person!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller569.00">
+            <value key="en">No you aren’t!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller569.01">
+            <value key="en">You can love someone and hate stuff they do to you at the same time!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller570.00">
+            <value key="en">I hate to say it, but…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller571.00">
+            <value key="en">Your dad is not being a good father!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller571.01">
+            <value key="en">You don’t have to pretend he is just because he’s family.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller572.00">
+            <value key="en">So that’s it? What do I do now?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller572.01">
+            <value key="en">Disown my father?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller573.00">
+            <value key="en">No, man! I’m not saying you have to go that far!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller574.00">
+            <value key="en">Even fathers can make mistakes…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller574.01">
+            <value key="en">Maybe there’s still time to fix it.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller575.00">
+            <value key="en">I don’t know how to fix stuff.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller575.01">
+            <value key="en">I just know how to dig stuff up.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller576.00">
+            <value key="en">You’re his son!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller576.01">
+            <value key="en">He obviously cares about you…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller576.02">
+            <value key="en">He’s just doing a REALLY bad job of showing it.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller577.00">
+            <value key="en">And he’s probably afraid of losing you, like he lost your mom.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller578.00">
+            <value key="en">Afraid of losing ME?!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller579.00">
+            <value key="en">Of course! And… you love digging SO much.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller579.01">
+            <value key="en">You shouldn’t have to give that up for anything.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller580.00">
+            <value key="en">And it’s like you said… Digging is about discovery.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller581.00">
+            <value key="en">I know you can discover a way to keep digging, with passion AND moderation…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller581.01">
+            <value key="en">So you won’t destroy things anymore.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller582.00">
+            <value key="en">Maybe…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller582.01">
+            <value key="en">Maybe I could even help Dad discover that for himself as well…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller582.02">
+            <value key="en">If he’s anything like me…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller583.00">
+            <value key="en">I bet he misses digging too.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller584.00">
+            <value key="en">I bet he’ll even want to dig together with you again.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller585.00">
+            <value key="en">${slot:playerName}…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller585.01">
+            <value key="en">You’re gonna make me cry…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller586.00">
+            <value key="en">Be true to yourself!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller587.00">
+            <value key="en">Really, Pac-Man? You think I should?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller588.00">
+            <value key="en">A-alright! Yeah! I lost my way for a second there…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller588.01">
+            <value key="en">But I definitely will!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller589.00">
+            <value key="en">Thanks, Pac-Man! He really needed that.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller590.00">
+            <value key="en">${slot:playerName}, it’s not just me.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller590.01">
+            <value key="en">You’ve got to be true to yourself too!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller591.00">
+            <value key="en">You gotta get your katamari back from the confiscated weapons locker…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller592.00">
+            <value key="en">And you gotta roll it again someday.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller593.00">
+            <value key="en">Promise?</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller594.00">
+            <value key="en">Y-yeah… I will…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller595.00">
+            <value key="en">Thanks, Mr. Driller…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller596.00">
+            <value key="en">I uh… I hope you know I really care about you.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller597.00">
+            <value key="en">Of course I know…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller598.00">
+            <value key="en">You didn’t keep that buried as well as you thought you did.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller599.00">
+            <value key="en">(He’s leaning in awfully close to me…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller599.01">
+            <value key="en">I think… we’re finally going to…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller599.02">
+            <value key="en">To…!)</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller5100.00">
+            <value key="en">Ahem!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller5100.01">
+            <value key="en">Get a room, you two.</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller5101.00">
+            <value key="en">Eh heh heh… Uh….</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller5101.01">
+            <value key="en">I guess now’s not… the best time.. for, uh...</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller5102.00">
+            <value key="en">Um, I guess I’ll see you tomorrow, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller5103.00">
+            <value key="en">(...Some discoveries…</value>
+        </TextAsset>
+        <TextAsset key="t_smrdriller5104.00">
+            <value key="en">We can leave for later.)</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_privatetimes" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_rooftop</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-25%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="mrdriller" actorType="character">
+                    <styles>
+                        <x>25%</x>
+                        <image>@i_mrdriller_standing_sad</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <x>99%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                        <opacity>1</opacity>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller522.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller523.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller524.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller525.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller526.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller526.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller527.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller527.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller528.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller528.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller529.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller529.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller530.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller531.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller531.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller532.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller533.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller534.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller535.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_cry" target="mrdriller" />
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller535.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller536.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller536.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller537.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller537.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller537.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller537.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller538.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller539.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller539.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller540.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller541.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller541.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller541.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller542.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller543.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller544.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_happy" target="mrdriller" />
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller544.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller545.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller545.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <ActorImage image="@i_mrdriller_handsup_happy" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller546.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller546.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_happy" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller547.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller548.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller548.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller548.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller549.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller550.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller551.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller552.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller553.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller553.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller554.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller555.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller555.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller555.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller555.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller556.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller557.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller557.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller558.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_shock" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller559.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_shock" target="mrdriller" />
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller559.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller560.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller560.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller561.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller562.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller563.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller564.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller565.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller565.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller566.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller567.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_cry" target="mrdriller" />
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller567.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller568.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller569.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller569.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller570.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <ActorImage image="@i_cousin_default_angry" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller571.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <ActorImage image="@i_cousin_default_angry" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller571.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller572.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller572.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller573.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller574.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller574.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller575.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller575.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller576.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller576.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller576.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller577.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_shock" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller578.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller579.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller579.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller580.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller581.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller581.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller582.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_happy" target="mrdriller" />
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller582.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller582.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <ActorImage image="@i_mrdriller_handsup_happy" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller583.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller584.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <ActorImage image="@i_mrdriller_handsup_sad" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller585.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <ActorImage image="@i_mrdriller_handsup_cry" target="mrdriller" />
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller585.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_smrdriller586.00" />
+            </events>
+        </ParallelEvent>
+        <AudioCreate audioId="pacman" auto="true" layer="sfx" loop="true" name="_1h" play="true" sound="@a_sfx_pacman" />
+        <ParallelEvent allowInterrupt="false" auto="true" name="_1i">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_shock" target="mrdriller" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <ActorMove duration=".33" ease="ease-in-out" target="cousin" x="-39%" />
+                <ActorMove duration=".33" ease="ease-in-out" target="mrdriller" x="-8%" />
+                <ActorMove delay=".33" duration="3" target="pacman" x="38%" />
+            </events>
+        </ParallelEvent>
+        <AudioDestroy name="_1j" target="pacman" />
+        <ParallelEvent name="_1k">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_shock" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller587.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_happy" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller588.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <ActorImage image="@i_mrdriller_handsup_excited" target="mrdriller" />
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller588.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller589.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_happy" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller590.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller590.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller591.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <ActorImage image="@i_mrdriller_handsup_happy" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller592.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller593.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller594.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller595.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <ActorImage image="@i_cousin_default_grin_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller596.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_excited" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller597.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <ActorImage image="@i_mrdriller_standing_smug" target="mrdriller" />
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller598.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller599.00" />
+                <ActorMove duration=".25" target="mrdriller" x="-10%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller599.01" />
+                <ActorMove duration=".25" target="mrdriller" x="-12%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smrdriller599.02" />
+                <ActorMove duration=".25" target="mrdriller" x="-14%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <ActorImage image="@i_mrdriller_slumped_shock" target="mrdriller" />
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <TextEvent char="@t_ch_pacman" text="@t_smrdriller5100.00" />
+                <ActorMove duration=".25" target="mrdriller" x="-8%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent append="true" char="@t_ch_pacman" text="@t_smrdriller5100.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" auto="true" name="_23">
+            <events>
+                <ActorImage delay="2" image="@i_mrdriller_standing_happy" target="mrdriller" />
+                <ActorImage delay="2" image="@i_cousin_default_neutral_blush" target="cousin" />
+                <ActorMove delay="2" duration=".5" ease="ease-in-out" target="cousin" x="-25%" />
+                <ActorMove delay="2" duration=".5" ease="ease-in-out" target="mrdriller" x="25%" />
+                <ActorMove duration="3" target="pacman" x="100%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller5101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent append="true" char="@t_ch_mrdriller" text="@t_smrdriller5101.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_mrdriller" text="@t_smrdriller5102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller5103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <ActorImage image="@i_cousin_default_grin_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_smrdriller5104.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_29" scene="s_day5.5" />
+    </events>
+</scene>

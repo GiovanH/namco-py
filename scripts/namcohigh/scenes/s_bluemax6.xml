@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_bluemax6" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets />
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <VarEnsure storeName="slot" value="0" varName="pick_count_bluemax" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_evil_namco_high</image>
+                        <depth>11</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="white_swatch" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_white</image>
+                        <depth>16</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="robotarmy" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_robotarmy</image>
+                        <x>-40%</x>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_bluemax</image>
+                        <x>40%</x>
+                        <y>0%</y>
+                        <opacity>0</opacity>
+                        <scaleX>0.8</scaleX>
+                        <scaleY>0.8</scaleY>
+                        <depth>13</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="bluemax" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_bluemax</image>
+                        <x>40%</x>
+                        <y>-12.5%</y>
+                        <scaleX>.75</scaleX>
+                        <scaleY>.75</scaleY>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <x>45%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="digdug" actorType="character">
+                    <styles>
+                        <x>40%</x>
+                        <image>@i_digdug_left</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <BattleMacro name="_1">
+            <events>
+                <ActorDestroy name="_0" target="robotarmy" />
+                <ActorEvent name="_1" target="bg">
+                    <styles>
+                        <image>@i_bg_school_front</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_2" target="bluemax">
+                    <styles>
+                        <image>@i_bluemax_stand_smile</image>
+                        <scaleX>-1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>20%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                        <opacity>1</opacity>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_3" target="cousin">
+                    <styles>
+                        <image>@i_cousin_default_neutral</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>-20%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+            </events>
+        </BattleMacro>
+        <BadEndMacro auto="true" name="_2" varName="${slot:pick_count_bluemax}" />
+        <NormalEndMacro cousinX="-5%" name="_3" partnerActor="bluemax" partnerImage="@i_bluemax_stand_smile" partnerX="-35%" />
+        <AudioCreate audioId="bgm" auto="true" layer="bgm" loop="false" name="_4" play="true" sound="@a_bgm_credits" />
+        <CreditsEvent allowInterrupt="false" name="_5" />
+        <IfGTE auto="true" lvalue="${slot:pick_count_bluemax}" name="_6" rvalue="3">
+            <events>
+                <VarSet name="_0" storeName="game" value="true" varName="got_trueend_bluemax" />
+                <ActorCreate actorId="trueEnd" actorType="event" allowInterrupt="false" duration="1" name="_1">
+                    <styles>
+                        <image>@i_event_bluemax_ending</image>
+                        <depth>23</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <ActorFade allowInterrupt="false" auto="true" duration="1" name="_2" opacity="0" target="trueEnd" />
+            </events>
+        </IfGTE>
+        <GameOver name="_7" />
+    </events>
+</scene>

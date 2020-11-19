@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_terezi6" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_sterezi661.00">
+            <value key="en">You saved me! Thank you so much!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi662.00">
+            <value key="en">NO PROBL3M, L3MON T4RT!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi663.00">
+            <value key="en">...Excuse me?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi664.00">
+            <value key="en">Terezi… thank you for fighting with me.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi665.00">
+            <value key="en">You were amazing…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi666.00">
+            <value key="en">I’ve been pretty confused about my feelings, but I think I made the right choice.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi667.00">
+            <value key="en">H3H3H3</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi668.00">
+            <value key="en">YOU W3R3 4M4Z1NG TOO ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi669.00">
+            <value key="en">HOW3V3R, 1 COULDN’T H3LP BUT NOT1C3…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi670.00">
+            <value key="en">YOU US3D YOUR K4T4M4R1 TO H3LP D3F34T 3V1L N4MCO H1GH</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi671.00">
+            <value key="en">Uh, yeah?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi671.01">
+            <value key="en">So?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi672.00">
+            <value key="en">TH3 V3RY K4T4M4R1 TH4T W4S CONF1SC4T3D FROM YOU?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi673.00">
+            <value key="en">TH4T M34NS YOU BROK3 TH3 RUL3S, ${slot:playerName}</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi674.00">
+            <value key="en">4S T3MPT1NG 4S TH4T G14NT R41NBOW DONUT TR34T 1S…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi675.00">
+            <value key="en">1 C4N’T TOL3R4T3 RUL3BR34K3RS!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi676.00">
+            <value key="en">JUST1C3 MUST B3 DON3!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi677.00">
+            <value key="en">B-but! King broke open the confiscated weapons locker!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi678.00">
+            <value key="en">He did that so we could all work together…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi679.00">
+            <value key="en">H3H3H3…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi680.00">
+            <value key="en">WHY SHOULD 1 B3L13V3 YOU?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi681.00">
+            <value key="en">4FT3R 4LL, 1 D1DN’T S33 K1NG DO TH4T…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi682.00">
+            <value key="en">1’M BL1ND, R3M3MB3R?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi683.00">
+            <value key="en">Whaaa?! Terezi?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi684.00">
+            <value key="en">4ND JUST TH1NK</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi685.00">
+            <value key="en">L4ST T1M3 1 1NT3RROG4T3D YOU, 1 H4D NO 3V1D3NC3!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi686.00">
+            <value key="en">TH1S T1M3 1’V3 C4UGHT YOU R3D H4ND3D &gt;:]</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi687.00">
+            <value key="en">1 H4V3 4 F33L1NG YOUR V3RD1CT 1S GO1NG TO B3 MUCH MOR3 S3V3R3!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi688.00">
+            <value key="en">YOU GOT OFF 34SY L4ST T1M3!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi689.00">
+            <value key="en">What?! You’re joking, right?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi689.01">
+            <value key="en">I… I got Pyralspite back for you!!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi690.00">
+            <value key="en">Was this your plan all along?! To get me to use my katamari so you could punish me for it?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi690.01">
+            <value key="en">Isn’t this entrapment or something?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi691.00">
+            <value key="en">H3H3H3H3!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi692.00">
+            <value key="en">1 H4T3 YOU, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi693.00">
+            <value key="en">Oh Terezi…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi693.01">
+            <value key="en">I…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi694.00">
+            <value key="en">I hate you too!</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <VarEnsure storeName="slot" value="0" varName="pick_count_terezi" />
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <x>37%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_evil_namco_high</image>
+                        <depth>11</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="white_swatch" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_white</image>
+                        <depth>16</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="robotarmy" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_robotarmy</image>
+                        <x>-40%</x>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_cousin_normal</image>
+                        <x>40%</x>
+                        <y>25%</y>
+                        <opacity>0</opacity>
+                        <scaleX>.75</scaleX>
+                        <scaleY>.75</scaleY>
+                        <depth>13</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="terezi" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_terezi</image>
+                        <x>40%</x>
+                        <y>-12.5%</y>
+                        <scaleX>.75</scaleX>
+                        <scaleY>.75</scaleY>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <BattleMacro name="_1" partnerActor="terezi">
+            <events>
+                <ActorDestroy name="_0" target="robotarmy" />
+                <ActorEvent name="_1" target="bg">
+                    <styles>
+                        <image>@i_bg_school_front</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_2" target="terezi">
+                    <styles>
+                        <image>@i_terezi_default_grin</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>-12%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_3" target="cousin">
+                    <styles>
+                        <image>@i_cousin_default_neutral</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>-40%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorFade name="_4" opacity="1" target="pacman" />
+            </events>
+        </BattleMacro>
+        <BadEndMacro auto="true" name="_2" varName="${slot:pick_count_terezi}" />
+        <ActorFade auto="true" duration="0.5" name="_3" opacity="0" target="curtain" />
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sterezi661.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi662.00" transform="terezi" />
+                <ActorImage image="@i_terezi_default_laugh" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sterezi663.00" />
+                <ActorFade delay=".666" duration=".333" opacity="0" target="pacman" />
+                <ActorMove delay="1" duration=".333" target="cousin" x="-20%" />
+                <ActorMove delay="1" duration=".333" target="terezi" x="20%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi664.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi665.00" />
+                <ActorCrossfade duration=".333" image="@i_cousin_default_grin_blush" opacity="1" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi666.00" />
+                <ActorImage image="@i_cousin_default_laugh_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi667.00" transform="terezi" />
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi668.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi669.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi670.00" transform="terezi" />
+                <ActorImage image="@i_terezi_lean_grin" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi671.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi671.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi672.00" transform="terezi" />
+                <ActorImage image="@i_terezi_lean_huh" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi673.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi674.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi675.00" transform="terezi" />
+                <ActorImage image="@i_terezi_rope_grin" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi676.00" transform="terezi" />
+                <ActorImage image="@i_terezi_rope_laugh" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi677.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi678.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi679.00" transform="terezi" />
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi680.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi681.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi682.00" transform="terezi" />
+                <ActorImage image="@i_terezi_default_laugh" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi683.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi684.00" transform="terezi" />
+                <ActorImage image="@i_terezi_lean_grin" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi685.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi686.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi687.00" transform="terezi" />
+                <ActorImage image="@i_terezi_rope_grin" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi688.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi689.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi689.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi690.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi690.01" />
+                <ActorImage image="@i_cousin_default_mortified_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi691.00" transform="terezi" />
+                <ActorImage image="@i_terezi_rope_laugh" target="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi692.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi693.00" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi693.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi694.00" />
+                <ActorImage image="@i_cousin_default_laugh_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ActorFade allowInterrupt="false" auto="true" duration="1" name="_g" opacity="1" target="curtain" />
+        <AudioCreate audioId="bgm" auto="true" layer="bgm" loop="false" name="_h" play="true" sound="@a_bgm_credits" />
+        <CreditsEvent allowInterrupt="false" name="_i" />
+        <IfGTE auto="true" lvalue="${slot:pick_count_terezi}" name="_j" rvalue="3">
+            <events>
+                <VarSet name="_0" storeName="game" value="true" varName="got_trueend_terezi" />
+                <ActorCreate actorId="trueEnd" actorType="event" allowInterrupt="false" duration="1" name="_1">
+                    <styles>
+                        <image>@i_event_terezi_ending</image>
+                        <depth>23</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <ActorFade allowInterrupt="false" auto="true" duration="1" name="_2" opacity="0" target="trueEnd" />
+            </events>
+        </IfGTE>
+        <GameOver name="_k" />
+    </events>
+</scene>

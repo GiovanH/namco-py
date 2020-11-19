@@ -1,0 +1,2068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_taira5" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_staira520.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira521.00">
+            <value key="en">C’mon, Taira…</value>
+        </TextAsset>
+        <TextAsset key="t_staira521.01">
+            <value key="en">You can talk to me, can’t you?</value>
+        </TextAsset>
+        <TextAsset key="t_staira522.00">
+            <value key="en">… I…</value>
+        </TextAsset>
+        <TextAsset key="t_staira523.00">
+            <value key="en">Excuse me!</value>
+        </TextAsset>
+        <TextAsset key="t_staira524.00">
+            <value key="en">(He won’t say a word to me…</value>
+        </TextAsset>
+        <TextAsset key="t_staira525.00">
+            <value key="en">I’m mad at him for being a bully, but…)</value>
+        </TextAsset>
+        <TextAsset key="t_staira526.00">
+            <value key="en">Haha, what a drama queen.</value>
+        </TextAsset>
+        <TextAsset key="t_staira526.01">
+            <value key="en">Dumb ol’ Taira’s probably just skipping to go hit himself in the head with a wrestleball or something.</value>
+        </TextAsset>
+        <TextAsset key="t_staira527.00">
+            <value key="en">Yes, even a perfunctory glance of the data collected from observing him would suggest a pattern of behaviors indicating subnormal intellect.</value>
+        </TextAsset>
+        <TextAsset key="t_staira528.00">
+            <value key="en">Yeah… what he said!</value>
+        </TextAsset>
+        <TextAsset key="t_staira529.00">
+            <value key="en">Oh c’mon guys, lay off.</value>
+        </TextAsset>
+        <TextAsset key="t_staira530.00">
+            <value key="en">Oh! Was I wrong to infer from your interactions that there is currently friction between Taira and yourself?</value>
+        </TextAsset>
+        <TextAsset key="t_staira531.00">
+            <value key="en">Yeah, aren’t you mad at the big lug?</value>
+        </TextAsset>
+        <TextAsset key="t_staira532.00">
+            <value key="en">I… I am mad, but…</value>
+        </TextAsset>
+        <TextAsset key="t_staira532.01">
+            <value key="en">There’s more to him than you’re making it seem.</value>
+        </TextAsset>
+        <TextAsset key="t_staira533.00">
+            <value key="en">Actually… please excuse me!</value>
+        </TextAsset>
+        <TextAsset key="t_staira534.00">
+            <value key="en">Good luck, cutie!</value>
+        </TextAsset>
+        <TextAsset key="t_staira535.00">
+            <value key="en">(I’ve got to find Taira.)</value>
+        </TextAsset>
+        <TextAsset key="t_staira536.00">
+            <value key="en">(I’ve got to be smart here…</value>
+        </TextAsset>
+        <TextAsset key="t_staira536.01">
+            <value key="en">If I don’t find Taira, he might do something dumb.</value>
+        </TextAsset>
+        <TextAsset key="t_staira537.00">
+            <value key="en">I’ve got to really think about all the places he could’ve gone…</value>
+        </TextAsset>
+        <TextAsset key="t_staira537.01">
+            <value key="en">Search them systematically…</value>
+        </TextAsset>
+        <TextAsset key="t_staira537.02">
+            <value key="en">Go by process of elimination…)</value>
+        </TextAsset>
+        <TextAsset key="t_staira538.00">
+            <value key="en">Sniff… Sniff…</value>
+        </TextAsset>
+        <TextAsset key="t_staira539.00">
+            <value key="en">(...Of course.</value>
+        </TextAsset>
+        <TextAsset key="t_staira539.01">
+            <value key="en">He’s in the most obvious place he could’ve possibly been in.)</value>
+        </TextAsset>
+        <TextAsset key="t_staira540.00">
+            <value key="en">Sniff!</value>
+        </TextAsset>
+        <TextAsset key="t_staira541.00">
+            <value key="en">Hey, big guy…</value>
+        </TextAsset>
+        <TextAsset key="t_staira541.01">
+            <value key="en">What’s up?</value>
+        </TextAsset>
+        <TextAsset key="t_staira542.00">
+            <value key="en">Sniff…</value>
+        </TextAsset>
+        <TextAsset key="t_staira542.01">
+            <value key="en">Oh, ${slot:playerName}…</value>
+        </TextAsset>
+        <TextAsset key="t_staira543.00">
+            <value key="en">Of all the wrestleball courts in all the school-</value>
+        </TextAsset>
+        <TextAsset key="t_staira544.00">
+            <value key="en">You had to walk into mine.</value>
+        </TextAsset>
+        <TextAsset key="t_staira545.00">
+            <value key="en">There’s... only one wrestleball court in the school.</value>
+        </TextAsset>
+        <TextAsset key="t_staira546.00">
+            <value key="en">Sigh…</value>
+        </TextAsset>
+        <TextAsset key="t_staira547.00">
+            <value key="en">What’s even the point of being good at Wrestleball if I can’t even win you over with it…</value>
+        </TextAsset>
+        <TextAsset key="t_staira548.00">
+            <value key="en">Taira, jeez.</value>
+        </TextAsset>
+        <TextAsset key="t_staira548.01">
+            <value key="en">You’re acting like it’s all out of your control!</value>
+        </TextAsset>
+        <TextAsset key="t_staira549.00">
+            <value key="en">But the only person to blame for you being a bully…</value>
+        </TextAsset>
+        <TextAsset key="t_staira550.00">
+            <value key="en">is YOU!</value>
+        </TextAsset>
+        <TextAsset key="t_staira551.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira551.01">
+            <value key="en">Everybody always says I’m stupid.</value>
+        </TextAsset>
+        <TextAsset key="t_staira552.00">
+            <value key="en">And yo… I guess I really must be.</value>
+        </TextAsset>
+        <TextAsset key="t_staira552.01">
+            <value key="en">Cuz you keep telling me I’m a mean bully, and…</value>
+        </TextAsset>
+        <TextAsset key="t_staira553.00">
+            <value key="en">I just don’t get it!</value>
+        </TextAsset>
+        <TextAsset key="t_staira554.00">
+            <value key="en">I’m trying to do what I’m supposed to do!</value>
+        </TextAsset>
+        <TextAsset key="t_staira554.01">
+            <value key="en">Get revenge, honor my fallen clan…</value>
+        </TextAsset>
+        <TextAsset key="t_staira555.00">
+            <value key="en">But something’s missing…</value>
+        </TextAsset>
+        <TextAsset key="t_staira555.01">
+            <value key="en">Something’s gotta be missing…</value>
+        </TextAsset>
+        <TextAsset key="t_staira555.02">
+            <value key="en">If doing what I’m “supposed to do” makes the person I love hate me!</value>
+        </TextAsset>
+        <TextAsset key="t_staira556.00">
+            <value key="en">“Person you… love?!”</value>
+        </TextAsset>
+        <TextAsset key="t_staira556.01">
+            <value key="en">Geez Taira…</value>
+        </TextAsset>
+        <TextAsset key="t_staira556.02">
+            <value key="en">Isn’t that a little fast?!</value>
+        </TextAsset>
+        <TextAsset key="t_staira557.00">
+            <value key="en">No way, Cuz!</value>
+        </TextAsset>
+        <TextAsset key="t_staira557.01">
+            <value key="en">You’re the awesomest!</value>
+        </TextAsset>
+        <TextAsset key="t_staira557.02">
+            <value key="en">Even if you ARE a nerdy weakling!</value>
+        </TextAsset>
+        <TextAsset key="t_staira558.00">
+            <value key="en">Taira…</value>
+        </TextAsset>
+        <TextAsset key="t_staira558.01">
+            <value key="en">I need to understand you, and I think...</value>
+        </TextAsset>
+        <TextAsset key="t_staira559.00">
+            <value key="en">I think in order to do that, you need to tell me about your clan.</value>
+        </TextAsset>
+        <TextAsset key="t_staira560.00">
+            <value key="en">Yeah, alright… I guess it’s about time.</value>
+        </TextAsset>
+        <TextAsset key="t_staira561.00">
+            <value key="en">So like… a while ago?</value>
+        </TextAsset>
+        <TextAsset key="t_staira562.00">
+            <value key="en">I was this hardcore samurai dude, and I had this awesome clan of other hardcore samurai dudes.</value>
+        </TextAsset>
+        <TextAsset key="t_staira562.01">
+            <value key="en">We were like a Wrestleball team, but like…</value>
+        </TextAsset>
+        <TextAsset key="t_staira562.02">
+            <value key="en">maybe 50 times more rad than that.</value>
+        </TextAsset>
+        <TextAsset key="t_staira563.00">
+            <value key="en">Maybe even a hundred times more rad, if you can believe that!</value>
+        </TextAsset>
+        <TextAsset key="t_staira564.00">
+            <value key="en">It…</value>
+        </TextAsset>
+        <TextAsset key="t_staira565.00">
+            <value key="en">Seems impossible…</value>
+        </TextAsset>
+        <TextAsset key="t_staira566.00">
+            <value key="en">I know, right?</value>
+        </TextAsset>
+        <TextAsset key="t_staira566.01">
+            <value key="en">It blows my OWN mind sometimes.</value>
+        </TextAsset>
+        <TextAsset key="t_staira566.02">
+            <value key="en">But anyways…</value>
+        </TextAsset>
+        <TextAsset key="t_staira567.00">
+            <value key="en">One day, me and my clan got totally betrayed and slaughtered by this OTHER clan, who we THOUGHT was totally chill.</value>
+        </TextAsset>
+        <TextAsset key="t_staira568.00">
+            <value key="en">But they weren’t chill. They were un-chill.</value>
+        </TextAsset>
+        <TextAsset key="t_staira569.00">
+            <value key="en">They killed us all…</value>
+        </TextAsset>
+        <TextAsset key="t_staira569.01">
+            <value key="en">It was mad tragic, yo.</value>
+        </TextAsset>
+        <TextAsset key="t_staira570.00">
+            <value key="en">But even though I was totally dead…</value>
+        </TextAsset>
+        <TextAsset key="t_staira570.01">
+            <value key="en">My warrior heart kept beating in my cold, lifeless chest.</value>
+        </TextAsset>
+        <TextAsset key="t_staira571.00">
+            <value key="en">It beat a fire into me….</value>
+        </TextAsset>
+        <TextAsset key="t_staira571.01">
+            <value key="en">A fire that ignited my body back into a hot fury of LIFE, yo!</value>
+        </TextAsset>
+        <TextAsset key="t_staira572.00">
+            <value key="en">A fire that could never be extinguished…</value>
+        </TextAsset>
+        <TextAsset key="t_staira573.00">
+            <value key="en">The fire… of revenge.</value>
+        </TextAsset>
+        <TextAsset key="t_staira574.00">
+            <value key="en">Oh…</value>
+        </TextAsset>
+        <TextAsset key="t_staira574.01">
+            <value key="en">Oh Taira…</value>
+        </TextAsset>
+        <TextAsset key="t_staira574.02">
+            <value key="en">Omigosh, I’m so sorry.</value>
+        </TextAsset>
+        <TextAsset key="t_staira575.00">
+            <value key="en">That’s awful!</value>
+        </TextAsset>
+        <TextAsset key="t_staira575.01">
+            <value key="en">REALLY</value>
+        </TextAsset>
+        <TextAsset key="t_staira575.02">
+            <value key="en">awful!</value>
+        </TextAsset>
+        <TextAsset key="t_staira575.03">
+            <value key="en">I had no idea!</value>
+        </TextAsset>
+        <TextAsset key="t_staira576.00">
+            <value key="en">Yeah, it sucked pretty bad, not gonna lie.</value>
+        </TextAsset>
+        <TextAsset key="t_staira577.00">
+            <value key="en">Anyway, that’s why I go by my clan name “Taira”, instead of my real name, “Kagekiyo”.</value>
+        </TextAsset>
+        <TextAsset key="t_staira578.00">
+            <value key="en">It’s mad honorable and junk.</value>
+        </TextAsset>
+        <TextAsset key="t_staira579.00">
+            <value key="en">Were you ever able to find them?</value>
+        </TextAsset>
+        <TextAsset key="t_staira579.01">
+            <value key="en">The clan that betrayed you, I mean…</value>
+        </TextAsset>
+        <TextAsset key="t_staira579.02">
+            <value key="en">Were you ever able to get your revenge?</value>
+        </TextAsset>
+        <TextAsset key="t_staira580.00">
+            <value key="en">Huh?</value>
+        </TextAsset>
+        <TextAsset key="t_staira581.00">
+            <value key="en">Oh!</value>
+        </TextAsset>
+        <TextAsset key="t_staira581.01">
+            <value key="en">Haw haw!</value>
+        </TextAsset>
+        <TextAsset key="t_staira581.02">
+            <value key="en">${slot:playerName}, you’re so slow sometimes.</value>
+        </TextAsset>
+        <TextAsset key="t_staira582.00">
+            <value key="en">Yeah, I got revenge!</value>
+        </TextAsset>
+        <TextAsset key="t_staira582.01">
+            <value key="en">That was like… a thousand years ago or something.</value>
+        </TextAsset>
+        <TextAsset key="t_staira582.02">
+            <value key="en">I revenged those suckers UP.</value>
+        </TextAsset>
+        <TextAsset key="t_staira582.03">
+            <value key="en">I’m over it now, yo!</value>
+        </TextAsset>
+        <TextAsset key="t_staira583.00">
+            <value key="en">O-oh…</value>
+        </TextAsset>
+        <TextAsset key="t_staira583.01">
+            <value key="en">I guess that’s good!</value>
+        </TextAsset>
+        <TextAsset key="t_staira584.00">
+            <value key="en">But, um, you still go into your revenge-rages…</value>
+        </TextAsset>
+        <TextAsset key="t_staira585.00">
+            <value key="en">Of course I do, dummy!</value>
+        </TextAsset>
+        <TextAsset key="t_staira585.01">
+            <value key="en">Revenge isn’t just something I did cuz I had to.</value>
+        </TextAsset>
+        <TextAsset key="t_staira585.02">
+            <value key="en">I also just LOVE doing revenge!</value>
+        </TextAsset>
+        <TextAsset key="t_staira586.00">
+            <value key="en">So I just kept on gettin’ revenge for any kinda stuff I could think of.</value>
+        </TextAsset>
+        <TextAsset key="t_staira586.01">
+            <value key="en">And that way, I never have to STOP avenging my fallen clan!</value>
+        </TextAsset>
+        <TextAsset key="t_staira587.00">
+            <value key="en">They gotta be at least, like, a billion times more avenged by now.</value>
+        </TextAsset>
+        <TextAsset key="t_staira587.01">
+            <value key="en">I dunno exactly how much…</value>
+        </TextAsset>
+        <TextAsset key="t_staira587.02">
+            <value key="en">Math’s not really my strong suit.</value>
+        </TextAsset>
+        <TextAsset key="t_staira588.00">
+            <value key="en">Taira…</value>
+        </TextAsset>
+        <TextAsset key="t_staira588.01">
+            <value key="en">I don’t think…</value>
+        </TextAsset>
+        <TextAsset key="t_staira589.00">
+            <value key="en">No, actually I’m sure.</value>
+        </TextAsset>
+        <TextAsset key="t_staira589.01">
+            <value key="en">That’s definitely not how revenge works.</value>
+        </TextAsset>
+        <TextAsset key="t_staira590.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira591.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira591.01">
+            <value key="en">I’m just sayin-</value>
+        </TextAsset>
+        <TextAsset key="t_staira592.00">
+            <value key="en">Yeah? What ARE you saying?</value>
+        </TextAsset>
+        <TextAsset key="t_staira592.01">
+            <value key="en">You think you’re so smart, just cuz you’re not dumb like me...</value>
+        </TextAsset>
+        <TextAsset key="t_staira592.02">
+            <value key="en">You think I don’t know you got something to say.</value>
+        </TextAsset>
+        <TextAsset key="t_staira593.00">
+            <value key="en">So what is it, yo?</value>
+        </TextAsset>
+        <TextAsset key="t_staira594.00">
+            <value key="en">I don’t know how to revenge?</value>
+        </TextAsset>
+        <TextAsset key="t_staira595.00">
+            <value key="en">I haven't been avenging my clan all this time?</value>
+        </TextAsset>
+        <TextAsset key="t_staira596.00">
+            <value key="en">Urk….</value>
+        </TextAsset>
+        <TextAsset key="t_staira597.00">
+            <value key="en">I’ve been wandering the earth a thousand years, wasting my time?</value>
+        </TextAsset>
+        <TextAsset key="t_staira597.01">
+            <value key="en">Is that what you want to say to me, ${slot:playerName}?</value>
+        </TextAsset>
+        <TextAsset key="t_staira598.00">
+            <value key="en">Go ahead!</value>
+        </TextAsset>
+        <TextAsset key="t_staira598.01">
+            <value key="en">You think you’re always sooo smart...</value>
+        </TextAsset>
+        <TextAsset key="t_staira599.00">
+            <value key="en">Maybe you think my clan’s not WORTH avenging!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5100.00">
+            <value key="en">Is that it, yo?!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5101.00">
+            <value key="en">Aaaahh!!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5102.00">
+            <value key="en">SPIT IT OUT!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5103.00">
+            <value key="en">Taira! If you got revenge on the clan that betrayed you…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5103.01">
+            <value key="en">That means your clan is already avenged!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5103.02">
+            <value key="en">It’s over!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5104.00">
+            <value key="en">You can’t be avenged a hundred times- not even twice!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5105.00">
+            <value key="en">Revenge doesn’t just mean beating up people for whatever reason you can think of!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5105.01">
+            <value key="en">None of that has anything to do with your clan!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5105.02">
+            <value key="en">That’s not how revenge works!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5106.00">
+            <value key="en">You…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5106.01">
+            <value key="en">You suck at revenge!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5107.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5108.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5109.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5110.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5111.00">
+            <value key="en">Why didn’t anybody ever TELL me that?!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5112.00">
+            <value key="en">...Phew!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5113.00">
+            <value key="en">Now that I think about it…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5113.01">
+            <value key="en">That stuff you’re sayin’ makes a lotta sense.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5114.00">
+            <value key="en">Huh…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5115.00">
+            <value key="en">I really am an idiot.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5116.00">
+            <value key="en">I don’t think you’re an idiot, Taira.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5117.00">
+            <value key="en">You just didn’t know any other way to act…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5117.01">
+            <value key="en">And who could blame you for that?</value>
+        </TextAsset>
+        <TextAsset key="t_staira5117.02">
+            <value key="en">Your whole clan was dead, you didn’t have anybody to help you.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5118.00">
+            <value key="en">And I think maybe you’re a little scary…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5118.01">
+            <value key="en">So after that, nobody wanted to tell you you were wrong.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5119.00">
+            <value key="en">I thought revenge was my thing…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5119.01">
+            <value key="en">First in line on my top three favorite hobbies list.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5119.02">
+            <value key="en">I thought it was the only thing I was really good at.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5120.00">
+            <value key="en">Even Wrestleball…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5120.01">
+            <value key="en">I’m only good at that cuz it’s a mad revenge-y sport.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5121.00">
+            <value key="en">Uh… What was the third awesome hobby?</value>
+        </TextAsset>
+        <TextAsset key="t_staira5122.00">
+            <value key="en">(SIGH)</value>
+        </TextAsset>
+        <TextAsset key="t_staira5123.00">
+            <value key="en">...Eating food.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5124.00">
+            <value key="en">Is eating food “revenge-y”, too?</value>
+        </TextAsset>
+        <TextAsset key="t_staira5125.00">
+            <value key="en">${slot:playerName}, I’m like…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5125.01">
+            <value key="en">Totally undead!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5125.02">
+            <value key="en">I don’t need to eat food.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5126.00">
+            <value key="en">I only said that cuz all the cool kids do it and I just wanted to impress you.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5127.00">
+            <value key="en">Aw, Taira…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5128.00">
+            <value key="en">But see?</value>
+        </TextAsset>
+        <TextAsset key="t_staira5128.01">
+            <value key="en">That’s just another reason why I’m a big, dumb fake!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5129.00">
+            <value key="en">Not just about eating food…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5129.01">
+            <value key="en">Even about revenge, my favorite thing.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5129.02">
+            <value key="en">It turns out, I totally suck at it!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5130.00">
+            <value key="en">I have no idea what revenge really is…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5130.01">
+            <value key="en">I’ve just been hurting innocent people.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5131.00">
+            <value key="en">My clan... would be mad ashamed.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5132.00">
+            <value key="en">You’re being really hard on yourself…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5133.00">
+            <value key="en">${slot:playerName}, you don’t get it.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5133.01">
+            <value key="en">I thought I had a warrior heart.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5134.00">
+            <value key="en">And I thought you had a fragile, delicate soul…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5134.01">
+            <value key="en">A soul I was destined to protect.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5134.02">
+            <value key="en">And maybe also take to the movies and stuff.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5135.00">
+            <value key="en">(I can’t tell whether to be flattered or not…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5135.01">
+            <value key="en">Probably not?)</value>
+        </TextAsset>
+        <TextAsset key="t_staira5136.00">
+            <value key="en">I thought I could impress you with my hot muscles and my awesome revenge skills.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5137.00">
+            <value key="en">But…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5137.01">
+            <value key="en">It turns out, I don’t actually have any of those things.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5138.00">
+            <value key="en">...except for the hot muscles.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5139.00">
+            <value key="en">I actually totally suck at revenge.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5139.01">
+            <value key="en">And you…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5140.00">
+            <value key="en">You were the only one in a thousand years…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5141.00">
+            <value key="en">who was ever brave enough to tell me that.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5142.00">
+            <value key="en">You’re the one who REALLY has a warrior heart, ${slot:playerName}…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5143.00">
+            <value key="en">You’re way more awesome than I could ever be.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5144.00">
+            <value key="en">Oh, Taira…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5145.00">
+            <value key="en">I’m the one with the wimpy, fragile, sakura petal soul after all.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5146.00">
+            <value key="en">Wimpy?</value>
+        </TextAsset>
+        <TextAsset key="t_staira5146.01">
+            <value key="en">But that’s the one you said you thought I had-</value>
+        </TextAsset>
+        <TextAsset key="t_staira5147.00">
+            <value key="en">I’m not worthy of you, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5147.01">
+            <value key="en">I’m sorry…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5148.00">
+            <value key="en">We can’t date after all!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5149.00">
+            <value key="en">I didn’t even say you could date me in the first place!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5150.00">
+            <value key="en">Don’t waste your pretty words on me, yo!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5151.00">
+            <value key="en">${slot:playerName}…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5151.01">
+            <value key="en">You are the warrior with the burning heart…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5151.02">
+            <value key="en">And now I say to you…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5152.00">
+            <value key="en">GOODBYE!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5153.00">
+            <value key="en">…That guy doesn’t do anything halfway, does he.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5154.00">
+            <value key="en">Still though…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5154.01">
+            <value key="en">I didn’t think I had feelings for him, but…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5155.00">
+            <value key="en">Watching him run away like that…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5155.01">
+            <value key="en">Saying goodbye forever…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5156.00">
+            <value key="en">It hurts me way more than I thought it would.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5157.00">
+            <value key="en">Whoah! Pac-Man!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5157.01">
+            <value key="en">Am I glad to see you!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5158.00">
+            <value key="en">Be true to yourself!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5159.00">
+            <value key="en">Pac-Man…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5159.01">
+            <value key="en">You’re usually right, but…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5159.02">
+            <value key="en">How do I be true to myself?</value>
+        </TextAsset>
+        <TextAsset key="t_staira5159.03">
+            <value key="en">What does that mean?</value>
+        </TextAsset>
+        <TextAsset key="t_staira5160.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5161.00">
+            <value key="en">I guess Taira would say…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5161.01">
+            <value key="en">Being true to myself means being true to my “warrior heart”.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5161.02">
+            <value key="en">I don’t really know what to make of that stuff…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5162.00">
+            <value key="en">But he also said that he was the “delicate soul”.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5163.00">
+            <value key="en">And…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5163.01">
+            <value key="en">And the warrior heart..</value>
+        </TextAsset>
+        <TextAsset key="t_staira5163.02">
+            <value key="en">Is destined to protect the delicate soul!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5164.00">
+            <value key="en">…Uh...</value>
+        </TextAsset>
+        <TextAsset key="t_staira5165.00">
+            <value key="en">That’s it!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5165.01">
+            <value key="en">I know what I have to do…</value>
+        </TextAsset>
+        <TextAsset key="t_staira5166.00">
+            <value key="en">Taira needs me.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5167.00">
+            <value key="en">Thank you, Pac-Man!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5167.01">
+            <value key="en">Thank you so much!</value>
+        </TextAsset>
+        <TextAsset key="t_staira5168.00">
+            <value key="en">These kids today, with their roleplays and their larps and their TCGs.</value>
+        </TextAsset>
+        <TextAsset key="t_staira5168.01">
+            <value key="en">I don’t get it, but bless their little hearts.</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_school" />
+                <TextEvent char="@t_ch_taira" text="@t_staira520.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_classroom_a</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="taira" actorType="character">
+                    <styles>
+                        <x>25%</x>
+                        <image>@i_taira_default_serious</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-25%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="valkyrie" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>15%</x>
+                        <image>@i_valkyrie_default_grin</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="tomari" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>37%</x>
+                        <image>@i_tomari_standing_mortified</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <opacity>1</opacity>
+                        <x>82%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira521.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira521.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira522.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira523.00" />
+                <ActorImage image="@i_taira_default_serious_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration=".33" name="_5" target="taira" to="0" />
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira524.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira525.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <FadeEvent duration=".33" target="valkyrie" to="1" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_staira526.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent append="true" char="@t_ch_valkyrie" text="@t_staira526.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <FadeEvent duration=".33" target="tomari" to="1" />
+                <TextEvent char="@t_ch_tomari" text="@t_staira527.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_staira528.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira529.00" />
+                <ActorImage image="@i_cousin_default_angry" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_staira530.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_staira531.00" />
+                <ActorImage image="@i_valkyrie_default_wink" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira532.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira532.01" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira533.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_staira534.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration=".33" name="_J" target="valkyrie" to="0" />
+        <FadeEvent auto="true" duration=".33" name="_K" target="tomari" to="0" />
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira535.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira536.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira536.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira537.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira537.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira537.02" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_quad_bleachers" curtainActor="curtain" curtainFadeTime="1" name="_R" />
+        <ParallelEvent name="_S">
+            <events>
+                <AudioEvent fadeDuration="1" play="true" sound="@a_bgm_privatetimes" target="bgm" volume="1" />
+                <TextEvent char="@t_ch_taira" text="@t_staira538.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira539.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira539.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira540.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <FadeEvent duration=".5" target="taira" to="1" />
+                <TextEvent char="@t_ch_cousin" text="@t_staira541.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira541.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira542.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira542.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira543.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira544.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira545.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira546.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira547.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira548.00" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira548.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira549.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira550.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira551.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira551.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira552.00" />
+                <ActorImage image="@i_taira_akimbo_serious_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira552.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira553.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira554.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira554.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira555.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira555.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira555.02" />
+                <ActorImage image="@i_taira_revenge_pleading_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira556.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira556.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira556.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira557.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira557.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira557.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira558.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira558.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira559.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira560.00" />
+                <ActorImage image="@i_taira_default_serious_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira561.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira562.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira562.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira562.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira563.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira564.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira565.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira566.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira566.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira566.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira567.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira568.00" />
+                <ActorImage image="@i_taira_steveholt_serious_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira569.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira569.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira570.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira570.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira571.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira571.01" />
+                <ActorImage image="@i_taira_revenge_serious_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira572.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira573.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira574.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira574.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira574.02" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira575.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira575.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira575.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira575.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira576.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira577.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira578.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira579.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira579.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira579.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira580.00" />
+                <ActorImage image="@i_taira_revenge_confused" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira581.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira581.01" />
+                <ActorImage image="@i_taira_default_happy" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira581.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira582.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira582.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira582.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira582.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira583.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira583.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira584.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira585.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira585.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira585.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira586.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira586.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira587.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira587.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira587.02" />
+                <ActorImage image="@i_taira_default_confused" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira588.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira588.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira589.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira589.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira590.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira591.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira591.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira592.00" />
+                <ActorImage image="@i_taira_default_serious" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira592.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira592.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira593.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira594.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira595.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira596.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira597.00" />
+                <ActorImage image="@i_taira_default_angry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira597.01" />
+                <ActorImage image="@i_taira_default_angry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira598.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira598.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira599.00" />
+                <ActorImage image="@i_taira_steveholt_angry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5100.00" />
+                <ActorImage image="@i_taira_steveholt_revenge" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5101.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5103.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5103.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5105.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5105.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5106.01" />
+                <ActorImage image="@i_cousin_default_angry" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5109.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5110.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5111.00" />
+                <ActorImage image="@i_taira_steveholt_pleading" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5112.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5113.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5116.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5117.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5117.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5117.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5118.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5119.00" />
+                <ActorImage image="@i_taira_akimbo_pleading" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5119.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5119.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5120.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5123.00" />
+                <ActorImage image="@i_taira_akimbo_confused_blush" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5125.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5125.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5127.00" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5128.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5128.01" />
+                <ActorImage image="@i_taira_revenge_pleading_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5129.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5129.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5130.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_30">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5132.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_31">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5133.00" />
+                <ActorImage image="@i_taira_default_serious_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_32">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5133.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_33">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_34">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5134.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_35">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5134.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_36">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_37">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5135.01" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_38">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_39">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5137.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3A">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5137.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3B">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5138.00" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3C">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3D">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5139.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3E">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3F">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3G">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5142.00" />
+                <ActorImage image="@i_taira_revenge_serious_cry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3H">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3J">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5146.01" />
+                <ActorImage image="@i_cousin_default_mortified_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3M">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5147.00" />
+                <ActorImage image="@i_taira_revenge_pleading_cry" target="taira" />
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3N">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5147.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3O">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5149.00" />
+                <ActorImage image="@i_cousin_exhausted_angry_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Q">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3R">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3S">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5151.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3T">
+            <events>
+                <TextEvent append="true" char="@t_ch_taira" text="@t_staira5151.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3U">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_staira5152.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration=".5" name="_3V" target="taira" to="0" />
+        <ParallelEvent name="_3W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5153.00" />
+                <ActorImage image="@i_cousin_exhausted_sad_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5154.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5154.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5155.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3a">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5155.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5156.00" />
+                <ActorImage image="@i_cousin_default_sad_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <AudioCreate audioId="pacman" auto="true" layer="sfx" loop="true" name="_3c" play="true" sound="@a_sfx_pacman" />
+        <ParallelEvent allowInterrupt="false" auto="true" name="_3d">
+            <events>
+                <ActorMove duration="4" ease="ease-in-out" target="pacman" x="30%" />
+            </events>
+        </ParallelEvent>
+        <AudioDestroy name="_3e" target="pacman" />
+        <ParallelEvent name="_3f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5157.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3g">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5157.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3h">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_staira5158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5159.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3j">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5159.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3k">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5159.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3l">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5159.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3m">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5160.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3n">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5161.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5161.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3s">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5163.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3t">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5163.02" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3u">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_staira5164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5165.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5165.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_staira5167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_staira5167.01" />
+            </events>
+        </ParallelEvent>
+        <ActorFade duration=".5" name="_40" opacity="0" target="cousin" />
+        <ParallelEvent name="_41">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_staira5168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_42">
+            <events>
+                <TextEvent append="true" char="@t_ch_pacman" text="@t_staira5168.01" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_43" scene="s_day5.5" />
+    </events>
+</scene>

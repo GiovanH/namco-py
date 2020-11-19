@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_nidia6" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_snidia637.00">
+            <value key="en">WE DID IT!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia637.01">
+            <value key="en">You were amazing, Nidia!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia638.00">
+            <value key="en">Thanks ${slot:playerName}... It was all thanks to you.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia639.00">
+            <value key="en">I watched you during the fight... Thinking about your words.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia640.00">
+            <value key="en">I AM free to choose. I want to throw off the chains of destiny... But I don't want to make choices because I'm afraid of destiny either.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia641.00">
+            <value key="en">Nidia... What are you saying?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia642.00">
+            <value key="en">Take my hand, ${slot:playerName}...</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <VarEnsure storeName="slot" value="0" varName="pick_count_nidia" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_evil_namco_high</image>
+                        <depth>11</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="white_swatch" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_white</image>
+                        <depth>16</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="robotarmy" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_robotarmy</image>
+                        <x>-40%</x>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_nidia</image>
+                        <x>40%</x>
+                        <y>0%</y>
+                        <opacity>0</opacity>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <depth>13</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="nidia" actorType="character">
+                    <styles>
+                        <image>@i_nidia_akimbo_happy</image>
+                        <x>40%</x>
+                        <y>-12.5%</y>
+                        <scaleX>.75</scaleX>
+                        <scaleY>.75</scaleY>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <x>45%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="digdug" actorType="character">
+                    <styles>
+                        <x>40%</x>
+                        <image>@i_digdug_left</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <IfLTE auto="true" lvalue="${slot:pick_count_nidia}" name="_1" rvalue="1">
+            <events>
+                <ParallelEvent auto="true" name="_0">
+                    <events>
+                        <ActorImage auto="true" image="@i_battlepose_cousin_normal" target="cousin" />
+                        <ActorScale auto="true" target="cousin" x="0.75" y="0.75" />
+                        <ActorMove auto="true" target="cousin" x="40%" y="25%" />
+                    </events>
+                </ParallelEvent>
+            </events>
+        </IfLTE>
+        <BattleMacro name="_2">
+            <events>
+                <ActorDestroy name="_0" target="robotarmy" />
+                <ActorEvent name="_1" target="bg">
+                    <styles>
+                        <image>@i_bg_school_front</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_2" target="nidia">
+                    <styles>
+                        <image>@i_nidia_akimbo_happy</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>20%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                        <opacity>1</opacity>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_3" target="cousin">
+                    <styles>
+                        <image>@i_cousin_energetic_grin</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>-20%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+            </events>
+        </BattleMacro>
+        <BadEndMacro auto="true" name="_3" varName="${slot:pick_count_nidia}" />
+        <NormalEndMacro comparison="${slot:pick_count_nidia} == 2" name="_4" partnerActor="nidia" partnerImage="@i_nidia_resolute_happy" runCredits="true" />
+        <IfGTE auto="true" lvalue="${slot:pick_count_nidia}" name="_5" rvalue="3">
+            <events>
+                <ParallelEvent auto="true" name="_0">
+                    <events>
+                        <ActorMove target="nidia" x="20%" y="0%" />
+                        <ActorMove target="cousin" x="-20%" y="0%" />
+                    </events>
+                </ParallelEvent>
+                <ActorFade auto="true" duration="0.5" name="_1" opacity="0" target="curtain" />
+                <ParallelEvent name="_2">
+                    <events>
+                        <ActorImage image="@i_nidia_akimbo_happy" target="nidia" />
+                        <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                        <TextEvent char="@t_ch_cousin" text="@t_snidia637.00" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_3">
+                    <events>
+                        <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia637.01" />
+                        <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_4">
+                    <events>
+                        <TextEvent char="@t_ch_nidia" text="@t_snidia638.00" />
+                        <ActorImage image="@i_nidia_akimbo_happy" target="nidia" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_5">
+                    <events>
+                        <TextEvent char="@t_ch_nidia" text="@t_snidia639.00" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_6">
+                    <events>
+                        <TextEvent char="@t_ch_nidia" text="@t_snidia640.00" />
+                        <ActorFlip target="nidia" />
+                        <ActorImage image="@i_nidia_resolute_happy" target="nidia" />
+                        <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_7">
+                    <events>
+                        <TextEvent char="@t_ch_cousin" text="@t_snidia641.00" />
+                        <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                    </events>
+                </ParallelEvent>
+                <ParallelEvent name="_8">
+                    <events>
+                        <TextEvent char="@t_ch_nidia" text="@t_snidia642.00" />
+                        <ActorMove duration="0.5" target="nidia" x="10%" />
+                        <ActorCrossfade duration="0.5" image="@i_nidia_resolute_happy_blush" opacity="1" target="nidia" />
+                    </events>
+                </ParallelEvent>
+                <ActorFade auto="true" duration="0.5" name="_9" opacity="1" target="curtain" />
+                <AudioCreate audioId="bgm" auto="true" layer="bgm" loop="false" name="_A" play="true" sound="@a_bgm_credits" />
+                <CreditsEvent allowInterrupt="false" name="_B" />
+                <ActorCreate actorId="trueEnd" actorType="event" allowInterrupt="false" duration="1" name="_C">
+                    <styles>
+                        <image>@i_event_nidia_ending</image>
+                        <depth>18</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <ParallelEvent allowInterrupt="false" auto="true" name="_D">
+                    <events>
+                        <VarSet storeName="game" value="true" varName="got_trueend_nidia" />
+                        <ActorFade duration="1" opacity="0" target="trueEnd" />
+                    </events>
+                </ParallelEvent>
+            </events>
+        </IfGTE>
+        <GameOver name="_6" />
+    </events>
+</scene>

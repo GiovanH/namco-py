@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_valk1" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_svalk117.00">
+            <value key="en">Valkyrie said to meet her in wood shop...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk118.00">
+            <value key="en">(......)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk119.00">
+            <value key="en">(It's dusty in here... There's sawdust everywhere...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk119.01">
+            <value key="en">But it smells really good.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk120.00">
+            <value key="en">(Everyone's making something.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk120.01">
+            <value key="en">No one in my family really makes anything.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk120.02">
+            <value key="en">We all just roll it up.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk121.00">
+            <value key="en">I wonder what making something is like... )</value>
+        </TextAsset>
+        <TextAsset key="t_svalk122.00">
+            <value key="en">Heyyyy. Couldn't stay away, huh?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk123.00">
+            <value key="en">.........</value>
+        </TextAsset>
+        <TextAsset key="t_svalk124.00">
+            <value key="en">That's called ATTRACTION.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk125.00">
+            <value key="en">..................</value>
+        </TextAsset>
+        <TextAsset key="t_svalk126.00">
+            <value key="en">The strong silent type, eh?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk127.00">
+            <value key="en">Absolutely not.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk128.00">
+            <value key="en">Good. Strong and silent is pretty boring. Wanna see my Hiromi impression?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk129.00">
+            <value key="en">........</value>
+        </TextAsset>
+        <TextAsset key="t_svalk130.00">
+            <value key="en">...........</value>
+        </TextAsset>
+        <TextAsset key="t_svalk131.00">
+            <value key="en">.................</value>
+        </TextAsset>
+        <TextAsset key="t_svalk132.00">
+            <value key="en">..................................</value>
+        </TextAsset>
+        <TextAsset key="t_svalk133.00">
+            <value key="en">..................................................</value>
+        </TextAsset>
+        <TextAsset key="t_svalk134.00">
+            <value key="en">LOL, yours is pretty good too.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk135.00">
+            <value key="en">I wasn't trying to make fun of her!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk136.00">
+            <value key="en">Relaaaax. I kid because I love.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk137.00">
+            <value key="en">O-oh. What're you working on?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk138.00">
+            <value key="en">Oh...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk138.01">
+            <value key="en">It's a sword. They took away my real one.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk139.00">
+            <value key="en">Your REAL one?!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk139.01">
+            <value key="en">Are you in detention because you killed someone with it?!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk140.00">
+            <value key="en">Like you stabbed them through the heart ...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk140.01">
+            <value key="en">And then you chopped them up into little pieces...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk140.02">
+            <value key="en">And fed them to Pac-Man?!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk141.00">
+            <value key="en">Whoaaa, pretty good imagination on this one.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk142.00">
+            <value key="en">Sorry... I get carried away. Why DID you get your sword taken away?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk143.00">
+            <value key="en">…. You're really cute when you're serious.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk144.00">
+            <value key="en">(She evaded the question?!)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk145.00">
+            <value key="en">You get this crease in your forehead zone... It makes you look really thoughtful.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk146.00">
+            <value key="en">(WAS IT DETENTION... FOR MURDER?!)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk147.00">
+            <value key="en">(That seems... Lenient... )</value>
+        </TextAsset>
+        <TextAsset key="t_svalk148.00">
+            <value key="en">They took my sword away to punish me... I don't like being separated from it, so I figured I'd just make a temp blade to hold me over.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk149.00">
+            <value key="en">(Like a really sharp teddy bear... )</value>
+        </TextAsset>
+        <TextAsset key="t_svalk150.00">
+            <value key="en">(Oh, she's showing me the sword. Wow. It's really nice. I was thinking that she's a little flighty, but...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk150.01">
+            <value key="en">This is really expertly crafted. It must've taken a lot of dedication and concentration.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk151.00">
+            <value key="en">(I wonder what's really going on in her head... Besides all the flirting.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk152.00">
+            <value key="en">This sword looks great.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk152.01">
+            <value key="en">Can I tell you something? I'm a little jealous...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk153.00">
+            <value key="en">I've never made anything like this. I've definitely never worked with wood before.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk154.00">
+            <value key="en">You haven't?! OMG, it's super fun!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk155.00">
+            <value key="en">Is it?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk156.00">
+            <value key="en">Totally. You should try it out.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk157.00">
+            <value key="en">I don't know... I have these tiny Katamari hands... They're not good for much besides rolling.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk158.00">
+            <value key="en">Aw, I like your hands. They're all small and delicate. You should see mine!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk159.00">
+            <value key="en">(Whoa... They're really strong looking. She's definitely worked with her hands for a very long time.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk160.00">
+            <value key="en">Touch them!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk161.00">
+            <value key="en">Is it ok?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk162.00">
+            <value key="en">I said so, didn't I?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk163.00">
+            <value key="en">(I'm going to touch them!)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk164.00">
+            <value key="en">(Her fingers are long and thin, and ... they're so rough. Her palm feels like warm leather!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk164.01">
+            <value key="en">Like a crocodile or something.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk164.02">
+            <value key="en">I rolled one of those up once.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk165.00">
+            <value key="en">Ahem...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk166.00">
+            <value key="en">Hmmm?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk167.00">
+            <value key="en">I said you could touch them...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk168.00">
+            <value key="en">?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk169.00">
+            <value key="en">But you might be taking too long.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk170.00">
+            <value key="en">OH! Sorry!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk171.00">
+            <value key="en">It's okay. I don't mind.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk172.00">
+            <value key="en">........</value>
+        </TextAsset>
+        <TextAsset key="t_svalk173.00">
+            <value key="en">(Am I blushing? I hope not... )</value>
+        </TextAsset>
+        <TextAsset key="t_svalk174.00">
+            <value key="en">Will you show me how to make a sword... ? It looks fun.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk175.00">
+            <value key="en">Sure! Just grab some wood from the pile there and bring it to the table saw.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk176.00">
+            <value key="en">(Whoa, that spinny saw thing looks dangerous... )</value>
+        </TextAsset>
+        <TextAsset key="t_svalk177.00">
+            <value key="en">Just lay it down and run it through...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk178.00">
+            <value key="en">Like this?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk179.00">
+            <value key="en">...........</value>
+        </TextAsset>
+        <TextAsset key="t_svalk180.00">
+            <value key="en">LOL, uhhh… Wow, that's really crooked.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk180.01">
+            <value key="en">I've never seen someone cut so crooked.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk181.00">
+            <value key="en">It's gotta be a special talent of yours.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk182.00">
+            <value key="en">...............</value>
+        </TextAsset>
+        <TextAsset key="t_svalk182.01">
+            <value key="en">Oh, I think I see what happened.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk182.02">
+            <value key="en">You have to use the rail as a guide.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk182.03">
+            <value key="en">If you wait too long it'll burn up, so you gotta do it quick.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk183.00">
+            <value key="en">It's pretty difficult...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk184.00">
+            <value key="en">Yeah... It took me a few tries to learn it. We don't have any of this stuff back home.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk185.00">
+            <value key="en">It's also kind of scary...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk186.00">
+            <value key="en">It's not THAT scary. Just line it up and push it through, really steady-like. Try it again.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk187.00">
+            <value key="en">Okay...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk188.00">
+            <value key="en">No you need to... Like this!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk189.00">
+            <value key="en">!!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk190.00">
+            <value key="en">(She got behind me and put her hands on mine...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk190.01">
+            <value key="en">Her hands are really steady. That rugged texture is suddenly so reassuring... It's comforting to know she's done this so many times before.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk191.00">
+            <value key="en">.........</value>
+        </TextAsset>
+        <TextAsset key="t_svalk192.00">
+            <value key="en">(She's so warm... And her hair smells really nice...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk192.01">
+            <value key="en">Like a whole rolled up forest... Oak and ash and elm and pine and spruce.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk193.00">
+            <value key="en">(Her hands are so sure on mine...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk193.01">
+            <value key="en">..............</value>
+        </TextAsset>
+        <TextAsset key="t_svalk193.02">
+            <value key="en">Wasn't there a movie like this?)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk194.00">
+            <value key="en">.....................</value>
+        </TextAsset>
+        <TextAsset key="t_svalk195.00">
+            <value key="en">......... What?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk196.00">
+            <value key="en">Everyone's looking.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk197.00">
+            <value key="en">AHHH!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk198.00">
+            <value key="en">(They totally are!)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk199.00">
+            <value key="en">We should stop!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1100.00">
+            <value key="en">Ahhh, let them look. They WISH they were having this much fun.</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1101.00">
+            <value key="en">.............</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1102.00">
+            <value key="en">(Making the rest of the sword is fuzzy. All I could think about was the people looking at us.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1103.00">
+            <value key="en">(But Valkyrie didn't mind at all. She wasn't bothered in the least!)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1104.00">
+            <value key="en">(She's confident and fearless.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1105.00">
+            <value key="en">(.... I ... like it. I know we're both in high school, but she seems much more worldly.)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1106.00">
+            <value key="en">(I wonder why that is... And what it has to do with her stint in detention... )</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1107.00">
+            <value key="en">It's done!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1108.00">
+            <value key="en">Oh!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1109.00">
+            <value key="en">Sorry, I could only help so much... You definitely have a knack for being bad at this!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1110.00">
+            <value key="en">HEY! How'd YOURS come out?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1111.00">
+            <value key="en">Maybe we shouldn't compare...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1112.00">
+            <value key="en">Oh, come on! How different could they be?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1113.00">
+            <value key="en">You ARE really good at this...</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1114.00">
+            <value key="en">Next time we hang out, we should go to the roof. We can do some really neat stuff up there!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1115.00">
+            <value key="en">Just us? Alone?</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1116.00">
+            <value key="en">LOL, sure! It's more fun that way!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1116.01">
+            <value key="en">Bye!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1117.00">
+            <value key="en">(Just what 'fun stuff' is she talking about?!)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1118.00">
+            <value key="en">....................</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1119.00">
+            <value key="en">(My face feels warm. Is this what they call.....</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1119.01">
+            <value key="en">a crush?!</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1120.00">
+            <value key="en">(I'm too young! I'm not ready!)</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1121.00">
+            <value key="en">.............</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1122.00">
+            <value key="en">.....................</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1123.00">
+            <value key="en">.................................</value>
+        </TextAsset>
+        <TextAsset key="t_svalk1124.00">
+            <value key="en">(Her laugh is really cute... )</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_upbeat_half" />
+                <TextEvent char="@t_ch_cousin" text="@t_svalk117.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_shopclass</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="darkness" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>3</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="valkyrie" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_valkyrie_default_grin</image>
+                        <opacity>0</opacity>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="sword1" actorType="character">
+                    <styles>
+                        <image>@i_prop_sword_good</image>
+                        <x>0%</x>
+                        <y>-10%</y>
+                        <scaleX>.65</scaleX>
+                        <scaleY>.65</scaleY>
+                        <opacity>0</opacity>
+                        <depth>5</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="sword2" actorType="character">
+                    <styles>
+                        <image>@i_prop_sword_wood</image>
+                        <x>0%</x>
+                        <y>-10%</y>
+                        <scaleX>.65</scaleX>
+                        <scaleY>.65</scaleY>
+                        <opacity>0</opacity>
+                        <depth>5</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk119.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk120.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk120.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk121.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <ActorFade duration=".5" opacity="1" target="valkyrie" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk124.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_wink" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk125.00" />
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk127.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk128.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk129.00" />
+                <ActorImage image="@i_valkyrie_default_bored" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk130.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk131.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_bored" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk132.00" />
+                <ActorImage image="@i_valkyrie_akimbo_bored" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk133.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk134.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk135.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk136.00" />
+                <ActorImage image="@i_valkyrie_akimbo_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk137.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent append="true" char="@t_ch_valkyrie" text="@t_svalk138.01" />
+                <ActorImage image="@i_valkyrie_akimbo_melancholy" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk139.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk139.01" />
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk140.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk140.01" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk140.02" />
+                <ActorImage image="@i_cousin_exhausted_angry" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk141.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk142.00" />
+                <ActorImage image="@i_cousin_exhausted_sad_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk143.00" />
+                <ActorImage image="@i_valkyrie_default_wink" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk144.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk145.00" />
+                <ActorImage image="@i_valkyrie_default_grinblush" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk146.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk147.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk148.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_thoughtful" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk149.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk150.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk151.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk152.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk152.01" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk154.00" />
+                <ActorImage image="@i_valkyrie_forjustice_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk155.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk156.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk157.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk158.00" />
+                <ActorMove delay="1" duration=".3" target="valkyrie" x="10%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk159.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk160.00" />
+                <ActorMove duration=".2" target="valkyrie" x="5%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk161.00" />
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk163.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk164.00" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk164.01" />
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk164.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk165.00" />
+                <ActorImage image="@i_valkyrie_forjustice_thoughtful" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk166.00" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk169.00" />
+                <ActorImage image="@i_valkyrie_forjustice_grinblush" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk170.00" />
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <ActorMove duration=".1" target="cousin" x="-30%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk171.00" />
+                <ActorImage image="@i_valkyrie_default_grinblush" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk173.00" />
+                <ActorImage image="@i_cousin_energetic_mortified_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk174.00" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk175.00" />
+                <ActorImage image="@i_valkyrie_akimbo_grin" target="valkyrie" />
+                <ActorMove duration=".5" target="valkyrie" x="30%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk176.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <ActorMove duration=".5" target="cousin" x="-5%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk177.00" />
+                <AudioCreate audioId="saw" auto="true" layer="sfx" loop="true" play="true" sound="@a_sfx_circularsaw" volume="0.2" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk178.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk179.00" />
+                <ActorImage image="@i_valkyrie_akimbo_bored" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk180.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent append="true" char="@t_ch_valkyrie" text="@t_svalk180.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk181.00" />
+                <ActorImage image="@i_valkyrie_akimbo_wink" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk182.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent append="true" char="@t_ch_valkyrie" text="@t_svalk182.01" />
+                <ActorImage image="@i_valkyrie_akimbo_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent append="true" char="@t_ch_valkyrie" text="@t_svalk182.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent append="true" char="@t_ch_valkyrie" text="@t_svalk182.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk183.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk184.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk185.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk186.00" />
+                <ActorImage image="@i_valkyrie_akimbo_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk187.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk188.00" />
+                <ActorDepth depth="1" target="valkyrie" />
+                <ActorImage image="@i_valkyrie_forjustice_grin" target="valkyrie" />
+                <ActorMove duration=".7" target="valkyrie" x="-25%" />
+                <ActorScale target="valkyrie" x="-1" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk189.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk190.00" />
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk190.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk192.00" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk192.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk193.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk193.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk193.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk194.00" />
+                <ActorImage image="@i_valkyrie_forjustice_grinblush" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk195.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk196.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk197.00" />
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+                <ActorMove duration=".5" target="cousin" x="20%" />
+                <ActorScale target="cousin" x="-1" />
+                <AudioDestroy target="saw" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk198.00" />
+                <ActorImage image="@i_cousin_default_mortified_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk199.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk1100.00" />
+                <ActorImage image="@i_valkyrie_akimbo_grinblush" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1101.00" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk1107.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_grin" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1108.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk1109.00" />
+                <ActorImage delay="1" image="@i_valkyrie_armscrossed_wink" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1110.00" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk1111.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_thoughtful" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <ActorMove target="sword1" x="-20%" />
+                <ActorFade duration=".8" opacity="1" target="sword1" />
+                <ActorMove target="sword2" x="20%" />
+                <ActorFade duration=".8" opacity="1" target="sword2" />
+                <ActorFade duration=".5" opacity=".5" target="darkness" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1113.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_grin" target="valkyrie" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <ActorFade duration=".333" opacity="0" target="sword1" />
+                <ActorFade duration=".333" opacity="0" target="sword2" />
+                <ActorFade duration=".5" opacity="0" target="darkness" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk1114.00" />
+                <ActorFade duration=".6" opacity="0" target="curtain" />
+                <!-- <ActorFade duration=".6" opacity="0" target="sword" /> -->
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1115.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent char="@t_ch_valkyrie" text="@t_svalk1116.00" />
+                <ActorImage image="@i_valkyrie_armscrossed_wink" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent append="true" char="@t_ch_valkyrie" text="@t_svalk1116.01" />
+                <ActorFade duration="1" opacity="0" target="valkyrie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1117.00" />
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_svalk1119.01" />
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_svalk1124.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_27" scene="s_day2" />
+    </events>
+</scene>

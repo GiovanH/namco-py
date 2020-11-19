@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_tomari1" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_stomari151.00">
+            <value key="en">(Wow, it’s awful dark in here.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari152.00">
+            <value key="en">(Hope I’m not late.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari153.00">
+            <value key="en">(And also that I’m in the right place.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari154.00">
+            <value key="en">(But, ALSO also that this is NOT where Tomari lures new kids so they’re isolated and in the dark and no one sees him come up from behind with a giant axe to kill ‘em and no one notices because they haven’t had time to make friends in the community yet!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari155.00">
+            <value key="en">(The murdered kids I mean.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari156.00">
+            <value key="en">(But, more so, I really hope Tomari doesn’t axe murder anyone actually.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari157.00">
+            <value key="en">(Or murder at all in a general sense.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari158.00">
+            <value key="en">(WHY AM I FREAKING OUT ABOUT BEING MURDERED??)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari159.00">
+            <value key="en">(Especially by a goofy guy like Tomari.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari160.00">
+            <value key="en">Hi, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari161.00">
+            <value key="en">AAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHH!!!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari162.00">
+            <value key="en">Um.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari163.00">
+            <value key="en">(DEEP BREATH, ${slot:playerName}! YOU WILL LIVE THROUGH THIS!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari164.00">
+            <value key="en">You, uh, okay?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari165.00">
+            <value key="en">YES! THE MOST OKAY AND ALIVE!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari166.00">
+            <value key="en">You’re yelling though?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari167.00">
+            <value key="en">AM I? NOT FOR HELP THOUGH!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari168.00">
+            <value key="en">HAHA!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari169.00">
+            <value key="en">BECAUSE WE’RE FINE HERE AREN’T WE. Ha! Heh.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari169.01">
+            <value key="en">Ahem.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari170.00">
+            <value key="en">What I meant to say, when I screamed in complete primal fear was, “Hey, Tomari.”</value>
+        </TextAsset>
+        <TextAsset key="t_stomari171.00">
+            <value key="en">Uh, yeah. Glad you could make it! I’m afraid I brought you down here under false pretenses.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari172.00">
+            <value key="en">(DON’T PANIC)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari173.00">
+            <value key="en">The engineering club could use some new blood.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari174.00">
+            <value key="en">(B-B-BLOOD?!?!?)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari175.00">
+            <value key="en">There’s just Hiromi and me. And, technically, she’s not in the club.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari176.00">
+            <value key="en">Her motorcycle is.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari177.00">
+            <value key="en">Whew!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari178.00">
+            <value key="en">Hm?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari179.00">
+            <value key="en">Uh. What I mean is, y’know, more club resources for us, AM I RIGHT!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari180.00">
+            <value key="en">Ha, that’s the spirit! And you are, indeed, quite right!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari181.00">
+            <value key="en">BEHOLD!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari182.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari183.00">
+            <value key="en">(Wait…what if that’s where he keeps the bodies!!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari183.01">
+            <value key="en">That’s uh n-n-nice tarp…?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari184.00">
+            <value key="en">Haha! Not the tarp. What’s underneath it!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari185.00">
+            <value key="en">And, uh, what would that be exactly?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari186.00">
+            <value key="en">My secret project.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari187.00">
+            <value key="en">(MURDER BODIES WOULD BE A BIG SECRET!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari188.00">
+            <value key="en">I know we just met, but I feel like I can tell you all about it.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari189.00">
+            <value key="en">Anyway, it’s not like I could keep it secret from a fellow engineering genius like yourself for long anyway!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari190.00">
+            <value key="en">Haha! That sure is the real truth!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari191.00">
+            <value key="en">No one but me knows it, but we’re engaged in a robotics cold war with the twisted genius Dr. Kubota from Evil Namco High!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari192.00">
+            <value key="en">Hang on. His name is Doctor or IS a doctor? And if it’s the second one, then how is he in high school?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari193.00">
+            <value key="en">How do we have a spaceship student?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari194.00">
+            <value key="en">Fair enough!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari195.00">
+            <value key="en">So, evil genius, and robots? That’s bad!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari196.00">
+            <value key="en">You have no idea, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari197.00">
+            <value key="en">NO ONE DOES!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari198.00">
+            <value key="en">(Whoa, must be serious.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari199.00">
+            <value key="en">If Dr. Kubota gains the upper hand, it may very well plunge all of Namco Land into ten thousand years of darkness!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1100.00">
+            <value key="en">(WHAT!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1101.00">
+            <value key="en">But now I’ve got a secret weapon.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1102.00">
+            <value key="en">(Like a murder axe?!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1103.00">
+            <value key="en">Your brain!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1104.00">
+            <value key="en">(My brain?!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1105.00">
+            <value key="en">(An axe would be better!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1106.00">
+            <value key="en">Only my super robot project can defeat Dr. Kubota’s vile machinations, but it’ll take all our smarts to get it working and save Namco Land from certain doom.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1107.00">
+            <value key="en">(GULP! What’ve I gotten myself into! I CAN’T BUILD A ROBOT!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1108.00">
+            <value key="en">But that bleak nightmare is no longer the inevitable result of current conditions!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1109.00">
+            <value key="en">Uh, yeah. It definitely isn’t.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1110.00">
+            <value key="en">Because now Namco High has a shot at winning the Robot Battle Brawl competition.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1111.00">
+            <value key="en">Wait the what?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1112.00">
+            <value key="en">Which everyone knows is the most popular sport in the whole school.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1113.00">
+            <value key="en">(I never heard anyone call it that.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1114.00">
+            <value key="en">(Or anything at all, actually.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1115.00">
+            <value key="en">(Because no one ever mentions it!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1116.00">
+            <value key="en">I calculated the damage to school spirit, morale, and morals of the entire student body if Namco High loses the next Robot Battle Brawl match against Evil Namco High.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1117.00">
+            <value key="en">${slot:playerName}, it would be disastrous to the power of catastrophic.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1118.00">
+            <value key="en">I had to invent a whole new word to describe it:</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1119.00">
+            <value key="en">DISASTROPHIC!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1120.00">
+            <value key="en">Grades plummet, tardies skyrocket, attendance is reduced to a handful of students seeking shelter from the juvenile raider gangs that will band together to roam the wasteland and prey on the weak.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1121.00">
+            <value key="en">This is the dark future that hangs in the balance.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1122.00">
+            <value key="en">Heavy is the head that wears the Robot Battle Brawl crown, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1123.00">
+            <value key="en">Okay.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1124.00">
+            <value key="en">Um.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1125.00">
+            <value key="en">Preeeeeeeeetty sure Wrestleball is the most popular sport in school though?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1126.00">
+            <value key="en">Wrestleball? Oh, what, just because kids constantly talk about it?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1127.00">
+            <value key="en">And a ton of them go to the games?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1128.00">
+            <value key="en">And the practices?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1129.00">
+            <value key="en">And also play the game, either for the school or for fun at home? And the video game? Or all of the above?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1130.00">
+            <value key="en">That’s supposed to mean it’s “popular?”</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1131.00">
+            <value key="en">That’s the definition of popular, so yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1132.00">
+            <value key="en">Well.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1133.00">
+            <value key="en">Imagine a sport even more popular than that then!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1134.00">
+            <value key="en">Oof, I’m trying, but wow, it’s not easy!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1135.00">
+            <value key="en">What if I told you…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1136.00">
+            <value key="en">…it didn’t need to be imagined?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1136.01">
+            <value key="en">BECAUSE IT’S ROBOT BATTLE BRAWL!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1137.00">
+            <value key="en">(It’s cute how into this stuff Tomari is, but he’s a little delusional about it!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1137.01">
+            <value key="en">Tomari. If Battle Robo Brawl –</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1138.00">
+            <value key="en">Robot Battle Brawl.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1139.00">
+            <value key="en">Uh, right, that too.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1140.00">
+            <value key="en">If it’s so popular, then why are you the only student in the engineering club? Shouldn’t this place be packed?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1141.00">
+            <value key="en">Oh, that’s easy. I wouldn’t let anyone else join.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1142.00">
+            <value key="en">Really?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1143.00">
+            <value key="en">This is war, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1144.00">
+            <value key="en">Big stomping robot war!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1145.00">
+            <value key="en">They’d only get in the way. Just slow me down.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1146.00">
+            <value key="en">Always wanting help with their own projects. As if I’m not consulting enough students on extra-curricular projects as it is!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1147.00">
+            <value key="en">Hiromi and her bike, Max and his plane, Principal Dig Dug and his lunar detention rocket…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1148.00">
+            <value key="en">Wait, there’s a rocket?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1149.00">
+            <value key="en">Or, THE ABSOLUTE WORST, talking to me.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1150.00">
+            <value key="en">That’s…bad?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1151.00">
+            <value key="en">It’s awful. They drone on and on about whatever nonsense people limited to baseline intelligence have the inclination to discuss among their own kind.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1152.00">
+            <value key="en">I believe a lot of it concerns professional sports statistics and celebrity embarrassments.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1153.00">
+            <value key="en">And they have the audacity to assault me with it!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1154.00">
+            <value key="en">We can, in time, solve any problem we put to ourselves with nothing more than hypothesis based on observation.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1155.00">
+            <value key="en">All because of the mind!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1156.00">
+            <value key="en">THE MIND, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1157.00">
+            <value key="en">The most powerful and versatile tool in the known universe. We’ve all got one, but most people spend their lives acting as if they don’t!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1158.00">
+            <value key="en">They cultivate distraction in place of wisdom! Trivia in place of knowledge!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1159.00">
+            <value key="en">(Sheesh, Tomari’s got some intense opinions about, uh, society I guess? He sounds like a supervillain!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1160.00">
+            <value key="en">(I mean, he wants to save the world from total devastation, so that’s good. But the devastation he’s worried about isn’t actually a real problem. But he thinks it is!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1161.00">
+            <value key="en">(I think he’s a good person, deep down, it’s just all those brains are getting in the way!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1162.00">
+            <value key="en">But to answer your question more completely, re: lack of students in the club, you’re forgetting that for the purposes of official club business, Hiromi’s motorcycle counts as a student.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1163.00">
+            <value key="en">Heck, it gets better grades than Taira!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1164.00">
+            <value key="en">Okay, well, two students still isn’t all that great though.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1165.00">
+            <value key="en">So modest not to count yourself!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1166.00">
+            <value key="en">(Oh, right. Me.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1166.01">
+            <value key="en">Yeah. And I’ll contribute.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1167.00">
+            <value key="en">I’ll contribute BIG TIME.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1168.00">
+            <value key="en">But I think you may be overestimating the effect the brawling robot battle will have on, uh, the world.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1169.00">
+            <value key="en">Impossible. I did the calculations myself.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1170.00">
+            <value key="en">With or without the glasses, I ask purely out of curiosity?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1171.00">
+            <value key="en">Without, of course.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1172.00">
+            <value key="en">Yeah, I thought so.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1173.00">
+            <value key="en">They were confiscated after the explosion.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1174.00">
+            <value key="en">The...I’m sorry...</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1175.00">
+            <value key="en">The EXPLOSION?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1176.00">
+            <value key="en">If I’m to be perfectly honest, it was the explosion…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1177.00">
+            <value key="en">...s.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1178.00">
+            <value key="en">Plural.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1179.00">
+            <value key="en">Though a case could be made that it was the FINAL explosion, singular, that broke the camel’s back, as it were.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1180.00">
+            <value key="en">Also about one-third of the plumbing on campus.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1181.00">
+            <value key="en">And the computer lab.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1182.00">
+            <value key="en">HOWEVER, I made the case that it wasn’t any of the explosions caused by my experiments that damaged school property!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1183.00">
+            <value key="en">Rather it was the school’s lack of significantly reinforced infrastructure to withstand explosive forces that ALLOWED it to be destroyed.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1184.00">
+            <value key="en">It was a brilliant defense, but the administrators weren’t swayed.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1185.00">
+            <value key="en">Since they couldn’t very well lock up my brain, they confiscated my glasses instead.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1186.00">
+            <value key="en">Ironically, their short sighted thinking has only exacerbated by short sighted SEEING and all progress on the super robot has come to a halt THEREFORE DOOMING US ALL!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1187.00">
+            <value key="en">I brought this to the attention of the administration, and was brutally rebuffed.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1188.00">
+            <value key="en">(Who could have guessed robot brawls and explosions would feature so heavily in the life of a harmless looking bookworm?)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1189.00">
+            <value key="en">(Hmmm.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1190.00">
+            <value key="en">(Maybe I should try to help out just to keep him out of trouble!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1190.01">
+            <value key="en">Even so, Tomari, I’m not sure a single high school sports match can plunge the world into ten thousand years of darkness.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1191.00">
+            <value key="en">Wow, you’re good!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1192.00">
+            <value key="en">You haven’t even seen the equations, but you immediately intuited that ten thousand years was the worst case scenario.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1193.00">
+            <value key="en">But, you’re right, there’s a chance we may only have to endure five thousand years of darkness.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1194.00">
+            <value key="en">Even so, I don’t like those odds. But that’s what you’re here for!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1195.00">
+            <value key="en">Uh, yeah. Me. I will do stuff right, like, wow.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1196.00">
+            <value key="en">I bet! Hey, let’s get started.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1197.00">
+            <value key="en">(ALREADY?!?)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1197.01">
+            <value key="en">Uh, yeah. Started. That’s what we’ll do. Right now. Yeah. Can’t wait.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1198.00">
+            <value key="en">Okay, so you fixed the nanofiber locomotive matrix this morning, and you’d think that’d be the end of our problems, but it’s only the beginning!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1199.00">
+            <value key="en">Swell…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1200.00">
+            <value key="en">Glad you enjoy the thrill of a challenging project as much as I do, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1201.00">
+            <value key="en">(Wonder if I could fake a heart attack…)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1202.00">
+            <value key="en">(But then Tomari might think he could learn cardiology by practicing it on me!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1203.00">
+            <value key="en">(Uh-oh. He’s been talking this whole time…Should I have been paying attention?)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1204.00">
+            <value key="en">blah blah GN/DN polarity got switched. And I don’t have to tell YOU what that means! My first thought was to blah blah blah</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1205.00">
+            <value key="en">(I HAVE NO IDEA WHAT HE’S TALKING ABOUT!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1206.00">
+            <value key="en">(Then again, I still wouldn’t know what he was talking about even if I heard the whole thing.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1207.00">
+            <value key="en">(Smile and nod, ${slot:playerName}. Smile and nod.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1208.00">
+            <value key="en">(Just gotta keep an eye on this guy so he doesn’t accidentally blow up any more school property. Or himself. It’s not that bad.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1209.00">
+            <value key="en">(I mean, he’s kinda easy on the ol’ eye keepin’ itself on him, IF I KNOW WHAT I MEAN.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1210.00">
+            <value key="en">(And I do.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1211.00">
+            <value key="en">(So, that helps.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1212.00">
+            <value key="en">(Uh-oh. I think he’s waiting for me to say something…)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1213.00">
+            <value key="en">What do you think? Any ideas?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1214.00">
+            <value key="en">(STALL STALL STALL)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1214.01">
+            <value key="en">Uhhhhhhhhhh.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1214.02">
+            <value key="en">(STAAAAAAAAAAALLLLLL)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1214.03">
+            <value key="en">Yes.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1215.00">
+            <value key="en">Great.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1216.00">
+            <value key="en">(Nailed it!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1217.00">
+            <value key="en">Yup. It is great.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1218.00">
+            <value key="en">So, let’s hear ‘em.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1219.00">
+            <value key="en">(AAAARGH!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1220.00">
+            <value key="en">You should…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1221.00">
+            <value key="en">Uh.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1222.00">
+            <value key="en">Fix the thing. That, um...</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1223.00">
+            <value key="en">...needs fixing.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1224.00">
+            <value key="en">Yeah, but which of the three methods I described do you think we should try?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1225.00">
+            <value key="en">(WHAT? When’d he say anything like that?)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1226.00">
+            <value key="en">(Oh, right. When I wasn’t really paying attention probably.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1227.00">
+            <value key="en">(Okay! I’ll just say, like, “That last one.” I mean, y’know, whatever, they’re probably mostly the same, right?)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1228.00">
+            <value key="en">Each one has a distinct and unique advantage counterbalanced by an ARBITRARILY DEVASTATING AND EASILY EXPLOITED weakness.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1229.00">
+            <value key="en">(What?! Why does it work like that?!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1230.00">
+            <value key="en">As you know, that’s just how science works.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1231.00">
+            <value key="en">(UGH!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1232.00">
+            <value key="en">These factors need to be carefully considered with regard to their potential impacts upon the super robot’s combat capabilities.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1233.00">
+            <value key="en">(Well. Okay. Still not that bad. If I choose the wrong one, it’s no big deal, right? We’ll just try something else.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1234.00">
+            <value key="en">(Yeah!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1235.00">
+            <value key="en">AND WE HAVE TO GET IT EXACTLY RIGHT ON OUR FIRST TRY!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1236.00">
+            <value key="en">(OH COME ON ALREADY!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1237.00">
+            <value key="en">Dr. Kubota could attack at any moment. We can’t risk being half done with our second or third try when he does!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1238.00">
+            <value key="en">Yeah. That would be a disaster!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1239.00">
+            <value key="en">(Oh crap oh crap what do I do!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1240.00">
+            <value key="en">(What am I saying? It’s just a silly high school rivalry in a sport no one cares about anyway. It doesn’t matter what I pick!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1241.00">
+            <value key="en">Uh, let’s do the first one.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1242.00">
+            <value key="en">The first one? Are you sure?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1243.00">
+            <value key="en">Uh, no? Yeah, let’s go for the last one.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1244.00">
+            <value key="en">Really? That one?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1245.00">
+            <value key="en">Well, I mean, y’know, the second one then maybe.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1246.00">
+            <value key="en">I feel like there’s something you’re not telling me, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1247.00">
+            <value key="en">(He’s on to me! BETTER SAY SOMETHING FAST!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1248.00">
+            <value key="en">Do that thing with the part that doesn’t work how you want and make it good!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1248.01">
+            <value key="en">(Yeah! That sounded sufficiently technical!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1249.00">
+            <value key="en">But...it’s not one part that isn’t working, it’s a whole subsystem and there’s a few ways to approach it.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1250.00">
+            <value key="en">YEAH I KNEW THAT!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1251.00">
+            <value key="en">Hmm…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1252.00">
+            <value key="en">I think I know what you’re getting at, ${slot:playerName}…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1252.01">
+            <value key="en">You’re saying I’ve gone about the problem all wrong!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1253.00">
+            <value key="en">Um.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1254.00">
+            <value key="en">Yyyyyyyyyyyyyyyyyyy</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1255.00">
+            <value key="en">Nnnnnnnnnnnnnnnnnnnnnnnnnn</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1256.00">
+            <value key="en">Yyyyyyyyyyyyyyyyeeeeaaah…</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1257.00">
+            <value key="en">…?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1258.00">
+            <value key="en">I’m...I’m not used to speaking with someone who can operate at my own level.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1259.00">
+            <value key="en">Haha! Yeah, I know what you mean.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1259.01">
+            <value key="en">(I mean, kind of!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1260.00">
+            <value key="en">So, which part do you think it is that’s causing all the trouble?</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1261.00">
+            <value key="en">Ah. Yes. That’s. Hm. Yes, that’s a question.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1262.00">
+            <value key="en">We should answer it!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1263.00">
+            <value key="en">With information. Hm. Yup. Yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1264.00">
+            <value key="en">Sounds like you’re suggesting we do some research.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1265.00">
+            <value key="en">(Ah-ha! He can’t accidentally blow up anything if we’re just reading books in the library!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1266.00">
+            <value key="en">(And, who knows, maybe I’ll pick up some of this engineering stuff while we’re there. This could turn into a pretty cool thing for us to do. Yeah!)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1266.01">
+            <value key="en">The research. Yes! That.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1267.00">
+            <value key="en">Great! It’s a little late to start on that now, but I’ll get a reading list together and we can hit the books tomorrow!</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1268.00">
+            <value key="en">Yes. Super.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1269.00">
+            <value key="en">Uh, see you then, Tomari.</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1269.01">
+            <value key="en">(He’s not so bad once you get him to open up a little.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1270.00">
+            <value key="en">(I mean, okay, he’s still crazy. But it’s a cute kind of crazy.)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1271.00">
+            <value key="en">(Well. Until there’s explosive experiments, I guess...)</value>
+        </TextAsset>
+        <TextAsset key="t_stomari1272.00">
+            <value key="en">(But we’re gonna work on that!)</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_privatetimes" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari151.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_shopclass</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain2" actorType="background">
+                    <styles>
+                        <opacity>0.7</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>9</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="tomari" actorType="character">
+                    <styles>
+                        <x>90%</x>
+                        <image>@i_tomari_standing_mortified</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>0%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari156.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <ActorImage image="@i_tomari_standing_smile" target="tomari" />
+                <ActorMove duration="0.333" target="tomari" x="20%" />
+                <ActorMove duration="0.333" target="cousin" x="-20%" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari160.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari163.00" transform="uppercase" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari169.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari169.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <ActorImage image="@i_tomari_defeated_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari173.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari175.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <ActorImage image="@i_tomari_standing_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari176.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari177.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorImage image="@i_tomari_standing_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari178.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari179.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <ActorImage image="@i_tomari_standing_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari180.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorImage image="@i_tomari_alive_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari181.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <ActorFade duration="0.333" opacity="0" target="curtain2" />
+                <TextEvent char="@t_ch_tarp" text="@t_stomari182.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari183.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari183.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari184.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari185.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari186.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari187.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <ActorImage image="@i_tomari_defeated_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari188.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari189.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari190.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari192.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <ActorImage image="@i_tomari_defeated_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari193.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari194.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari195.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari196.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <ActorImage image="@i_tomari_alive_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari197.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari198.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <ActorImage image="@i_tomari_defeated_mortified" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari199.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <ActorImage image="@i_tomari_defeated_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <ActorImage image="@i_tomari_standing_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <ActorImage image="@i_tomari_defeated_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1109.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1116.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1117.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <ActorImage image="@i_tomari_alive_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <ActorImage image="@i_tomari_alive_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <ActorImage image="@i_tomari_defeated_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1128.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <ActorImage image="@i_tomari_defeated_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <ActorImage image="@i_tomari_alive_smile" target="tomari" />
+                <TextEvent append="true" char="@t_ch_tomari" text="@t_stomari1136.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1137.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1137.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <ActorImage image="@i_tomari_standing_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <ActorImage image="@i_tomari_standing_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <ActorImage image="@i_tomari_pondering_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <ActorImage image="@i_tomari_defeated_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <ActorImage image="@i_tomari_alive_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1156.00" transform="uppercase" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1160.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <ActorImage image="@i_tomari_defeated_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1166.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1169.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <ActorImage image="@i_tomari_standing_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1173.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1175.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1176.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1177.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <ActorImage image="@i_tomari_defeated_mortified" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1178.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1179.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <ActorImage image="@i_tomari_standing_mortified" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1180.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <ActorImage image="@i_tomari_defeated_mortified" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1181.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1182.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <ActorImage image="@i_tomari_standing_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1183.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <ActorImage image="@i_tomari_standing_mortified" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1184.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <ActorImage image="@i_tomari_defeated_frustrated" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1185.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1186.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1187.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1188.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1189.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1190.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1190.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <ActorImage image="@i_tomari_standing_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1192.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <ActorImage image="@i_tomari_defeated_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1193.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1194.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1195.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1196.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1197.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1197.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1198.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1199.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <ActorImage image="@i_tomari_notebook_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1200.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1201.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1202.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1203.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1204.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1205.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1206.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1207.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1208.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1209.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1210.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1211.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1212.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1213.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1214.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1214.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1214.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1214.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <ActorImage image="@i_tomari_notebook_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1215.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1216.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1217.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1218.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1219.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1220.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1221.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1222.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1223.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1224.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1225.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1226.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_30">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1227.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_31">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1228.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_32">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1229.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_33">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1230.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_34">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1231.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_35">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1232.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_36">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1233.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_37">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1234.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_38">
+            <events>
+                <ActorImage image="@i_tomari_notebook_mortified" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1235.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_39">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1236.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3A">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1237.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1238.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1239.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1240.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3E">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1241.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3F">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1242.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1243.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3H">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1244.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1245.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3J">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1246.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3K">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1247.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1248.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3M">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1248.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3N">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1249.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3O">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1250.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3P">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1251.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Q">
+            <events>
+                <ActorImage image="@i_tomari_standing_thoughtful" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1252.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3R">
+            <events>
+                <ActorImage image="@i_tomari_standing_smile" target="tomari" />
+                <TextEvent append="true" char="@t_ch_tomari" text="@t_stomari1252.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1253.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3T">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1254.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1255.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1256.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1257.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3X">
+            <events>
+                <ActorImage image="@i_tomari_standing_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1258.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1259.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1259.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3a">
+            <events>
+                <ActorImage image="@i_tomari_notebook_thinking" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1260.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1261.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3c">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1262.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3d">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1263.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3e">
+            <events>
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1264.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1265.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1266.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3h">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1266.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3i">
+            <events>
+                <ActorImage image="@i_tomari_standing_smile" target="tomari" />
+                <TextEvent char="@t_ch_tomari" text="@t_stomari1267.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1268.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3k">
+            <events>
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1269.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_3l">
+            <events>
+                <TextEvent char="" text="" />
+                <ActorFade duration="0.333" opacity="0" target="tomari" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3m">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <ActorMove duration="0.333" target="cousin" x="0" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_stomari1269.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3n">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1270.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1271.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_stomari1272.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_3q" scene="s_day2" />
+    </events>
+</scene>

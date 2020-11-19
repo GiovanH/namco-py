@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_terezi5" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_sterezi524.00">
+            <value key="en">(And so, once detention was over, we both took a walk down in the quad.)</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi525.00">
+            <value key="en">H3R3, 1 BROUGHT YOU SOM3TH1NG TO SN4CK ON</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi526.00">
+            <value key="en">...Um…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi527.00">
+            <value key="en">This is just a fistful of brightly-colored chalk.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi528.00">
+            <value key="en">Y34H!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi529.00">
+            <value key="en">1T’S MY F4VOR1T3 FOR WH3N 1 H4V3 TO TH1NK SOM3TH1NG OV3R</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi530.00">
+            <value key="en">...OR WH3N 1’M JUST PL41N HUNGRY &gt;:]</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi531.00">
+            <value key="en">Um. Thanks, I guess.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi532.00">
+            <value key="en">1’M SORRY 4BOUT TH3 OTH3R D4Y, COTTON C4NDY</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi533.00">
+            <value key="en">W3LL 4CTU4LLY</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi534.00">
+            <value key="en">1’M NOT SORRY TH4T 1T H4PP3N3D</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi535.00">
+            <value key="en">4NYON3 W1TH H4LF 4 M1ND COULD S33 TH4T TH3 3V3NTS 4S TH3Y UNFOLD3D W3R3 ULT1M4T3LY 1N3V1T4BL3</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi536.00">
+            <value key="en">...Uh huh.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi537.00">
+            <value key="en">BUT 1 4M SORRY 1 H4D TO B3 TH3 1NSTRUM3NT THROUGH WH1CH YOUR JUST1C3 W4S D3L1V3R3D &gt;:]</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi538.00">
+            <value key="en">4LTHOUGH YOU D1D LOOK 4WFULLY CUT3 SQU1RM1NG 4W4Y DUR1NG YOUR 1NT3RROG4T1ON</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi539.00">
+            <value key="en">Terezi, I-</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi539.01">
+            <value key="en">I don’t get it?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi540.00">
+            <value key="en">HUH? WH4T DO YOU M34N?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi541.00">
+            <value key="en">WH4T’S NOT TO G3T?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi542.00">
+            <value key="en">You do all this mean stuff to me…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi542.01">
+            <value key="en">You declare me guilty for a crime that I’m pretty sure I didn’t commit…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi542.02">
+            <value key="en">In fact, I don’t even know what the crime really WAS!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi543.00">
+            <value key="en">Something to do with your old Scalemate, or something?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi544.00">
+            <value key="en">PYR4LSP1T3 &gt;:|</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi545.00">
+            <value key="en">Yeah, him.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi546.00">
+            <value key="en">But then, you act all… flirty with me?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi546.01">
+            <value key="en">You call me cutesy nicknames…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi546.02">
+            <value key="en">You LICK me…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi546.03">
+            <value key="en">You bring me presents and want to spend time with me…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi547.00">
+            <value key="en">I have no idea what’s going on!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi548.00">
+            <value key="en">Can you please just…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi548.01">
+            <value key="en">Say what’s on your mind?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi548.02">
+            <value key="en">And not just dance around it?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi549.00">
+            <value key="en">${slot:playerName}</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi550.00">
+            <value key="en">4R3 YOU R34LLY TH1S D3NS3?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi551.00">
+            <value key="en">1… 1 R34LLY F33L TH4T 1 COULD NOT H4V3 B33N MOR3 CL34R 1F 1 TR13D!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi552.00">
+            <value key="en">M4YB3 YOU JUST DON’T F33L TH3 S4M3?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi553.00">
+            <value key="en">If… if you’re asking me if I like you…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi554.00">
+            <value key="en">I mean, kinda, yeah!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi554.01">
+            <value key="en">But I’m so confused right now…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi554.02">
+            <value key="en">And kinda scared of you.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi555.00">
+            <value key="en">I don’t know what to think.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi556.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi557.00">
+            <value key="en">OH</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi558.00">
+            <value key="en">OOOOOOOHH</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi559.00">
+            <value key="en">OH, NO!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi560.00">
+            <value key="en">${slot:playerName} D1D YOU TH1NK TH1S W4S…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi561.00">
+            <value key="en">4 R3D TH1NG?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi562.00">
+            <value key="en">Red?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi562.01">
+            <value key="en">You mean like your glasses?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi563.00">
+            <value key="en">NO DUMMY</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi564.00">
+            <value key="en">1 M34N L1K3 R3D-R3D</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi565.00">
+            <value key="en">YOU KNOW, TH3 FLUSH3D QU4DR4NT?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi566.00">
+            <value key="en">Flushed… quad…?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi567.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi567.01">
+            <value key="en">Is this another one of those times…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi568.00">
+            <value key="en">Where you say a bunch of stuff I don’t understand…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi568.01">
+            <value key="en">And then do something really awful to me? :(</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi569.00">
+            <value key="en">OH ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi570.00">
+            <value key="en">1 THOUGHT YOU UND3RSTOOD!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi571.00">
+            <value key="en">M4N 1’V3 B33N GO1NG 4BOUT TH1S TOT4LLY TH3 WRONG W4Y &gt;:\</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi572.00">
+            <value key="en">1’M SO SO SORRY!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi573.00">
+            <value key="en">4ND 1 M34N… R34LLY SORRY</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi574.00">
+            <value key="en">NOT JUST PR3T3ND1NG TO B3 SORRY SO YOU L3T YOUR GU4RD DOWN!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi576.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi577.00">
+            <value key="en">DO YOU NOT H4V3 QU4DR4NTS WH3R3 YOU COM3 FROM?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi578.00">
+            <value key="en">Um…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi578.01">
+            <value key="en">I don’t THINK so?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi579.00">
+            <value key="en">H3R3 1’LL TRY TO K33P TH1S S1MPL3</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi580.00">
+            <value key="en">ON MY PL4N3T…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi581.00">
+            <value key="en">W3 H4V3 FOUR D1FF3R3NT K1NDS OF ROM4NC3</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi582.00">
+            <value key="en">FOUR QU4DR4NTS, YOU S33?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi583.00">
+            <value key="en">TWO OF TH3M 4R3 SORT OF PL4TON1C</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi584.00">
+            <value key="en">1T’D B3 TOO MUCH TO G3T 1NTO TH3M 4LL R1GHT NOW</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi585.00">
+            <value key="en">BUT TH3 ON3S YOU N33D TO KNOW 4BOUT 4R3 R3D ROM4NC3…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi586.00">
+            <value key="en">WH1CH 1S WH4T NORM4L HUM4NS F33L 4ND WH4T 1 TH1NK YOU’V3 B33N F33L1NG FOR M3…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi587.00">
+            <value key="en">4ND BL4CK ROM4NC3</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi588.00">
+            <value key="en">WH1CH 1S WH4T 1’V3 B33N F33L1NG FOR YOU</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi589.00">
+            <value key="en">Is that as scary as it sounds…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi590.00">
+            <value key="en">K1ND OF?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi591.00">
+            <value key="en">1 DON’T R34LLY KNOW HOW TO D3SCR1B3 1T TO SOM3ON3 WHO D1DN’T GROW UP W1TH 1T</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi592.00">
+            <value key="en">B4S1C4LLY R3D LOV3 1S B4S3D ON H4V1NG N1C3 F33L1NGS 4ND LOV1NG 34CH OTH3R</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi593.00">
+            <value key="en">BUT BL4CK ROM4NC3 1S B4S3D ON H4T1NG 34CH OTH3R!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi594.00">
+            <value key="en">BUT 1N 4 MOR3 1NT3NS3, FOCUS3D W4Y…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi595.00">
+            <value key="en">1T’S TWO P3OPL3 H4T1NG 34CH OTH3R TH3 S4M3 W4Y TWO P3OPL3 M1GHT LOV3 34CH OTH3R</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi596.00">
+            <value key="en">4ND BU1LD1NG 4 R3L4T1ONSH1P B4S3D ON TH4T!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi597.00">
+            <value key="en">Like… an arch rival or something?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi598.00">
+            <value key="en">SORT OF!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi599.00">
+            <value key="en">1 GU3SS TH4T’S TH3 CLOS3ST 3QU1V4L3NT</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5100.00">
+            <value key="en">BUT K1ND4 MOR3 SP3C14L TH4N TH4T TOO</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5101.00">
+            <value key="en">WH3N YOU H4V3 BL4CK F33L1NGS FOR SOM3ON3…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5102.00">
+            <value key="en">TH3Y’R3 C4LL3D YOUR “K1SM3S1S”</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5103.00">
+            <value key="en">1’V3 B33N W4NT1NG TO M4K3 YOU MY K1SM3S1S FOR 4 LONG T1M3 NOW!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5104.00">
+            <value key="en">1F 1 H4D KNOWN YOU D1DN’T UND3RST4ND WH4T TH4T M34NT…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5105.00">
+            <value key="en">1 WOULD H4V3 B33N 4 LOT MOR3 UP FRONT 4BOUT MY F33L1NGS</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5106.00">
+            <value key="en">1’M SORRY!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5107.00">
+            <value key="en">Gosh, this is all so confusing…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5108.00">
+            <value key="en">Terezi, I’m sorry, I’m trying to understand, but…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5108.01">
+            <value key="en">I don’t think I can return your feelings.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5109.00">
+            <value key="en">I like you, but … not in that way?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5109.01">
+            <value key="en">Er, a hate way?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5110.00">
+            <value key="en">4WW, 4R3 YOU SUR3?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5111.00">
+            <value key="en">YOU H4V3N’T F3LT L1K3 YOU H4T3D M3 4T 4LL</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5112.00">
+            <value key="en">NOT ONC3</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5113.00">
+            <value key="en">1N 4LL TH3 T1M3S W3 W3R3 H4NG1NG OUT? &gt;:P</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5114.00">
+            <value key="en">Well… maybe a little, but…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5114.01">
+            <value key="en">I think it might be something only an alien can feel.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5115.00">
+            <value key="en">I don’t think it would be very healthy for me to have a “kismesis”...</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5115.01">
+            <value key="en">I can’t even begin to imagine what it would mean to have a “hate romance” with someone!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5116.00">
+            <value key="en">Anyway… what does all this have to do with my katamari and Pyralspite?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5117.00">
+            <value key="en">1 SUPPOS3 1 M1GHT 4S W3LL JUST COM3 CL34N...</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5118.00">
+            <value key="en">R3M3MB3R 1 TOLD YOU TH4T PYR4LSP1T3 D1S4PP34R3D ON TH3 V3RY S4M3 N1GHT YOU ROLL3D UP TH3 SCHOOL?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5119.00">
+            <value key="en">...Oh. I see.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5120.00">
+            <value key="en">I accidentally rolled up Pyralspite too…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5120.01">
+            <value key="en">And now he’s locked up in the principal’s office with my katamari.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5121.00">
+            <value key="en">Is that it?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5122.00">
+            <value key="en">WOW! TH4T TOOK YOU FOR3V3R TO F1GUR3 OUT</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5123.00">
+            <value key="en">YOU D3F1N1T3LY DON’T H4V3 COOL M1ND POW3RS L1K3 M3!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5124.00">
+            <value key="en">So that’s why you were interrogating me about Pyralspite…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5124.01">
+            <value key="en">And why you wanted me to break my katamari out of the weapons vault.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5125.00">
+            <value key="en">But… why didn’t you just TELL me that in the first place?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5125.01">
+            <value key="en">Why did you have to play these weird games with me?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5126.00">
+            <value key="en">B3C4US3, COTTON C4NDY…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5127.00">
+            <value key="en">B31NG HON3ST 4ND OP3N 4BOUT YOUR F33L1NGS?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5128.00">
+            <value key="en">TH4T’S SOM3TH1NG YOU DO 1N 4 R3D ROM4NC3</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5129.00">
+            <value key="en">BUT M4N1PUL4T1NG 4ND T3RR1FY1NG 4 P3RSON 1NTO DO1NG WH4T YOU W4NT…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5130.00">
+            <value key="en">TH4T’S WH4T YOU DO 1N 4 BL4CK ROM4NC3 &gt;:]</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5131.00">
+            <value key="en">Um.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5131.01">
+            <value key="en">I guess that’s…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5131.02">
+            <value key="en">Flattering?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5132.00">
+            <value key="en">...Wow. I don’t think my normal advice applies here.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5133.00">
+            <value key="en">Pac-Man?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5133.01">
+            <value key="en">H-how long have you been standing there?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5134.00">
+            <value key="en">TH1S 1S 4 PR1V4T3 CONV3RS4T1ON!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5135.00">
+            <value key="en">Maybe you kids… SHOULDN’T be true to yourselves.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5136.00">
+            <value key="en">Farewell!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5137.00">
+            <value key="en">H3H3H3, H3 SM3LLS L1K3 L3MON T4RTS &gt;:]</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5138.00">
+            <value key="en">(Hmm… what did Pac-Man mean by that?</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5138.01">
+            <value key="en">Does he mean… that I should forget what I’ve learned about normal romance…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5139.00">
+            <value key="en">And embrace Terezi’s way of life…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5139.01">
+            <value key="en">For a love that crosses the boundaries of space?!</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5140.00">
+            <value key="en">...Er, a “hate”, that is.</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5141.00">
+            <value key="en">I have no idea what to do…</value>
+        </TextAsset>
+        <TextAsset key="t_sterezi5141.01">
+            <value key="en">I’m not sure I’m ready for all this…)</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_romance" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_quad_bleachers</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="terezi" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_terezi_default_grin</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character" auto="true">
+                    <styles>
+                        <x>-99%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi524.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <ActorMove duration="0.20" target="terezi" x="15%" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi525.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi526.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi527.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <ActorImage image="@i_terezi_default_laugh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi528.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi529.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <ActorImage image="@i_terezi_default_laugh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi530.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi531.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <ActorMove duration="0.20" target="terezi" x="20%" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi532.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi533.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <ActorImage image="@i_terezi_lean_laugh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi534.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <ActorImage image="@i_terezi_lean_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi535.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi536.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi537.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <ActorImage image="@i_terezi_lean_laugh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi538.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi539.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi539.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorImage image="@i_terezi_default_huh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi540.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi541.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi542.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi542.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi542.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi543.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <ActorImage image="@i_terezi_default_huh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi544.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi545.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <ActorCrossfade duration=".333" image="@i_cousin_default_neutral_blush" opacity="1" target="cousin" />
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi546.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi546.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi546.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi546.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi547.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi548.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi548.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi548.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <ActorImage image="@i_terezi_default_resigned" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi549.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi550.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi551.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <ActorImage image="@i_terezi_default_pout" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi552.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi553.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi554.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi554.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <ActorMove duration="0.20" target="cousin" x="-25%" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi554.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi555.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi556.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <ActorImage image="@i_terezi_default_huh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi557.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi558.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi559.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <ActorImage image="@i_terezi_default_pout" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi560.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <ActorImage image="@i_terezi_lean_huh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi561.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi562.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi562.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <ActorImage image="@i_terezi_default_resigned" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi563.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi564.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi565.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi566.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi567.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi567.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi568.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi568.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi569.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi570.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <ActorImage image="@i_terezi_default_huh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi571.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <ActorImage image="@i_terezi_default_pout" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi572.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi573.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi574.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi576.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <ActorImage image="@i_terezi_default_huh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi577.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi578.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi578.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi579.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi580.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi581.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <ActorImage image="@i_terezi_lean_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi582.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi583.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <ActorImage image="@i_terezi_default_resigned" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi584.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi585.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi586.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <ActorImage image="@i_terezi_lean_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi587.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi588.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi589.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi590.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <ActorImage image="@i_terezi_default_resigned" target="terezi" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi591.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi592.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <ActorImage image="@i_terezi_lean_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi593.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi594.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi595.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi596.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi597.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <ActorImage image="@i_terezi_default_laugh" target="terezi" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi598.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi599.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <ActorImage image="@i_terezi_lean_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5100.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5101.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5102.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <ActorMove duration="0.20" target="terezi" x="15%" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5103.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <ActorImage image="@i_terezi_default_resigned" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5104.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5105.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5106.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5108.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5109.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5109.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <ActorImage image="@i_terezi_default_pout" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5110.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5111.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <ActorMove duration="0.20" target="terezi" x="10%" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5112.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5113.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5114.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5115.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5116.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <ActorImage image="@i_terezi_default_resigned" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5117.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5118.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5120.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <ActorImage image="@i_terezi_lean_laugh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5122.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5123.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5124.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5125.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5126.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5127.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <ActorImage image="@i_terezi_default_resigned" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5128.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5129.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <ActorImage image="@i_terezi_lean_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5130.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5131.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <ActorCrossfade duration=".333" image="@i_cousin_default_neutral_blush" opacity="1" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5131.02" />
+            </events>
+        </ParallelEvent>
+        <AudioCreate audioId="pacman" auto="true" layer="sfx" loop="true" name="_27" play="true" sound="@a_sfx_pacman" />
+        <ParallelEvent allowInterrupt="false" auto="true" name="_28">
+            <events>
+                <ActorMove duration="6" target="pacman" x="40%" />
+                <ActorImage delay="2" image="@i_cousin_energetic_surprise" target="cousin" />
+                <ActorMove delay="2.10" duration="0.20" target="cousin" x="-30%" />
+                <ActorImage delay="3.50" image="@i_terezi_default_huh" target="terezi" />
+                <ActorMove delay="3.60" duration="0.20" target="terezi" x="0%" />
+            </events>
+        </ParallelEvent>
+        <AudioDestroy name="_29" target="pacman" />
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sterezi5132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5133.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <ActorImage image="@i_terezi_lean_huh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5134.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sterezi5135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_sterezi5136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" auto="true" name="_2G">
+            <events>
+                <ActorMove duration="3" target="pacman" x="100%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <ActorImage image="@i_terezi_default_grin" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sterezi5137.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5138.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <ActorCrossfade duration=".333" image="@i_cousin_default_neutral_blush" opacity="1" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5139.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sterezi5141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sterezi5141.01" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_2P" scene="s_day5.5" />
+    </events>
+</scene>

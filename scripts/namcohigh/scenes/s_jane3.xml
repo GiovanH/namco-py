@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_jane3" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_sjane317.00">
+            <value key="en">Huh. It was pretty easy to sneak out of detention…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane318.00">
+            <value key="en">Of course it’s easy for a pair of super sleuths like us!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane319.00">
+            <value key="en">...I was gonna say…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane319.01">
+            <value key="en">Almost TOO easy.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane320.00">
+            <value key="en">Oh, nonsense. Don’t worry too much!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane320.01">
+            <value key="en">I brought disguises for us both, in case someone were to discover us roaming the halls when we shouldn’t.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane320.02">
+            <value key="en">Here you are! ;B</value>
+        </TextAsset>
+        <TextAsset key="t_sjane321.00">
+            <value key="en">(Fake… mustaches…)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane322.00">
+            <value key="en">I don’t know if I feel comfortable wearing this in front of you now…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane323.00">
+            <value key="en">Ahahaha! Ha. Ha…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane324.00">
+            <value key="en">Sh-shut up!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane325.00">
+            <value key="en">So where are we going anyway?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane326.00">
+            <value key="en">Hoo hoo hoo! That would be telling!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane327.00">
+            <value key="en">Uh, yeah!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane327.01">
+            <value key="en">That’s what I’m asking you to do.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane328.00">
+            <value key="en">Well, I can maybe give you a little hint.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane328.01">
+            <value key="en">I asked a friend of mine to meet us in the library, which should be empty at this hour…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane329.00">
+            <value key="en">Well, as long as we don’t run into the hall monitor, we should be fine.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane330.00">
+            <value key="en">H-halt, students!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane330.01">
+            <value key="en">Shouldn’t you be in detention?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane331.00">
+            <value key="en">Oh no…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane332.00">
+            <value key="en">Hmm? What is it?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane333.00">
+            <value key="en">There’s Meowkie…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane334.00">
+            <value key="en">the hall monitor…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane335.00">
+            <value key="en">Oh pish posh. It’s that silly “talking” cat again.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane336.00">
+            <value key="en">Perhaps it’s a puppet of some kind…?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane337.00">
+            <value key="en">I think Davesprite knows a thing or two about puppets…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane338.00">
+            <value key="en">E-excuse me?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane339.00">
+            <value key="en">HALT, CITIZENS! You should be in detention!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane340.00">
+            <value key="en">Omigosh! Who is that amazing superhero?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane340.01">
+            <value key="en">I’ve never seen her around the school before!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane341.00">
+            <value key="en">Superhero? Come on, ${slot:playerName}. Do you have a pumpkin for a brain?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane342.00">
+            <value key="en">It’s obviously just a ridiculous costume.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane343.00">
+            <value key="en">R-Rude…!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane344.00">
+            <value key="en">I know, right!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane345.00">
+            <value key="en">Jane, aren’t you at least worried that we’ve been caught?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane345.01">
+            <value key="en">We’re gonna be in SO much trouble…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane346.00">
+            <value key="en">Oh, please!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane347.00">
+            <value key="en">We can take ‘em ;B</value>
+        </TextAsset>
+        <TextAsset key="t_sjane348.00">
+            <value key="en">ROOOOAAARRRR!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane349.00">
+            <value key="en">GAH!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane349.01">
+            <value key="en">Don’t tell me you think we can take HIM…?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane350.00">
+            <value key="en">Sure, he’s just a normal guy in a mask after all!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane351.00">
+            <value key="en">Roar?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane352.00">
+            <value key="en">(How can anyone look at that guy and think “normal”...)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane353.00">
+            <value key="en">Not to worry, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane354.00">
+            <value key="en">I may look like a bespectacled nerdy girl…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane355.00">
+            <value key="en">But I can certainly hold my own in a fight!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane356.00">
+            <value key="en">Watch and learn :B</value>
+        </TextAsset>
+        <TextAsset key="t_sjane357.00">
+            <value key="en">I don’t think fighting a teacher is such a good idea…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane358.00">
+            <value key="en">(Whoah! She just pulled out … what looks like a giant red spoon?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane358.01">
+            <value key="en">Where did that come from? Did she just pull it from nowhere?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane358.02">
+            <value key="en">What on Earth is going on with this girl?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane359.00">
+            <value key="en">Strife specibus… SPOONKIND!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane360.00">
+            <value key="en">Aggress!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane361.00">
+            <value key="en">(She’s grabbing my hand and running towards the others…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane361.01">
+            <value key="en">I wish she wouldn’t drag me into her death wish!)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane362.00">
+            <value key="en">S-stop!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane363.00">
+            <value key="en">Halt!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane364.00">
+            <value key="en">ROAR!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane365.00">
+            <value key="en">AUGH!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane366.00">
+            <value key="en">Hoo! :B</value>
+        </TextAsset>
+        <TextAsset key="t_sjane367.00">
+            <value key="en">(She’s just sweeping them aside with her big red spoon thing…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane367.01">
+            <value key="en">I still don’t know where the heck that came from!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane367.02">
+            <value key="en">Or how she can use it so effectively as a weapon!)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane368.00">
+            <value key="en">Have at you!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane369.00">
+            <value key="en">Nyaa-!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane370.00">
+            <value key="en">Argh!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane371.00">
+            <value key="en">Roar…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane372.00">
+            <value key="en">(I can’t watch…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane373.00">
+            <value key="en">Omigosh, she actually made it past them??</value>
+        </TextAsset>
+        <TextAsset key="t_sjane373.01">
+            <value key="en">And she’s still running…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane374.00">
+            <value key="en">Looks like… we’re actually in the clear now..)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane375.00">
+            <value key="en">Hoo hoo! Nothing like a skirmish to get the blood pumping, huh?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane376.00">
+            <value key="en">How are you doing, ${slot:playerName}? Are you alright?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane377.00">
+            <value key="en">Jane… that was amazing!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane378.00">
+            <value key="en">But… I don’t understand at all!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane378.01">
+            <value key="en">What was that giant spoon thing?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane378.02">
+            <value key="en">How did you fight with it so well?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane379.00">
+            <value key="en">Where is it now?! That thing was huge…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane379.01">
+            <value key="en">You couldn’t have just put it in your pocket!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane380.00">
+            <value key="en">Huh? I’ve had that thing for forever…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane381.00">
+            <value key="en">It’s not anything special.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane382.00">
+            <value key="en">I just captchalogued it. Are you quite sure you’re alright?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane383.00">
+            <value key="en">??!!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane384.00">
+            <value key="en">Whaa…?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane385.00">
+            <value key="en">Don’t you have a fetch modus or anything? :|</value>
+        </TextAsset>
+        <TextAsset key="t_sjane386.00">
+            <value key="en">Why are you talking silly talk.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane386.01">
+            <value key="en">Use real words.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane387.00">
+            <value key="en">Maybe they call it something different where you’re from…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane388.00">
+            <value key="en">How can you deny that anything weird is going on in this school?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane388.01">
+            <value key="en">Especially now!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane388.02">
+            <value key="en">You’re like… the weirdest person I’ve ever met!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane389.00">
+            <value key="en">Hey now! Shut up!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane389.01">
+            <value key="en">There’s no call for language like that.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane390.00">
+            <value key="en">I’ve been listening to you jabber on and on about how “strange things” are going on…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane390.01">
+            <value key="en">Just because you refuse to use your brain and think about how implausible those things really are!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane391.00">
+            <value key="en">And now, you call ME weird, just because I use a technology you’re unfamiliar with?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane391.01">
+            <value key="en">I try to keep my temper under control, but ${slot:playerName}, really…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane392.00">
+            <value key="en">How would you feel if I called YOU weird?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane393.00">
+            <value key="en">But Jane…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane393.01">
+            <value key="en">I AM WEIRD!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane394.00">
+            <value key="en">I’m a little cousin of the Prince of All Cosmos…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane394.01">
+            <value key="en">I roll things up into stars and planets…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane394.02">
+            <value key="en">And I come from space!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane395.00">
+            <value key="en">See my antenna and my space suit thing?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane395.01">
+            <value key="en">I wouldn’t mind being called weird!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane396.00">
+            <value key="en">Nonsense, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane396.01">
+            <value key="en">It’s futile to try to trick me. I have the sharp eye of a master investigator, you know!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane397.00">
+            <value key="en">It’s obvious that if I were to take that space suit off you, you’d just look like a normal human!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane398.00">
+            <value key="en">…???</value>
+        </TextAsset>
+        <TextAsset key="t_sjane399.00">
+            <value key="en">...Um! Not like that!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane399.01">
+            <value key="en">Er, nevermind!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3100.00">
+            <value key="en">Just forget I said anything!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3100.01">
+            <value key="en">HOO HOO! (Stupid, stupid…)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3101.00">
+            <value key="en">H3Y J4N3</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3102.00">
+            <value key="en">YOU 4SK3D M3 TO M33T YOU 1N TH3 L1BR4RY?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3103.00">
+            <value key="en">WH4T’S UP</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3104.00">
+            <value key="en">A-HA! Perfect timing, Terezi!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3105.00">
+            <value key="en">See, ${slot:playerName}! Now I’ll prove to you how silly all your little delusions are!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3106.00">
+            <value key="en">Every single person at this school is just as normal as you or I…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3107.00">
+            <value key="en">Even my old chum Terezi!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3108.00">
+            <value key="en">WHO4H, WH4T…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3109.00">
+            <value key="en">YAH!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3110.00">
+            <value key="en">(OH MY GOSH! Jane just jumped on top on Terezi!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3111.00">
+            <value key="en">I think… I think she’s trying to yank her horns off??)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3112.00">
+            <value key="en">Hmm, these are being awfully stubborn…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3113.00">
+            <value key="en">Must be some kind of… intensely strong…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3114.00">
+            <value key="en">Cosplay… glue?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3115.00">
+            <value key="en">H-H3Y! G3T OFF!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3116.00">
+            <value key="en">1 DON’T L1K3 TO F1GHT MY FR13NDS…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3117.00">
+            <value key="en">BUT YOU L34V3 M3 NO CHO1C3!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3118.00">
+            <value key="en">(Whoah! That cane Terezi uses…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3119.00">
+            <value key="en">It’s also a sword?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3119.01">
+            <value key="en">That’s gotta be against school rules…)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3120.00">
+            <value key="en">GAH! Honestly…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3121.00">
+            <value key="en">(Wow! Jane blocked Terezi’s sword-cane with her giant spoon…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3121.01">
+            <value key="en">Seriously, where does that thing keep coming from?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3122.00">
+            <value key="en">Now they’re sparring with their weapons…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3122.01">
+            <value key="en">It looks like fighting to this is as natural to them as breathing…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3123.00">
+            <value key="en">This is kind of awesome…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3124.00">
+            <value key="en">But also… SCARY!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3124.01">
+            <value key="en">Please, someone come stop this…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3125.00">
+            <value key="en">Please!)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3126.00">
+            <value key="en">ROOOARRR!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3127.00">
+            <value key="en">H-he says “You’re all in big trouble!”</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3128.00">
+            <value key="en">(...Be careful what you wish for.)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3129.00">
+            <value key="en">(So we all got in big trouble.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3129.01">
+            <value key="en">Terezi’s in there with Principal Dig Dug now, explaining what happened…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3129.02">
+            <value key="en">King said Jane and I have double detention now.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3130.00">
+            <value key="en">Whatever that means..)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3131.00">
+            <value key="en">...Maybe it’s a full-body suit with the hair and horns attached?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3131.01">
+            <value key="en">That would explain why pulling on the horns wouldn’t loosen them.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3132.00">
+            <value key="en">It would also explain why the gray bodypaint doesn’t get rubbed off from time to time!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3133.00">
+            <value key="en">Seriously?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3133.01">
+            <value key="en">You STILL don’t think anything’s abnormal?!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3134.00">
+            <value key="en">You fought one of your friends with a SWORD today!</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3135.00">
+            <value key="en">What’s abnormal about that…?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3135.01">
+            <value key="en">Don’t be ridiculous.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3136.00">
+            <value key="en">AUGH! You are the most frustrating person I’ve ever met…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3137.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3138.00">
+            <value key="en">I’m sorry…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3139.00">
+            <value key="en">I’m not trying to frustrate anyone. :|</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3140.00">
+            <value key="en">I’m just trying to show you what’s what.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3141.00">
+            <value key="en">But… I already feel like I know what’s what.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3141.01">
+            <value key="en">Can’t you trust what I have to say?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3142.00">
+            <value key="en">...I’m not going to change what I think just because you tell me you see things differently.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3143.00">
+            <value key="en">(...I guess that’s fair.)</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3144.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3145.00">
+            <value key="en">In any case…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3146.00">
+            <value key="en">I’m sorry we got in trouble, but…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3147.00">
+            <value key="en">I’m glad you came with me today.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3148.00">
+            <value key="en">I hope, er… Well, that is…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3149.00">
+            <value key="en">This sort of thing is hard for me to say…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3150.00">
+            <value key="en">I hope you, um… had fun too?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3151.00">
+            <value key="en">At least a little bit…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3152.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3153.00">
+            <value key="en">Are you kidding?</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3154.00">
+            <value key="en">Of course I did.</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3155.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sjane3156.00">
+            <value key="en">You’re a good friend, ${slot:playerName}. :B</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_aroundtown" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane317.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_hallway_a</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>3</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="king" actorType="character">
+                    <styles>
+                        <x>99%</x>
+                        <image>@i_king_screaming</image>
+                        <depth>2</depth>
+                        <scaleX>-1</scaleX>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="jane" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_jane_default_grin</image>
+                        <depth>3</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="terezi" actorType="character">
+                    <styles>
+                        <x>99%</x>
+                        <image>@i_terezi_default_grin</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="meowkie" actorType="character">
+                    <styles>
+                        <x>-99%</x>
+                        <image>@i_meowkie_akimbo_alert_badge</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="amazona" actorType="character">
+                    <styles>
+                        <x>-99%</x>
+                        <image>@i_amazona_default_focus</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_grin" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane318.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane319.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane319.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <ActorImage image="@i_jane_default_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane320.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane320.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <ActorImage image="@i_jane_default_grin" target="jane" />
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane320.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane321.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane322.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <ActorImage image="@i_jane_default_laugh_blush" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane323.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <ActorImage image="@i_jane_default_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane324.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane325.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <ActorImage image="@i_jane_default_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane326.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane327.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane327.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane328.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane328.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane329.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorMove duration="0.70" target="meowkie" x="-20%" />
+                <ActorImage delay=".5" image="@i_jane_default_grin_mustache" target="jane" />
+                <ActorMove delay="0.5" duration="0.20" target="jane" x="35%" />
+                <ActorImage delay=".5" image="@i_cousin_energetic_surprise" target="cousin" />
+                <ActorMove delay="0.5" duration="0.20" target="cousin" x="8%" />
+                <TextEvent char="@t_ch_meowkie" text="@t_sjane330.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_sjane330.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorFlip duration="0.20" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane331.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane332.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane333.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane334.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <ActorImage image="@i_jane_default_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane335.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane336.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane337.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <ActorImage image="@i_meowkie_normal_frown_badge" target="meowkie" />
+                <TextEvent char="@t_ch_meowkie" text="@t_sjane338.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorMove duration="0.70" target="amazona" x="-35%" />
+                <TextEvent char="@t_ch_amazona" text="@t_sjane339.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane340.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane340.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane341.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_laugh_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane342.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <ActorImage image="@i_amazona_default_shocked" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_sjane343.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <ActorImage image="@i_meowkie_slouch_frown_badge" target="meowkie" />
+                <TextEvent char="@t_ch_meowkie" text="@t_sjane344.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane345.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane345.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <ActorImage image="@i_jane_default_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane346.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane347.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <AudioOneShot sound="@a_sfx_kingroar3" />
+                <ActorMove duration="0.70" target="king" x="50%" />
+                <ActorMove delay="0.25" duration="0.20" target="jane" x="15%" />
+                <TextEvent char="@t_ch_king" text="@t_sjane348.00" />
+                <ActorMove delay=".25" duration=".25" target="cousin" x="-10%" />
+                <ActorFlip duration=".25" target="cousin" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorMove delay=".25" duration=".25" target="amazona" x="-45%" />
+                <ActorMove delay=".25" duration=".25" target="meowkie" x="-30%" />
+                <ActorImage image="@i_amazona_default_focus" target="amazona" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane349.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane349.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane350.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <ActorImage image="@i_king_confident" target="king" />
+                <TextEvent char="@t_ch_king" text="@t_sjane351.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane352.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane353.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane354.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_laugh_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane355.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane356.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane357.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorImage image="@i_jane_spoon_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane358.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane358.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane358.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane359.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <ActorImage image="@i_jane_spoon_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane360.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane361.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane361.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <ActorImage image="@i_meowkie_normal_alert_badge" target="meowkie" />
+                <TextEvent char="@t_ch_meowkie" text="@t_sjane362.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <ActorImage image="@i_amazona_default_shocked" target="amazona" />
+                <TextEvent char="@t_ch_amazona" text="@t_sjane363.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <ActorImage image="@i_king_screaming" target="king" />
+                <TextEvent char="@t_ch_king" text="@t_sjane364.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane365.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <ActorImage image="@i_jane_spoon_laugh_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane366.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane367.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane367.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane367.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <ActorImage image="@i_jane_spoon_grin_mustache" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane368.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_sjane369.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration="0.20" name="_15" target="meowkie" to="0" />
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_amazona" text="@t_sjane370.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration="0.20" name="_17" target="amazona" to="0" />
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent char="@t_ch_king" text="@t_sjane371.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration="0.20" name="_19" target="king" to="0" />
+        <ParallelEvent name="_1A">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane372.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane373.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane373.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane374.00" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_library" curtainActor="curtain" curtainFadeTime="0.75" name="_1E">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" name="_0" target="cousin" />
+                <ActorMove name="_1" target="jane" x="20%" />
+                <ActorImage image="@i_jane_handonhip_laugh" name="_2" target="jane" />
+                <ActorTransform name="_3" scaleX="1" target="cousin" x="-20%" />
+                <ActorTransform name="_4" scaleX="-1" target="king" x="100%" />
+                <ActorFade name="_5" opacity="1" target="king" />
+                <ActorFade name="_6" opacity="1" target="meowkie" />
+                <ActorTransform name="_7" scaleX="-1" target="meowkie" x="100%" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_1F">
+            <events>
+                <ActorImage image="@i_jane_handonhip_laugh" target="jane" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane375.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <ActorImage image="@i_jane_handonhip_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane376.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane377.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane378.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane378.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane378.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane379.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane379.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <ActorImage image="@i_jane_default_grin" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane380.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane381.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane382.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane383.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane384.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_frustrated" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane385.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane386.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane386.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane387.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane388.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane388.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane388.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_frustrated" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane389.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane389.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane390.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane390.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane391.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_embarrassed" target="jane" />
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane391.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane392.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane393.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane393.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane394.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane394.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane394.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane395.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane395.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane396.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane396.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <ActorImage image="@i_jane_handonhip_grin" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane397.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane398.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_embarrassed_blush" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane399.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane399.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_laugh_blush" target="jane" />
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane3100.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <ActorImage image="@i_jane_default_smile" target="jane" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_terezi" text="@t_sjane3101.00" transform="terezi" />
+                <ActorMove duration="0.5" target="terezi" x="35%" />
+                <ActorMove delay=".333" duration="0.20" target="jane" x="0%" />
+                <ActorMove delay=".5" duration=".25" target="cousin" x="-30%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sjane3102.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sjane3103.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <ActorImage image="@i_jane_default_grin" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <ActorImage image="@i_jane_handonhip_laugh" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <ActorImage image="@i_terezi_default_huh" target="terezi" />
+                <TextEvent char="@t_ch_terezi" text="@t_sjane3108.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <ActorImage image="@i_jane_handonhip_grin" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3109.00" />
+                <ActorMove duration=".25" target="jane" x="10%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <ActorImage image="@i_jane_default_frustrated" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sjane3115.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sjane3116.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sjane3117.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3119.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <ActorImage image="@i_jane_spoon_frustrated" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3121.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3122.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3124.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <ActorMove duration="0.70" target="king" x="50%" />
+                <ActorMove delay="0.10" duration="0.20" target="cousin" x="-30%" />
+                <ActorMove delay="0.10" duration="0.20" target="jane" x="-10%" />
+                <ActorImage image="@i_jane_default_smile" target="jane" />
+                <ActorMove delay="0.10" duration="0.20" target="terezi" x="10%" />
+                <TextEvent char="@t_ch_king" text="@t_sjane3126.00" />
+                <ActorMove delay=".10" duration=".25" target="cousin" x="-35%" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <AudioOneShot sound="@a_sfx_kingroar2" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <ActorMove duration="0.70" target="meowkie" x="35%" />
+                <TextEvent char="@t_ch_meowkie" text="@t_sjane3127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3128.00" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_hallway_b" curtainActor="curtain" curtainFadeTime="0.75" name="_2R">
+            <events>
+                <ActorTransform name="_0" target="cousin" x="-20%" />
+                <ActorTransform name="_1" target="jane" x="20%" />
+                <ActorFade name="_2" opacity="0" target="terezi" />
+                <ActorFade name="_3" opacity="0" target="meowkie" />
+                <ActorFade name="_4" opacity="0" target="king" />
+                <ActorImage image="@i_cousin_default_mortified" name="_5" target="cousin" />
+                <ActorImage image="@i_jane_armscrossed_frustrated" name="_6" target="jane" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3129.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3129.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane3131.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3133.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_grin" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent append="true" char="@t_ch_jane" text="@t_sjane3135.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_embarrassed" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3137.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_frustrated" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sjane3141.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <ActorImage image="@i_jane_armscrossed_frustrated" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <ActorImage image="@i_jane_default_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <ActorImage image="@i_jane_default_embarrassed_blush" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <ActorImage image="@i_jane_default_smile" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <ActorImage image="@i_jane_default_grin" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sjane3154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sjane3155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <ActorImage image="@i_jane_default_laugh" target="jane" />
+                <TextEvent char="@t_ch_jane" text="@t_sjane3156.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_30" scene="s_day4" />
+    </events>
+</scene>

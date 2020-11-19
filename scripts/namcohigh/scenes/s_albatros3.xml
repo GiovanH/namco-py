@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_albatros3" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_salbatros30.00">
+            <value key="en">(Hmm, Al said he’d be up here…)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros31.00">
+            <value key="en">(Maybe I missed him.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros32.00">
+            <value key="en">(Unless he’s in disguise!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros33.00">
+            <value key="en">(As a, uh, hmm. One of those twirly roof vent things?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros34.00">
+            <value key="en">${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros35.00">
+            <value key="en">(Or I was a little early.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros36.00">
+            <value key="en">I thought you’d be here.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros37.00">
+            <value key="en">You told me to meet you here, so yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros38.00">
+            <value key="en">You always do what you’re told?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros39.00">
+            <value key="en">Sometimes I never do what I’m told.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros310.00">
+            <value key="en">Some other times, I always do.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros311.00">
+            <value key="en">(Yeah, way to sound mysterious, ${slot:playerName}!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros312.00">
+            <value key="en">(That makes you all kinds of alluring.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros313.00">
+            <value key="en">You’re quite a mystery, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros314.00">
+            <value key="en">(Ha! I knew it!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros315.00">
+            <value key="en">I brought you up here for a reason.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros316.00">
+            <value key="en">(Probably for his criminal justice club.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros317.00">
+            <value key="en">(Ooh, maybe we’re doing a stakeout!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros318.00">
+            <value key="en">I wanted you to meet a “friend” of mine.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros319.00">
+            <value key="en">(Whoa, introducing me to his friends already?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros320.00">
+            <value key="en">(Things are moving so fast!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros321.00">
+            <value key="en">Only problem is…</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros321.01">
+            <value key="en">...SHE’S A CRIMINAL!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros322.00">
+            <value key="en">Oh no! And you’re in the criminal justice club!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros323.00">
+            <value key="en">SO CONFLICTED!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros323.01">
+            <value key="en">(Being conflicted is a very romantic and grown up thing to do.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros324.00">
+            <value key="en">(It’s like Al is a film noir protagonist!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros325.00">
+            <value key="en">(I guess! Dunno, film studies is more like a college thing after all.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros326.00">
+            <value key="en">(But it sounds good!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros327.00">
+            <value key="en">So, when you meet, you’ll have to give her the secret criminal handshake or she won’t trust you.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros328.00">
+            <value key="en">(Wow, I was right the first time.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros329.00">
+            <value key="en">(This is so a stakeout!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros330.00">
+            <value key="en">I brought you up here so you could show me the handshake in private.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros331.00">
+            <value key="en">Where no one else in school would see it and then enter the world of crime.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros332.00">
+            <value key="en">The secret criminal handshake...</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros332.01">
+            <value key="en">(How am I supposed to show Al how to do a thing I don’t even know?!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros333.00">
+            <value key="en">Um. Sure.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros334.00">
+            <value key="en">It goes like…</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros334.01">
+            <value key="en">(Uh, ummmmmmm. Just make it up! Here goes nothing.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros335.00">
+            <value key="en">You start by going up.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros336.00">
+            <value key="en">And then, um. Further up.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros337.00">
+            <value key="en">That’s the key to it. So you know something is “UP.” Like the jig maybe. That’s criminal talk.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros338.00">
+            <value key="en">And then, uh, because you’re so high up now, you have to bring it back down.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros338.01">
+            <value key="en">(Can’t believe I’m holding hands with Al already!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros339.00">
+            <value key="en">(I guess technically we’re not REALLY holding hands…)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros340.00">
+            <value key="en">(But technically we are too!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros340.01">
+            <value key="en">(Um. Where was I with the handshake?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros341.00">
+            <value key="en">(Oh, right!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros341.01">
+            <value key="en">Uh, yeah. So, then you take it down a notch.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros342.00">
+            <value key="en">Down again?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros343.00">
+            <value key="en">Uh, sure. Yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros343.01">
+            <value key="en">(Did I do two downs by accident? Oh, whatever!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros344.00">
+            <value key="en">And then you sort of go to the left with it.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros345.00">
+            <value key="en">Uh, and then back right.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros346.00">
+            <value key="en">Because if you kept going left it’d look a little weird.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros347.00">
+            <value key="en">But then you do it again so they know it wasn’t a fluke.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros348.00">
+            <value key="en">What, left and right twice then?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros349.00">
+            <value key="en">Uh…?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros350.00">
+            <value key="en">Yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros350.01">
+            <value key="en">(I guess!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros351.00">
+            <value key="en">And then you finish it up by going “Big Another Start.”</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros352.00">
+            <value key="en">And, like, normal people will just think it’s nonsense. But another criminal would know what you meant was the same words only reversed.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros353.00">
+            <value key="en">“Start Another Big.”</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros354.00">
+            <value key="en">And the response they give to that is “Crime.”</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros355.00">
+            <value key="en">And THAT is your criminal code.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros356.00">
+            <value key="en">(Hey, that sounded pretty good!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros357.00">
+            <value key="en">(Boy, Al sure is taking a lot of notes.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros358.00">
+            <value key="en">Even the handshake of crime is devious!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros359.00">
+            <value key="en">(I will just assume I randomly guessed it completely right!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros360.00">
+            <value key="en">(WHAT WERE THE ODDS!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros361.00">
+            <value key="en">I think you’re ready to meet my “friend.”</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros362.00">
+            <value key="en">Let’s go to the secret criminal meeting place.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros363.00">
+            <value key="en">(Skipping school AND leaving school grounds?!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros364.00">
+            <value key="en">(This is truly dangerous stuff we’re up to.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros365.00">
+            <value key="en">Are we stopping for a latte?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros366.00">
+            <value key="en">This is the secret criminal hangout spot.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros367.00">
+            <value key="en">It’s why we hold all the criminal justice club meetings here.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros368.00">
+            <value key="en">(That makes sense.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros369.00">
+            <value key="en">(In a way…?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros370.00">
+            <value key="en">I’ll introduce you to my “friend.”</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros371.00">
+            <value key="en">You’ll give her the criminal code handshake.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros372.00">
+            <value key="en">And then you guys just...talk.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros373.00">
+            <value key="en">Freely and as if no one is recording you for evidence.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros374.00">
+            <value key="en">(Ha! That’s easy. I talk like that all the time!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros375.00">
+            <value key="en">Here she is.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros376.00">
+            <value key="en">${slot:playerName}. Meet Codename Condor.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros377.00">
+            <value key="en">(Sheesh, and I thought Galaga Ship was a dumb name.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros378.00">
+            <value key="en">You know that’s not my name, AL.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros379.00">
+            <value key="en">I MEAN CONNIE!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros380.00">
+            <value key="en">Hrm.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros381.00">
+            <value key="en">Anyway. Hello, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros382.00">
+            <value key="en">Pleased to meet you.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros382.01">
+            <value key="en">(Wait! Maybe I shouldn’t be so polite.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros383.00">
+            <value key="en">(Are criminals polite to one another as a matter of course?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros384.00">
+            <value key="en">(Honor among thieves, that’s totally a saying, right?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros385.00">
+            <value key="en">(Maybe that extends to basic manners too?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros386.00">
+            <value key="en">I’ll just leave you two alone. I’m sure you and Codename Connie have a lot to talk about.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros387.00">
+            <value key="en">It’s JUST Connie, ALFONSO.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros388.00">
+            <value key="en">Right. Yes. Sorry.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros389.00">
+            <value key="en">My friend. Connie.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros390.00">
+            <value key="en">Thank you.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros391.00">
+            <value key="en">We can speak without reservation now that Al left us alone and is not hiding with remote listening devices to pick up on criminal activity.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros392.00">
+            <value key="en">(Ha! She doesn’t suspect a thing!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros393.00">
+            <value key="en">${slot:playerName}, I’m just a fellow student of your Namco High.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros394.00">
+            <value key="en">Really? I haven’t seen you in class...</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros395.00">
+            <value key="en">Because er, ah, I skip…</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros395.01">
+            <value key="en">EVERY CLASS!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros396.00">
+            <value key="en">(Whoa! Connie must be one of those troublemakers!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros396.01">
+            <value key="en">(And that’s why she has all those aliases!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros396.02">
+            <value key="en">(And since Al’s club is all about stopping troublemakers…)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros397.00">
+            <value key="en">(I bet he’s gonna take her down!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros398.00">
+            <value key="en">(And he’s brought me along for back up!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros399.00">
+            <value key="en">(Wow!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3100.00">
+            <value key="en">(Better play it cool.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3100.01">
+            <value key="en">Yeah? That’s no big deal.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3101.00">
+            <value key="en">I skip classes I don’t even have.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3102.00">
+            <value key="en">Wow. Hard core. I figured we would have a lot in common.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3103.00">
+            <value key="en">Therefore, I feel very comfortable talking with you about...</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3103.01">
+            <value key="en">CHEAT CODES!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3104.00">
+            <value key="en">(Ah-ha! Now I get it!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3105.00">
+            <value key="en">(Al wants me to play the part of a cheat code dealer.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3106.00">
+            <value key="en">(And then we’ll catch Connie in the act of trying to trade cheat codes with me.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3107.00">
+            <value key="en">(And then we’ll have her arrested and make the club look really productive!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3108.00">
+            <value key="en">(Wow, this is so high-stakes! Al must really trust and like me.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3108.01">
+            <value key="en">Uh, yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3109.00">
+            <value key="en">Cheat codes.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3110.00">
+            <value key="en">I totally know so much about those.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3111.00">
+            <value key="en">Good.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3112.00">
+            <value key="en">Knowing about those is what I was hoping to hear.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3113.00">
+            <value key="en">But let’s do the criminal code handshake before we get down to business.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3114.00">
+            <value key="en">(I don’t remember what I did for the handshake at all!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3114.01">
+            <value key="en">Um.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3115.00">
+            <value key="en">No.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3116.00">
+            <value key="en">No?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3117.00">
+            <value key="en">Hahaha!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3118.00">
+            <value key="en">${slot:playerName}, you passed the final criminal code test.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3118.01">
+            <value key="en">USING RUDENESS!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3119.00">
+            <value key="en">(I KNEW IT!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3120.00">
+            <value key="en">Okay, then. My gang could use some cheat codes.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3121.00">
+            <value key="en">(SHE’S IN A GANG?????)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3122.00">
+            <value key="en">(This is serious business!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3123.00">
+            <value key="en">And then we would use the cheat codes like weapons against other gangs and maybe the police.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3124.00">
+            <value key="en">Because we’re bad.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3125.00">
+            <value key="en">(You said it, lady!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3126.00">
+            <value key="en">(No wonder Al wants to put her behind bars.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3127.00">
+            <value key="en">Therefore as a plausible result of the things I just said, I’d be willing to pay top coin for cheat codes.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3128.00">
+            <value key="en">For my criminal gang.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3129.00">
+            <value key="en">If someone knew where to get them, that is.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3130.00">
+            <value key="en">(It’s all on me now!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3130.01">
+            <value key="en">(Gosh, this is such a cool club.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3131.00">
+            <value key="en">(And Al’s such a cool guy. And he’s really into me and oh crud.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3132.00">
+            <value key="en">(Need to keep my head in the game!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3133.00">
+            <value key="en">(Ahem.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3133.01">
+            <value key="en">Yeah. Cheat codes. Sure.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3134.00">
+            <value key="en">I’ve heard of those and know how they work.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3135.00">
+            <value key="en">Yes. Good. I’d like some.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3136.00">
+            <value key="en">Um. Bad ones.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3137.00">
+            <value key="en">Well, I mean, GOOD ones. Like, they should work.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3138.00">
+            <value key="en">But you’d only use them if you’re a bad person trying to get away with a big ol’ crime is what I’m saying.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3139.00">
+            <value key="en">(Like MURDER?!?!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3140.00">
+            <value key="en">Like ripping the tag off a mattress.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3141.00">
+            <value key="en">Oh.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3142.00">
+            <value key="en">Or something bigger.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3143.00">
+            <value key="en">Like...embezzling pensions.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3144.00">
+            <value key="en">Or committing mail fraud.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3145.00">
+            <value key="en">Or “retiring” from a high paying corporate position only to receive a hefty “consultation” fee from the same firm in perpetuity while courting the very politicians who determine the policy that regulates the same industry you used to blah blah blah</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3146.00">
+            <value key="en">(I’m not following any of this! But it sure sounds dangerous but also like something that’d be on the news probably?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3147.00">
+            <value key="en">(Connie is the most mature criminal I’ve ever met!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3148.00">
+            <value key="en">(Also the only one.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3148.01">
+            <value key="en">Yeah, sure.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3148.02">
+            <value key="en">You want to equip your gang with the cheat codes.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3149.00">
+            <value key="en">So you can break the law some more.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3150.00">
+            <value key="en">I dig it, daddio.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3150.01">
+            <value key="en">(Is that even a criminal lingo???)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3151.00">
+            <value key="en">Then let’s deal some cheat codes with one another.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3152.00">
+            <value key="en">Yes. Let us.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3153.00">
+            <value key="en">Yes, I ordered the latte.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3154.00">
+            <value key="en">Thank you.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3155.00">
+            <value key="en">(Wait, what’s Principal Dig Dug doing here?!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3156.00">
+            <value key="en">(An innocent life is caught in the middle of our criminal dealings!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3157.00">
+            <value key="en">${slot:playerName}?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3158.00">
+            <value key="en">(Oh no!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3159.00">
+            <value key="en">(Don’t panic, ${slot:playerName}!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3160.00">
+            <value key="en">(Just use your criminal mind to construct a lie.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3161.00">
+            <value key="en">(You can do this!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3161.01">
+            <value key="en">Uh. Nope?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3161.02">
+            <value key="en">(Hm. That lie could’ve been a little more fleshed out I guess.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3162.00">
+            <value key="en">This is the most flagrant instance of skipping I’ve seen in all my years of principal-ing!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3163.00">
+            <value key="en">You’re in for the deadliest detention of them all.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3164.00">
+            <value key="en">BATTLEDOME DETENTION!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3165.00">
+            <value key="en">(WHAT?!?!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3166.00">
+            <value key="en">You probably haven’t heard of it because…</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3166.01">
+            <value key="en">NO ONE HAS EVER SURVIVED ITS RIGORS!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3167.00">
+            <value key="en">Or been sent to it yet. It’s new.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3168.00">
+            <value key="en">You can’t do this to me!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3168.01">
+            <value key="en">(Oh, man. I hate to disappoint Al and blow the whole sting operation, but I can’t duel to the death. I like living too much!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3168.02">
+            <value key="en">I’m here on official school club spirit building business!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3169.00">
+            <value key="en">I am suspicious but listening.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3170.00">
+            <value key="en">For the Namco Anti Real Crime club!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3171.00">
+            <value key="en">I’m doing a sting!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3172.00">
+            <value key="en">Sorry, Connie.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3172.01">
+            <value key="en">(What the--!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3172.02">
+            <value key="en">(She’s already gone???)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3173.00">
+            <value key="en">Namco Anti Real Crime club, eh?</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3174.00">
+            <value key="en">It’s a shame there isn’t a fiction club. Because you could be its president!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3175.00">
+            <value key="en">Well, vice president, because of Aki.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3176.00">
+            <value key="en">But the takeaway is that there is no such thing as a Namco Anti Real Crime club!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3177.00">
+            <value key="en">That’s crazy! Al B. Tross is in the club too.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3178.00">
+            <value key="en">You think piling lie on top of lie will make the original lie stick.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3179.00">
+            <value key="en">But it won’t work for one very simple but incredibly dramatic reason.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3179.01">
+            <value key="en">THERE HASN’T BEEN AN AL B. TROSS ENROLLED AT NAMCO HIGH FOR THIRTY YEARS!!!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3180.00">
+            <value key="en">(WAS AL A GHOST ALL ALONG?!?!?!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3181.00">
+            <value key="en">Nor has there ever been an Al B. Tross enrolled at Namco High. Ever.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3182.00">
+            <value key="en">(So…)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3183.00">
+            <value key="en">(Wait, not a ghost? What?)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3184.00">
+            <value key="en">Yes, one of my hobbies is to memorize enrollment records.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3185.00">
+            <value key="en">You might think that’s crazy. Plenty do.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3186.00">
+            <value key="en">But I couldn’t have cracked the Case Of The ${slot:playerName} Who Lies About Clubs While Skipping Class without that knowledge!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3187.00">
+            <value key="en">(There’s clearly some kind of confusion here about attendance and record keeping practices. But that’s a mystery for another time.)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3188.00">
+            <value key="en">(Right now I JUST DON’T WANNA DO A BATTLEDOME!!!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3188.01">
+            <value key="en">Uh, er. You can’t take me in for skipping class.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3189.00">
+            <value key="en">We’re off school grounds. You have no authority here!</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3189.01">
+            <value key="en">(Ah-ha! The ol’ legal mumbo jumbo trick!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3190.00">
+            <value key="en">That’s true…</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3191.00">
+            <value key="en">(Whew!)</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3192.00">
+            <value key="en">Off of school grounds, I have no legal right to invoke THE BATTLEDOME.</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3193.00">
+            <value key="en">Despite my frequent lobbying to the contrary...</value>
+        </TextAsset>
+        <TextAsset key="t_salbatros3194.00">
+            <value key="en">In light of these findings, I shall commute your sentence to a mere Double Detention.</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_upbeat" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros30.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_rooftop</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="albatros" actorType="character">
+                    <styles>
+                        <opacity>1</opacity>
+                        <x>90%</x>
+                        <image>@i_albatross_welcome_smirk_wink</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros31.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros32.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros33.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <ActorMove duration=".5" target="albatros" x="20%" />
+                <ActorImage image="@i_albatross_welcome_smirk_wink" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros34.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros35.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <ActorImage image="@i_albatross_toocool_smirk" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros36.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros37.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros38.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros39.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros310.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros311.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros312.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros313.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros314.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <ActorImage image="@i_albatross_toocool_inquisitive" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros315.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros316.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros317.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros318.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros319.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros320.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros321.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <ActorImage image="@i_albatross_welcome_staredown" target="albatros" />
+                <TextEvent append="true" char="@t_ch_albatros" text="@t_salbatros321.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros322.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros323.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros323.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros324.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros325.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros326.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <ActorImage image="@i_albatross_welcome_smug" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros327.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros328.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros329.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros330.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <ActorFlip duration=".2" target="albatros" />
+                <ActorImage image="@i_albatross_fistinhand_inquisitive" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros331.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros332.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros332.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros333.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros334.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <ActorMove duration=".2" target="cousin" x="-15%" />
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros334.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros335.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros336.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros337.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <ActorMove duration="0.1" target="cousin" x="-16%" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros338.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros338.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros339.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros340.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros340.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <ActorImage auto="true" image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros341.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <ActorImage auto="true" image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros341.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorMove duration=".2" target="albatros" x="15%" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros342.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros343.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros343.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <ActorMove duration="0.1" target="cousin" x="-18%" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros344.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <ActorMove duration="0.1" target="cousin" x="-16%" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros345.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros346.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <ActorMove duration="0.1" target="cousin" x="-18%" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros347.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <ActorImage image="@i_albatross_fistinhand_distraught" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros348.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros349.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros350.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros350.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros351.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros352.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <ActorFlip duration="0.25" target="albatros" />
+                <ActorImage image="@i_albatross_notebook_staredown" target="albatros" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros353.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros354.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros355.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros356.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros357.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <ActorImage image="@i_albatross_toocool_staredown" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros358.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros359.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros360.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <ActorImage image="@i_albatross_toocool_smirk" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros361.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros362.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros363.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros364.00" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_cafe" curtainActor="curtain" curtainFadeTime="1" name="_1C">
+            <events>
+                <ActorImage image="@i_albatross_fistinhand_smirk" name="_0" target="albatros" />
+                <ActorMove auto="true" name="_1" target="albatros" x="20%" />
+                <ActorMove auto="true" name="_2" target="cousin" x="-20%" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros365.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <ActorImage image="@i_albatross_welcome_smirk" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros366.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros367.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros368.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros369.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros370.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <ActorImage image="@i_albatross_toocool_smug" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros371.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros372.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros373.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros374.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <ActorMove auto="true" duration="0.25" target="cousin" x="-28%" />
+                <ActorMove auto="true" duration="0.25" target="albatros" x="28%" />
+                <ActorCreate actorId="connie" actorType="character">
+                    <styles>
+                        <depth>1</depth>
+                        <opacity>0</opacity>
+                        <x>5%</x>
+                        <image>@i_connie_neutral</image>
+                    </styles>
+                </ActorCreate>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros375.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration=".33" name="_1O" target="connie" to="1" />
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros376.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros377.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <ActorImage image="@i_albatross_toocool_smirk_wink" target="albatros" />
+                <TextEvent char="@t_ch_condor" text="@t_salbatros378.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <ActorImage image="@i_albatross_toocool_distraught" target="albatros" />
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros379.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_condorconnie" text="@t_salbatros380.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <ActorImage image="@i_albatross_toocool_inquisitive" target="albatros" />
+                <TextEvent char="@t_ch_condorconnie" text="@t_salbatros381.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros382.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros382.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros383.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros384.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros385.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros386.00" />
+            </events>
+        </ParallelEvent>
+        <ActorImage auto="true" image="@i_albatross_fistinhand_smirk_wink" name="_1b" target="albatros" />
+        <ActorMove auto="true" duration="2" name="_1c" target="albatros" x="56%" />
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_codenameconnie" text="@t_salbatros387.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros388.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_albatros" text="@t_salbatros389.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_conniequestion" text="@t_salbatros390.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_conniequestion" text="@t_salbatros391.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros392.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros393.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros394.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros395.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent append="true" char="@t_ch_connie" text="@t_salbatros395.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros396.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros396.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <ActorImage image="@i_cousin_energetic_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros396.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <ActorImage image="@i_cousin_energetic_angry" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros397.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros398.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros399.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3100.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent append="true" char="@t_ch_connie" text="@t_salbatros3103.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3104.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3108.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3109.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3114.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <ActorImage image="@i_cousin_energetic_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3116.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3117.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent append="true" char="@t_ch_connie" text="@t_salbatros3118.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3128.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3130.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3133.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3135.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3136.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3137.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3148.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3148.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3150.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <TextEvent char="@t_ch_connie" text="@t_salbatros3151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3156.00" />
+                <ActorCreate actorId="digdug" actorType="character">
+                    <styles>
+                        <depth>3</depth>
+                        <x>80%</x>
+                        <opacity>1</opacity>
+                        <image>@i_digdug_left</image>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <ActorMove duration=".2" target="albatros" x="70%" />
+                <ActorMove duration=".2" target="cousin" x="-28%" />
+                <ActorMove duration=".2" target="connie" x="-44%" />
+                <ActorFlip target="connie" />
+                <ActorMove duration=".2" target="digdug" x="25%" />
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3157.00" transform="uppercase" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_30">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_31">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3160.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_32">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_33">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3161.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_34">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3161.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_35">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_36">
+            <events>
+                <ActorMove duration=".2" target="connie" x="-48%" />
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_37">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_38">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_39">
+            <events>
+                <ActorMove duration=".2" target="connie" x="-53%" />
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3A">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_salbatros3166.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3B">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3167.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3C">
+            <events>
+                <ActorMove duration=".2" target="connie" x="-56%" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3D">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3168.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3E">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3168.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3F">
+            <events>
+                <ActorMove duration=".2" target="connie" x="-58%" />
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3169.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3H">
+            <events>
+                <ActorMove duration=".2" target="connie" x="-75%" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3I">
+            <events>
+                <ActorFlip duration=".2" target="cousin" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3J">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3172.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3K">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3172.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3L">
+            <events>
+                <ActorFlip duration=".2" target="cousin" />
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3173.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3M">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3N">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3175.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3O">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3176.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3177.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Q">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3178.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3R">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3179.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3S">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_salbatros3179.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3T">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3180.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3U">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3181.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3V">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3182.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3183.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3X">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3184.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Y">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3185.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Z">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3186.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3a">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3187.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3b">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3188.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3c">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3188.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3189.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3e">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_salbatros3189.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3f">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3190.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_salbatros3191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3h">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3192.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3i">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3193.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3j">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_salbatros3194.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_3k" scene="s_day4" />
+    </events>
+</scene>

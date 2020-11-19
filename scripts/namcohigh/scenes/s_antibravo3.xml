@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_antibravo3" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_santibravo313.00">
+            <value key="en">Hey! Wait up!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo314.00">
+            <value key="en">Wow! He's quick!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo315.00">
+            <value key="en">Made it!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo315.01">
+            <value key="en">Wait...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo315.02">
+            <value key="en">That's weird.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo315.03">
+            <value key="en">I don't see him at all. Maybe he's up in the rafters?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo316.00">
+            <value key="en">Anyone seen Anti-Bravoman?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo317.00">
+            <value key="en">(Everyone just shrugged and went back to whatever they were doing... )</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo318.00">
+            <value key="en">(Maybe he didn't see me and went back to detention?)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo319.00">
+            <value key="en">Anti-Bravoman?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo320.00">
+            <value key="en">Hey! Has anyone seen Anti-Bravoman around?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo321.00">
+            <value key="en">Why're you looking for THAT weirdo?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo321.01">
+            <value key="en">He's not cool at ALL.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo322.00">
+            <value key="en">Aw... He's not so bad. I think he's just used to being alone, so he doesn't know how to act around people...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo323.00">
+            <value key="en">Well, I don't trust him one bit!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo323.01">
+            <value key="en">I'm sure you've heard the RUMORS, right?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo324.00">
+            <value key="en">(Rumors?)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo325.00">
+            <value key="en">Rumors?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo326.00">
+            <value key="en">Yeah! I heard that guy is SUPER evil!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo326.01">
+            <value key="en">I HATE EVIL!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo326.02">
+            <value key="en">I'm totally gonna get revenge on evil.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo327.00">
+            <value key="en">Calm down Taira. You can't just hate him because he's from our Wrestleball rival, Evil Namco High.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo328.00">
+            <value key="en">(Anti-Bravoman's from... Evil Namco High?!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo328.01">
+            <value key="en">It sounds like Valkyrie is gossiping, though...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo328.02">
+            <value key="en">But if it's true... why is Anti-Bravoman at Namco High?)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo329.00">
+            <value key="en">He IS pretty cute... For an evil guy.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo330.00">
+            <value key="en">EVIL CAN'T BE CUTE!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo331.00">
+            <value key="en">You're pretty cute... For an idiot, Taira.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo332.00">
+            <value key="en">TOO MUCH CUTENESS! RED CARD!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo333.00">
+            <value key="en">And besides, we all know I'M the cutest.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo334.00">
+            <value key="en">But Valkyrie's right... I heard he's from Evil Namco High too.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo334.01">
+            <value key="en">I heard he was really bad. You'd have to be to get kicked out of an Evil High School ...RIGHT?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo334.02">
+            <value key="en">SUPER evil.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo335.00">
+            <value key="en">He DOES fulfill a satisfactory number of points on my bad guy determinance matrix.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo336.00">
+            <value key="en">Maybe he's here as a spy!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo337.00">
+            <value key="en">A spy?!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo337.01">
+            <value key="en">Who would spy on innocent STUDENTS!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo337.02">
+            <value key="en">How terrible...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo338.00">
+            <value key="en">Wait... What if he's spyin' on us to steal all of our super secret Wrestleball strategies!!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo339.00">
+            <value key="en">Taira... Don't you just make it up as you go along?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo340.00">
+            <value key="en">THAT'S WHAT MAKES THEM SO SUPER SECRET</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo341.00">
+            <value key="en">Anyway... Why are you looking for a super evil guy, ${slot:playerName}?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo341.01">
+            <value key="en">Did he do something...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo341.02">
+            <value key="en">SUSPICIOUS?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo342.00">
+            <value key="en">N-no...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo343.00">
+            <value key="en">Uh-oh... Does he have some dirt on you? Is he blackmailing you?! You can tell us!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo344.00">
+            <value key="en">You can definitely tell us!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo345.00">
+            <value key="en">Guys... It's fine...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo345.01">
+            <value key="en">I have to go.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo346.00">
+            <value key="en">(That was... Really weird.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo346.01">
+            <value key="en">They all think Anti-Bravoman is a bad guy...)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo347.00">
+            <value key="en">(I don't know him very well, but calling him a bad guy...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo347.01">
+            <value key="en">Isn't that taking it a little far?)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo348.00">
+            <value key="en">(... Did he really come from Evil Namco High?)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo349.00">
+            <value key="en">.................</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo350.00">
+            <value key="en">I hope no one witnessed... My deep dark secret.........</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo350.01">
+            <value key="en">The secret I've been running from......</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo350.02">
+            <value key="en">Like a gazelle of darkness...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo351.00">
+            <value key="en">Anti-Bravoman?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo352.00">
+            <value key="en">AH! ${slot:playerName}! I didn't see you there!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo353.00">
+            <value key="en">I was right here.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo353.01">
+            <value key="en">You might need glasses.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo353.02">
+            <value key="en">ANYWAY!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo354.00">
+            <value key="en">I was just wondering... We were supposed to go to Poetry Club together...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo354.01">
+            <value key="en">But then you disappeared.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo355.00">
+            <value key="en">Sorry... I... I got lost!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo356.00">
+            <value key="en">I went back to the Detention room because I thought you might be back there, but you weren't...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo357.00">
+            <value key="en">And then I got to talking to the other students about you.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo357.01">
+            <value key="en">And they were saying all kinds of crazy stuff...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo358.00">
+            <value key="en">Like that you're from Evil Namco High.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo358.01">
+            <value key="en">Is that true?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo359.00">
+            <value key="en">.........</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo360.00">
+            <value key="en">...........................</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo361.00">
+            <value key="en">............ It's true.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo362.00">
+            <value key="en">${slot:playerName}... I can't tell you what to do. Or who to believe.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo363.00">
+            <value key="en">It's something... You have to decide on your own.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo364.00">
+            <value key="en">(Well... That didn't answer anything.)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo365.00">
+            <value key="en">(But... I think that's the coolest I've ever seen him.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo365.01">
+            <value key="en">I kinda got goosebumps.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo365.02">
+            <value key="en">But only a little bit.)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo366.00">
+            <value key="en">AHEM!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo367.00">
+            <value key="en">!!!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo368.00">
+            <value key="en">!!!!!!!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo369.00">
+            <value key="en">Well well well... I shouldn't be so surprised to see two of our star delinquents skipping together.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo370.00">
+            <value key="en">PRINCIPAL DIG DUG!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo371.00">
+            <value key="en">${slot:playerName}, I expect more from you...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo372.00">
+            <value key="en">And Anti-Bravoman... Is this what you're making of the chance you've been given?</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo373.00">
+            <value key="en">Sorry...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo374.00">
+            <value key="en">(Even the staff treat him differently...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo375.00">
+            <value key="en">(Like he's a charity case.)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo375.01">
+            <value key="en">He's just doing his best!)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo376.00">
+            <value key="en">Based on the level of your infraction, I'm giving you DETENTION LEVEL 217: FLOATING ISLAND PRISON DETENTION!!!!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo377.00">
+            <value key="en">If you think you're alone now... Just wait!!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo378.00">
+            <value key="en">Principal Dig Dug!! He already feels lonely... That's uncalled for!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo379.00">
+            <value key="en">It's okay, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo380.00">
+            <value key="en">See! Accept your fate, lest I call King!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo381.00">
+            <value key="en">I'll tell King you were threatening a student!</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo382.00">
+            <value key="en">(Uh-oh... Maybe I'm getting carried away... )</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo383.00">
+            <value key="en">EEP! Let's not be hasty...</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo384.00">
+            <value key="en">(After that we walked back to the detention room. I didn't realize it at first, but any other student would have said something... ANYTHING.)</value>
+        </TextAsset>
+        <TextAsset key="t_santibravo385.00">
+            <value key="en">(But Anti-Bravoman just listened and accepted it. I think he's trying really hard to make his time at Namco High work.)</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_school" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_cafe</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_energetic_surprise</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="donko" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>20%</x>
+                        <image>@i_donko_default_wink</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="antibravo" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>20%</x>
+                        <image>@i_abm_default_broody</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="miller" actorType="character">
+                    <styles>
+                        <opacity>1</opacity>
+                        <y>100%</y>
+                        <x>30%</x>
+                        <image>@i_miller_aliens_serious</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="tomari" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>30%</x>
+                        <image>@i_tomari_standing_mortified</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="taira" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>20%</x>
+                        <image>@i_taira_steveholt_happy</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="valkyrie" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>30%</x>
+                        <image>@i_valkyrie_default_wink</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="albatros" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>-80%</x>
+                        <image>@i_albatross_toocool_staredown</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo313.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo314.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo315.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo315.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo315.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo315.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo316.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo317.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo318.00" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_classroom_a" curtainActor="curtain" curtainFadeTime=".75" name="_9">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" name="_0" target="cousin" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_A">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo319.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo320.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <FadeEvent duration="0.5" target="donko" to="1" />
+                <ActorImage image="@i_donko_akimbo_meloncholic" target="donko" />
+                <TextEvent char="@t_ch_donko" text="@t_santibravo321.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_santibravo321.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo322.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_santibravo323.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <ActorImage image="@i_donko_ygg_meloncholic" target="donko" />
+                <TextEvent append="true" char="@t_ch_donko" text="@t_santibravo323.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo324.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo325.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration="0.5" name="_J" target="donko" to="0" />
+        <ParallelEvent name="_K">
+            <events>
+                <FadeEvent duration="0.5" target="taira" to="1" />
+                <ActorImage image="@i_taira_steveholt_serious" target="taira" />
+                <TextEvent char="@t_ch_taira" text="@t_santibravo326.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <ActorImage image="@i_taira_revenge_serious" target="taira" />
+                <TextEvent append="true" char="@t_ch_taira" text="@t_santibravo326.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <ActorImage image="@i_taira_revenge_serious" target="taira" />
+                <TextEvent append="true" char="@t_ch_taira" text="@t_santibravo326.02" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration="0.5" name="_N" target="taira" to="0" />
+        <ParallelEvent name="_O">
+            <events>
+                <FadeEvent duration="0.5" target="valkyrie" to="1" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_santibravo327.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo328.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo328.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo328.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorImage image="@i_valkyrie_default_thoughtful" target="valkyrie" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_santibravo329.00" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" name="_T" target="taira" x="-20%" />
+        <ParallelEvent name="_U">
+            <events>
+                <FadeEvent duration="0.25" target="cousin" to="0" />
+                <FadeEvent duration="0.25" target="taira" to="1" />
+                <TextEvent char="@t_ch_taira" text="@t_santibravo330.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <ActorImage image="@i_valkyrie_default_wink" target="valkyrie" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_santibravo331.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_santibravo332.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <FadeEvent duration="0.25" target="valkyrie" to="0" />
+                <FadeEvent duration="0.25" target="donko" to="1" />
+                <ActorImage image="@i_donko_default_wink" target="donko" />
+                <TextEvent char="@t_ch_donko" text="@t_santibravo333.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_santibravo334.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <ActorImage image="@i_donko_default_meloncholic" target="donko" />
+                <TextEvent append="true" char="@t_ch_donko" text="@t_santibravo334.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_santibravo334.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_b">
+            <events>
+                <ActorMove target="tomari" x="-20%" />
+                <ActorFlip target="tomari" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <FadeEvent duration="0.25" target="taira" to="0" />
+                <FadeEvent duration="0.25" target="tomari" to="1" />
+                <TextEvent char="@t_ch_tomari" text="@t_santibravo335.00" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" name="_d" target="miller" x="20%" />
+        <ParallelEvent name="_e">
+            <events>
+                <FadeEvent duration="0.25" target="donko" to="0" />
+                <ActorMove duration="0.5" target="miller" y="0%" />
+                <ActorImage image="@i_miller_aliens_contemplative" target="miller" />
+                <TextEvent char="@t_ch_richard" text="@t_santibravo336.00" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" name="_f" target="albatros" x="-20%" />
+        <ParallelEvent name="_g">
+            <events>
+                <FadeEvent duration="0.25" target="tomari" to="0" />
+                <FadeEvent duration="0.25" target="albatros" to="1" />
+                <TextEvent char="@t_ch_albatros" text="@t_santibravo337.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent append="true" char="@t_ch_albatros" text="@t_santibravo337.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent append="true" char="@t_ch_albatros" text="@t_santibravo337.02" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" name="_j" target="taira" x="20%" />
+        <ParallelEvent name="_k">
+            <events>
+                <ActorImage image="@i_taira_revenge_serious" target="taira" />
+                <FadeEvent duration="0.25" target="miller" to="0" />
+                <FadeEvent duration="0.25" target="taira" to="1" />
+                <TextEvent char="@t_ch_taira" text="@t_santibravo338.00" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" name="_l" target="valkyrie" x="-20%" />
+        <ParallelEvent name="_m">
+            <events>
+                <FadeEvent duration="0.25" target="albatros" to="0" />
+                <FadeEvent duration="0.25" target="valkyrie" to="1" />
+                <ActorFlip target="valkyrie" />
+                <ActorImage image="@i_valkyrie_akimbo_bored" target="valkyrie" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_santibravo339.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <ActorImage image="@i_taira_steveholt_happy" target="taira" />
+                <TextEvent char="@t_ch_taira" text="@t_santibravo340.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <FadeEvent duration="0.25" target="taira" to="0" />
+                <FadeEvent duration="0.25" target="donko" to="1" />
+                <ActorFlip target="donko" />
+                <ActorImage image="@i_donko_ygg_meloncholic" target="donko" />
+                <TextEvent char="@t_ch_donko" text="@t_santibravo341.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <FadeEvent duration="0.25" target="valkyrie" to="0" />
+                <FadeEvent duration="0.25" target="cousin" to="1" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_donko" text="@t_santibravo341.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent append="true" char="@t_ch_donko" text="@t_santibravo341.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo342.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_donko" text="@t_santibravo343.00" />
+            </events>
+        </ParallelEvent>
+        <ActorFlip auto="true" name="_t" target="valkyrie" />
+        <ActorMove auto="true" name="_u" target="valkyrie" x="70%" />
+        <FadeEvent auto="true" duration="0.2" name="_v" target="valkyrie" to="1" />
+        <ParallelEvent name="_w">
+            <events>
+                <ActorMove auto="true" duration="0.5" target="valkyrie" x="40%" />
+                <ActorImage image="@i_valkyrie_default_wink" target="valkyrie" />
+                <TextEvent char="@t_ch_valkyrie" text="@t_santibravo344.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <ActorMove auto="true" duration="0.5" target="valkyrie" x="70%" />
+                <FadeEvent auto="true" duration="0.2" target="valkyrie" to="0" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo345.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo345.01" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_hallway_b" curtainActor="curtain" curtainFadeTime=".75" name="_z">
+            <events>
+                <FadeEvent auto="true" duration="0" name="_0" target="donko" to="0" />
+                <ActorImage image="@i_cousin_default_neutral" name="_1" target="cousin" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_10">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo346.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo346.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo347.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo347.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo348.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <FadeEvent duration="0.5" target="antibravo" to="1" />
+                <ActorImage image="@i_abm_shadowknows_broody" target="antibravo" />
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo349.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo350.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent append="true" char="@t_ch_antibravo" text="@t_santibravo350.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent append="true" char="@t_ch_antibravo" text="@t_santibravo350.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo351.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <ActorImage image="@i_abm_default_surprised" target="antibravo" />
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo352.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <ActorFlip target="antibravo" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo353.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo353.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo353.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo354.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo354.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo355.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo356.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo357.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo357.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo358.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo358.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo359.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <ActorImage image="@i_abm_default_sad" target="antibravo" />
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo360.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo361.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo362.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <ActorImage image="@i_abm_shadowknows_broody" target="antibravo" />
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo363.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo364.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral_blush" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo365.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo365.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <ActorCreate actorId="digdug" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>30%</x>
+                        <image>@i_digdug_left</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo365.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <ActorFlip target="antibravo" />
+                <ActorMove duration="0.33" target="cousin" x="-35%" />
+                <ActorMove duration="0.33" target="antibravo" x="-15%" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <ActorImage image="@i_abm_shadowknows_surprised" target="antibravo" />
+                <FadeEvent duration="0.5" target="digdug" to="1" />
+                <ActorImage image="@i_digdug_left" target="digdug" />
+                <TextEvent char="@t_ch_digdug" text="@t_santibravo366.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo367.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo368.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_santibravo369.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo370.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_digdug" text="@t_santibravo371.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_santibravo372.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <ActorImage image="@i_abm_default_sad" target="antibravo" />
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo373.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo374.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo375.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_santibravo375.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_santibravo376.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_santibravo377.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo378.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_antibravo" text="@t_santibravo379.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_santibravo380.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <ActorImage image="@i_cousin_default_angry" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo381.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo382.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_santibravo383.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <FadeEvent auto="true" duration="2" target="digdug" to="0" />
+                <FadeEvent auto="true" duration="2" target="antibravo" to="0" />
+                <FadeEvent auto="true" duration="2" target="bg" to="0" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <ActorMove duration="2" target="cousin" x="0%" />
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo384.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_santibravo385.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_1q" scene="s_day4" />
+    </events>
+</scene>

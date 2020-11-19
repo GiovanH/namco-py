@@ -1,0 +1,2196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_bluemax1" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_sbluemax138.00">
+            <value key="en">(It’s a little past “noon hundred.” Hope I’m not too late!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax139.00">
+            <value key="en">Acting president Blue Max, please call to order today’s meeting of the official Namco High Military History Club!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax140.00">
+            <value key="en">(Ack! Hope I haven’t missed too much!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax141.00">
+            <value key="en">Thank you, Secretary Blue Max. I hereby call this meeting to order. Acting President Blue Max recognizes Treasurer Blue Max.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax141.01">
+            <value key="en">Thank you, Acting President Blue Max. I’d like to begin with the budgetary committee report commission survey.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax142.00">
+            <value key="en">(What the…?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax143.00">
+            <value key="en">(Is Max talking to himself?)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax144.00">
+            <value key="en">The numbers are in. There’s only one way to raise the neccessary funds to see SECRET PROJECT SUPER PLANE come to fruition.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax145.00">
+            <value key="en">A bake sale.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax146.00">
+            <value key="en">Um. Hello?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax147.00">
+            <value key="en">Please save your applause for the end.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax148.00">
+            <value key="en">Now, it is the opinion of the Treasury department that cookies would provide the club with the most favorable flavor to cost to profit ratios.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax149.00">
+            <value key="en">Max?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax150.00">
+            <value key="en">I cannot present this report survey commission to the committee if I am to be interrupted! I was promised three minutes of floor time.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax151.00">
+            <value key="en">I, Acting President Blue Max, hereby call to recess the Military History Club pending review of new member protocols.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax152.00">
+            <value key="en">The Treasury objects to this course of action!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax153.00">
+            <value key="en">TREASURER, YOU WILL STEP DOOOOOWN!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax154.00">
+            <value key="en">Hey, ${slot:playerName}! I was starting to think you wouldn’t show up!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax155.00">
+            <value key="en">Did I…</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax156.00">
+            <value key="en">What just happened?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax157.00">
+            <value key="en">Oh, you conducted a serious breach of club etiquette, but don’t worry.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax158.00">
+            <value key="en">I’m the club’s Acting President, Vice President, Treasurer, Adjutant, Viceroy, Ambassador, Minority Whip, Secretary of State, and Grand Royal Chancellor.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax159.00">
+            <value key="en">So, I can probably pull a few favors and still secure a solid 5 to 4 majority vote to get you into the club.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax160.00">
+            <value key="en">(That sounds like a close shave…)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax160.01">
+            <value key="en">Wait, if you’re doing everything else, then why are you only the Acting President?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax161.00">
+            <value key="en">Oh, Aki Matsuo is club president, but she’s never around!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax162.00">
+            <value key="en">I step in and keep the club moving in her absence.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax163.00">
+            <value key="en">Sounds like you’ve got a lot of responsibilities around here. Is there anything left for me to do?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax164.00">
+            <value key="en">Of course! You can be the guy who records the minutes of every meeting.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax165.00">
+            <value key="en">Hrmmm.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax165.01">
+            <value key="en">(That sounds kind of boring, but what the heck, I like helping.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax165.02">
+            <value key="en">Sure.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax166.00">
+            <value key="en">Okay. Just be sure to record the name of everyone who speaks.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax167.00">
+            <value key="en">Uh, but aren’t you and I the only people here?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax168.00">
+            <value key="en">Yeah! So, it should be super easy for you, right?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax169.00">
+            <value key="en">Hm, yeah. Good point!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax170.00">
+            <value key="en">As Acting President, I hereby bring this meeting back to a state of order.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax171.00">
+            <value key="en">${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax172.00">
+            <value key="en">You’re not writing!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax173.00">
+            <value key="en">Oh, right!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax174.00">
+            <value key="en">Sorry!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax175.00">
+            <value key="en">Ahem.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax176.00">
+            <value key="en">Director of the Treasury Blue Max please continue regarding the previous motion concerning revenue shortfalls i.e. funding, re: the SECRET PROJECT SUPER PLANE.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax177.00">
+            <value key="en">Yes, thank you Acting President Blue Max.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax178.00">
+            <value key="en">(Uh, I’m already a little confused?)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax179.00">
+            <value key="en">You’ll note in Section 4 of the report--</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax180.00">
+            <value key="en">Oh, ${slot:playerName}, I didn’t bring enough for everyone. You’ll have to share.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax181.00">
+            <value key="en">Okay. Should I write that part?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax182.00">
+            <value key="en">Yes. And that part.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax183.00">
+            <value key="en">And this part.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax184.00">
+            <value key="en">Those parts too?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax185.00">
+            <value key="en">And this!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax186.00">
+            <value key="en">Okay, so Section 4 details potential cookie varieties via cost analysis, time table of deliverables, sales projections using the previous quarter’s national and local sales as a baseline cross-referenced with demographics.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax187.00">
+            <value key="en">Chocolate chip is the clear leader.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax188.00">
+            <value key="en">(Uh, I got most of that…?)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax189.00">
+            <value key="en">(This is awfully complicated for a report to himself!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax189.01">
+            <value key="en">Max, what is all this stuff about anyway?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax190.00">
+            <value key="en">Tsk. Can’t you see the Treasury still has the floor, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax191.00">
+            <value key="en">Oh.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax192.00">
+            <value key="en">Um.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax193.00">
+            <value key="en">No?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax194.00">
+            <value key="en">Hmmm.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax195.00">
+            <value key="en">That’s a good point.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax196.00">
+            <value key="en">This was much easier to keep track of when it was just me and the potential of Aki to maybe make it to a single club meeting.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax197.00">
+            <value key="en">Maybe we should designate a committee to staff a commission to draft a report on a survey of board members to cost analyze expenditures for a different hat for each club position…</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax198.00">
+            <value key="en">Should I still be writing these parts down?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax199.00">
+            <value key="en">Probably, yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1100.00">
+            <value key="en">But, that’s okay! Because everything related to SECRET PROJECT SUPER PLANE ought to be kept off the record anyway.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1101.00">
+            <value key="en">Strictly “black ops” y’know.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1102.00">
+            <value key="en">(Not really!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1102.01">
+            <value key="en">Sure, yeah.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1103.00">
+            <value key="en">Except you were talking about hats and not the secret project.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1104.00">
+            <value key="en">Ha! That’s an old accounting trick, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1105.00">
+            <value key="en">SECRET PROJECT SUPER PLANE is funded by the discretionary budget. There’s no real oversight, so all kinds of crazy unrelated programs can be funded through it using earmarks.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1106.00">
+            <value key="en">What’s an earmark?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1107.00">
+            <value key="en">Uh, it’s uh.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1108.00">
+            <value key="en">Complicated.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1109.00">
+            <value key="en">Oh.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1110.00">
+            <value key="en">Yeah, it sounds like it would be.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1111.00">
+            <value key="en">So, you’re working on some kind of super plane then?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1112.00">
+            <value key="en">WHO TOLD YOU???</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1113.00">
+            <value key="en">(Gosh, Max sure is high strung!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1114.00">
+            <value key="en">(It’s like he’s got a lot of energy bubbling right under the surface and waiting to burst out.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1115.00">
+            <value key="en">(Uh, that sounds like it could get messy. But I mean it in a good way!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1115.01">
+            <value key="en">Um, it’s called “secret project super plane.”</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1116.00">
+            <value key="en">Mmhmm, yes, go on.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1117.00">
+            <value key="en">(Uh.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1117.01">
+            <value key="en">Okaaaay.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1118.00">
+            <value key="en">And then I took a wild guess?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1119.00">
+            <value key="en">Like, maybe, the SECRET PROJECT had something to do with a SUPER PLANE.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1120.00">
+            <value key="en">Hrm.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1121.00">
+            <value key="en">Yeah. Okay.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1122.00">
+            <value key="en">Your story checks out.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1123.00">
+            <value key="en">(It’s kind of sad that no one else is in his club. I’ve been here for five minutes and it’s crazy obvious how important this stuff is to him.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1124.00">
+            <value key="en">(But he’s got no one to share it with!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1125.00">
+            <value key="en">(Hmm! Maybe that’s why he’s giving me so much leeway with the protocols.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1126.00">
+            <value key="en">(Uh, and I guess the industrial espionage I just accidentally did?)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1127.00">
+            <value key="en">Oh!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1128.00">
+            <value key="en">We better get moving anyway.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1129.00">
+            <value key="en">Why’s that?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1130.00">
+            <value key="en">Um. No reason!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1131.00">
+            <value key="en">Except…</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1132.00">
+            <value key="en">It’s super important that we do it real soon though!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1133.00">
+            <value key="en">(Okay. Something’s sure bugging him. I’ll go along with it for now.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1133.01">
+            <value key="en">Yeah, okay, Max. Lead the way.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1134.00">
+            <value key="en">Too late!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1135.00">
+            <value key="en">I mean HIDE!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1136.00">
+            <value key="en">Under the table?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1137.00">
+            <value key="en">Hide, then ask!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1138.00">
+            <value key="en">But then DON’T ASK because we have to be quiet!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1139.00">
+            <value key="en">(Okay…)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1140.00">
+            <value key="en">(It’s not like it’s hard to get under the table.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1140.01">
+            <value key="en">Is this a security measure for talking about the secret project?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1141.00">
+            <value key="en">SHHHHHH!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1141.01">
+            <value key="en">I mean, shhhhh.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1142.00">
+            <value key="en">Huh. Coulda sworn Blue DORK would be in here.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1143.00">
+            <value key="en">NERDING IT UP.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1144.00">
+            <value key="en">Don’t you mean DORKING IT UP?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1145.00">
+            <value key="en">Nah, I gave it mad thought.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1146.00">
+            <value key="en">Do tell.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1147.00">
+            <value key="en">He’s a dork who does nerdy things.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1148.00">
+            <value key="en">*mumble confer discuss*</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1148.01">
+            <value key="en">Hey, yeah!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1149.00">
+            <value key="en">That’s good thinkin’!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1150.00">
+            <value key="en">Yeah, I thought so too.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1151.00">
+            <value key="en">Maybe we’re early.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1152.00">
+            <value key="en">Could be.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1153.00">
+            <value key="en">My watch just says REVENGE on it.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1154.00">
+            <value key="en">Okay, they get a few minutes BUT THAT’S IT.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1155.00">
+            <value key="en">We can’t miss Wrestleball practice.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1156.00">
+            <value key="en">Let’s sit at a table while we wait.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1157.00">
+            <value key="en">Oh no!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1158.00">
+            <value key="en">Yeah, sitting while you wait rules!  We should do that!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1159.00">
+            <value key="en">Let’s pick a table completely at random.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1160.00">
+            <value key="en">please no please no please no</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1161.00">
+            <value key="en">(Poor Max. He’s shaking!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1162.00">
+            <value key="en">How about this table here?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1163.00">
+            <value key="en">The one with the TOTALLY MYSTERIOUS rattling chair!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1163.01">
+            <value key="en">OH HEY THERE BLUE DORK!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1164.00">
+            <value key="en">Ahh, put me down!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1165.00">
+            <value key="en">HAW HAW!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1166.00">
+            <value key="en">Sure thing, buddy.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1167.00">
+            <value key="en">But you know the drill. First we gotta revenge you around some.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1168.00">
+            <value key="en">(No wonder Max is so worried all the time!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1169.00">
+            <value key="en">(He gets pushed around by these big kids every day!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1170.00">
+            <value key="en">(AND THAT’S NOT RIGHT!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1170.01">
+            <value key="en">Hey! That’s enough!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1171.00">
+            <value key="en">You hear somethin’, Taira?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1172.00">
+            <value key="en">I sure do.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1173.00">
+            <value key="en">AND IT’S CALLED NOTHIN’!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1174.00">
+            <value key="en">HAW HAW!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1175.00">
+            <value key="en">Good one, Captain.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1176.00">
+            <value key="en">Aww, you guys.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1177.00">
+            <value key="en">I SAID that’s enough!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1178.00">
+            <value key="en">No! Save yourself, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1179.00">
+            <value key="en">It’s just lunch money!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1180.00">
+            <value key="en">Yo, it’s not JUST lunch money.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1181.00">
+            <value key="en">You keep makin’ me look dumb by turning in all your homework on time!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1182.00">
+            <value key="en">But I don’t do my homework!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1183.00">
+            <value key="en">It’s filled up with doodles and schematics but definitely not anything secret or aeronautical!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1184.00">
+            <value key="en">Still though.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1185.00">
+            <value key="en">If you’d just turn in nothin’ at all like a normal dumb kid, then it wouldn’t look so bad when I turn in nothin’ at all!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1186.00">
+            <value key="en">And then maybe I wouldn’t be stuck in detention.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1187.00">
+            <value key="en">So, I gotta do a revenge on ya.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1188.00">
+            <value key="en">Until you learn. Or until revenge stops being awesome.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1189.00">
+            <value key="en">WHICH IS NEVER!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1190.00">
+            <value key="en">Leave him alone!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1191.00">
+            <value key="en">Uh-oh, now you done it, Captain.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1192.00">
+            <value key="en">The shrimp is mad at ya.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1193.00">
+            <value key="en">Yeah, but the shrimp’s pretty cute. We gotta whole “will they, won’t they” thing going.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1194.00">
+            <value key="en">(Whaaaaa?)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1195.00">
+            <value key="en">Anyway, what’cha gonna do? SHORT ME TO DEATH?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1196.00">
+            <value key="en">HAW HAW! Good one!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1197.00">
+            <value key="en">(Wait. That wasn’t a good one.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1198.00">
+            <value key="en">(That wasn’t a good one at all!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1198.01">
+            <value key="en">We do NOT have a “will they, won’t they” thing. It’s just they won’t, uh, they.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1198.02">
+            <value key="en">So, why don’t you guys BUZZ OFF!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1198.03">
+            <value key="en">(Whoa, that sounded pretty tough.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1199.00">
+            <value key="en">(Guess I’m upset!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1200.00">
+            <value key="en">Oh? Who’s gonna make us?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1201.00">
+            <value key="en">YOU, New Dork?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1202.00">
+            <value key="en">(Taira’s really a one trick pony with his insult repertoire!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1202.01">
+            <value key="en">Maybe I will!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1202.02">
+            <value key="en">(Um, now I’m just saying crazy things!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1203.00">
+            <value key="en">(There’s no way I could stop any of these guys, much less ALL OF THEM!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1204.00">
+            <value key="en">(Not without my katamari anyway…)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1205.00">
+            <value key="en">You? Yeah, I don’t think so, Shorty.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1206.00">
+            <value key="en">ROOOAAAR!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1207.00">
+            <value key="en">!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1208.00">
+            <value key="en">!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1209.00">
+            <value key="en">!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1210.00">
+            <value key="en">Oh, thank goodness.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1211.00">
+            <value key="en">Now, we don’t have time to determine who’s bullying who.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1212.00">
+            <value key="en">Even though that would take less time for me to figure out than explaining how we don’t have the time to figure it out.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1213.00">
+            <value key="en">We was just playin’ around.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1214.00">
+            <value key="en">Weren’t we, Max?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1215.00">
+            <value key="en">Okay, yeah, sure.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1216.00">
+            <value key="en">Oh, so, what? Revenge is just a GAME to you, bro?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1217.00">
+            <value key="en">B-b-but you said…!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1218.00">
+            <value key="en">ROAR!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1219.00">
+            <value key="en">Yes, good thinking, King. We will not sentence anyone here to additional detention.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1220.00">
+            <value key="en">ON THE SINGULAR CONDITION THAT ALL OF YOU BREAK IT UP IMMEDIATELY!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1221.00">
+            <value key="en">Taira, get to Wrestleball practice.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1222.00">
+            <value key="en">Max, go build a model plane or something.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1223.00">
+            <value key="en">${slot:playerName}, I don’t know your thing yet, but go and do it quietly.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1224.00">
+            <value key="en">Bullies, you have like no lines of dialog, no one cares about you, just scram.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1225.00">
+            <value key="en">Yeah, I’m leavin’.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1226.00">
+            <value key="en">But not before I threaten the dorks with an otherwise benign phrase like, “See you LATER.”</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1227.00">
+            <value key="en">But, for ${slot:playerName}, it could also be like a kinda TOTALLY sexy “see you later” if you play your cards right.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1228.00">
+            <value key="en">Yes, yes. Very good. Just get moving.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1229.00">
+            <value key="en">Whew. They’re gone.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1230.00">
+            <value key="en">I’m glad they left us alone, but I wish Principal Dig Dug had been a little more thorough about his investigation and punishment.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1231.00">
+            <value key="en">Or done either of those things at all!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1232.00">
+            <value key="en">Yeah, that would’ve been good too.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1233.00">
+            <value key="en">Um.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1234.00">
+            <value key="en">Does that happen every day?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1235.00">
+            <value key="en">No. Not every day.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1236.00">
+            <value key="en">They hardly ever bother me on the weekend…</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1236.01">
+            <value key="en">But it’s okay! Because I’ve got the SECRET PROJECT SUPER PLANE!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1237.00">
+            <value key="en">And when it’s done no one will be able to push me anymore!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1238.00">
+            <value key="en">Um, not because of violent war plane revenge, right?</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1239.00">
+            <value key="en">Of course not, that’s crazy.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1240.00">
+            <value key="en">They won’t be able to push me around because I’ll be FLYING.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1241.00">
+            <value key="en">(But...Max is a bird.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1242.00">
+            <value key="en">(Shouldn’t he be able to fly by himself?)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1242.01">
+            <value key="en">Well, I mean, not all the time though.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1243.00">
+            <value key="en">Right? Like, you’d need to refuel and use the bathroom and sleep and stuff.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1244.00">
+            <value key="en">Well.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1245.00">
+            <value key="en">Uh.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1246.00">
+            <value key="en">There’d be. Um.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1247.00">
+            <value key="en">Huh.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1248.00">
+            <value key="en">Oh wow, look at the time. Military History Club is over.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1249.00">
+            <value key="en">Oh…</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1249.01">
+            <value key="en">(Was it something I said?)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1250.00">
+            <value key="en">But, um…</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1251.00">
+            <value key="en">I just wanted to say.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1252.00">
+            <value key="en">Y’know.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1253.00">
+            <value key="en">Thank you. For earlier. With Taira and them.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1254.00">
+            <value key="en">Don’t mention it.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1255.00">
+            <value key="en">It’s just that, um.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1256.00">
+            <value key="en">No one’s ever…</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1257.00">
+            <value key="en">??</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1258.00">
+            <value key="en">Bye, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1259.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1260.00">
+            <value key="en">Bye, Max.</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1260.01">
+            <value key="en">(Look at him.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1261.00">
+            <value key="en">(Even just walking down the halls, he keeps checking over his shoulder.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1262.00">
+            <value key="en">(He’s very, hmmm...)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1263.00">
+            <value key="en">(Well, shy. And nervous.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1264.00">
+            <value key="en">(But also sincere!)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1265.00">
+            <value key="en">(It’s a shame he has it so rough. And he keeps it all bottled up.)</value>
+        </TextAsset>
+        <TextAsset key="t_sbluemax1266.00">
+            <value key="en">(Maybe he just needs someone to help him break out of his shell so everyone else can see the sweet kid he really is.)</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_school" />
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax138.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_classroom_a</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="students" actorType="character">
+                    <styles>
+                        <opacity>0</opacity>
+                        <x>25%</x>
+                        <image>@i_trio_ballers</image>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="taira" actorType="character">
+                    <styles>
+                        <x>0%</x>
+                        <opacity>0</opacity>
+                        <image>@i_taira_steveholt_happy</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-25%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="bluemax" actorType="character">
+                    <styles>
+                        <x>25%</x>
+                        <image>@i_bluemax_stand_serious</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="digdug" actorType="character">
+                    <styles>
+                        <x>30%</x>
+                        <opacity>0</opacity>
+                        <image>@i_digdug_left</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="king" actorType="character">
+                    <styles>
+                        <x>30%</x>
+                        <scaleX>-1</scaleX>
+                        <opacity>0</opacity>
+                        <image>@i_king_confident</image>
+                        <depth>1</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax139.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax140.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax141.00" />
+                <ActorImage image="@i_bluemax_shock_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent append="true" char="@t_ch_max" text="@t_sbluemax141.01" />
+                <ActorImage image="@i_bluemax_stop_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <ActorFlip duration=".2" target="bluemax" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax144.00" />
+                <ActorImage image="@i_bluemax_stand_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax145.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax146.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <ActorFlip duration=".2" target="bluemax" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax150.00" />
+                <ActorImage image="@i_bluemax_shock_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <ActorFlip duration=".2" target="bluemax" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <ActorFlip duration=".2" target="bluemax" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax153.00" />
+                <ActorImage image="@i_bluemax_shock_shocked" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax154.00" />
+                <ActorImage image="@i_bluemax_stand_worried" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax156.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax158.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax159.00" />
+                <ActorImage image="@i_bluemax_stop_smile" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax160.00" />
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax160.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax161.00" />
+                <ActorImage image="@i_bluemax_stand_worried" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax164.00" />
+                <ActorImage image="@i_bluemax_stand_smile" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax165.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax165.02" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax167.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax169.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax170.00" />
+                <ActorImage image="@i_bluemax_stand_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax171.00" />
+                <ActorImage image="@i_bluemax_stop_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax173.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax175.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax176.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <ActorFlip duration=".2" target="bluemax" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax177.00" />
+                <ActorImage image="@i_bluemax_stand_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax178.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax179.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <ActorFlip duration=".2" target="bluemax" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax180.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax181.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax182.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax183.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax184.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax185.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax186.00" />
+                <ActorImage image="@i_bluemax_shock_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax187.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax188.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax189.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax189.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax190.00" />
+                <ActorImage image="@i_bluemax_stand_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax192.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax193.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax194.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax195.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax196.00" />
+                <ActorImage image="@i_bluemax_cower_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax197.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax198.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax199.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1100.00" />
+                <ActorImage image="@i_bluemax_shock_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1102.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1102.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1104.00" />
+                <ActorImage image="@i_bluemax_stand_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1107.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1109.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1112.00" />
+                <ActorImage image="@i_bluemax_shock_shocked" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1113.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1115.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1115.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1116.00" />
+                <ActorImage image="@i_bluemax_stand_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1117.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1117.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1123.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1127.00" />
+                <ActorImage image="@i_bluemax_stand_shock" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1128.00" />
+                <ActorImage image="@i_bluemax_stand_worried" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1133.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1135.00" />
+                <ActorImage image="@i_bluemax_cower_shock" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1136.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1137.00" />
+                <ActorImage image="@i_bluemax_cower_worried" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <ActorMove delay=".33" duration=".5" target="bluemax" y="50%" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1139.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <ActorMove delay=".33" duration=".5" target="cousin" y="50%" />
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1140.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1140.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent append="true" char="@t_ch_max" text="@t_sbluemax1141.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <ActorFade duration=".33" opacity="1" target="taira" />
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1142.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1143.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_1t">
+            <events>
+                <ActorFade delay=".2" duration=".2" opacity="1" target="students" />
+                <ActorMove duration=".2" ease="ease-in-out" target="taira" x="-25%" />
+                <ActorMove duration=".2" ease="ease-in-out" target="taira" x="-25%" />
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1145.00" />
+                <ActorImage image="@i_taira_default_serious" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1147.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent append="true" char="@t_ch_bullies" text="@t_sbluemax1148.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1152.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1153.00" />
+                <ActorImage image="@i_taira_revenge_serious" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1154.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1155.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1156.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1157.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1158.00" />
+                <ActorImage image="@i_taira_steveholt_happy" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1159.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1160.00" />
+                <ActorImage image="@i_bluemax_cower_shock" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1161.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1162.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1163.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_2E">
+            <events>
+                <ActorMove delay=".5" duration=".2" target="bluemax" y="0%" />
+                <ActorImage image="@i_bluemax_cower_worried" target="bluemax" />
+                <TextEvent append="true" char="@t_ch_taira" text="@t_sbluemax1163.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1164.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1165.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1166.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1167.00" />
+                <ActorImage image="@i_taira_revenge_serious" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1168.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1169.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1170.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_2M">
+            <events>
+                <ActorFlip duration=".2" target="cousin" />
+                <ActorMove duration=".2" target="cousin" x="0%" y="0%" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1170.01" />
+                <ActorImage image="@i_cousin_energetic_angry" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1171.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1172.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1173.00" />
+                <ActorImage image="@i_taira_default_angry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1174.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1175.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1176.00" />
+                <ActorImage image="@i_taira_default_happy" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1177.00" />
+                <ActorImage image="@i_cousin_default_angry" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1178.00" />
+                <ActorImage image="@i_bluemax_stand_shock" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1179.00" />
+                <ActorImage image="@i_bluemax_stand_worried" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1180.00" />
+                <ActorImage image="@i_taira_default_angry" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1181.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1182.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1183.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1184.00" />
+                <ActorImage image="@i_taira_default_serious" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1185.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1186.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1187.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1188.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1189.00" />
+                <ActorImage image="@i_taira_revenge_serious" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1190.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1191.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1192.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1193.00" />
+                <ActorImage image="@i_taira_revenge_happy" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1194.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1195.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1196.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1197.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1198.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1198.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1198.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1198.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1199.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1200.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1201.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1202.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1202.01" />
+                <ActorImage image="@i_cousin_default_angry" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1202.02" />
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1203.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1204.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_30">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1205.00" />
+                <ActorImage image="@i_taira_akimbo_serious" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_31">
+            <events>
+                <AudioOneShot sound="@a_sfx_kingroar1" />
+                <TextEvent char="@t_ch_king" text="@t_sbluemax1206.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_32">
+            <events>
+                <ActorMove duration=".3" ease="ease-in-out" target="students" x="99%" />
+                <TextEvent char="@t_ch_bullies" text="@t_sbluemax1207.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_33">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1208.00" />
+                <ActorFlip duration=".2" target="cousin" />
+                <ActorMove duration=".2" target="cousin" x="-25%" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_34">
+            <events>
+                <ActorMove duration=".2" ease="ease-in-out" target="taira" x="-37%" />
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1209.00" />
+                <ActorImage image="@i_taira_akimbo_confused" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_35">
+            <events>
+                <ActorFlip duration=".2" target="bluemax" />
+                <ActorMove duration=".2" target="bluemax" x="-5%" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1210.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_36">
+            <events>
+                <ActorFade duration=".33" opacity="1" target="king" />
+                <ActorFade delay="1" duration=".33" opacity="1" target="digdug" />
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1211.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_37">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1212.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_38">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1213.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_39">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1214.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3A">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1215.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3B">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1216.00" />
+                <ActorImage image="@i_taira_akimbo_serious" target="taira" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3C">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1217.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3D">
+            <events>
+                <TextEvent char="@t_ch_king" text="@t_sbluemax1218.00" />
+                <AudioOneShot sound="@a_sfx_kingroar2" />
+                <ActorImage image="@i_king_screaming" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3E">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1219.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3F">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1220.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3G">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1221.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3H">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1222.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3I">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1223.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3J">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1224.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3K">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1225.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3L">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1226.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3M">
+            <events>
+                <TextEvent char="@t_ch_taira" text="@t_sbluemax1227.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3N">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sbluemax1228.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" auto="true" name="_3O">
+            <events>
+                <ActorMove duration=".33" target="taira" x="-100%" />
+                <ActorMove delay=".33" duration=".33" target="king" x="100%" />
+                <ActorMove delay=".66" duration=".33" target="digdug" x="100%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3P">
+            <events>
+                <ActorMove duration=".2" target="bluemax" x="25%" />
+                <ActorFlip duration=".2" target="bluemax" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1229.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1230.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3R">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1231.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1232.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1233.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1234.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3V">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1235.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3W">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1236.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3X">
+            <events>
+                <TextEvent append="true" char="@t_ch_max" text="@t_sbluemax1236.01" />
+                <ActorImage image="@i_bluemax_shock_serious" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Y">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1237.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1238.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3a">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1239.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3b">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1240.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3c">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1241.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1242.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3e">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1242.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1243.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3g">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1244.00" />
+                <ActorImage image="@i_bluemax_shock_worried" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3h">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1245.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3i">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1246.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3j">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1247.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3k">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1248.00" />
+                <ActorImage image="@i_bluemax_stand_worried" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1249.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3m">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1249.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3n">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1250.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3o">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1251.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3p">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1252.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3q">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1253.00" />
+                <ActorImage image="@i_bluemax_cower_worried" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1254.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3s">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1255.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3t">
+            <events>
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1256.00" />
+                <ActorImage image="@i_bluemax_cower_flustered" target="bluemax" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3u">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1257.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_3v">
+            <events>
+                <ActorFade delay=".70" duration=".33" opacity="0" target="bluemax" />
+                <TextEvent char="@t_ch_max" text="@t_sbluemax1258.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3w">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1259.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3x">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1260.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sbluemax1260.01" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1261.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_40">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1262.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_41">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1263.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_42">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1264.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_43">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1265.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_44">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sbluemax1266.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_45" scene="s_day2" />
+    </events>
+</scene>

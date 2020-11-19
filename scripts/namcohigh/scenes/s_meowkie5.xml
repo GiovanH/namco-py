@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_meowkie5" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_smeowkie5x_choice2">
+            <value key="en">Yes it is, Meowkie. Because the truth is... I like you.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5x_choice3">
+            <value key="en">Well... maybe... Only if you want it to be.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5x_choice4">
+            <value key="en">Spending time with someone so good could never be a waste.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5x_choice5">
+            <value key="en">Meowkie, I don’t understand why you say these things!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie518.00">
+            <value key="en">(The rest of detention passed pretty quickly…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie518.01">
+            <value key="en">I was barely paying attention at all.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie519.00">
+            <value key="en">How could I, knowing I would be here at the cafe soon, on a date with Meowkie?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie520.00">
+            <value key="en">...It IS a real date, right?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie521.00">
+            <value key="en">Well, either way, we should talk...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie521.01">
+            <value key="en">It’s now or never, I guess.)</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie522.00">
+            <value key="en">Hey look Boss! They have the seafood special today!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie523.00">
+            <value key="en">Yeah! And look...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie523.01">
+            <value key="en">It says it comes half price...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie523.02">
+            <value key="en">If you order it on a date.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie524.00">
+            <value key="en">The “Lovebird Discount.”</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie525.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie525.01">
+            <value key="en">So Boss...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie525.02">
+            <value key="en">This is really... a real date?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie526.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie526.01">
+            <value key="en">That’s nice of you to say...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie527.00">
+            <value key="en">Heh, Boss. It’s sweet of you... the lengths you’ll go to cheer me up.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie528.00">
+            <value key="en">I really mean it though!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie529.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie530.00">
+            <value key="en">(Somehow, I get the sense that she doesn’t quite believe me...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie531.00">
+            <value key="en">But why not? I didn’t really think about it until tonight, but…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie532.00">
+            <value key="en">I know how I feel when I look at her.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie533.00">
+            <value key="en">Meowkie...)</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie534.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie535.00">
+            <value key="en">Uh... you don’t have to say anything if you don’t want to.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie535.01">
+            <value key="en">(It seems like she wants to say something, but she’s holding back.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie535.02">
+            <value key="en">Meowkie... I wish you’d tell me what you’re thinking!)</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie536.00">
+            <value key="en">Good evening! And what will we be having tonight?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie537.00">
+            <value key="en">O-oh... we’re sharing the seafood special, I guess?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie538.00">
+            <value key="en">Good choice.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie539.00">
+            <value key="en">...So, Boss...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie540.00">
+            <value key="en">Yes?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie541.00">
+            <value key="en">That rolling up stuff you like to do... is it fun?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie542.00">
+            <value key="en">Oh! Yeah, I guess so...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie542.01">
+            <value key="en">It’s kinda why I got into trouble in the first place though.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie542.02">
+            <value key="en">Why do you ask?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie543.00">
+            <value key="en">I just figured... I should look at this as an opportunity!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie543.01">
+            <value key="en">Now that I ain’t a Hall Monitor no more, I got time for other hobbies.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie543.02">
+            <value key="en">Rolling up stuff like you do... It might be fun! Maybe you could teach me sometime.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie544.00">
+            <value key="en">But Meowkie... you love being a Hall Monitor!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie545.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie546.00">
+            <value key="en">Yeah, b-but...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie546.01">
+            <value key="en">No use crying over spilled milk! Eh, Boss?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie547.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie548.00">
+            <value key="en">Look... I know you think I oughta be, um, angry.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie548.01">
+            <value key="en">And I know those other kids get me in trouble on purpose.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie548.02">
+            <value key="en">I’m not stupid!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie549.00">
+            <value key="en">I know what they think of me.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie549.01">
+            <value key="en">They think I’m bad and I deserve to go to detention anyway.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie550.00">
+            <value key="en">So why don’t you ever speak up? Doesn’t it make you angry?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie551.00">
+            <value key="en">I’m not angry at them!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie551.01">
+            <value key="en">I’m not!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie552.00">
+            <value key="en">Stop asking me that!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie553.00">
+            <value key="en">But... but why not?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie553.01">
+            <value key="en">I’d be angry if I were you!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie554.00">
+            <value key="en">Because... because...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie555.00">
+            <value key="en">Because I just can’t do it, okay?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie556.00">
+            <value key="en">Meowkie...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie557.00">
+            <value key="en">Boss... I mean, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie558.00">
+            <value key="en">Being angry is... bad.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie558.01">
+            <value key="en">You yell, and you argue...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie558.02">
+            <value key="en">You forget to be nice.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie559.00">
+            <value key="en">My parents sent me here...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie559.01">
+            <value key="en">So I could grow up to be good.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie560.00">
+            <value key="en">If I get angry...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie560.01">
+            <value key="en">If I stop being nice and good...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie560.02">
+            <value key="en">Then everything they did was for nothing!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie561.00">
+            <value key="en">That’s why I can’t get angry...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie561.01">
+            <value key="en">besides...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie562.00">
+            <value key="en">It’ll just prove... that everyone was right about me after all.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie563.00">
+            <value key="en">But... what do you do, then?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie563.01">
+            <value key="en">You can’t be happy ALL the time, if people treat you so badly...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie564.00">
+            <value key="en">Maybe...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie565.00">
+            <value key="en">Maybe they’re right to treat me that way...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie566.00">
+            <value key="en">What?!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie566.01">
+            <value key="en">How could you say that?!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie567.00">
+            <value key="en">N-nevermind... haha, it’s pretty silly of me.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie567.01">
+            <value key="en">Just forget it.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie568.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie569.00">
+            <value key="en">Anyway... even if what you’re saying is true...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie569.01">
+            <value key="en">It doesn’t matter, because I don’t get angry at all!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie569.02">
+            <value key="en">Sorry! Heh!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie570.00">
+            <value key="en">But... you can’t just not get angry.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie572.01">
+            <value key="en">It’s impossible.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie572.02">
+            <value key="en">Any more than you can stop yourself from laughing at something really funny.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie573.00">
+            <value key="en">Or...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie574.00">
+            <value key="en">Or from having a crush on someone...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie574.01">
+            <value key="en">Who you really, really like.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie575.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie576.00">
+            <value key="en">Gee, Boss... I’m sorry I’m being such a downer! Heh!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie577.00">
+            <value key="en">(Ignoring what I said about the crush, huh...)</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie578.00">
+            <value key="en">That’s probably why... it’s good I’m not a Hall Monitor anymore.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie578.01">
+            <value key="en">A great Monitor never lets her personal problems get in the way of her confidence and focus!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie579.00">
+            <value key="en">Meowkie... just pretending to be happy all the time...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie579.01">
+            <value key="en">That isn’t an answer.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie580.00">
+            <value key="en">Here’s your seafood special, lovebirds.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie581.00">
+            <value key="en">(Yikes. Bad timing.)</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie582.00">
+            <value key="en">Uh, thank you sir.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie583.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie584.00">
+            <value key="en">Uh... Hey Meowkie, look.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie584.01">
+            <value key="en">There’s tons of tuna in here!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie584.02">
+            <value key="en">You love that stuff.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie585.00">
+            <value key="en">Thank you Boss... I mean ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie585.01">
+            <value key="en">Thank you for taking me on a nice date.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie586.00">
+            <value key="en">Whoah, why are you standing up all of a sudden?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie587.00">
+            <value key="en">Meowkie...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie588.00">
+            <value key="en">It was really, um, really nice of you.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie589.00">
+            <value key="en">I’ve had a great time hanging out with you...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie589.01">
+            <value key="en">The best time I’ve had since I came to this school.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie589.02">
+            <value key="en">If that’s, um... okay to say.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie590.00">
+            <value key="en">But... I think I really should be going now...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie591.00">
+            <value key="en">It’s not your fault...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie591.01">
+            <value key="en">It’s mine, like it always is.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie592.00">
+            <value key="en">So, goodbye, um, I guess.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie593.00">
+            <value key="en">Meowkie, wait-</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie594.00">
+            <value key="en">It’s okay if you don’t want to hang out anymore...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie594.01">
+            <value key="en">I completely understand...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie594.02">
+            <value key="en">if you don’t want to waste your time on... someone like me.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie595.00">
+            <value key="en">Nyaa... Boss, you’re so nice.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie595.01">
+            <value key="en">Trying so hard to cheer me up...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie595.02">
+            <value key="en">No matter who I really am.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie596.00">
+            <value key="en">You know...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie596.01">
+            <value key="en">You’d make a great Hall Monitor, if you wanted to do it.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie597.00">
+            <value key="en">I’m sorry…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie598.00">
+            <value key="en">I gotta go.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie599.00">
+            <value key="en">How’s that lovebird special coming-</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie599.01">
+            <value key="en">Oh, it’s just you.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5100.00">
+            <value key="en">What happened to your date?</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5101.00">
+            <value key="en">She, um…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5102.00">
+            <value key="en">She just left.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5103.00">
+            <value key="en">YIKES. That’s rough.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5103.01">
+            <value key="en">Tell you what- it’s on the house.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5104.00">
+            <value key="en">(...Small comfort.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5105.00">
+            <value key="en">I can’t believe she left before I could even say another word.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5105.01">
+            <value key="en">Sigh...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5106.00">
+            <value key="en">I don’t care what she says.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5106.01">
+            <value key="en">If she left without eating a single bite of all this tuna...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5107.00">
+            <value key="en">She’s gotta be feeling really angry.)</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5108.00">
+            <value key="en">...I can help you finish that.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5109.00">
+            <value key="en">Oh, hi, Pac-Man.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5109.01">
+            <value key="en">I’m glad you’re here...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5109.02">
+            <value key="en">I really need someone to talk to.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5110.00">
+            <value key="en">I had a date, but...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5110.01">
+            <value key="en">It really didn’t go well.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5111.00">
+            <value key="en">I was just thinking...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5112.00">
+            <value key="en">I know Meowkie gets angry just like the rest of us.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5112.01">
+            <value key="en">And if the other students are so awful to her all the time...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5113.00">
+            <value key="en">Then she must be angry inside all the time.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5114.00">
+            <value key="en">But...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5114.01">
+            <value key="en">if she thinks being angry really is bad...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5115.00">
+            <value key="en">Then she must think that the other students are right.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5115.01">
+            <value key="en">She must think she really is bad on the inside.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5116.00">
+            <value key="en">When she got that Hall Monitor badge, she must have felt like it was proof.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5116.01">
+            <value key="en">Proof that she was good.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5116.02">
+            <value key="en">But without it, there’s nothing to stop her from thinking she’s bad...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5117.00">
+            <value key="en">Meowkie... she shouldn’t need that badge to feel good.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5117.01">
+            <value key="en">She is good! No matter what!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5118.00">
+            <value key="en">She’s the nicest, strongest person I know! She really cares, and she tries her hardest all the time! No matter what!</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5119.00">
+            <value key="en">(Chew, chew…)</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5120.00">
+            <value key="en">There’s only one thing to do in a situation like this, ${slot:playerName}…</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5121.00">
+            <value key="en">(Chew, chew…)</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5122.00">
+            <value key="en">Be chew to yourself.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5122.01">
+            <value key="en">I MEAN, true to yourself.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5123.00">
+            <value key="en">Be true to yourself.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5124.00">
+            <value key="en">… Yeah...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5124.01">
+            <value key="en">Yeah, you’re right.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5125.00">
+            <value key="en">If I can be true to myself and my feelings...</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5126.00">
+            <value key="en">Maybe she can be true to her feelings too.</value>
+        </TextAsset>
+        <TextAsset key="t_smeowkie5127.00">
+            <value key="en">This is really good tuna.</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_romance" />
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie518.00" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_cafe</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <x>85%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="meowkie" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_meowkie_normal_normal</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="mc" actorType="character">
+                    <styles>
+                        <x>99%</x>
+                        <opacity>1</opacity>
+                        <image>@i_mc_normal</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie518.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie519.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie520.00" />
+                <ActorCrossfade duration="0.3" image="@i_cousin_default_grin_blush" opacity="1" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie521.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie521.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie522.00" />
+                <ActorFlip target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie523.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie523.01" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie523.02" />
+                <ActorCrossfade duration="0.3" image="@i_cousin_energetic_grin_blush" opacity="1" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie524.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie525.00" />
+                <ActorImage image="@i_meowkie_normal_alert" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie525.01" />
+                <ActorImage image="@i_meowkie_normal_alert" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie525.02" />
+                <ActorImage image="@i_meowkie_normal_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5x_choice2" />
+                <ActorImage image="@i_cousin_default_grin_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie526.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie526.01" />
+                <ActorImage image="@i_meowkie_normal_happy" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie527.00" />
+                <ActorImage image="@i_meowkie_normal_normal" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie528.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie529.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie530.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie531.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie532.00" />
+                <ActorCrossfade duration="0.3" image="@i_cousin_default_neutral_blush" opacity="1" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie533.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <ActorFlip target="meowkie" />
+                <ActorMove duration="0.333" target="mc" x="30%" />
+                <ActorMove duration="0.333" target="meowkie" x="-20%" />
+                <ActorMove duration="0.333" target="cousin" x="-35%" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_waiter" text="@t_smeowkie536.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie537.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_waiter" text="@t_smeowkie538.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_R">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="" text="" />
+                <ActorMove duration="0.333" target="mc" x="100%" />
+                <ActorMove duration="0.333" target="meowkie" x="20%" />
+                <ActorMove duration="0.333" target="cousin" x="-20%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorFlip target="meowkie" />
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie539.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie540.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie541.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie542.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie542.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie542.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie543.00" />
+                <ActorImage image="@i_meowkie_normal_normal" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie543.01" />
+                <ActorImage image="@i_meowkie_akimbo_grin" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie543.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie544.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie545.00" />
+                <ActorImage image="@i_meowkie_akimbo_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie546.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie546.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie547.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie548.00" />
+                <ActorImage image="@i_meowkie_normal_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie548.01" />
+                <ActorImage image="@i_meowkie_normal_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie548.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie549.00" />
+                <ActorImage image="@i_meowkie_normal_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie549.01" />
+                <ActorImage image="@i_meowkie_normal_frown" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie550.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie551.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie551.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie552.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie553.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie553.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie554.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie555.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie556.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie557.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie558.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie558.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie558.02" />
+                <ActorImage image="@i_meowkie_slouch_frown" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie559.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie559.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie560.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie560.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie560.02" />
+                <ActorImage image="@i_meowkie_slouch_frown" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie561.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie561.01" />
+                <ActorImage image="@i_meowkie_akimbo_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie562.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie563.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie563.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie564.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie565.00" />
+                <ActorImage image="@i_meowkie_normal_normal" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie566.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie566.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie567.00" />
+                <ActorImage image="@i_meowkie_normal_happy" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie567.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie568.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie569.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie569.01" />
+                <ActorImage image="@i_meowkie_normal_happy" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie569.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie570.00" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie572.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie572.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie573.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie574.00" />
+                <ActorCrossfade duration="0.3" image="@i_cousin_exhausted_sad_blush" opacity="1" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie574.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie575.00" />
+                <ActorImage image="@i_meowkie_normal_happy" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie576.00" />
+                <ActorImage image="@i_meowkie_normal_happy" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie577.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie578.00" />
+                <ActorImage image="@i_meowkie_normal_normal" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie578.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie579.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie579.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <TextEvent char="@t_ch_waiter" text="@t_smeowkie580.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie581.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie582.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie583.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie584.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie584.01" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie584.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie585.00" />
+                <ActorImage image="@i_meowkie_normal_happy" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie585.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie586.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie587.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie588.00" />
+                <ActorImage image="@i_meowkie_akimbo_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie589.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie589.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie589.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie590.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie591.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie591.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie592.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie593.00" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie594.00" />
+                <ActorImage image="@i_meowkie_normal_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie594.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent append="true" char="@t_ch_meowkie" text="@t_smeowkie594.02" />
+                <ActorImage image="@i_meowkie_slouch_forcedsmile" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5x_choice5" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie597.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent char="@t_ch_meowkie" text="@t_smeowkie598.00" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent auto="true" name="_1v">
+            <events>
+                <TextEvent char="" text="" />
+                <ActorFade duration="0.5" opacity="0" target="meowkie" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <ActorMove duration="0.333" target="mc" x="20%" />
+                <TextEvent char="@t_ch_waiter" text="@t_smeowkie599.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <TextEvent append="true" char="@t_ch_waiter" text="@t_smeowkie599.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent char="@t_ch_waiter" text="@t_smeowkie5100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5102.00" />
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent char="@t_ch_waiter" text="@t_smeowkie5103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent append="true" char="@t_ch_waiter" text="@t_smeowkie5103.01" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" duration="0.5" ease="ease-in" name="_23" target="mc" x="100%" />
+        <ParallelEvent name="_24">
+            <events>
+                <ActorDestroy target="mc" />
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5104.00" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5105.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5106.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5106.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5107.00" />
+            </events>
+        </ParallelEvent>
+        <AudioCreate audioId="pacman" auto="true" layer="sfx" loop="true" name="_2A" play="true" sound="@a_sfx_pacman" />
+        <ParallelEvent allowInterrupt="false" auto="true" name="enterPacman">
+            <events>
+                <TextEvent char="" text="" />
+                <ActorFade opacity="1" target="pacman" />
+                <ActorMove duration="5" ease="ease-out" target="pacman" x="30%" />
+            </events>
+        </ParallelEvent>
+        <AudioDestroy name="_2C" target="pacman" />
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_smeowkie5108.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5109.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2F">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5109.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5109.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5110.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5110.01" />
+                <ActorImage image="@i_cousin_exhausted_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5112.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5112.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5114.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5114.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5115.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5116.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5116.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5116.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5117.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2V">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5117.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2W">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_smeowkie5119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Y">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_smeowkie5120.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Z">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_smeowkie5121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2a">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_smeowkie5122.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2b">
+            <events>
+                <TextEvent append="true" char="@t_ch_pacman" text="@t_smeowkie5122.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2c">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_smeowkie5123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_smeowkie5124.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_smeowkie5126.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent char="@t_ch_pacman" text="@t_smeowkie5127.00" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_2i" scene="s_day5.5" />
+    </events>
+</scene>

@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_davesprite3" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_sdavesprite35.00">
+            <value key="en">cool</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite36.00">
+            <value key="en">so you wanna sneak out of detention</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite37.00">
+            <value key="en">What?! No!!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite38.00">
+            <value key="en">aww how come</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite39.00">
+            <value key="en">Because I’m already in detention! If I got caught sneaking out...</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite39.01">
+            <value key="en">Well, I don’t want to get in WORSE trouble.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite310.00">
+            <value key="en">cmon kings not even here</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite311.00">
+            <value key="en">itll be easy</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite312.00">
+            <value key="en">Shh! Let’s not talk about this so loud…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite312.01">
+            <value key="en">Why do you even want to sneak out of detention, anyway?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite313.00">
+            <value key="en">thats whats supposed to happen</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite314.00">
+            <value key="en">were in event 2 now ${slot:playerName}</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite315.00">
+            <value key="en">youre supposed to sneak out and get in trouble</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite316.00">
+            <value key="en">Oh, more of your “omniscient game guide” stuff.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite316.01">
+            <value key="en">This is so stupid! I’m not paying any attention.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite317.00">
+            <value key="en">I don’t have to do anything I don’t want to do.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite317.01">
+            <value key="en">And besides, what kind of “guide” would try to get me in trouble?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite318.00">
+            <value key="en">its not about whether i want you to get in trouble</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite319.00">
+            <value key="en">but thats whats gonna happen in this part of the game no matter what</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite320.00">
+            <value key="en">Okay, this has officially moved from “quirk” to “personality disorder”.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite320.01">
+            <value key="en">You’re starting to make me angry.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite320.02">
+            <value key="en">Can we please drop it?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite321.00">
+            <value key="en">suit yourself kid</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite322.00">
+            <value key="en">no matter what you do in this part of the game</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite323.00">
+            <value key="en">youre gonna get in trouble and get double detention</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite324.00">
+            <value key="en">thats just what has to happen in this part for the rest of the game to make sense</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite325.00">
+            <value key="en">so sue me for trying to give you a fluid dating sim experience</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite326.00">
+            <value key="en">Just shut up already! I don’t want to hear it!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite327.00">
+            <value key="en">im overflowing with rich strategy guide goodness and you don’t even have the decency to indulge a little</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite328.00">
+            <value key="en">its like when you dont milk a cow and shes  gotta keep all that milk in there</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite329.00">
+            <value key="en">and shes like dude come on</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite330.00">
+            <value key="en">Gross.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite331.00">
+            <value key="en">yeah that one got away from me sorry</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite332.00">
+            <value key="en">What if I just sat here in detention?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite333.00">
+            <value key="en">What if I just did my homework here quietly…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite333.01">
+            <value key="en">And didn’t move from my seat the entire time.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite334.00">
+            <value key="en">How could I possibly get in trouble that way!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite335.00">
+            <value key="en">i dunno ${slot:playerName} but it might be kinda cool to find out</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite336.00">
+            <value key="en">because you absolutely will</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite337.00">
+            <value key="en">sorry kid</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite338.00">
+            <value key="en">Yeah, well…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite338.01">
+            <value key="en">We’ll just see about that!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite339.00">
+            <value key="en">yeah we will</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite340.00">
+            <value key="en">okay so youre definitely seriously doing this right</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite341.00">
+            <value key="en">Um…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite342.00">
+            <value key="en">youre definitely not moving from your chair from now until detention is over</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite343.00">
+            <value key="en">no matter what possible situation arises</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite344.00">
+            <value key="en">thats just whats happening full stop</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite345.00">
+            <value key="en">no ifs ands or buts</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite346.00">
+            <value key="en">Uh…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite346.01">
+            <value key="en">(God, he’s so smug. I can’t give him the satisfaction of knowing I’m unsure!)</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite347.00">
+            <value key="en">Yes! Definitely!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite348.00">
+            <value key="en">promise?</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite349.00">
+            <value key="en">pinkie swear?</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite350.00">
+            <value key="en">YES! ABSOLUTELY!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite351.00">
+            <value key="en">haha cool</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite352.00">
+            <value key="en">Is that… the fire alarm….</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite353.00">
+            <value key="en">C’mon everyone! That’s the fire alarm!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite354.00">
+            <value key="en">Let’s get outside!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite355.00">
+            <value key="en">1S NOBODY GONN4 H3LP TH3 BL1ND G1RL OUT?</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite356.00">
+            <value key="en">YOU GUYS SUCK &gt;:P</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite357.00">
+            <value key="en">Everyone’s… getting up…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite357.01">
+            <value key="en">and leaving the classroom…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite358.00">
+            <value key="en">i knew that was gonna happen btw</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite359.00">
+            <value key="en">If you don’t have anything helpful to say, just shut up!!!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite360.00">
+            <value key="en">wow</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite361.00">
+            <value key="en">i have been nothing if not helpful this entire time</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite362.00">
+            <value key="en">ungrateful imo</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite363.00">
+            <value key="en">(I guess I should get up and file out with everyone…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite363.01">
+            <value key="en">The classroom is almost empty now.)</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite364.00">
+            <value key="en">oh nice try</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite365.00">
+            <value key="en">but you promised you would stay in that seat no matter what</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite366.00">
+            <value key="en">remember</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite367.00">
+            <value key="en">(H-how did he know what I was thinking?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite368.00">
+            <value key="en">Yeah… but this is a different circumstance…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite368.01">
+            <value key="en">I mean… it’d be pretty stupid of me to just sit here because of some dumb promise I made…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite369.00">
+            <value key="en">suit yourself</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite370.00">
+            <value key="en">here take my hand</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite371.00">
+            <value key="en">you can get to the exit faster if i fly you there</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite372.00">
+            <value key="en">(Ugh! Always trying to be “helpful”...</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite372.01">
+            <value key="en">He’s so… so SMUG!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite373.00">
+            <value key="en">Look at that smug face, and those smug SUNGLASSES…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite373.01">
+            <value key="en">They should call them… SMUG-GLASSES!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite374.00">
+            <value key="en">Haha… nailed it…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite375.00">
+            <value key="en">A-anyway… I don’t need his help!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite375.01">
+            <value key="en">I can make my own choices!)</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite376.00">
+            <value key="en">(still havent figured out that i can read it when you do parentheses-talk eh?)</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite377.00">
+            <value key="en">You go on ahead.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite377.01">
+            <value key="en">I… I made a promise.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite378.00">
+            <value key="en">And I can’t get in trouble for just sitting here not bothering anyone, right?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite379.00">
+            <value key="en">uh</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite380.00">
+            <value key="en">cool</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite381.00">
+            <value key="en">okay</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite382.00">
+            <value key="en">later</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite383.00">
+            <value key="en">(Gosh, that’s loud.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite384.00">
+            <value key="en">...Wait a minute- what am I, some kind of moron?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite384.01">
+            <value key="en">Sitting here by myself during a fire drill, just because I want to show up that dumb Davesprite?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite385.00">
+            <value key="en">Have I lost my mind?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite385.01">
+            <value key="en">Maybe his insanity is contagious…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite386.00">
+            <value key="en">I better get up and go join the others-)</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite387.00">
+            <value key="en">${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite387.01">
+            <value key="en">What on earth are you doing in here all by yourself!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite388.00">
+            <value key="en">Eek!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite388.01">
+            <value key="en">I was just- um-</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite389.00">
+            <value key="en">Think the rules don’t apply to you, eh?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite389.01">
+            <value key="en">Can you imagine what might have happened to you if this had been a REAL fire?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite390.00">
+            <value key="en">You don’t wanna know.</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite391.00">
+            <value key="en">But I- I was going to-</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite391.01">
+            <value key="en">But then Davesprite-</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite392.00">
+            <value key="en">Always blaming others for your problems, eh ${slot:playerName}?!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite392.01">
+            <value key="en">SOUNDS FAMILIAR!!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite393.00">
+            <value key="en">(What?! When have I ever done that before?!)</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite394.00">
+            <value key="en">I won’t tolerate misbehavior, ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite395.00">
+            <value key="en">Double detention level 3.5- BLAZING INFERNO!</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite396.00">
+            <value key="en">...Um…</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite397.00">
+            <value key="en">sorry ${slot:playerName}</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite398.00">
+            <value key="en">i kinda told you so though</value>
+        </TextAsset>
+        <TextAsset key="t_sdavesprite399.00">
+            <value key="en">DAVESPRITE!!!</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_upbeat" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_classroom_a</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="jane" actorType="character">
+                    <styles>
+                        <x>40%</x>
+                        <image>@i_jane_default_smile</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-25%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="davesprite" actorType="character">
+                    <styles>
+                        <x>15%</x>
+                        <image>@i_davesprite_standing_disinterest</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="digdug" actorType="character">
+                    <styles>
+                        <x>30%</x>
+                        <image>@i_digdug_left</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="terezi" actorType="character">
+                    <styles>
+                        <x>40%</x>
+                        <image>@i_terezi_default_grin</image>
+                        <depth>3</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite35.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <ActorImage image="@i_davesprite_standing_eyebrow" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite36.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite37.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <ActorImage image="@i_davesprite_standing_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite38.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite39.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite39.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite310.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite311.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite312.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite312.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite313.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite314.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite315.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite316.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <ActorImage image="@i_cousin_default_sad" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite316.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite317.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite317.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <ActorImage image="@i_davesprite_standing_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite318.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite319.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite320.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite320.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite320.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_eyebrow" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite321.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite322.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite323.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite324.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <ActorImage image="@i_davesprite_standing_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite325.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <ActorImage image="@i_cousin_energetic_angry" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite326.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite327.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite328.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_eyebrow" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite329.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite330.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <ActorImage image="@i_davesprite_standing_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite331.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite332.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite333.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite333.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite334.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite335.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite336.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_eyebrow" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite337.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite338.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite338.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <ActorImage image="@i_davesprite_standing_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite339.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite340.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite341.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite342.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite343.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite344.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite345.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite346.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite346.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_q">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite347.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite348.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <ActorImage image="@i_davesprite_standing_smile" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite349.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <ActorImage image="@i_cousin_energetic_angry" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite350.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite351.00" transform="davesprite" />
+                <AudioCreate audioId="firealarm" auto="true" delay="1" layer="sfx" loop="true" play="true" sound="@a_sfx_firealarm" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite352.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <FadeEvent duration="0.20" target="jane" to="1" />
+                <ActorMove duration=".333" target="cousin" x="-30%" />
+                <ActorMove duration=".333" target="davesprite" x="0%" />
+                <TextEvent char="@t_ch_jane" text="@t_sdavesprite353.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent char="@t_ch_jane" text="@t_sdavesprite354.00" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration="0.20" name="_y" target="jane" to="0" />
+        <ParallelEvent name="_z">
+            <events>
+                <FadeEvent duration="0.20" target="terezi" to="1" />
+                <TextEvent char="@t_ch_terezi" text="@t_sdavesprite355.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_terezi" text="@t_sdavesprite356.00" transform="terezi" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration="0.20" name="_11" target="terezi" to="0" />
+        <ParallelEvent name="_12">
+            <events>
+                <ActorMove duration=".333" target="cousin" x="-20%" />
+                <ActorMove duration=".333" target="davesprite" x="20%" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite357.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite357.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite358.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite359.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite360.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite361.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite362.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite363.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite363.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <ActorImage image="@i_davesprite_standing_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite364.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite365.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite366.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite367.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite368.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite368.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <ActorImage image="@i_davesprite_standing_eyebrow" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite369.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <ActorImage image="@i_davesprite_shrug_smile" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite370.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite371.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite372.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <ActorImage image="@i_cousin_default_mortified" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite372.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite373.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_angry" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite373.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite374.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite375.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite375.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <ActorImage image="@i_davesprite_standing_smile" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite376.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite377.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite377.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite378.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1V">
+            <events>
+                <ActorImage image="@i_davesprite_standing_eyebrow" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite379.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite380.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite381.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite382.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <FadeEvent auto="true" duration="0.20" name="_1Z" target="davesprite" to="0" />
+        <ParallelEvent name="_1a">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite383.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite384.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite384.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite385.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite385.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite386.00" />
+            </events>
+        </ParallelEvent>
+        <ActorMove name="_1g" target="digdug" x="15%" />
+        <FadeEvent auto="true" duration="0.5" name="_1h" target="digdug" to="1" />
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sdavesprite387.00" transform="uppercase" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sdavesprite387.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite388.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite388.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sdavesprite389.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sdavesprite389.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sdavesprite390.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite391.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_surprised" target="cousin" />
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_sdavesprite391.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sdavesprite392.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_sdavesprite392.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite393.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sdavesprite394.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1v">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_sdavesprite395.00" />
+                <ActorImage image="@i_davesprite_standing_disinterest" target="davesprite" />
+                <ActorMove target="davesprite" x="80%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1w">
+            <events>
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite396.00" />
+                <FadeEvent duration="0.333" target="davesprite" to="1" />
+                <ActorMove duration="1" target="davesprite" x="40%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1x">
+            <events>
+                <ActorImage image="@i_davesprite_standing_disinterest" target="davesprite" />
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite397.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent char="@t_ch_davesprite" text="@t_sdavesprite398.00" transform="davesprite" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <ActorImage image="@i_cousin_energetic_angry" target="cousin" />
+                <TextEvent char="@t_ch_cousin" text="@t_sdavesprite399.00" />
+                <AudioDestroy target="firealarm" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_20" scene="s_day4" />
+    </events>
+</scene>

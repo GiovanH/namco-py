@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_lolo6" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_slolo697.00">
+            <value key="en">You saved me… Thank you!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo697.01">
+            <value key="en">You really were true to yourself!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo698.00">
+            <value key="en">You did it…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo699.00">
+            <value key="en">(AMAZING!)</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6100.00">
+            <value key="en">BY GALACTIC DECREE: THREE CHEERS FOR LOLO AND ${slot:playerName}!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6101.00">
+            <value key="en">…</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6102.00">
+            <value key="en">Are you… smiling?</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6102.01">
+            <value key="en">Wow, are you actually HAPPY?!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6103.00">
+            <value key="en">...Don’t flatter yourself.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6103.01">
+            <value key="en">It’s the endorphins from fighting.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6104.00">
+            <value key="en">Yeah right!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6104.01">
+            <value key="en">You did a good thing and feel good about yourself!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6104.02">
+            <value key="en">Haha! I knew it.</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6105.00">
+            <value key="en">Shut up!</value>
+        </TextAsset>
+        <TextAsset key="t_slolo6106.00">
+            <value key="en">You’re so embarrassing…</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent auto="true" name="initialize">
+            <events>
+                <VarEnsure storeName="slot" value="0" varName="pick_count_lolo" />
+                <ActorCreate actorId="king" actorType="character">
+                    <styles>
+                        <x>30%</x>
+                        <image>@i_king_confident</image>
+                        <depth>2</depth>
+                        <scaleX>-1</scaleX>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="pacman" actorType="character">
+                    <styles>
+                        <x>35%</x>
+                        <image>@i_pacman_left</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="galaga" actorType="character">
+                    <styles>
+                        <x>30%</x>
+                        <image>@i_galaga_default</image>
+                        <depth>2</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_evil_namco_high</image>
+                        <depth>11</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="white_swatch" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_white</image>
+                        <depth>16</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="robotarmy" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_robotarmy</image>
+                        <x>-40%</x>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_cousin_normal</image>
+                        <x>40%</x>
+                        <y>25%</y>
+                        <opacity>0</opacity>
+                        <scaleX>.75</scaleX>
+                        <scaleY>.75</scaleY>
+                        <depth>13</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="lolo" actorType="character">
+                    <styles>
+                        <image>@i_battlepose_lolo</image>
+                        <x>40%</x>
+                        <y>-12.5%</y>
+                        <scaleX>-0.75</scaleX>
+                        <scaleY>.75</scaleY>
+                        <opacity>0</opacity>
+                        <depth>12</depth>
+                    </styles>
+                </ActorCreate>
+            </events>
+        </ParallelEvent>
+        <BattleMacro name="_1" partnerActor="lolo">
+            <events>
+                <ActorDestroy name="_0" target="robotarmy" />
+                <ActorEvent name="_1" target="bg">
+                    <styles>
+                        <image>@i_bg_school_front</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_2" target="lolo">
+                    <styles>
+                        <image>@i_lolo_default_melancholy</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>-12%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorEvent name="_3" target="cousin">
+                    <styles>
+                        <image>@i_cousin_default_neutral</image>
+                        <scaleX>1</scaleX>
+                        <scaleY>1</scaleY>
+                        <x>-40%</x>
+                        <y>0%</y>
+                        <depth>2</depth>
+                    </styles>
+                </ActorEvent>
+                <ActorFade name="_4" opacity="1" target="pacman" />
+            </events>
+        </BattleMacro>
+        <BadEndMacro auto="true" name="_2" varName="${slot:pick_count_lolo}" />
+        <ActorFade auto="true" duration="0.5" name="_3" opacity="0" target="curtain" />
+        <ParallelEvent name="_4">
+            <events>
+                <ActorImage image="@i_king_confident" target="king" />
+                <ActorImage image="@i_lolo_default_melancholy" target="lolo" />
+                <ActorImage image="@i_galaga_default" target="galaga" />
+                <ActorImage image="@i_pacman_left" target="pacman" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <TextEvent char="@t_ch_pacman" text="@t_slolo697.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent append="true" char="@t_ch_pacman" text="@t_slolo697.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_king" text="@t_slolo699.00" />
+                <ActorFade duration=".25" opacity="0" target="pacman" />
+                <ActorFade duration=".333" opacity="1" target="king" />
+                <ActorImage image="@i_king_screaming" target="king" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_slolo6100.00" transform="uppercase" />
+                <ActorFade duration=".25" opacity="0" target="king" />
+                <ActorFade duration=".333" opacity="1" target="galaga" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo6101.00" />
+                <ActorImage image="@i_lolo_default_realsmile" target="lolo" />
+                <ActorFade duration=".333" opacity="0" target="galaga" />
+                <ActorMove delay=".5" duration=".333" target="cousin" x="-20%" />
+                <ActorMove delay=".5" duration=".333" target="lolo" x="20%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo6102.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo6102.01" />
+                <ActorImage image="@i_cousin_default_laugh" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo6103.00" />
+                <ActorCrossfade duration=".333" image="@i_lolo_default_realsmile_blush" opacity="1" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent append="true" char="@t_ch_lolo" text="@t_slolo6103.01" />
+                <ActorImage image="@i_lolo_shrug_melancholy_blush" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_slolo6104.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo6104.01" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_slolo6104.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo6105.00" />
+                <ActorImage image="@i_lolo_crossed_melancholy_blush" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_lolo" text="@t_slolo6106.00" />
+                <ActorImage image="@i_lolo_crossed_realsmile_blush" target="lolo" />
+            </events>
+        </ParallelEvent>
+        <ActorFade allowInterrupt="false" auto="true" duration="1" name="_I" opacity="1" target="curtain" />
+        <AudioCreate audioId="bgm" auto="true" layer="bgm" loop="false" name="_J" play="true" sound="@a_bgm_credits" />
+        <CreditsEvent allowInterrupt="false" name="_K" />
+        <IfGTE auto="true" lvalue="${slot:pick_count_lolo}" name="_L" rvalue="3">
+            <events>
+                <VarSet name="_0" storeName="game" value="true" varName="got_trueend_lolo" />
+                <ActorCreate actorId="trueEnd" actorType="event" allowInterrupt="false" duration="1" name="_1">
+                    <styles>
+                        <image>@i_event_lolo_ending</image>
+                        <depth>23</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                    <transitions>
+                        <opacity>1</opacity>
+                    </transitions>
+                </ActorCreate>
+                <ActorFade allowInterrupt="false" auto="true" duration="1" name="_2" opacity="0" target="trueEnd" />
+            </events>
+        </IfGTE>
+        <GameOver name="_M" />
+    </events>
+</scene>

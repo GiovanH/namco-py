@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scene id="s_nidia3" xmlns="http://datenighto.com/schemas/htmlvn/0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datenighto.com/schemas/htmlvn/0.1 ./htmlvn.xsd">
+    <assets>
+        <TextAsset key="t_snidia315.00">
+            <value key="en">Thanks for coming!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia315.01">
+            <value key="en">I really appreciate your help, ${slot:playerName}.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia316.00">
+            <value key="en">It's not a problem but...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia316.01">
+            <value key="en">How am I going to be helping, exactly?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia317.00">
+            <value key="en">We're going to combine!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia318.00">
+            <value key="en">What-- !</value>
+        </TextAsset>
+        <TextAsset key="t_snidia319.00">
+            <value key="en">Wait,</value>
+        </TextAsset>
+        <TextAsset key="t_snidia320.00">
+            <value key="en">I mean,</value>
+        </TextAsset>
+        <TextAsset key="t_snidia321.00">
+            <value key="en">I've NEVER combined--</value>
+        </TextAsset>
+        <TextAsset key="t_snidia322.00">
+            <value key="en">...................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia323.00">
+            <value key="en">(I just... Said too much.)</value>
+        </TextAsset>
+        <TextAsset key="t_snidia324.00">
+            <value key="en">(I... Need to take a deep breath here. Okay.)</value>
+        </TextAsset>
+        <TextAsset key="t_snidia325.00">
+            <value key="en">Nidia... I think this is what Principal Dig Dug was talking about...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia326.00">
+            <value key="en">I don't get it...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia327.00">
+            <value key="en">You're very direct.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia327.01">
+            <value key="en">Not everyone is ready to just dive into something like that...especially when they don't know the details.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia327.02">
+            <value key="en">And furthermore...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia328.00">
+            <value key="en">Is it really fair to try to involve someone in your destiny without being completely open with them?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia329.00">
+            <value key="en">There's nothing wrong with being direct, but I think you also need to be up front about the whole truth. Saving the world is a huge--</value>
+        </TextAsset>
+        <TextAsset key="t_snidia330.00">
+            <value key="en">-- Burden.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia331.00">
+            <value key="en">... I was going to say responsibility.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia332.00">
+            <value key="en">..............</value>
+        </TextAsset>
+        <TextAsset key="t_snidia333.00">
+            <value key="en">(Her destiny really bothers her for some reason... )</value>
+        </TextAsset>
+        <TextAsset key="t_snidia334.00">
+            <value key="en">Anyway, what I'm trying to say is... If there's someone you have in mind, I can help you talk to them.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia334.01">
+            <value key="en">I'm no King of All Cosmos, but... Talking can be one of my good points.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia335.00">
+            <value key="en">Really? You mean that?!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia336.00">
+            <value key="en">Of course.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia336.01">
+            <value key="en">Um... Did you have anyone in mind?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia337.00">
+            <value key="en">Tomari helped me put together a method for determining compatibility. He calls it the Tomari Personality Compatibility Matrix!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia338.00">
+            <value key="en">Using the matrix, I've narrowed it down to 3 people.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia339.00">
+            <value key="en">First... Richard Miller.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia340.00">
+            <value key="en">That guy? He's so... Twitchy...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia341.00">
+            <value key="en">But he's good-looking! The only thing better than tall, dark and handsome is a man in glasses.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia342.00">
+            <value key="en">(She seems really into glasses... )</value>
+        </TextAsset>
+        <TextAsset key="t_snidia343.00">
+            <value key="en">Second... Hiromi Tengenji.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia344.00">
+            <value key="en">Oooh. She's so... Unapproachable. Do you think you have a chance?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia345.00">
+            <value key="en">I have my sources! And that cool, confident exterior... The strong, silent type is definitely attractive!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia346.00">
+            <value key="en">What does a person's appearance have to do with combining...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia347.00">
+            <value key="en">I'VE MADE THE CALCULATIONS</value>
+        </TextAsset>
+        <TextAsset key="t_snidia348.00">
+            <value key="en">(She's very sure of her tastes... )</value>
+        </TextAsset>
+        <TextAsset key="t_snidia349.00">
+            <value key="en">Lastly... Galaga ship.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia350.00">
+            <value key="en">Well, obviously.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia351.00">
+            <value key="en">I know... My heart fluttered a little bit just thinking about that sleek, Allurium exterior...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia352.00">
+            <value key="en">(Me too... )</value>
+        </TextAsset>
+        <TextAsset key="t_snidia353.00">
+            <value key="en">.................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia354.00">
+            <value key="en">.........................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia355.00">
+            <value key="en">Sure got warm in here........</value>
+        </TextAsset>
+        <TextAsset key="t_snidia356.00">
+            <value key="en">Tell me about it... I should have worn my summer armor.........</value>
+        </TextAsset>
+        <TextAsset key="t_snidia357.00">
+            <value key="en">OKAY! Let's get focused here. Where does Richard Miller usually hang out?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia358.00">
+            <value key="en">He's always where you least suspect him...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia359.00">
+            <value key="en">................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia360.00">
+            <value key="en">................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia361.00">
+            <value key="en">HELLO!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia362.00">
+            <value key="en">AAAAAAAAAAAAH!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia363.00">
+            <value key="en">Now... I don't want to sound suspicious...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia363.01">
+            <value key="en">But I happened to be in the area...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia363.02">
+            <value key="en">And I thought I heard my name.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia364.00">
+            <value key="en">(Being behind a mystic veil in the biology section of the library isn't 'just happening to be in the area' you psycho!!)</value>
+        </TextAsset>
+        <TextAsset key="t_snidia365.00">
+            <value key="en">We were just talking about you!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia366.00">
+            <value key="en">You were? I see...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia367.00">
+            <value key="en">(He's writing furiously in a notebook... His pencil is a blur.)</value>
+        </TextAsset>
+        <TextAsset key="t_snidia368.00">
+            <value key="en">(Nidia's checking her notes... Maybe these two ARE compatible.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia368.01">
+            <value key="en">They sure are studious, in their own ways.)</value>
+        </TextAsset>
+        <TextAsset key="t_snidia369.00">
+            <value key="en">Richard... What do you think of me?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia370.00">
+            <value key="en">Suspicious!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia371.00">
+            <value key="en">!! So quickly?!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia372.00">
+            <value key="en">Everyone is suspicious until proven unsuspicious!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia373.00">
+            <value key="en">Ummm... What do I say to that?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia374.00">
+            <value key="en">I think he just needs to get to know you... Tell him about yourself.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia375.00">
+            <value key="en">Okay... Richard, do you believe in prophecy?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia376.00">
+            <value key="en">I suspect she's in... a shadowy cult...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia377.00">
+            <value key="en">What? No! I'm not in any cult!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia378.00">
+            <value key="en">Is this one of those prank shows, then?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia378.01">
+            <value key="en">Where are the hidden cameras?!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia379.00">
+            <value key="en">There are no hidden cameras!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia380.00">
+            <value key="en">Just the magic, all-seeing eye of my amulet. Which I can use to combine with another person... to become a dragon! I want your help!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia381.00">
+            <value key="en">DEFINITELY shadowy cult...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia382.00">
+            <value key="en">Where's the rest of your cult?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia382.01">
+            <value key="en">I know they're here!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia382.02">
+            <value key="en">Waiting!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia382.03">
+            <value key="en">Waiting...................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia383.00">
+            <value key="en">There's no cult..........</value>
+        </TextAsset>
+        <TextAsset key="t_snidia384.00">
+            <value key="en">That's just what someone in a cult would say!!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia385.00">
+            <value key="en">He ran away.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia386.00">
+            <value key="en">There he goes.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia387.00">
+            <value key="en">Do you see what I mean? Nobody likes me...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia388.00">
+            <value key="en">I wouldn't base your view of humanity on him if I were you...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia389.00">
+            <value key="en">....................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia390.00">
+            <value key="en">(She looks so bummed out...)</value>
+        </TextAsset>
+        <TextAsset key="t_snidia391.00">
+            <value key="en">Um.....</value>
+        </TextAsset>
+        <TextAsset key="t_snidia391.01">
+            <value key="en">Let's go find Hiromi!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia392.00">
+            <value key="en">Y-yeah! Let's go!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia393.00">
+            <value key="en">This is her motorcyle...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia394.00">
+            <value key="en">Whoa... It's really cool.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia395.00">
+            <value key="en">...............</value>
+        </TextAsset>
+        <TextAsset key="t_snidia396.00">
+            <value key="en">OH! Hi Hiromi!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia396.01">
+            <value key="en">We were just talking about your bike!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia397.00">
+            <value key="en">........................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia398.00">
+            <value key="en">Ummmm....</value>
+        </TextAsset>
+        <TextAsset key="t_snidia399.00">
+            <value key="en">..................................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3100.00">
+            <value key="en">(She's definitely the strong silent type... )</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3101.00">
+            <value key="en">.................. What's up.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3102.00">
+            <value key="en">OH! You talked.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3103.00">
+            <value key="en">.....................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3104.00">
+            <value key="en">Um... I was just wondering...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3105.00">
+            <value key="en">Ask her if she's free later! Keep it casual.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3106.00">
+            <value key="en">Are you free later?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3107.00">
+            <value key="en">................ I'm busy.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3107.01">
+            <value key="en">And spoken for.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3108.00">
+            <value key="en">Spoken for?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3109.00">
+            <value key="en">You're cute.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3110.00">
+            <value key="en">But just because I like fast motorcycles...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3110.01">
+            <value key="en">Doesn't mean I like fast relationships.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3111.00">
+            <value key="en">(A shockingly decisive statement!)</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3112.00">
+            <value key="en">Relationship? Oh no! I think we're having two different conversations here.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3113.00">
+            <value key="en">Oh. Are we?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3113.01">
+            <value key="en">I'm definitely not interested, then.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3114.00">
+            <value key="en">............. Wow.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3114.01">
+            <value key="en">What an unusual person...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3114.02">
+            <value key="en">Nidia?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3115.00">
+            <value key="en">..............</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3116.00">
+            <value key="en">......................</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3117.00">
+            <value key="en">.................. No one wants to combine with me......</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3117.01">
+            <value key="en">They won't even listen...............</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3118.00">
+            <value key="en">Nidia...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3119.00">
+            <value key="en">...............</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3120.00">
+            <value key="en">Don't give up! I'm sure the next time will go better.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3120.01">
+            <value key="en">Who's next?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3121.00">
+            <value key="en">S-sniff... G-galaga......</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3122.00">
+            <value key="en">(WE'VE DEFINITELY SET OUR SIGHTS TOO HIGH)</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3123.00">
+            <value key="en">Come on... Let's get this over with...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3124.00">
+            <value key="en">Nidia...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3124.01">
+            <value key="en">She's really hurting...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3124.02">
+            <value key="en">I think there's more going on here than I thought...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3125.00">
+            <value key="en">(Maybe this isn't such a good idea... )</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3126.00">
+            <value key="en">GALAGA!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3127.00">
+            <value key="en">WHAT DO YOU WANT MORTAL</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3128.00">
+            <value key="en">COMBINE WITH ME!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3129.00">
+            <value key="en">EVERYONE WANTS A PIECE OF GALAGA... BECAUSE GALAGA IS MADE OF ALLURIUM, THE RAREST, MOST PASSIONATE METAL IN THE UNIVERSE.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3130.00">
+            <value key="en">BUT GALAGA IS NOT JUST SOME TROPHY, TO BE PRIZED LIKE AN OBJECT.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3131.00">
+            <value key="en">GALAGA HAS SEEN THINGS ON THE GALACTIC FRONTIER... DONE THINGS THAT YOU CANNOT IMAGINE.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3132.00">
+            <value key="en">YOU THINK GALAGA IS A THING, TO BE OWNED...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3133.00">
+            <value key="en">BUT YOU CANNOT OWN GALAGA'S EXPERIENCES.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3134.00">
+            <value key="en">GALAGA HAS FEELINGS TOO! GALAGA... HAS FEELINGS... TOO.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3135.00">
+            <value key="en">Well... I...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3136.00">
+            <value key="en">T-tell Galaga what you're thinking!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3137.00">
+            <value key="en">I can't do this.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3137.01">
+            <value key="en">This is so stupid.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3138.00">
+            <value key="en">I'm exhausted.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3138.01">
+            <value key="en">I just want to be alone for a while.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3139.00">
+            <value key="en">Nidia... Wait!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3140.00">
+            <value key="en">ONCE AGAIN... GALAGA BECOMES EMBROILED IN YOUR...</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3140.01">
+            <value key="en">EARTH DRAMA</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3141.00">
+            <value key="en">Nidia, wait!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3141.01">
+            <value key="en">I'm sorry!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3142.00">
+            <value key="en">Sorry? What're YOU sorry for?</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3143.00">
+            <value key="en">I just... I wanted to help, but I was no help at all.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3144.00">
+            <value key="en">I--</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3145.00">
+            <value key="en">STUDENTS! IN THE HALL?!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3146.00">
+            <value key="en">You two! YOU... DELINQUENTS!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3147.00">
+            <value key="en">Yeah... I'm a delinquent!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3147.01">
+            <value key="en">I'm not good at anything!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3147.02">
+            <value key="en">Except being alone!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3148.00">
+            <value key="en">I'm a no good,</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3148.01">
+            <value key="en">Irresponsible,</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3148.02">
+            <value key="en">Duty-shirking,</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3148.03">
+            <value key="en">Dumb</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3148.04">
+            <value key="en">Selfish</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3149.00">
+            <value key="en">Um....</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3150.00">
+            <value key="en">Useless</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3150.01">
+            <value key="en">Dumb</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3150.02">
+            <value key="en">IDIOT!!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3151.00">
+            <value key="en">I'm putting myself in SEPTUPLE SPIRIT DUNGEON DETENTION!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3152.00">
+            <value key="en">Whoa... that's a little excessive.......</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3153.00">
+            <value key="en">Y-yeah.........</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3154.00">
+            <value key="en">If I have to spend forever in detention, then I don't have to worry about some stupid prophecy!!!!!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3155.00">
+            <value key="en">BY THE COILS OF JÃRMUNGANDR... I should have put more points into charisma!!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3156.00">
+            <value key="en">Nidia!</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3157.00">
+            <value key="en">...sheesh.</value>
+        </TextAsset>
+        <TextAsset key="t_snidia3157.01">
+            <value key="en">YOUTHS.</value>
+        </TextAsset>
+    </assets>
+    <events>
+        <ParallelEvent name="_0">
+            <events>
+                <AudioCreate audioId="bgm" layer="bgm" loop="true" play="true" sound="@a_bgm_school" />
+                <ActorCreate actorId="bg" actorType="background">
+                    <styles>
+                        <image>@i_bg_library</image>
+                        <depth>0</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="curtain" actorType="background">
+                    <styles>
+                        <opacity>0</opacity>
+                        <image>@i_sw_black</image>
+                        <depth>15</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="cousin" actorType="character">
+                    <styles>
+                        <x>-20%</x>
+                        <image>@i_cousin_default_neutral</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="nidia" actorType="character">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_nidia_resolute_happy</image>
+                        <depth>3</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="miller" actorType="character">
+                    <styles>
+                        <x>35%</x>
+                        <y>100%</y>
+                        <image>@i_miller_akimbo_laugh</image>
+                        <depth>1</depth>
+                        <scaleX>-1</scaleX>
+                    </styles>
+                </ActorCreate>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia315.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia315.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia316.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_3">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia316.01" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_4">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia317.00" />
+                <ActorImage image="@i_nidia_clasped_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_5">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia318.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_6">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia319.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_7">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia320.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_8">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia321.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_9">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia322.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_A">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia323.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia324.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_C">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia325.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_D">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia326.00" />
+                <ActorImage image="@i_nidia_clasped_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_E">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia327.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_F">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia327.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_G">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia327.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_H">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia328.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_I">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia329.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_J">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia330.00" />
+                <ActorImage image="@i_nidia_akimbo_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_K">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia331.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_L">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia332.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_M">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia333.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_N">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia334.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_O">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia334.01" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_P">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia335.00" />
+                <ActorImage image="@i_nidia_clasped_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia336.00" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_R">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia336.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_S">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia337.00" />
+                <ActorImage image="@i_nidia_akimbo_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_T">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia338.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_U">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia339.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_V">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia340.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_W">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia341.00" />
+                <ActorImage image="@i_nidia_clasped_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia342.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Y">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia343.00" />
+                <ActorImage image="@i_nidia_akimbo_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_Z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia344.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_a">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia345.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_b">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia346.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_c">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia347.00" />
+                <ActorImage image="@i_nidia_resolute_angry" target="nidia" />
+                <ActorFlip target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_d">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia348.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_e">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia349.00" />
+                <ActorImage image="@i_nidia_resolute_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_f">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia350.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_g">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia351.00" />
+                <ActorImage image="@i_nidia_resolute_happy_blush" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia352.00" />
+                <ActorImage image="@i_cousin_default_grin_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_i">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia353.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia354.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_k">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia355.00" />
+                <ActorImage image="@i_cousin_default_surprised_blush" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_l">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia356.00" />
+                <ActorImage image="@i_nidia_resolute_surprised_blush" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_m">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia357.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_n">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia358.00" />
+                <ActorImage image="@i_nidia_resolute_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_o">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia359.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_p">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia360.00" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" duration=".33" ease="ease-out" name="_q" target="miller" y="0%" />
+        <ParallelEvent name="_r">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia361.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_s">
+            <events>
+                <TextEvent char="@t_ch_nidiacousins" text="@t_snidia362.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_resolute_surprised" target="nidia" />
+                <ActorImage image="@i_cousin_energetic_surprise" target="cousin" />
+                <ActorMove duration="0.333" target="cousin" x="-45%" />
+                <ActorMove duration="0.333" target="nidia" x="-25%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_t">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia363.00" />
+                <ActorMove duration="0.75" target="miller" x="30%" />
+                <ActorImage image="@i_miller_akimbo_serious" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_u">
+            <events>
+                <TextEvent append="true" char="@t_ch_richard" text="@t_snidia363.01" />
+                <ActorMove duration="0.75" target="miller" x="25%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_v">
+            <events>
+                <TextEvent append="true" char="@t_ch_richard" text="@t_snidia363.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_w">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia364.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_x">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia365.00" />
+                <ActorImage image="@i_nidia_resolute_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_y">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia366.00" />
+                <ActorImage image="@i_miller_notebook_serious" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_z">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia367.00" />
+                <ActorImage image="@i_nidia_notepad_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_10">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia368.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_11">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia368.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_12">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia369.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_13">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia370.00" />
+                <ActorImage image="@i_miller_akimbo_serious" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_14">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia371.00" />
+                <ActorImage image="@i_nidia_resolute_surprised_blush" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_15">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia372.00" />
+                <ActorImage image="@i_miller_akimbo_shocked" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_16">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia373.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_17">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia374.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_18">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia375.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_19">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia376.00" />
+                <ActorImage image="@i_miller_notebook_serious" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1A">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia377.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_akimbo_surprised" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1B">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia378.00" />
+                <ActorImage image="@i_miller_pondering_serious" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1C">
+            <events>
+                <TextEvent append="true" char="@t_ch_richard" text="@t_snidia378.01" />
+                <ActorImage image="@i_miller_pondering_shocked" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1D">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia379.00" />
+                <ActorImage image="@i_miller_pondering_contemplative" target="miller" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_clasped_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1E">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia380.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1F">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia381.00" />
+                <ActorImage image="@i_miller_notebook_serious" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1G">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia382.00" />
+                <ActorImage image="@i_miller_aliens_serious" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1H">
+            <events>
+                <TextEvent append="true" char="@t_ch_richard" text="@t_snidia382.01" />
+                <ActorImage image="@i_miller_aliens_shocked" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1I">
+            <events>
+                <TextEvent append="true" char="@t_ch_richard" text="@t_snidia382.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1J">
+            <events>
+                <TextEvent append="true" char="@t_ch_richard" text="@t_snidia382.03" />
+                <ActorImage image="@i_miller_aliens_serious" target="miller" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1K">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia383.00" />
+                <ActorImage image="@i_nidia_akimbo_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1L">
+            <events>
+                <TextEvent char="@t_ch_richard" text="@t_snidia384.00" />
+                <ActorFlip target="miller" />
+                <ActorImage image="@i_miller_akimbo_shocked" target="miller" />
+                <ActorMove duration="0.5" target="miller" x="75%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1M">
+            <events>
+                <ActorDestroy target="miller" />
+                <TextEvent char="@t_ch_cousin" text="@t_snidia385.00" />
+                <ActorMove duration="0.333" target="cousin" x="-20%" />
+                <ActorMove duration="0.333" target="nidia" x="20%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1N">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia386.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1O">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia387.00" />
+                <ActorImage image="@i_nidia_clasped_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1P">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia388.00" />
+                <ActorImage image="@i_cousin_exhausted_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Q">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia389.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1R">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia390.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1S">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia391.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1T">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia391.01" />
+                <ActorImage image="@i_cousin_exhausted_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1U">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia392.00" />
+                <ActorImage image="@i_nidia_resolute_happy" target="nidia" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_shopclass" curtainActor="curtain" curtainFadeTime="0.5" name="_1V">
+            <events>
+                <ActorCreate actorId="bike" actorType="character" name="_0">
+                    <styles>
+                        <image>@i_prop_hiromi_bike</image>
+                        <x>-34%</x>
+                        <y>24%</y>
+                        <depth>1</depth>
+                        <scaleX>-1</scaleX>
+                    </styles>
+                </ActorCreate>
+                <ActorCreate actorId="hiromi" actorType="character" name="_1">
+                    <styles>
+                        <x>-100%</x>
+                        <image>@i_hiromi_crossed_serious</image>
+                        <depth>2</depth>
+                        <opacity>1</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorFlip name="_2" target="cousin" />
+                <ActorImage image="@i_nidia_akimbo_happy" name="_3" target="nidia" />
+                <ActorImage image="@i_cousin_default_neutral" name="_4" target="cousin" />
+                <ActorMove name="_5" target="cousin" x="40%" />
+                <ActorMove name="_6" target="nidia" x="15%" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_1W">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia393.00" />
+                <AudioEvent fadeDuration="1" play="true" sound="@a_bgm_upbeat_half" target="bgm" volume="1" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia394.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Y">
+            <events>
+                <ActorMove duration="0.5" target="hiromi" x="-20%" />
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia395.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1Z">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia396.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_resolute_surprised" target="nidia" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1a">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia396.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1b">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia397.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1c">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia398.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_akimbo_surprised" target="nidia" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1d">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia399.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3100.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1f">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia3101.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1g">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3102.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1h">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia3103.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1i">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3104.00" />
+                <ActorImage image="@i_nidia_akimbo_surprised" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1j">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3105.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1k">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3106.00" />
+                <ActorImage image="@i_nidia_akimbo_happy" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1l">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia3107.00" />
+                <ActorImage image="@i_hiromi_stand_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1m">
+            <events>
+                <TextEvent append="true" char="@t_ch_hiromi" text="@t_snidia3107.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1n">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3108.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_resolute_surprised" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1o">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia3109.00" />
+                <ActorImage image="@i_hiromi_crossed_smile" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1p">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia3110.00" />
+                <ActorImage image="@i_hiromi_crossed_serious" target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1q">
+            <events>
+                <TextEvent append="true" char="@t_ch_hiromi" text="@t_snidia3110.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1r">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3111.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1s">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3112.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_akimbo_worried_blush" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1t">
+            <events>
+                <TextEvent char="@t_ch_hiromi" text="@t_snidia3113.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1u">
+            <events>
+                <TextEvent append="true" char="@t_ch_hiromi" text="@t_snidia3113.01" />
+                <ActorImage image="@i_nidia_akimbo_surprised_blush" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" duration="0.5" name="_1v" target="hiromi" x="-100%" />
+        <ParallelEvent name="_1w">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3114.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+                <ActorMove duration="0.5" target="nidia" x="-20%" />
+                <ActorMove duration="0.5" target="cousin" x="20%" />
+                <ActorDestroy target="hiromi" />
+            </events>
+        </ParallelEvent>
+        <ActorFlip auto="true" name="_1x" target="nidia" />
+        <ParallelEvent name="_1y">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia3114.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_1z">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia3114.02" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_20">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3115.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_21">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3116.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_22">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3117.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_clasped_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_23">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3117.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_24">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3118.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_25">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3119.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_26">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3120.00" />
+                <ActorImage image="@i_cousin_default_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_27">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia3120.01" />
+                <ActorImage image="@i_cousin_energetic_grin" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_28">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3121.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_29">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3122.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2A">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3123.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2B">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3124.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2C">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia3124.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2D">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia3124.02" />
+                <AudioEvent fadeDuration="1" target="bgm" volume="0" />
+            </events>
+        </ParallelEvent>
+        <SettingChange bgActor="bg" bgImage="@i_bg_stage_cardboard" curtainActor="curtain" curtainFadeTime="0.5" name="_2E">
+            <events>
+                <ActorCreate actorId="galaga" actorType="character" name="_0">
+                    <styles>
+                        <x>30%</x>
+                        <image>@i_galaga_default</image>
+                        <depth>2</depth>
+                    </styles>
+                </ActorCreate>
+                <ActorDestroy name="_1" target="bike" />
+                <ActorFlip name="_2" target="nidia" />
+                <ActorFlip name="_3" target="cousin" />
+                <ActorImage image="@i_nidia_akimbo_worried" name="_4" target="nidia" />
+                <ActorImage image="@i_cousin_default_neutral" name="_5" target="cousin" />
+                <ActorMove name="_6" target="cousin" x="-40%" />
+                <ActorMove name="_7" target="nidia" x="-15%" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_2F">
+            <events>
+                <AudioEvent fadeDuration="1" play="true" sound="@a_bgm_romance" target="bgm" volume="1" />
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3125.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2G">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3126.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2H">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_snidia3127.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2I">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3128.00" />
+                <ActorImage image="@i_nidia_clasped_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2J">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_snidia3129.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2K">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_snidia3130.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2L">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_snidia3131.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2M">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_snidia3132.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2N">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_snidia3133.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2O">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_snidia3134.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2P">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3135.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_resolute_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2Q">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3136.00" />
+                <ActorImage image="@i_cousin_default_surprised" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2R">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3137.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_akimbo_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2S">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3137.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2T">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3138.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2U">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3138.01" />
+            </events>
+        </ParallelEvent>
+        <ActorFlip auto="true" name="_2V" target="nidia" />
+        <ActorMove auto="true" duration="0.5" name="_2W" target="nidia" x="-100%" />
+        <ParallelEvent name="_2X">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3139.00" />
+            </events>
+        </ParallelEvent>
+        <ActorFlip auto="true" name="_2Y" target="cousin" />
+        <ActorMove auto="true" duration="0.5" name="_2Z" target="cousin" x="-100%" />
+        <ParallelEvent allowInterrupt="false" name="_2a">
+            <events>
+                <TextEvent char="@t_ch_galaga" text="@t_snidia3140.00" />
+                <ActorMove duration="1" target="galaga" x="0%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent allowInterrupt="false" name="_2b">
+            <events>
+                <TextEvent append="true" char="@t_ch_galaga" text="@t_snidia3140.01" />
+            </events>
+        </ParallelEvent>
+        <ActorMove allowInterrupt="false" auto="true" duration="1" ease="ease-in" name="_2c" target="galaga" y="-100%" />
+        <SettingChange bgActor="bg" bgImage="@i_bg_hallway_a" curtainActor="curtain" curtainFadeTime="0.5" name="_2d">
+            <events>
+                <ActorCreate actorId="digdug" actorType="character" name="_0">
+                    <styles>
+                        <x>20%</x>
+                        <image>@i_digdug_left</image>
+                        <depth>4</depth>
+                        <opacity>0</opacity>
+                    </styles>
+                </ActorCreate>
+                <ActorDestroy name="_1" target="galaga" />
+                <ActorFlip name="_2" target="nidia" />
+                <ActorFlip name="_3" target="cousin" />
+                <ActorImage image="@i_nidia_akimbo_worried" name="_4" target="nidia" />
+                <ActorImage image="@i_cousin_energetic_neutral" name="_5" target="cousin" />
+                <ActorMove name="_6" target="cousin" x="-20%" />
+                <ActorMove name="_7" target="nidia" x="20%" />
+            </events>
+        </SettingChange>
+        <ParallelEvent name="_2e">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3141.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2f">
+            <events>
+                <TextEvent append="true" char="@t_ch_cousin" text="@t_snidia3141.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2g">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3142.00" />
+                <ActorImage image="@i_nidia_clasped_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2h">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3143.00" />
+                <ActorImage image="@i_cousin_default_neutral" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2i">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3144.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2j">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_snidia3145.00" />
+                <ActorFlip target="nidia" />
+                <ActorMove duration="0.333" target="nidia" x="-20%" />
+                <ActorMove duration="0.333" target="cousin" x="-35%" />
+                <ActorImage image="@i_nidia_resolute_surprised" target="nidia" />
+                <FadeEvent duration="0.5" target="digdug" to="1" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2k">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_snidia3146.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2l">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3147.00" />
+                <ActorFlip target="nidia" />
+                <ActorImage image="@i_nidia_clasped_worried" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2m">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3147.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2n">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3147.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2o">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3148.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2p">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3148.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2q">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3148.02" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2r">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3148.03" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2s">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3148.04" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2t">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_snidia3149.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2u">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3150.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2v">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3150.01" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2w">
+            <events>
+                <TextEvent append="true" char="@t_ch_nidia" text="@t_snidia3150.02" />
+                <ActorImage image="@i_nidia_clasped_angry" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2x">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3151.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2y">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3152.00" />
+                <ActorImage image="@i_cousin_exhausted_mortified" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_2z">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_snidia3153.00" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_30">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3154.00" />
+                <ActorImage image="@i_nidia_resolute_angry" target="nidia" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_31">
+            <events>
+                <TextEvent char="@t_ch_nidia" text="@t_snidia3155.00" />
+            </events>
+        </ParallelEvent>
+        <ActorMove auto="true" duration="0.5" name="_32" target="nidia" x="-100%" />
+        <ParallelEvent name="_33">
+            <events>
+                <TextEvent char="@t_ch_cousin" text="@t_snidia3156.00" />
+                <ActorImage image="@i_cousin_energetic_sad" target="cousin" />
+            </events>
+        </ParallelEvent>
+        <ActorFlip auto="true" name="_34" target="cousin" />
+        <ActorMove auto="true" duration="0.5" name="_35" target="cousin" x="-100%" />
+        <ParallelEvent name="_36">
+            <events>
+                <TextEvent char="@t_ch_digdug" text="@t_snidia3157.00" />
+                <ActorMove duration="1" target="digdug" x="0%" />
+            </events>
+        </ParallelEvent>
+        <ParallelEvent name="_37">
+            <events>
+                <TextEvent append="true" char="@t_ch_digdug" text="@t_snidia3157.01" />
+            </events>
+        </ParallelEvent>
+        <NHSceneChange name="_38" scene="s_day4" />
+    </events>
+</scene>
