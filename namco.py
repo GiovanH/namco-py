@@ -9,6 +9,7 @@ from types import GeneratorType
 pathsep = "_"
 sceneid = ""
 
+HARD_PAUSE = ", hard=True"
 
 # TODO maybe add a finalizing opacity statement after ATLs to 
 # workaround the half-faded bug
@@ -25,6 +26,7 @@ AllStores = set()
 DefaultVars = []
 cps_mult = 1.0
 last_say_what = None
+can_append = False
 
 def init():
     global ActorIsFlipped
@@ -37,7 +39,10 @@ def init():
     global DefaultVars
     global cps_mult
     global last_say_what
+    global can_append
 
+
+    can_append = False
     TextStore = nc_hardcoded.TextStore.copy()
     ActorPrevStore = collections.defaultdict(lambda: None)
     JumpLabelStore = []
@@ -77,13 +82,13 @@ def getStoreVarName(storeName, varName):
 
 def findNode(nodes, **kwargs):
     for n in nodes:
-        if all(n.attrs[k] == v for k, v in kwargs.items()):
+        if all(n.attrs_init[k] == v for k, v in kwargs.items()):
             return n
     return None
 
 def findNodes(nodes, **kwargs):
     for n in nodes:
-        if all(n.attrs[k] == v for k, v in kwargs.items()):
+        if all(n.attrs_init[k] == v for k, v in kwargs.items()):
             yield n
 
 def p2f(x):
@@ -194,10 +199,12 @@ def showActorWithAtl(node, fields):
 
     for style, value in list(node.attrs.items()):
         if style in fields:
-            statement = f"{interpolation} {duration} " if duration and float(duration) > 0 else ""
-            statement += transformation[style](value, target)
-            atl_statements.append(statement)
-            pause += float(duration)
+            if duration and float(duration) > 0:
+                atl_statements.append(f"{interpolation} {duration} {transformation[style](value, target)}")
+                pause += float(duration)
+            else:
+                atl_statements.append(f"{transformation[style](value, target)}")
+
             node.attrs.pop(style)
 
     return {
@@ -211,22 +218,30 @@ def showActorWithAtl(node, fields):
 # Abstract tree handlers
 
 class Node():
-    def __init__(self, tag_name=None, attrs={}, children=[], text=""):
+    def __init__(self, attrs={}, children=[], text=""):
         super().__init__()
-        self.__dict__.update(attrs)  # helper
-        self.attrs = self.__dict__
+        
+        tag_name = self.__class__.__name__
+        if tag_name not in NODE_TYPES.keys():
+            tag_name = tag_name.lower()
+        assert tag_name in NODE_TYPES.keys(), tag_name
+
+        assert isinstance(attrs, dict), tag_name
+
+        self.__dict__.update(attrs)
+
+        self.attrs_init = attrs.copy()
 
         self.label = None
         self.parent = None
-        if tag_name is None:
-            tag_name = self.__class__.__name__
-        self.kind = tag_name
+
         self.attrs = attrs
         self.children = children
         self.text = text
 
-        self.attrs_copy = self.attrs.copy()
-        self.attrs['kind'] = tag_name
+        self.kind = tag_name
+        self.attrs_init['kind'] = tag_name
+
         self.pausetime = 0
 
     def preprocess(self):
@@ -256,10 +271,10 @@ class Node():
                 tag.attrs[child.name] = child.text
             else:
                 children.append(Node.fromTag(child))
-        return node_cls(tag.name, tag.attrs, children, text)
+        return node_cls(tag.attrs, children, text)
 
     def __repr__(self, short=True):
-        selfr = f"<{self.__class__.__name__} {self.attrs_copy} {self.kind} '{self.text}'>"
+        selfr = f"<{self.__class__.__name__} {self.kind} {self.attrs_init} '{self.text}'>"
         if self.children and not short:
             childrenstr = "\n".join(str(c) for c in self.children)
             return f"{selfr}\n  {textwrap.indent(childrenstr, '    ')}\n>"
@@ -310,6 +325,8 @@ class RawRpy(Node):
 
 class NodeBody(Node):
     def toRpy(self, prefix=""):
+        global last_say_what
+
         lines = []
         if prefix:
             lines.append(prefix)
@@ -317,7 +334,7 @@ class NodeBody(Node):
         
         # Flatten macros
 
-        #TODO when is this ever needed?
+        # TODO when is this ever needed?
         # i = 0
         # while i < len(self.children):
         #     if isinstance(self.children[i], Events):
@@ -358,7 +375,7 @@ class NodeBody(Node):
                         if atl.get("image"):
                             if atl_buffer.get("image"):
                                 lines.append(resolveAtl(atl_buffer))
-                                lines.append(f"$ renpy.pause({atl_buffer['duration']}) # Image change")
+                                lines.append(f"$ renpy.pause({atl_buffer['duration']}{HARD_PAUSE}) # Image change")
                                 last_say_what = None
                                 atl_buffer = atl
                                 atl_buffer['lines'] = atl.get('lines', [])
@@ -443,13 +460,14 @@ class TimedPause(Node):
     def toRpy(self):
         duration = self.attrs.pop('duration')
         if float(duration) > 0:
-            return f"$ renpy.pause({duration}) # TimedPause"
+            return f"$ renpy.pause({duration}{HARD_PAUSE}) # TimedPause"
         return ""
 
 class Events(NodeBody, Node):
-    def process(self):
-        self.kind = "events"
-        self.attrs['kind'] = self.kind
+    # def process(self):
+    #     self.kind = "events"
+    #     self.attrs['kind'] = self.kind
+    #     self.attrs_copy['kind'] = self.kind
         # assert self.attrs.get("kind", "events") == "events"
 
     def block(self, should_block):
@@ -486,7 +504,7 @@ class Events(NodeBody, Node):
             if should_block:
                 # assert pausetime != 0, str(self)
                 self.children.append(
-                    TimedPause("TimedPause", attrs={
+                    TimedPause(attrs={
                         "duration": pausetime
                     })
                 )
@@ -530,6 +548,7 @@ class ActorEvent(ATLSource, Node):
                     
                     statement += transformation[prop](value, self.actor_id)
                     atl_statements.append(statement)
+                    # atl_statements.append(transformation[prop](value, self.actor_id))
 
             return {
                 "actor_id": style.attrs.pop("id", self.actor_id),
@@ -553,6 +572,14 @@ class ActorEvent(ATLSource, Node):
                     continue
                 statement += transformation[prop](value, self.actor_id)
             atl_statements.append(statement)
+
+            # second one
+            # statement = ""
+            # for prop, value in t.attrs.items():
+            #     if prop in ['kind']:
+            #         continue
+            #     statement += transformation[prop](value, self.actor_id)
+            # atl_statements.append(statement)
 
             return {
                 "actor_id": t.attrs.pop("id", self.actor_id),
@@ -586,7 +613,7 @@ class ActorCreate(ATLSource, Node):
         self.actor_type = self.attrs.pop('actorType')  # character
 
         self.styles = list(findNodes(self.children, kind="styles")) 
-        self.transitions = list(findNodes(self.children, kind="transitions")) or [Transitions("Transitions")]
+        self.transitions = list(findNodes(self.children, kind="transitions")) or [Transitions()]
 
         # self.transitions[0].attrs['duration'] = self.attrs.pop("duration", 0)
         self.name = self.attrs.get("name", None)  # _1
@@ -816,30 +843,30 @@ class NormalEndMacro(NodeBody, Node):
         m = "@a_bgm_credits"
 
         self.children = [
-            ParallelEvent("ParallelEvent", attrs={"auto": True}, children=[
-                Events("events", children=[
-                    ActorEvent("ActorEvent", attrs={
+            ParallelEvent(attrs={"auto": True}, children=[
+                Events(children=[
+                    ActorEvent(attrs={
                         "target": d
                     }, children=[
-                        Styles("styles", attrs={
+                        Styles(attrs={
                             "x": o,
                             "image": s,
                             "depth": 3
                         })
                     ]),
-                    ActorEvent("ActorEvent", attrs={
+                    ActorEvent(attrs={
                         "target": g
                     }, children=[
-                        Styles("styles", attrs={
+                        Styles(attrs={
                             "x": p,
                             "image": t,
                             "depth": 2
                         })
                     ]),
-                    ActorEvent("ActorEvent", attrs={
+                    ActorEvent(attrs={
                         "target": h
                     }, children=[
-                        Styles("styles", attrs={
+                        Styles(attrs={
                             "x": "30%",
                             "opacity": 1,
                             "depth": 2
@@ -851,7 +878,7 @@ class NormalEndMacro(NodeBody, Node):
                     })
                 ])
             ]),
-            ActorEvent("ActorEvent", attrs={
+            ActorEvent(attrs={
                 "target": c,
                 "duration": q
             }, children=[
@@ -864,7 +891,7 @@ class NormalEndMacro(NodeBody, Node):
                 "text": n
             }),
 
-            ActorEvent("ActorEvent", attrs={
+            ActorEvent(attrs={
                 "target": c,
                 "duration": r,
                 "auto": False
@@ -928,30 +955,30 @@ class BattleMacro(NodeBody, Node):
         bgmFadeTime = "bgm"  # C
 
         def n(a, b):
-            return ParallelEvent("ParallelEvent", attrs={"auto": True}, children=[
-                Events("events", children=[
-                    ActorEvent("ActorEvent", attrs={
+            return ParallelEvent(attrs={"auto": True}, children=[
+                Events(children=[
+                    ActorEvent(attrs={
                         "target": a,
                         "duration": 0.4,
                         "animation": "flash"
                     }),
-                    ActorEvent("ActorEvent", attrs={
+                    ActorEvent(attrs={
                         "target": b,
                         "duration": 0.75,
                         "animation": "flash"
                     }, children=[
-                        Transitions("transitions", attrs={"opacity": 1.0})
+                        Transitions(attrs={"opacity": 1.0})
                     ])
                 ])
             ])
 
         def o(a, b):
-            return ActorEvent("ActorEvent", attrs={
+            return ActorEvent(attrs={
                 "ease": "ease",
                 "duration": 1.0,
                 "target": a,
             }, children=[
-                Transitions("transitions", attrs={"x": b})
+                Transitions(attrs={"x": b})
             ])
 
         D = [
@@ -963,43 +990,41 @@ class BattleMacro(NodeBody, Node):
                         ActorEvent(attrs={
                             "target": bgActor,
                         }, children=[
-                            Styles("styles", attrs={
+                            Styles(attrs={
                                 "x": "0%",
                                 "y": "15%",
                                 "scaleX": "2",
                                 "scaleY": "2"
                             })
                         ]),
-                        ActorEvent("ActorEvent", attrs={
+                        ActorEvent(attrs={
                             "target": robotArmyActor,
                         }, children=[
-                            Styles("styles", attrs={"x": robotArmyStartingX})
+                            Styles(attrs={"x": robotArmyStartingX})
                         ])
                     ])
                 ]
             ),
             ParallelEvent(
-                "ParallelEvent", 
                 attrs={"delay": 0.5, "auto": True},
                 children=[
-                    Events("events", children=[
-                        AudioCreate("AudioCreate", attrs={
+                    Events(children=[
+                        AudioCreate(attrs={
                             "audioId": m,
                             "sound": "@a_sfx_thunderclap",
                             "layer": "sfx",
                             "loop": False,
                             "play": True
                         }),
-                        ActorEvent("ActorEvent", attrs={
+                        ActorEvent(attrs={
                             "target": whiteSwatchActor,
                             "duration": 0.4,
                             "animation": "flash"
                         }),
                         ParallelEvent(
-                            "ParallelEvent", 
                             attrs={"delay": 0.5},
-                            children=[Events("events", children=[
-                                ActorEvent("ActorEvent", attrs={
+                            children=[Events(children=[
+                                ActorEvent(attrs={
                                     "target": whiteSwatchActor,
                                     "duration": 0.4,
                                     "animation": "flash"
@@ -1010,16 +1035,15 @@ class BattleMacro(NodeBody, Node):
                 ]
             ),
             ParallelEvent(
-                "ParallelEvent", 
                 attrs={"delay": whiteFadeOutTime, "auto": True},
                 children=[
-                    Events("events", children=[
-                        ActorEvent("ActorEvent", attrs={
+                    Events(children=[
+                        ActorEvent(attrs={
                             "target": bgActor,
                             "duration": bgZoomTime,
                             "ease": bgZoomEase,
                         }, children=[
-                            Transitions("transitions", attrs={
+                            Transitions(attrs={
                                 "x": "0%",
                                 "y": "0%",
                                 "scaleX": "1",
@@ -1029,23 +1053,22 @@ class BattleMacro(NodeBody, Node):
                     ])
                 ]
             ),
-            ActorEvent("ActorEvent", attrs={
+            ActorEvent(attrs={
                 "target": robotArmyActor,
                 "duration": 0.75,
             }, children=[
-                Transitions("transitions", attrs={"opacity": 1})
+                Transitions(attrs={"opacity": 1})
             ]),
             TimedPause(attrs={"duration": 0.75}),
             ParallelEvent(
-                "ParallelEvent", 
                 attrs={"delay": robotArmyHoldTime, "auto": True},
                 children=[
-                    Events("events", children=[
-                        ActorEvent("ActorEvent", attrs={
+                    Events(children=[
+                        ActorEvent(attrs={
                             "target": robotArmyActor,
                             "duration": robotArmyMoveTime,
                         }, children=[
-                            Transitions("transitions", attrs={"x": robotArmyDstX})
+                            Transitions(attrs={"x": robotArmyDstX})
                         ])
                     ])
                 ]
@@ -1064,8 +1087,8 @@ class BattleMacro(NodeBody, Node):
         D.append(n(whiteSwatchActor, cousinActor))
 
         D.append(
-            ParallelEvent("ParallelEvent", children=[
-                Events("events", children=E)
+            ParallelEvent(children=[
+                Events(children=E)
             ])
         )
 
@@ -1075,12 +1098,12 @@ class BattleMacro(NodeBody, Node):
         
         # HACK: Wrap in parallelevent to force it to block
         D.append(
-            ParallelEvent("ParallelEvent", children=[Events(children=[
-                ActorEvent("ActorEvent", attrs={
+            ParallelEvent(children=[Events(children=[
+                ActorEvent(attrs={
                     "target": whiteSwatchActor,
                     "duration": 0.5,
                 }, children=[
-                    Transitions("transitions", attrs={"opacity": 1})
+                    Transitions(attrs={"opacity": 1})
                 ])
             ])])
         )
@@ -1089,37 +1112,36 @@ class BattleMacro(NodeBody, Node):
         if self.children:
             D.append(Annotation(text="= Battlemacro contents"))
             D.append(
-                ParallelEvent("ParallelEvent", children=[
-                    Events("events", children=self.children)
+                ParallelEvent(children=[
+                    Events(children=self.children)
                 ])
             )
             D.append(Annotation(text="- end battlemacro contents"))
 
         D.append(ParallelEvent(
-            "ParallelEvent", 
             attrs={"delay": whiteHoldTime},
             children=[
-                Events("events", children=[
-                    AudioDestroy("AudioDestroy", attrs={
+                Events(children=[
+                    AudioDestroy(attrs={
                         "target": m,
                         "duration": robotArmyMoveTime,
                     }),
-                    TextEvent("TextEvent", attrs={
+                    TextEvent(attrs={
                         "char": "",
                         "text": "",
                     }),
-                    ActorEvent("ActorEvent", attrs={
+                    ActorEvent(attrs={
                         "target": curtainActor
                     }, children=[
-                        Styles("styles", attrs={"opacity": 1})
+                        Styles(attrs={"opacity": 1})
                     ]),
-                    ActorEvent("ActorEvent", attrs={
+                    ActorEvent(attrs={
                         "target": whiteSwatchActor,
                         "duration": whiteFadeOutTime
                     }, children=[
-                        Transitions("transitions", attrs={"opacity": 0})
+                        Transitions(attrs={"opacity": 0})
                     ]),
-                    AudioEvent("AudioEvent", attrs={
+                    AudioEvent(attrs={
                         "target": bgmFadeTime,
                         "volume": 0,
                         "fadeDuration": whiteFadeOutTime,
@@ -1188,17 +1210,19 @@ class FadeEvent(ATLSource, Node):
         actor_id = self.attrs.pop('target')
         target_opacity = float(self.attrs.pop('to'))
 
-        atl_statement = []
+        atl_statements = []
+        new_prop = f"alpha {target_opacity}"
         if 'duration' in self.attrs:
             duration = float(self.attrs.pop('duration'))
             if duration > 0:
-                atl_statement.append(f"linear {float(duration)}")
+                atl_statements.append(f"linear {float(duration)} {new_prop}")
                 self.pausetime += duration
-        atl_statement.append(f"alpha {target_opacity}")
+        else:
+            atl_statements.append(new_prop)
 
         self.atl = {
             "actor_id": actor_id,
-            "lines": ["# FadeEvent", " ".join(atl_statement)]
+            "lines": ["# FadeEvent", "\n".join(atl_statements)]
         }
 
     def getAtl(self):
@@ -1208,12 +1232,46 @@ class GameOver(Node):
     def toRpy(self):
         return "return"
 
-class HardSwap(Node):
+class HardSwap(NodeContainer, Node):
     def process(self):
-        self.last = self.attrs.pop("lastActor")
-        self.next = self.attrs.pop("nextActor")
+        h = self.attrs.pop("lastActor", None)
+        i = self.attrs.pop("nextActor", None)
+        j = self.attrs.pop("image", None)
+        text = self.attrs.pop("text", None)
+        k = self.attrs.pop("fadeDuration", 0.335)
+        m = self.attrs.pop("char", "")
 
-        self.fadedur = self.attrs.pop("fadeDuration", 0.335)
+        n = [
+            FadeEvent(attrs={
+                "target": h,
+                "to": 0,
+                "duration": k,
+                "auto": True
+            })
+        ]
+
+        o = ActorEvent(attrs={
+            "target": i,
+            "duration": k
+        }, children=[
+            Transitions(attrs={"opacity": 1})
+        ])
+        if j:
+            o.children.append(Styles(attrs={"image": j}))
+
+        p = [o]
+
+        if text:
+            p.append(TextEvent(attrs={
+                "text": text,
+                "char": m
+            }))
+
+        n.append(ParallelEvent(children=[
+            Events(children=p)
+        ]))
+
+        self.children = n
 
         # TODO: Probably a kind of between-actor fade?
         # see s_taira3
@@ -1324,8 +1382,7 @@ class Transitions(Node):
     pass
 
 class Styles(Node):
-    def process(self):
-        self.kind = "styles"  # capitalization...
+    pass
 
 class SettingChange(Node):
     def toRpy(self):
@@ -1342,6 +1399,8 @@ class SettingChange(Node):
         # Do events (???) (Especially do ATL events)
         # Swap background
         # Fade our curtain
+        global can_append
+        can_append = False
         lines.append(f"show i_sw_black as {curtain_actor}:")
         lines.append(f"    alpha 0.0")
         lines.append(f"    linear {curtain_fadetime} alpha 1.0")
@@ -1368,7 +1427,7 @@ class SilhouetteMacro(NodeBody, Macro, Node):
         lastActor = self.attrs.pop('lastActor', None)
         fadedur = self.attrs.pop('fadeTime', 0.5)
         if lastActor:
-            self.children.append(ActorFade("ActorFade", attrs={
+            self.children.append(ActorFade(attrs={
                 "target": lastActor,
                 "duration": fadedur,
                 "opacity": 0.0
@@ -1393,13 +1452,13 @@ class SilhouetteMacro(NodeBody, Macro, Node):
                 styles[prop] = self.attrs.pop(macroattr)
 
         # Show sil with transforms
-        self.children.append(ActorCreate("ActorCreate", attrs={
+        self.children.append(ActorCreate(attrs={
             "actorId": silactor_id,
             "actorType": "character",
             "duration": fadedur
         }, children=[
-            Styles("styles", attrs={"image": silImage, "opacity": 0.0, **styles}),
-            Transitions("transitions", attrs={"opacity": 1.0})
+            Styles(attrs={"image": silImage, "opacity": 0.0, **styles}),
+            Transitions(attrs={"opacity": 1.0})
         ]))
 
         # First text
@@ -1410,7 +1469,7 @@ class SilhouetteMacro(NodeBody, Macro, Node):
         secondtext = self.attrs.pop('secondText', None)
 
         if secondtext:
-            self.children.append(TextEvent("TextEvent", attrs={
+            self.children.append(TextEvent(attrs={
                 "char": char,
                 "text": firstText
             }))
@@ -1420,12 +1479,12 @@ class SilhouetteMacro(NodeBody, Macro, Node):
         scalex = self.attrs.pop('cousinScaleX')
         cousin_id = self.attrs.pop('cousinActor')
 
-        self.children.append(ActorEvent("ActorEvent", attrs={
+        self.children.append(ActorEvent(attrs={
             "target": cousin_id,
             "duration": 0.2,
         }, children=[
-            Styles("styles", attrs={"scaleX": scalex}),
-            Transitions("transitions", attrs={"x": cousinx})
+            Styles(attrs={"scaleX": scalex}),
+            Transitions(attrs={"x": cousinx})
         ]))
 
         # Silhouette replaced with real + second line of text extend
@@ -1433,38 +1492,38 @@ class SilhouetteMacro(NodeBody, Macro, Node):
         realActor = self.attrs.pop('realActor')
         realImage = slugify(self.attrs.pop('realImage'))
 
-        self.children.append(ActorEvent("ActorEvent", attrs={
+        self.children.append(ActorEvent(attrs={
             "target": silactor_id,
             "duration": fadedur,
             "delay": fadedur if not secondtext else 0
         }, children=[
-            Transitions("transitions", attrs={"opacity": 0.0})
+            Transitions(attrs={"opacity": 0.0})
         ]))
 
-        self.children.append(ActorCreate("ActorCreate", attrs={
+        self.children.append(ActorCreate(attrs={
             "actorId": realActor,
             "actorType": "character",
             "duration": fadedur,
             "delay": fadedur if not secondtext else 0
         }, children=[
-            Styles("styles", attrs={"image": realImage, "opacity": 0.0, **styles}),
-            Transitions("transitions", attrs={"opacity": 1.0})
+            Styles(attrs={"image": realImage, "opacity": 0.0, **styles}),
+            Transitions(attrs={"opacity": 1.0})
         ]))
 
         if secondtext:
             if self.attrs.pop('appendSecond', False):
-                self.children.append(TextEvent("TextEvent", attrs={
+                self.children.append(TextEvent(attrs={
                     "char": char,
                     "text": secondtext,
                     "append": True
                 }))
             else:
-                self.children.append(TextEvent("TextEvent", attrs={
+                self.children.append(TextEvent(attrs={
                     "char": char,
                     "text": secondtext
                 }))
         else:
-            self.children.append(TextEvent("TextEvent", attrs={
+            self.children.append(TextEvent(attrs={
                 "char": char,
                 "text": firstText
             }))
@@ -1478,7 +1537,7 @@ class TextAsset(NoScript, Node):
     def process(self):
         value_txt = findNode(self.children, key="en").text
         assert value_txt is not None, self
-        TextStore["@" + self.key] = value_txt
+        TextStore["@" + self.attrs['key']] = value_txt
 
 class TextEvent(Node):
     def process(self):
@@ -1507,6 +1566,7 @@ class TextEvent(Node):
 
     def toRpy(self):
         global last_say_what
+        global can_append
 
         lines = []
         did_wait = False
@@ -1523,7 +1583,7 @@ class TextEvent(Node):
                 # lines.append('$ renpy.pause(%s) # Text delay' % self.delay)
                 lines.append('extend "{w=%s}{nw}"' % self.delay)
             else:
-                lines.append('$ renpy.pause(%s) # Text delay' % self.delay)
+                lines.append('$ renpy.pause(%s%s) # Text delay' % (self.delay, HARD_PAUSE))
             did_wait = True
 
         if not self.textkey:
@@ -1554,10 +1614,11 @@ class TextEvent(Node):
                     elif self.block:
                         nw = ""
 
-                if self.extend:
+                if self.extend and can_append:
                     lines.append(f'extend " {chunk}{nw}" # {self.textkey} {self.block=}')
                 else:
                     lines.append(f'{fixname(self.char)} "{chunk}{nw}" # {self.textkey} {self.block=}')
+                can_append = True
 
         return "\n".join(lines)
 
@@ -1675,6 +1736,9 @@ NODE_TYPES = {
     "value": Value,
     "styles": Styles,
     "transitions": Transitions,
+    "TimedPause": None,
+    "Annotation": None,
+    "RawRpy": None 
 }
 PROPERTY_NODES = [
     "depth",
