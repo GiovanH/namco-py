@@ -283,8 +283,8 @@ screen students(title="Students", data=student_data):
 
     add "bg/school_front.jpg"
 
-    key "hide_windows" action MainMenu()
-    key "game_menu" action MainMenu()
+    key "hide_windows" action Return()
+    key "game_menu" action Return()
 
     frame:
         padding (20, 20, 20, 20)
@@ -294,7 +294,7 @@ screen students(title="Students", data=student_data):
         style_prefix "web_pager"
 
         viewport id "pager":
-            scrollbars "horizontal"
+            # scrollbars "horizontal"
         
             hbox:
                 for page in data:
@@ -314,20 +314,18 @@ screen students(title="Students", data=student_data):
 
 
         vpgrid:
-            pos (440, 350)
-            xsize 420
+            pos (420, 380)
+            xsize 480
             cols 7
             spacing 5
 
-            for i, page in enumerate(data):
+            for i, page in enumerate(range(14)):
                 imagebutton:
                     idle Crop((0,0,55,55), "web/pagination_students_%02d.png" % (i+1))
-                    hover Crop((0,110,55,55), "web/pagination_students_%02d.png" % (i+1))
+                    hover Crop((0,55,55,55), "web/pagination_students_%02d.png" % (i+1))
                     action scrollVpTo("pager", i, 960)
-                    if i < 6 or i > 12:
+                    if i < 7:
                         xoffset 30
-                if i == 5:
-                    null width 55 height 55
 
 
 screen the_team(title="The Team", data=theteam_data):
@@ -337,8 +335,8 @@ screen the_team(title="The Team", data=theteam_data):
 
     add "bg/school_front.jpg"
 
-    key "hide_windows" action MainMenu()
-    key "game_menu" action MainMenu()
+    key "hide_windows" action Return()
+    key "game_menu" action Return()
 
     frame:
         padding (20, 20, 20, 20)
@@ -348,7 +346,7 @@ screen the_team(title="The Team", data=theteam_data):
         style_prefix "web_pager"
 
         viewport id "pager":
-            scrollbars "horizontal"
+            # scrollbars "horizontal"
         
             hbox:
                 for page in data:
