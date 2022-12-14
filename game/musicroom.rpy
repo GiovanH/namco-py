@@ -7,8 +7,10 @@ init 900 python:
     mr = MusicRoom(fadeout=0.0)
 
     fse_musicroom_tracks = filter(
-        lambda f: f.lower()[-4:] in [".mp3", ".wav", ".ogg", "flac"],
+        lambda f: f.lower()[-4:] in [".ogg"],
         renpy.list_files(common=False))
+
+    print(list(fse_musicroom_tracks))
 
     for track in fse_musicroom_tracks:
         mr.add(track)

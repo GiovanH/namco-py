@@ -481,13 +481,13 @@ screen main_menu():
             ]
             # ShowMenu("credits_manual") alternate
             
-            hbox:
-                xalign 0.5
-                xfill True
-                spacing 20
-                style_prefix "main_menu_lilcolumn"
-                textbutton _("GALLERY") action ShowMenu("gallery")
-                textbutton _("MUSIC") action ShowMenu("fj_music_room")
+            # hbox:
+            #     xalign 0.5
+            #     xfill True
+            #     spacing 20
+            #     style_prefix "main_menu_lilcolumn"
+            #     textbutton _("GALLERY") action ShowMenu("gallery")
+            #     textbutton _("MUSIC") action ShowMenu("fj_music_room")
 
             hbox:
                 xalign 0.5
