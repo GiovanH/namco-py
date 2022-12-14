@@ -66,7 +66,7 @@ label CreditsEvent:
     window hide
     $ renpy.pause(1.0)
 
-    call screen credits
+    call _credits
 
     window show
     return
@@ -98,7 +98,7 @@ label SuperSecretMacro:
     # if you have the true ending for all characters:
     if not unlockedAll():
         return
-    call s_supersecret
+    call s_supersecret from _call_s_supersecret
     return
     
 

@@ -474,7 +474,12 @@ screen main_menu():
             textbutton _("NEW GAME") action Start()
             textbutton _("CONTINUE") action ShowMenu("load")
             textbutton _("OPTIONS") action ShowMenu("preferences")
-            textbutton _("CREDITS") action ShowMenu("credits_manual") alternate ShowMenu("credits")
+            textbutton _("CREDITS") action [
+                # Play("music", "bgm/credits.ogg", loop=False),
+                # ShowMenu("credits")
+                Start("_credits")
+            ]
+            # ShowMenu("credits_manual") alternate
             
             hbox:
                 xalign 0.5

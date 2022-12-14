@@ -183,6 +183,7 @@ screen credits_content():
         # text "\n{s}Built Using{/s}\nPainstakingly converted from" style_suffix "h2"
         text "\nBuilt Using" style_suffix "h2"
         text "htmlVN, by Date Nighto" style_suffix "div"
+        text "Ren'py" style_suffix "div"
         # text "'s undocumented proprietary format into" style_suffix "div"
         # text "Ren'py" style_suffix "h2"
 
@@ -222,16 +223,23 @@ screen credits_content():
         null height 20
         add credits_pacman at creditRoll_image
 
+label _credits:
+    play music "bgm/credits.ogg"
+    call screen credits
+    return
+
 screen credits():
 
     tag menu
     default crawl_time = (2*60 + 43)
     
-    on "show" action [
-        # Play("music", "sfx/pacman.ogg", loop=False),
-        Play("music", "bgm/credits.ogg", loop=False)
-        # lambda: renpy.music.set_queue_empty_callback(Return(), channel="music")
-    ]
+    # on "show" action Play("music", "bgm/namcotheme.ogg", loop=True)
+    # on "replace" action [
+    #     # Play("music", "sfx/pacman.ogg", loop=False),
+    #     # Stop("music"),
+    #     Play("music", "bgm/credits.ogg", loop=False),
+    #     lambda: renpy.music.set_queue_empty_callback(Return(), channel="music"),
+    # ]
 
     add Solid("#000")
 
