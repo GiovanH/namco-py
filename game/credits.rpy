@@ -17,6 +17,7 @@ style creditRoll_h2 is creditRoll:
 
 style creditRoll_h3 is creditRoll:
     size 30
+    bold True
     # line_leading 40
 
 style creditRoll_div is creditRoll:
@@ -225,7 +226,8 @@ screen credits_content():
 
 label _credits:
     play music "bgm/credits.ogg"
-    call screen credits
+    call screen credits(_with_none=False) # disable implicit with_none to enable hide transition
+    with dissolve # hide
     return
 
 screen credits():

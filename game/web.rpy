@@ -367,7 +367,7 @@ screen the_team(title="The Team", data=theteam_data):
 
         vpgrid:
             pos (70, 400)
-            xsize 800
+            xsize 820
             cols 13
             spacing 5
 

@@ -142,13 +142,14 @@ screen say(who, what):
                 if who is not None:
                     $ whot = who.upper()
                     text whot id "who" 
-                text what id "what" yalign 1.0
-               #  viewport id "sayvp":
+                viewport id "sayvp":
                 #window:
                     # TODO: 3+ Long lines at once can break this!
-                    # ymaximum 80
+                    ymaximum 80
+                    yinitial 1.0
                     # scrollbars "vertical"
-                 #    yinitial 1.0
+                    text what id "what"
+                # text what id "what" yalign 1.0
 
 screen say_homestuck(who, what):
     style_prefix "say"
@@ -176,8 +177,8 @@ screen say_homestuck(who, what):
                 #window:
                     # TODO: 3+ Long lines at once can break this!
                     ymaximum 80
-                    # scrollbars "vertical"
                     yinitial 1.0
+                    # scrollbars "vertical"
                     text what id "what" yalign 1.0 font "courbd.ttf"
 
 ## Make the namebox available for styling through the Character object.
@@ -218,19 +219,20 @@ screen input(prompt):
 
     window:
         align (0.5, 0.5)
-        background Frame("gui/buttonframeh.png", 14, 14)
-        padding (14, 14)
+        background Frame("gui/modalframe.png", 22, 22)
+        padding (22, 22)
         xsize 400
 
         vbox:
             xfill True
+            spacing 12
             text prompt style "input_prompt"
             window:
                 align (0.5, 0.5)
                 background Frame("gui/buttonframeh.png", 14, 14)
                 padding (14, 14)
-                input value ScreenVariableInputValue("result") length 30
-            textbutton "OK" style "namcohigh_button" action Return(result) xalign 0.5
+                input value ScreenVariableInputValue("result") min_width 300 color "#000"
+            textbutton "OK" style "namcohigh_antibutton" action Return(result) xalign 0.5 xsize 150
 
 style input_prompt is default
 
@@ -290,6 +292,7 @@ screen ChoiceExploration(items):
                 action last.action
                 xminimum 400
                 xoffset 200
+            null
 
 style choice_vbox is vbox
 style choice_button is namcohigh_button:
@@ -390,6 +393,13 @@ screen navigation():
 
         textbutton _("Preferences") action ShowMenu("preferences")
 
+        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+
+            ## Help isn't necessary or relevant to mobile devices.
+            textbutton _("Help") action ShowMenu("help")
+
+        null height 32
+
         if _in_replay:
 
             textbutton _("End Replay") action EndReplay(confirm=True)
@@ -398,12 +408,7 @@ screen navigation():
 
             textbutton _("Main Menu") action MainMenu()
 
-        textbutton _("Credits") action ShowMenu("credits_manual")
-
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-
-            ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+        # textbutton _("Credits") action ShowMenu("credits_manual")
 
         if renpy.variant("pc"):
 
@@ -412,15 +417,17 @@ screen navigation():
             textbutton _("Quit") action Quit(confirm=not main_menu)
 
 
-style navigation_button is gui_button
-style navigation_button_text is gui_button_text
+# style navigation_button is gui_butIton
+# style navigation_button_text is gui_button_text
 
-style navigation_button:
+style navigation_button is namcohigh_antibutton:
     size_group "navigation"
-    properties gui.button_properties("navigation_button")
 
-style navigation_button_text:
-    properties gui.button_text_properties("navigation_button")
+# style navigation_button_text is namcohigh_antibutton_text:
+    # properties gui.button_properties("navigation_button")
+
+style navigation_button_text is namcohigh_antibutton_text #:
+    # properties gui.button_text_properties("navigation_button")
 
 
 ## Main Menu screen ############################################################
@@ -437,13 +444,16 @@ style main_menu_column_window:
 
 style main_menu_column_button is namcohigh_antibutton:
     xfill True
+    padding (16, 16)
 
-style main_menu_column_button_text is namcohigh_antibutton_text
+style main_menu_column_button_text is namcohigh_antibutton_text:
+    size 24
 
 style main_menu_lilcolumn_button is namcohigh_antibutton:
     xsize 190
 
-style main_menu_lilcolumn_button_text is namcohigh_antibutton_text
+style main_menu_lilcolumn_button_text is namcohigh_antibutton_text:
+    size 20
 
 
 define config.main_menu_music = "bgm/namcotheme.ogg"
@@ -470,7 +480,7 @@ screen main_menu():
         vbox:
             spacing 15
             add logo_namcohigh
-            null xsize 15
+            null ysize 15
             textbutton _("NEW GAME") action Start()
             textbutton _("CONTINUE") action ShowMenu("load")
             textbutton _("OPTIONS") action ShowMenu("preferences")
@@ -557,6 +567,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
             frame:
                 style "game_menu_content_frame"
+                # background "#111"
 
                 if scroll == "viewport":
 
@@ -618,11 +629,14 @@ style return_button is navigation_button
 style return_button_text is navigation_button_text
 
 style game_menu_outer_frame:
-    xpadding 40
-    bottom_padding 64
-    top_padding 134
+    # xpadding 40
+    # bottom_padding 64
+    # top_padding 134
 
-    background "gui/overlay/game_menu.png"
+    margin (40, 40)
+
+    # background "gui/overlay/game_menu.png"
+    background Frame("gui/modalframe.png", 22, 22)
 
 style game_menu_navigation_frame:
     xsize 219
@@ -630,8 +644,9 @@ style game_menu_navigation_frame:
 
 style game_menu_content_frame:
     left_margin 0
-    right_margin 32
-    top_margin 8
+    right_margin 16
+    top_margin 22
+    bottom_margin 22
 
 style game_menu_viewport:
     xsize 719
@@ -643,8 +658,8 @@ style game_menu_side:
     spacing 8
 
 style game_menu_label:
-    xpos 40
-    ysize 94
+    xpos 52
+    ysize 140
 
 style game_menu_label_text:
     size gui.title_text_size
@@ -654,7 +669,7 @@ style game_menu_label_text:
 style return_button:
     xpos gui.navigation_xpos
     yalign 1.0
-    yoffset -23
+    yoffset -57
 
 
 ## About screen ################################################################
@@ -715,8 +730,8 @@ screen file_slots(title):
             grid gui.file_slot_cols gui.file_slot_rows:
                 style_prefix "slot"
 
-                xalign 0.45
-                yalign 0.35
+                xalign 0.5
+                yalign 0.4
 
                 spacing gui.slot_spacing
 
@@ -810,6 +825,8 @@ screen preferences():
     use game_menu(_("Preferences"), scroll="viewport"):
 
         vbox:
+
+            null height 48
 
             hbox:
                 box_wrap True
@@ -948,7 +965,7 @@ style check_button_text:
     properties gui.button_text_properties("check_button")
 
 style slider_slider:
-    xsize 274
+    xsize 548
 
 style slider_button:
     properties gui.button_properties("slider_button")
@@ -981,6 +998,7 @@ screen history():
 
         style_prefix "history"
 
+        null height 30 # in
         for h in _history_list:
 
             window:
@@ -997,8 +1015,8 @@ screen history():
 
                         ## Take the color of the who text from the Character, if
                         ## set.
-                        if "color" in h.who_args:
-                            text_color h.who_args["color"]
+                        # if "color" in h.who_args:
+                        #     text_color h.who_args["color"]
 
                 $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
                 text what:
@@ -1006,6 +1024,7 @@ screen history():
 
         if not _history_list:
             label _("The dialogue history is empty.")
+        null height 30
 
 
 ## This determines what tags are allowed to be displayed on the history screen.
@@ -1045,6 +1064,7 @@ style history_text:
     xsize gui.history_text_width
     min_width gui.history_text_width
     text_align gui.history_text_xalign
+
     layout ("subtitle" if gui.history_text_xalign else "tex")
 
 style history_label:
@@ -1073,19 +1093,19 @@ screen help():
         vbox:
             spacing 12
 
-            hbox:
+            # hbox:
 
-                textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
-                textbutton _("Mouse") action SetScreenVariable("device", "mouse")
+            #     textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
+            #     textbutton _("Mouse") action SetScreenVariable("device", "mouse")
 
-                if GamepadExists():
-                    textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
+            #     if GamepadExists():
+            #         textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
 
-            if device == "keyboard":
-                use keyboard_help
-            elif device == "mouse":
-                use mouse_help
-            elif device == "gamepad":
+            # if device == "keyboard":
+            use keyboard_help
+            # elif device == "mouse":
+            use mouse_help
+            if GamepadExists():
                 use gamepad_help
 
 
@@ -1135,6 +1155,9 @@ screen keyboard_help():
         label "V"
         text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
 
+    hbox:
+        label "A"
+        text _("Opens the accessibility menu")
 
 screen mouse_help():
 

@@ -187,7 +187,7 @@ define gui.confirm_button_text_xalign = 0.5
 define gui.page_button_borders = Borders(8, 4, 8, 4)
 
 define gui.quick_button_borders = Borders(8, 4, 8, 0)
-define gui.quick_button_text_size = 11
+define gui.quick_button_text_size = 12
 define gui.quick_button_text_idle_color = gui.idle_small_color
 define gui.quick_button_text_selected_color = gui.accent_color
 
@@ -221,9 +221,9 @@ define gui.choice_button_text_insensitive_color = "#444444"
 ## image files in gui/button, like the other kinds of buttons.
 
 ## The save slot button.
-define gui.slot_button_width = 220
-define gui.slot_button_height = 165
-define gui.slot_button_borders = Borders(8, 8, 8, 8)
+define gui.slot_button_width = 236
+define gui.slot_button_height = 226
+define gui.slot_button_borders = Borders(8, 8, 8, 8) # Borders(8, 8, 8, 8)
 define gui.slot_button_text_size = 11
 define gui.slot_button_text_xalign = 0.5
 define gui.slot_button_text_idle_color = gui.idle_small_color
@@ -235,7 +235,7 @@ define config.thumbnail_width = 220
 define config.thumbnail_height = 165
 
 ## The number of columns and rows in the grid of save slots.
-define gui.file_slot_cols = 3
+define gui.file_slot_cols = 2
 define gui.file_slot_rows = 2
 
 
@@ -246,7 +246,7 @@ define gui.file_slot_rows = 2
 
 ## The position of the left side of the navigation buttons, relative to the left
 ## side of the screen.
-define gui.navigation_xpos = 32
+define gui.navigation_xpos = 56
 
 ## The vertical position of the skip indicator.
 define gui.skip_ypos = 8
@@ -270,7 +270,7 @@ define gui.pref_button_spacing = 0
 define gui.page_spacing = 0
 
 ## The spacing between file slots.
-define gui.slot_spacing = 16
+define gui.slot_spacing = 48
 
 ## The position of the main menu text.
 define gui.main_menu_text_xalign = 1.0
@@ -308,7 +308,7 @@ define gui.frame_tile = False
 ## bars, scrollbars, and sliders.
 define gui.bar_size = 20
 define gui.scrollbar_size = 10
-define gui.slider_size = 20
+define gui.slider_size = 28
 
 ## True if bar images should be tiled. False if they should be linearly scaled.
 define gui.bar_tile = False
@@ -339,19 +339,19 @@ define config.history_length = 250
 
 ## The height of a history screen entry, or None to make the height variable at
 ## the cost of performance.
-define gui.history_height = 110
+define gui.history_height = None
 
 ## The position, width, and alignment of the label giving the name of the
 ## speaking character.
 define gui.history_name_xpos = 122
 define gui.history_name_ypos = 0
-define gui.history_name_width = 122
+define gui.history_name_width = 100
 define gui.history_name_xalign = 1.0
 
 ## The position, width, and alignment of the dialogue text.
 define gui.history_text_xpos = 133
 define gui.history_text_ypos = 2
-define gui.history_text_width = 579
+define gui.history_text_width = 540
 define gui.history_text_xalign = 0.0
 
 

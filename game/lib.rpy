@@ -66,7 +66,7 @@ init -1 python:
 define config.save_json_callbacks = [nhJsonSave]
 
 image ctc_image:
-    "gui/scrollbar/horizontal_hover_bar.png"
+    # "gui/scrollbar/horizontal_hover_bar.png"
     xalign 0.5
     yalign 1.0
 
