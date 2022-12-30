@@ -319,13 +319,15 @@ screen students(title="Students", data=student_data):
             cols 7
             spacing 5
 
-            for i, page in enumerate(range(14)):
+            for i, page in enumerate(range(20)):
                 imagebutton:
                     idle Crop((0,0,55,55), "web/pagination_students_%02d.png" % (i+1))
                     hover Crop((0,55,55,55), "web/pagination_students_%02d.png" % (i+1))
                     action scrollVpTo("pager", i, 960)
-                    if i < 7:
+                    if i >= 7 and i < 13:
                         xoffset 30
+                if i == 12:
+                    null
 
 
 screen the_team(title="The Team", data=theteam_data):
