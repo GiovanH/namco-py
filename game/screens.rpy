@@ -135,17 +135,18 @@ screen say(who, what):
         window:
             xalign 0.5
             xsize 880
-            ypadding 10
+            # ypadding 10
             xpadding 10
 
             vbox:
+                null height 10
                 if who is not None:
                     $ whot = who.upper()
                     text whot id "who" 
                 viewport id "sayvp":
                 #window:
                     # TODO: 3+ Long lines at once can break this!
-                    ymaximum 80
+                    ymaximum 90
                     yinitial 1.0
                     # scrollbars "vertical"
                     text what id "what"
@@ -176,7 +177,7 @@ screen say_homestuck(who, what):
                 viewport id "sayvp":
                 #window:
                     # TODO: 3+ Long lines at once can break this!
-                    ymaximum 80
+                    ymaximum 90
                     yinitial 1.0
                     # scrollbars "vertical"
                     text what id "what" yalign 1.0 font "courbd.ttf"
@@ -333,6 +334,7 @@ screen quick_menu():
             xalign 1.0
             yalign 1.0
 
+            # imagebutton idle "ui/ff_white.png" hover "ui/ff_red.png" action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Back") action Rollback()
             textbutton _("History") action ShowMenu('history')
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
